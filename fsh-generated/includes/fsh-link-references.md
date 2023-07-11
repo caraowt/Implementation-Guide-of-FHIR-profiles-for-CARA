@@ -1,4 +1,4 @@
-[CaraPatient]: StructureDefinition-cara-patient.html
+[Care]: StructureDefinition-Care.html
 [FishPatient]: StructureDefinition-fish-patient.html
 [FishSpecies]: StructureDefinition-fish-species.html
 [FishSpeciesValueSet]: ValueSet-fish-species-value-set.html

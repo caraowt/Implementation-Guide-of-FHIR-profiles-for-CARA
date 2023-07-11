@@ -27,10 +27,9 @@
     "resource": [
       {
         "reference": {
-          "reference": "StructureDefinition/cara-patient"
+          "reference": "StructureDefinition/Care"
         },
-        "name": "CaraPatient Patient",
-        "description": "A patient who is affiliated to the CARA community",
+        "name": "Care",
         "exampleBoolean": false
       },
       {

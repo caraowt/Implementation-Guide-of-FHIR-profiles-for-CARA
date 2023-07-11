@@ -1,0 +1,521 @@
+{
+  "date" : "Tue, 11 Jul, 2023 17:34:16 +0200",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-fish.json",
+      "size" : 3648,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 19,
+          "length" : 76
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 20,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 20,
+          "length" : 77
+        },
+        {
+          "activity" : "validate",
+          "start" : 22,
+          "length" : 437
+        },
+        {
+          "activity" : "generate1",
+          "start" : 22,
+          "length" : 63
+        },
+        {
+          "activity" : "generate2",
+          "start" : 25,
+          "length" : 74
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 45,
+          "length" : 2
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 53,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-historical-data.json",
+      "size" : 1150,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 19,
+          "length" : 12
+        },
+        {
+          "activity" : "scan",
+          "start" : 19,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 19,
+          "length" : 13
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 19,
+          "length" : 49
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 20,
+          "length" : 31
+        },
+        {
+          "activity" : "validate",
+          "start" : 21,
+          "length" : 102
+        },
+        {
+          "activity" : "generateLogicalMaps",
+          "start" : 22,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 22,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 22,
+          "length" : 44
+        },
+        {
+          "activity" : "generate2",
+          "start" : 25,
+          "length" : 2114
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 40,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 45,
+          "length" : 2
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 53,
+          "length" : 1
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 53,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-fish-species.json",
+      "size" : 1520,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 19,
+          "length" : 14
+        },
+        {
+          "activity" : "load",
+          "start" : 19,
+          "length" : 13
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 19,
+          "length" : 72
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 20,
+          "length" : 23
+        },
+        {
+          "activity" : "validate",
+          "start" : 21,
+          "length" : 42
+        },
+        {
+          "activity" : "generate1",
+          "start" : 22,
+          "length" : 43
+        },
+        {
+          "activity" : "generate2",
+          "start" : 27,
+          "length" : 191
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 45,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-careplan.json",
+      "size" : 2464,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 19,
+          "length" : 15
+        },
+        {
+          "activity" : "load",
+          "start" : 19,
+          "length" : 16
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 19,
+          "length" : 214
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 20,
+          "length" : 103
+        },
+        {
+          "activity" : "validate",
+          "start" : 21,
+          "length" : 337
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 22,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 22,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 22,
+          "length" : 236
+        },
+        {
+          "activity" : "generate2",
+          "start" : 27,
+          "length" : 1255
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 45,
+          "length" : 14
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 53,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-fish-patient.json",
+      "size" : 2206,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 19,
+          "length" : 17
+        },
+        {
+          "activity" : "load",
+          "start" : 19,
+          "length" : 17
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 20,
+          "length" : 129
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 20,
+          "length" : 69
+        },
+        {
+          "activity" : "validate",
+          "start" : 21,
+          "length" : 154
+        },
+        {
+          "activity" : "generateLogicalMaps",
+          "start" : 22,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 23,
+          "length" : 176
+        },
+        {
+          "activity" : "generate2",
+          "start" : 28,
+          "length" : 1096
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 45,
+          "length" : 7
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 53,
+          "length" : 3
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 53,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-veterinarian.json",
+      "size" : 2502,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 19,
+          "length" : 14
+        },
+        {
+          "activity" : "load",
+          "start" : 19,
+          "length" : 20
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 20,
+          "length" : 74
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 20,
+          "length" : 161
+        },
+        {
+          "activity" : "validate",
+          "start" : 21,
+          "length" : 159
+        },
+        {
+          "activity" : "generate1",
+          "start" : 23,
+          "length" : 156
+        },
+        {
+          "activity" : "generate2",
+          "start" : 29,
+          "length" : 684
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 45,
+          "length" : 8
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 53,
+          "length" : 4
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-social-data.json",
+      "size" : 1402,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 19,
+          "length" : 12
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 19,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 19,
+          "length" : 11
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 20,
+          "length" : 20
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 20,
+          "length" : 21
+        },
+        {
+          "activity" : "validate",
+          "start" : 22,
+          "length" : 20
+        },
+        {
+          "activity" : "generate1",
+          "start" : 23,
+          "length" : 36
+        },
+        {
+          "activity" : "generate2",
+          "start" : 30,
+          "length" : 158
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 45,
+          "length" : 4
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-patient-priorities.json",
+      "size" : 1154,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 19,
+          "length" : 9
+        },
+        {
+          "activity" : "load",
+          "start" : 19,
+          "length" : 11
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 20,
+          "length" : 22
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 20,
+          "length" : 19
+        },
+        {
+          "activity" : "validate",
+          "start" : 22,
+          "length" : 52
+        },
+        {
+          "activity" : "generate1",
+          "start" : 23,
+          "length" : 33
+        },
+        {
+          "activity" : "generate2",
+          "start" : 30,
+          "length" : 178
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 45,
+          "length" : 1
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 53,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-fish-species-value-set.json",
+      "size" : 558,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 19,
+          "length" : 7
+        },
+        {
+          "activity" : "load",
+          "start" : 19,
+          "length" : 13
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 20,
+          "length" : 77
+        },
+        {
+          "activity" : "validate",
+          "start" : 20,
+          "length" : 315
+        },
+        {
+          "activity" : "generate1",
+          "start" : 23,
+          "length" : 5
+        },
+        {
+          "activity" : "generate2",
+          "start" : 30,
+          "length" : 6743
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 40,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Patient-Shorty.json",
+      "size" : 600,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 19,
+          "length" : 7
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 20,
+          "length" : 8
+        },
+        {
+          "activity" : "validate",
+          "start" : 22,
+          "length" : 6
+        },
+        {
+          "activity" : "generate1",
+          "start" : 23,
+          "length" : 5
+        },
+        {
+          "activity" : "generate2",
+          "start" : 37,
+          "length" : 17
+        }
+      ]
+    }
+  ]
+}

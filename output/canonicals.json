@@ -1,0 +1,65 @@
+[
+  {
+    "id" : "fish",
+    "type" : "ImplementationGuide",
+    "url" : "http://example.org/fhir/fish/ImplementationGuide/fish",
+    "version" : "0.1.0",
+    "name" : "FishImplementationGuide"
+  },
+  {
+    "id" : "careplan",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/fhir/fish/StructureDefinition/careplan",
+    "version" : "0.1.0",
+    "name" : "CaraCarePlan"
+  },
+  {
+    "id" : "fish-patient",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/fhir/fish/StructureDefinition/fish-patient",
+    "version" : "0.1.0",
+    "name" : "FishPatient"
+  },
+  {
+    "id" : "fish-species",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/fhir/fish/StructureDefinition/fish-species",
+    "version" : "0.1.0",
+    "name" : "FishSpecies"
+  },
+  {
+    "id" : "historical-data",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/fhir/fish/StructureDefinition/historical-data",
+    "version" : "0.1.0",
+    "name" : "HistoricalData"
+  },
+  {
+    "id" : "patient-priorities",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/fhir/fish/StructureDefinition/patient-priorities",
+    "version" : "0.1.0",
+    "name" : "PatientPriorities"
+  },
+  {
+    "id" : "social-data",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/fhir/fish/StructureDefinition/social-data",
+    "version" : "0.1.0",
+    "name" : "SocialData"
+  },
+  {
+    "id" : "veterinarian",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/fhir/fish/StructureDefinition/veterinarian",
+    "version" : "0.1.0",
+    "name" : "Veterinarian"
+  },
+  {
+    "id" : "fish-species-value-set",
+    "type" : "ValueSet",
+    "url" : "http://example.org/fhir/fish/ValueSet/fish-species-value-set",
+    "version" : "0.1.0",
+    "name" : "FishSpeciesValueSet"
+  }
+]

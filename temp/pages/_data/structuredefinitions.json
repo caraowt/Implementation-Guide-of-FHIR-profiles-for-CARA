@@ -1,0 +1,163 @@
+{
+  "historical-data" : {
+    "index" : 0,
+    "url" : "http://example.org/fhir/fish/StructureDefinition/historical-data",
+    "name" : "HistoricalData",
+    "title" : "Historical Data",
+    "path" : "StructureDefinition-historical-data.html",
+    "kind" : "complex-type",
+    "type" : "Extension",
+    "base" : "http://hl7.org/fhir/StructureDefinition/Extension",
+    "basename" : "Extension",
+    "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
+    "status" : "draft",
+    "date" : "Tue Jul 11 17:34:16 CEST 2023",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : null,
+    "copyright" : null,
+    "description" : "Used to describe the historical background of a patient affiliated to CARA",
+    "contexts" : [
+      {
+        "type" : "Element ID",
+        "expression" : "Element"
+      }
+    ],
+    "extension-contexts" : ["none"]
+  },
+  "fish-species" : {
+    "index" : 1,
+    "url" : "http://example.org/fhir/fish/StructureDefinition/fish-species",
+    "name" : "FishSpecies",
+    "title" : "Fish Species",
+    "path" : "StructureDefinition-fish-species.html",
+    "kind" : "complex-type",
+    "type" : "Extension",
+    "base" : "http://hl7.org/fhir/StructureDefinition/Extension",
+    "basename" : "Extension",
+    "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
+    "status" : "draft",
+    "date" : "Tue Jul 11 17:34:16 CEST 2023",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : null,
+    "copyright" : null,
+    "description" : "The species name of a piscine (fish) patient.",
+    "contexts" : [
+      {
+        "type" : "Element ID",
+        "expression" : "Element"
+      }
+    ],
+    "extension-contexts" : ["none"]
+  },
+  "careplan" : {
+    "index" : 2,
+    "url" : "http://example.org/fhir/fish/StructureDefinition/careplan",
+    "name" : "CaraCarePlan",
+    "title" : "CARA Care Plan",
+    "path" : "StructureDefinition-careplan.html",
+    "kind" : "resource",
+    "type" : "CarePlan",
+    "base" : "http://hl7.org/fhir/StructureDefinition/CarePlan",
+    "basename" : "CarePlan",
+    "basepath" : "http://hl7.org/fhir/R4/careplan.html",
+    "status" : "draft",
+    "date" : "Tue Jul 11 17:34:16 CEST 2023",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : null,
+    "copyright" : null,
+    "description" : "A Care Plan tailored to the needs of CARA with advanced directives"
+  },
+  "fish-patient" : {
+    "index" : 3,
+    "url" : "http://example.org/fhir/fish/StructureDefinition/fish-patient",
+    "name" : "FishPatient",
+    "title" : "Fish Patient",
+    "path" : "StructureDefinition-fish-patient.html",
+    "kind" : "resource",
+    "type" : "Patient",
+    "base" : "http://hl7.org/fhir/StructureDefinition/Patient",
+    "basename" : "Patient",
+    "basepath" : "http://hl7.org/fhir/R4/patient.html",
+    "status" : "draft",
+    "date" : "Tue Jul 11 17:34:16 CEST 2023",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : null,
+    "copyright" : null,
+    "description" : "A patient that is a type of fish."
+  },
+  "veterinarian" : {
+    "index" : 4,
+    "url" : "http://example.org/fhir/fish/StructureDefinition/veterinarian",
+    "name" : "Veterinarian",
+    "title" : "Veterinarian",
+    "path" : "StructureDefinition-veterinarian.html",
+    "kind" : "resource",
+    "type" : "Practitioner",
+    "base" : "http://hl7.org/fhir/StructureDefinition/Practitioner",
+    "basename" : "Practitioner",
+    "basepath" : "http://hl7.org/fhir/R4/practitioner.html",
+    "status" : "draft",
+    "date" : "Tue Jul 11 17:34:16 CEST 2023",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : null,
+    "copyright" : null,
+    "description" : "A profile on the Practitioner resource for veterinarians. In the US, vets do not have National Provider Numbers."
+  },
+  "social-data" : {
+    "index" : 5,
+    "url" : "http://example.org/fhir/fish/StructureDefinition/social-data",
+    "name" : "SocialData",
+    "title" : "Social Data",
+    "path" : "StructureDefinition-social-data.html",
+    "kind" : "complex-type",
+    "type" : "Extension",
+    "base" : "http://hl7.org/fhir/StructureDefinition/Extension",
+    "basename" : "Extension",
+    "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
+    "status" : "draft",
+    "date" : "Tue Jul 11 17:34:16 CEST 2023",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : null,
+    "copyright" : null,
+    "description" : "Used to describe the social background of a patient affiliated to CARA",
+    "contexts" : [
+      {
+        "type" : "Element ID",
+        "expression" : "Element"
+      }
+    ],
+    "extension-contexts" : ["none"]
+  },
+  "patient-priorities" : {
+    "index" : 6,
+    "url" : "http://example.org/fhir/fish/StructureDefinition/patient-priorities",
+    "name" : "PatientPriorities",
+    "title" : "Patient Priorities",
+    "path" : "StructureDefinition-patient-priorities.html",
+    "kind" : "complex-type",
+    "type" : "Extension",
+    "base" : "http://hl7.org/fhir/StructureDefinition/Extension",
+    "basename" : "Extension",
+    "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
+    "status" : "draft",
+    "date" : "Tue Jul 11 17:34:16 CEST 2023",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : null,
+    "copyright" : null,
+    "description" : "Used to describe the priorities of a patient with regard to his SCP",
+    "contexts" : [
+      {
+        "type" : "Element ID",
+        "expression" : "Element"
+      }
+    ],
+    "extension-contexts" : ["none"]
+  }
+}

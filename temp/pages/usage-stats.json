@@ -14,6 +14,10 @@
   "profiles": {
     "Patient": [
       {
+        "url": "http://example.org/fhir/fish/StructureDefinition/cara-patient",
+        "title": "CaraPatient Patient"
+      },
+      {
         "url": "http://example.org/fhir/fish/StructureDefinition/fish-patient",
         "title": "Fish Patient"
       }

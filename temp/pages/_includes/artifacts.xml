@@ -32,6 +32,14 @@
          <tbody>
             <tr>
                <td style="column-width:30%">
+                  <a href="StructureDefinition-cara-patient.html"
+                     title="StructureDefinition/cara-patient">CaraPatient Patient</a>
+               </td>
+               <td>{% capture desc %}A patient who is affiliated to the CARA community{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="StructureDefinition-fish-patient.html"
                      title="StructureDefinition/fish-patient">Fish Patient</a>
                </td>

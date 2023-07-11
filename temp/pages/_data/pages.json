@@ -17,11 +17,63 @@
     "label" : "2.0",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Artifacts Summary</b></li>",
     "previous" : "index.html",
+    "next" : "StructureDefinition-cara-patient.html"
+  },
+  "StructureDefinition-cara-patient.html" : {
+    "title" : "CaraPatient Patient",
+    "label" : "2.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CaraPatient Patient</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "artifacts.html",
+    "next" : "StructureDefinition-cara-patient-definitions.html"
+  },
+  "StructureDefinition-cara-patient-definitions.html" : {
+    "title" : "CaraPatient Patient - Definitions",
+    "label" : "2.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CaraPatient Patient</b></li>",
+    "previous" : "StructureDefinition-cara-patient.html",
+    "next" : "StructureDefinition-cara-patient-mappings.html"
+  },
+  "StructureDefinition-cara-patient-mappings.html" : {
+    "title" : "CaraPatient Patient - Mappings",
+    "label" : "2.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CaraPatient Patient</b></li>",
+    "previous" : "StructureDefinition-cara-patient-definitions.html",
+    "next" : "StructureDefinition-cara-patient-testing.html"
+  },
+  "StructureDefinition-cara-patient-testing.html" : {
+    "title" : "CaraPatient Patient - Testing",
+    "label" : "2.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CaraPatient Patient</b></li>",
+    "previous" : "StructureDefinition-cara-patient-mappings.html",
+    "next" : "StructureDefinition-cara-patient.profile.xml.html"
+  },
+  "StructureDefinition-cara-patient.profile.xml.html" : {
+    "title" : "CaraPatient Patient - XML Representation",
+    "label" : "2.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CaraPatient Patient</b></li>",
+    "previous" : "StructureDefinition-cara-patient-testing.html",
+    "next" : "StructureDefinition-cara-patient.profile.json.html"
+  },
+  "StructureDefinition-cara-patient.profile.json.html" : {
+    "title" : "CaraPatient Patient - JSON Representation",
+    "label" : "2.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CaraPatient Patient</b></li>",
+    "previous" : "StructureDefinition-cara-patient.profile.xml.html",
+    "next" : "StructureDefinition-cara-patient.profile.ttl.html"
+  },
+  "StructureDefinition-cara-patient.profile.ttl.html" : {
+    "title" : "CaraPatient Patient - TTL Representation",
+    "label" : "2.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CaraPatient Patient</b></li>",
+    "previous" : "StructureDefinition-cara-patient.profile.json.html",
     "next" : "StructureDefinition-fish-patient.html"
   },
   "StructureDefinition-fish-patient.html" : {
     "title" : "Fish Patient",
-    "label" : "2.1",
+    "label" : "2.2",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Patient</b></li>",
     "examples" : [
       {
@@ -31,61 +83,61 @@
     ],
     "testplans" : [],
     "testscripts" : [],
-    "previous" : "artifacts.html",
+    "previous" : "StructureDefinition-cara-patient.profile.ttl.html",
     "next" : "StructureDefinition-fish-patient-definitions.html"
   },
   "StructureDefinition-fish-patient-definitions.html" : {
     "title" : "Fish Patient - Definitions",
-    "label" : "2.1",
+    "label" : "2.2",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Patient</b></li>",
     "previous" : "StructureDefinition-fish-patient.html",
     "next" : "StructureDefinition-fish-patient-mappings.html"
   },
   "StructureDefinition-fish-patient-mappings.html" : {
     "title" : "Fish Patient - Mappings",
-    "label" : "2.1",
+    "label" : "2.2",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Patient</b></li>",
     "previous" : "StructureDefinition-fish-patient-definitions.html",
     "next" : "StructureDefinition-fish-patient-testing.html"
   },
   "StructureDefinition-fish-patient-testing.html" : {
     "title" : "Fish Patient - Testing",
-    "label" : "2.1",
+    "label" : "2.2",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Patient</b></li>",
     "previous" : "StructureDefinition-fish-patient-mappings.html",
     "next" : "StructureDefinition-fish-patient-examples.html"
   },
   "StructureDefinition-fish-patient-examples.html" : {
     "title" : "Fish Patient - Examples",
-    "label" : "2.1",
+    "label" : "2.2",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Patient</b></li>",
     "previous" : "StructureDefinition-fish-patient-testing.html",
     "next" : "StructureDefinition-fish-patient.profile.xml.html"
   },
   "StructureDefinition-fish-patient.profile.xml.html" : {
     "title" : "Fish Patient - XML Representation",
-    "label" : "2.1",
+    "label" : "2.2",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Patient</b></li>",
     "previous" : "StructureDefinition-fish-patient-examples.html",
     "next" : "StructureDefinition-fish-patient.profile.json.html"
   },
   "StructureDefinition-fish-patient.profile.json.html" : {
     "title" : "Fish Patient - JSON Representation",
-    "label" : "2.1",
+    "label" : "2.2",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Patient</b></li>",
     "previous" : "StructureDefinition-fish-patient.profile.xml.html",
     "next" : "StructureDefinition-fish-patient.profile.ttl.html"
   },
   "StructureDefinition-fish-patient.profile.ttl.html" : {
     "title" : "Fish Patient - TTL Representation",
-    "label" : "2.1",
+    "label" : "2.2",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Patient</b></li>",
     "previous" : "StructureDefinition-fish-patient.profile.json.html",
     "next" : "StructureDefinition-veterinarian.html"
   },
   "StructureDefinition-veterinarian.html" : {
     "title" : "Veterinarian",
-    "label" : "2.2",
+    "label" : "2.3",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Veterinarian</b></li>",
     "examples" : [],
     "testplans" : [],
@@ -95,49 +147,49 @@
   },
   "StructureDefinition-veterinarian-definitions.html" : {
     "title" : "Veterinarian - Definitions",
-    "label" : "2.2",
+    "label" : "2.3",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Veterinarian</b></li>",
     "previous" : "StructureDefinition-veterinarian.html",
     "next" : "StructureDefinition-veterinarian-mappings.html"
   },
   "StructureDefinition-veterinarian-mappings.html" : {
     "title" : "Veterinarian - Mappings",
-    "label" : "2.2",
+    "label" : "2.3",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Veterinarian</b></li>",
     "previous" : "StructureDefinition-veterinarian-definitions.html",
     "next" : "StructureDefinition-veterinarian-testing.html"
   },
   "StructureDefinition-veterinarian-testing.html" : {
     "title" : "Veterinarian - Testing",
-    "label" : "2.2",
+    "label" : "2.3",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Veterinarian</b></li>",
     "previous" : "StructureDefinition-veterinarian-mappings.html",
     "next" : "StructureDefinition-veterinarian.profile.xml.html"
   },
   "StructureDefinition-veterinarian.profile.xml.html" : {
     "title" : "Veterinarian - XML Representation",
-    "label" : "2.2",
+    "label" : "2.3",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Veterinarian</b></li>",
     "previous" : "StructureDefinition-veterinarian-testing.html",
     "next" : "StructureDefinition-veterinarian.profile.json.html"
   },
   "StructureDefinition-veterinarian.profile.json.html" : {
     "title" : "Veterinarian - JSON Representation",
-    "label" : "2.2",
+    "label" : "2.3",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Veterinarian</b></li>",
     "previous" : "StructureDefinition-veterinarian.profile.xml.html",
     "next" : "StructureDefinition-veterinarian.profile.ttl.html"
   },
   "StructureDefinition-veterinarian.profile.ttl.html" : {
     "title" : "Veterinarian - TTL Representation",
-    "label" : "2.2",
+    "label" : "2.3",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Veterinarian</b></li>",
     "previous" : "StructureDefinition-veterinarian.profile.json.html",
     "next" : "StructureDefinition-fish-species.html"
   },
   "StructureDefinition-fish-species.html" : {
     "title" : "Fish Species",
-    "label" : "2.3",
+    "label" : "2.4",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Species</b></li>",
     "examples" : [],
     "testplans" : [],
@@ -147,49 +199,49 @@
   },
   "StructureDefinition-fish-species-definitions.html" : {
     "title" : "Fish Species - Definitions",
-    "label" : "2.3",
+    "label" : "2.4",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Species</b></li>",
     "previous" : "StructureDefinition-fish-species.html",
     "next" : "StructureDefinition-fish-species-mappings.html"
   },
   "StructureDefinition-fish-species-mappings.html" : {
     "title" : "Fish Species - Mappings",
-    "label" : "2.3",
+    "label" : "2.4",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Species</b></li>",
     "previous" : "StructureDefinition-fish-species-definitions.html",
     "next" : "StructureDefinition-fish-species-testing.html"
   },
   "StructureDefinition-fish-species-testing.html" : {
     "title" : "Fish Species - Testing",
-    "label" : "2.3",
+    "label" : "2.4",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Species</b></li>",
     "previous" : "StructureDefinition-fish-species-mappings.html",
     "next" : "StructureDefinition-fish-species.profile.xml.html"
   },
   "StructureDefinition-fish-species.profile.xml.html" : {
     "title" : "Fish Species - XML Representation",
-    "label" : "2.3",
+    "label" : "2.4",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Species</b></li>",
     "previous" : "StructureDefinition-fish-species-testing.html",
     "next" : "StructureDefinition-fish-species.profile.json.html"
   },
   "StructureDefinition-fish-species.profile.json.html" : {
     "title" : "Fish Species - JSON Representation",
-    "label" : "2.3",
+    "label" : "2.4",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Species</b></li>",
     "previous" : "StructureDefinition-fish-species.profile.xml.html",
     "next" : "StructureDefinition-fish-species.profile.ttl.html"
   },
   "StructureDefinition-fish-species.profile.ttl.html" : {
     "title" : "Fish Species - TTL Representation",
-    "label" : "2.3",
+    "label" : "2.4",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Species</b></li>",
     "previous" : "StructureDefinition-fish-species.profile.json.html",
     "next" : "ValueSet-fish-species-value-set.html"
   },
   "ValueSet-fish-species-value-set.html" : {
     "title" : "Fish Species Value Set",
-    "label" : "2.4",
+    "label" : "2.5",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Species Value Set</b></li>",
     "examples" : [],
     "testplans" : [],
@@ -199,35 +251,35 @@
   },
   "ValueSet-fish-species-value-set-testing.html" : {
     "title" : "Fish Species Value Set - Testing",
-    "label" : "2.4",
+    "label" : "2.5",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Species Value Set</b></li>",
     "previous" : "ValueSet-fish-species-value-set.html",
     "next" : "ValueSet-fish-species-value-set.xml.html"
   },
   "ValueSet-fish-species-value-set.xml.html" : {
     "title" : "Fish Species Value Set - XML Representation",
-    "label" : "2.4",
+    "label" : "2.5",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Species Value Set</b></li>",
     "previous" : "ValueSet-fish-species-value-set-testing.html",
     "next" : "ValueSet-fish-species-value-set.json.html"
   },
   "ValueSet-fish-species-value-set.json.html" : {
     "title" : "Fish Species Value Set - JSON Representation",
-    "label" : "2.4",
+    "label" : "2.5",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Species Value Set</b></li>",
     "previous" : "ValueSet-fish-species-value-set.xml.html",
     "next" : "ValueSet-fish-species-value-set.ttl.html"
   },
   "ValueSet-fish-species-value-set.ttl.html" : {
     "title" : "Fish Species Value Set - TTL Representation",
-    "label" : "2.4",
+    "label" : "2.5",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Species Value Set</b></li>",
     "previous" : "ValueSet-fish-species-value-set.json.html",
     "next" : "Patient-Shorty.html"
   },
   "Patient-Shorty.html" : {
     "title" : "Shorty",
-    "label" : "2.5",
+    "label" : "2.6",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Shorty</b></li>",
     "examples" : [],
     "testplans" : [],
@@ -237,21 +289,21 @@
   },
   "Patient-Shorty.xml.html" : {
     "title" : "Shorty - XML Representation",
-    "label" : "2.5",
+    "label" : "2.6",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Shorty</b></li>",
     "previous" : "Patient-Shorty.html",
     "next" : "Patient-Shorty.json.html"
   },
   "Patient-Shorty.json.html" : {
     "title" : "Shorty - JSON Representation",
-    "label" : "2.5",
+    "label" : "2.6",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Shorty</b></li>",
     "previous" : "Patient-Shorty.xml.html",
     "next" : "Patient-Shorty.ttl.html"
   },
   "Patient-Shorty.ttl.html" : {
     "title" : "Shorty - TTL Representation",
-    "label" : "2.5",
+    "label" : "2.6",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Shorty</b></li>",
     "previous" : "Patient-Shorty.json.html"
   }

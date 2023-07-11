@@ -4,14 +4,14 @@
     "testplan" : false,
     "testscript" : false,
     "index" : 0,
-    "source" : "/Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/fsh-generated/resources/ImplementationGuide-fish.json",
+    "source" : "/Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/ImplementationGuide-fish.json",
     "sourceTail" : "ImplementationGuide-fish.json",
     "path" : "ImplementationGuide-fish.html",
     "url" : "http://example.org/fhir/fish/ImplementationGuide/fish",
     "version" : "0.1.0",
     "name" : "FishImplementationGuide",
     "title" : "Fish Implementation Guide",
-    "date" : "2023-07-11T13:23:42+02:00",
+    "date" : "2023-07-11T14:45:02+02:00",
     "description" : "An example of how FSH can be used to create an IG about fish",
     "status" : {
       "class" : "colsd",
@@ -30,7 +30,7 @@
     "version" : "0.1.0",
     "name" : "FishSpecies",
     "title" : "Fish Species",
-    "date" : "2023-07-11T13:23:42+02:00",
+    "date" : "2023-07-11T14:45:02+02:00",
     "description" : "The species name of a piscine (fish) patient.",
     "status" : {
       "class" : "colsd",
@@ -49,7 +49,7 @@
     "version" : "0.1.0",
     "name" : "FishPatient",
     "title" : "Fish Patient",
-    "date" : "2023-07-11T13:23:42+02:00",
+    "date" : "2023-07-11T14:45:02+02:00",
     "description" : "A patient that is a type of fish.",
     "status" : {
       "class" : "colsd",
@@ -68,7 +68,7 @@
     "version" : "0.1.0",
     "name" : "Veterinarian",
     "title" : "Veterinarian",
-    "date" : "2023-07-11T13:23:42+02:00",
+    "date" : "2023-07-11T14:45:02+02:00",
     "description" : "A profile on the Practitioner resource for veterinarians. In the US, vets do not have National Provider Numbers.",
     "status" : {
       "class" : "colsd",
@@ -87,8 +87,27 @@
     "version" : "0.1.0",
     "name" : "FishSpeciesValueSet",
     "title" : "Fish Species Value Set",
-    "date" : "2023-07-11T13:23:42+02:00",
+    "date" : "2023-07-11T14:45:02+02:00",
     "description" : "Codes describing various species of fish from SNOMED-CT.",
+    "status" : {
+      "class" : "colsd",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/cara-patient" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 5,
+    "source" : "fsh-generated/resources/StructureDefinition-cara-patient.json",
+    "sourceTail" : "StructureDefinition-cara-patient.json",
+    "path" : "StructureDefinition-cara-patient.html",
+    "url" : "http://example.org/fhir/fish/StructureDefinition/cara-patient",
+    "version" : "0.1.0",
+    "name" : "CaraPatient",
+    "title" : "CaraPatient Patient",
+    "date" : "2023-07-11T14:45:02+02:00",
+    "description" : "A patient who is affiliated to the CARA community",
     "status" : {
       "class" : "colsd",
       "status" : "Draft"
@@ -98,7 +117,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 5,
+    "index" : 6,
     "source" : "fsh-generated/resources/Patient-Shorty.json",
     "sourceTail" : "Patient-Shorty.json",
     "path" : "Patient-Shorty.html",

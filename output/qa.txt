@@ -1,0 +1,69 @@
+﻿FishImplementationGuide : Validation Results
+=========================================
+
+err = 0, warn = 8, info = 0
+IG Publisher Version: 1.3.23
+Generated Tue Jul 11 13:24:07 CEST 2023. FHIR version 4.0.1 for fish#0.1.0 (canonical = http://example.org/fhir/fish)
+ Build Errors : 40 / 5 / 0
+ /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/fsh-generated/resources/ImplementationGuide-fish : 0 / 0 / 1
+ /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/fsh-generated/resources/Patient-Shorty : 0 / 0 / 1
+ /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/fsh-generated/resources/StructureDefinition-fish-patient : 0 / 0 / 1
+ /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/fsh-generated/resources/StructureDefinition-fish-species : 0 / 1 / 1
+ /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/fsh-generated/resources/StructureDefinition-veterinarian : 0 / 1 / 1
+ /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/fsh-generated/resources/ValueSet-fish-species-value-set : 0 / 1 / 1
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/Shorty.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/Patient-Shorty.change.history.html#/html/body/div/div/div/p/a at Line 223, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/Patient-Shorty.html#/html/body/div/div/div/p/a at Line 211, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/Patient-Shorty.json.html#/html/body/div/div/div/p/a at Line 246, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/Patient-Shorty.ttl.html#/html/body/div/div/div/p/a at Line 248, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/Patient-Shorty.xml.html#/html/body/div/div/div/p/a at Line 237, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/StructureDefinition-fish-patient-definitions.html#/html/body/div/div/div/p/a at Line 1024, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/StructureDefinition-fish-patient-examples.html#/html/body/div/div/div/p/a at Line 291, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/StructureDefinition-fish-patient-mappings.html#/html/body/div/div/div/p/a at Line 376, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/StructureDefinition-fish-patient-testing.html#/html/body/div/div/div/p/a at Line 287, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/StructureDefinition-fish-patient.html#/html/body/div/div/div/p/a at Line 972, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/StructureDefinition-fish-patient.profile.history.html#/html/body/div/div/div/p/a at Line 269, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/StructureDefinition-fish-patient.profile.json.html#/html/body/div/div/div/p/a at Line 2608, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/StructureDefinition-fish-patient.profile.ttl.html#/html/body/div/div/div/p/a at Line 1949, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/StructureDefinition-fish-patient.profile.xml.html#/html/body/div/div/div/p/a at Line 2442, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/StructureDefinition-fish-species-definitions.html#/html/body/div/div/div/p/a at Line 394, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/StructureDefinition-fish-species-mappings.html#/html/body/div/div/div/p/a at Line 276, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/StructureDefinition-fish-species-testing.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/StructureDefinition-fish-species.html#/html/body/div/div/div/p/a at Line 515, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/StructureDefinition-fish-species.profile.history.html#/html/body/div/div/div/p/a at Line 259, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/StructureDefinition-fish-species.profile.json.html#/html/body/div/div/div/p/a at Line 553, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/StructureDefinition-fish-species.profile.ttl.html#/html/body/div/div/div/p/a at Line 490, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/StructureDefinition-fish-species.profile.xml.html#/html/body/div/div/div/p/a at Line 515, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/StructureDefinition-veterinarian-definitions.html#/html/body/div/div/div/p/a at Line 856, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/StructureDefinition-veterinarian-examples.html#/html/body/div/div/div/p/a at Line 270, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/StructureDefinition-veterinarian-mappings.html#/html/body/div/div/div/p/a at Line 349, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/StructureDefinition-veterinarian-testing.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/StructureDefinition-veterinarian.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/span/div/div/div/table/tr/td/span/div/div/div/p/a at Line 908, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/StructureDefinition-veterinarian.profile.history.html#/html/body/div/div/div/p/a at Line 259, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/StructureDefinition-veterinarian.profile.json.html#/html/body/div/div/div/p/a at Line 2063, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/StructureDefinition-veterinarian.profile.ttl.html#/html/body/div/div/div/p/a at Line 1551, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/StructureDefinition-veterinarian.profile.xml.html#/html/body/div/div/div/p/a at Line 1923, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/ValueSet-fish-species-value-set-testing.html#/html/body/div/div/div/p/a at Line 233, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/ValueSet-fish-species-value-set.change.history.html#/html/body/div/div/div/p/a at Line 223, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/ValueSet-fish-species-value-set.html#/html/body/div/div/div/p/a at Line 301, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/ValueSet-fish-species-value-set.json.html#/html/body/div/div/div/p/a at Line 266, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/ValueSet-fish-species-value-set.ttl.html#/html/body/div/div/div/p/a at Line 264, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/ValueSet-fish-species-value-set.xml.html#/html/body/div/div/div/p/a at Line 259, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/artifacts.html#/html/body/div/div/div/p/a at Line 272, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/index.html#/html/body/div/div/div/p/a at Line 241, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/implementation-guide-caraowt/FishExample/output/toc.html#/html/body/div/div/div/p/a at Line 158, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ImplementationGuide-fish.json ==
+== fsh-generated/resources/Patient-Shorty.json ==
+== fsh-generated/resources/StructureDefinition-fish-patient.json ==
+== fsh-generated/resources/StructureDefinition-fish-species.json ==
+WARNING: StructureDefinition/fish-species: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+== fsh-generated/resources/StructureDefinition-veterinarian.json ==
+WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/veterinarian'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/ValueSet-fish-species-value-set.json ==
+WARNING: ValueSet/fish-species-value-set: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile

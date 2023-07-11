@@ -1,0 +1,292 @@
+{
+  "date" : "Tue, 11 Jul, 2023 13:23:42 +0200",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-fish.json",
+      "size" : 2557,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 16,
+          "length" : 50
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 17,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 17,
+          "length" : 44
+        },
+        {
+          "activity" : "validate",
+          "start" : 18,
+          "length" : 303
+        },
+        {
+          "activity" : "validate",
+          "start" : 18,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 18,
+          "length" : 51
+        },
+        {
+          "activity" : "generate2",
+          "start" : 20,
+          "length" : 50
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 36,
+          "length" : 2
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 41,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-fish-species.json",
+      "size" : 1520,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 16,
+          "length" : 9
+        },
+        {
+          "activity" : "load",
+          "start" : 16,
+          "length" : 13
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 16,
+          "length" : 30
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 17,
+          "length" : 24
+        },
+        {
+          "activity" : "validate",
+          "start" : 17,
+          "length" : 89
+        },
+        {
+          "activity" : "generate1",
+          "start" : 18,
+          "length" : 37
+        },
+        {
+          "activity" : "generate2",
+          "start" : 20,
+          "length" : 2275
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 36,
+          "length" : 1
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 41,
+          "length" : 1
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 41,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-fish-patient.json",
+      "size" : 2206,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 16,
+          "length" : 11
+        },
+        {
+          "activity" : "load",
+          "start" : 16,
+          "length" : 12
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 16,
+          "length" : 245
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 17,
+          "length" : 58
+        },
+        {
+          "activity" : "validate",
+          "start" : 17,
+          "length" : 246
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 18,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 18,
+          "length" : 153
+        },
+        {
+          "activity" : "generate2",
+          "start" : 22,
+          "length" : 930
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 36,
+          "length" : 5
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 41,
+          "length" : 4
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 41,
+          "length" : 5
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-veterinarian.json",
+      "size" : 2502,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 16,
+          "length" : 11
+        },
+        {
+          "activity" : "load",
+          "start" : 16,
+          "length" : 13
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 17,
+          "length" : 114
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 17,
+          "length" : 119
+        },
+        {
+          "activity" : "validate",
+          "start" : 18,
+          "length" : 124
+        },
+        {
+          "activity" : "generate1",
+          "start" : 18,
+          "length" : 138
+        },
+        {
+          "activity" : "generate2",
+          "start" : 23,
+          "length" : 618
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 36,
+          "length" : 8
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 41,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-fish-species-value-set.json",
+      "size" : 558,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 16,
+          "length" : 6
+        },
+        {
+          "activity" : "load",
+          "start" : 16,
+          "length" : 11
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 17,
+          "length" : 62
+        },
+        {
+          "activity" : "validate",
+          "start" : 17,
+          "length" : 361
+        },
+        {
+          "activity" : "generate1",
+          "start" : 19,
+          "length" : 5
+        },
+        {
+          "activity" : "generate2",
+          "start" : 24,
+          "length" : 6415
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Patient-Shorty.json",
+      "size" : 600,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 16,
+          "length" : 6
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 17,
+          "length" : 5
+        },
+        {
+          "activity" : "validate",
+          "start" : 18,
+          "length" : 4
+        },
+        {
+          "activity" : "generate1",
+          "start" : 19,
+          "length" : 9
+        },
+        {
+          "activity" : "generate2",
+          "start" : 30,
+          "length" : 17
+        }
+      ]
+    }
+  ]
+}

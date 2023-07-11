@@ -27,9 +27,10 @@
     "resource": [
       {
         "reference": {
-          "reference": "StructureDefinition/Care"
+          "reference": "StructureDefinition/careplan"
         },
-        "name": "Care",
+        "name": "CARA Care Plan",
+        "description": "A Care Plan tailored to the needs of CARA with advanced directives",
         "exampleBoolean": false
       },
       {
@@ -58,10 +59,34 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/historical-data"
+        },
+        "name": "Historical Data",
+        "description": "Used to describe the historical background of a patient affiliated to CARA",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/patient-priorities"
+        },
+        "name": "Patient Priorities",
+        "description": "Used to describe the priorities of a patient with regard to his SCP",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "Patient/Shorty"
         },
         "name": "Shorty",
         "exampleCanonical": "http://example.org/fhir/fish/StructureDefinition/fish-patient"
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/social-data"
+        },
+        "name": "Social Data",
+        "description": "Used to describe the social background of a patient affiliated to CARA",
+        "exampleBoolean": false
       },
       {
         "reference": {

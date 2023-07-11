@@ -1,6 +1,9 @@
-[Care]: StructureDefinition-Care.html
+[CaraCarePlan]: StructureDefinition-careplan.html
 [FishPatient]: StructureDefinition-fish-patient.html
 [FishSpecies]: StructureDefinition-fish-species.html
 [FishSpeciesValueSet]: ValueSet-fish-species-value-set.html
+[HistoricalData]: StructureDefinition-historical-data.html
+[PatientPriorities]: StructureDefinition-patient-priorities.html
 [Shorty]: Patient-Shorty.html
+[SocialData]: StructureDefinition-social-data.html
 [Veterinarian]: StructureDefinition-veterinarian.html

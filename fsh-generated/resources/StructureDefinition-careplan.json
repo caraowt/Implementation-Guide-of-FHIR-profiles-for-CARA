@@ -1,0 +1,100 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "careplan",
+  "url": "http://example.org/fhir/fish/StructureDefinition/careplan",
+  "name": "CaraCarePlan",
+  "title": "CARA Care Plan",
+  "status": "draft",
+  "description": "A Care Plan tailored to the needs of CARA with advanced directives",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "CarePlan",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/CarePlan",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "CarePlan.extension",
+        "path": "CarePlan.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "CarePlan.extension:socialdata",
+        "path": "CarePlan.extension",
+        "sliceName": "socialdata",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://example.org/fhir/fish/StructureDefinition/social-data"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CarePlan.extension:historicaldata",
+        "path": "CarePlan.extension",
+        "sliceName": "historicaldata",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://example.org/fhir/fish/StructureDefinition/historical-data"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CarePlan.extension:patientpriorities",
+        "path": "CarePlan.extension",
+        "sliceName": "patientpriorities",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://example.org/fhir/fish/StructureDefinition/patient-priorities"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

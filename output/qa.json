@@ -3,10 +3,8 @@
   "name" : "FishImplementationGuide",
   "package-id" : "fish",
   "ig-ver" : "0.1.0",
-  "date" : "Thu, 13 Jul, 2023 11:08:06 +0200",
-  "errs" : 3,
-  "warnings" : 25,
-  "hints" : 0,
+  "date" : "Thu, 13 Jul, 2023 11:12:35 +0200",
+  "exception" : "Computed path does not start with first element: /Users/edgarminault/Documents/ig-caraowt/output, ../images/CARA.svg",
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)"
 }

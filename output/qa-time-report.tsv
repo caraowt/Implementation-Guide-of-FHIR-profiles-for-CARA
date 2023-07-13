@@ -1,11 +1,11 @@
-Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
-/fsh-generated/resources/ImplementationGuide-fish.json	3938	-	0	0	0	0	0	0	2	48	0	0	0	0	0	0	0	0	0	0	69	65	0	0	0	2	0	2
-fsh-generated/resources/StructureDefinition-historical-data.json	1434	7	0	0	0	1	0	20	0	34	0	0	0	0	0	0	0	0	0	0	35	2495	0	0	0	1	0	1
-fsh-generated/resources/StructureDefinition-anticipate-directives-epr.json	1600	7	0	0	0	0	0	16	0	14	0	0	0	0	0	0	0	0	0	0	36	267	0	0	1	1	0	0
-fsh-generated/resources/StructureDefinition-careplan.json	2464	9	0	0	0	0	0	123	0	80	0	0	0	0	0	0	0	1	0	0	190	884	0	0	0	10	1	4
-fsh-generated/resources/StructureDefinition-veterinarian.json	2502	7	0	0	0	0	0	59	0	286	0	0	0	0	0	0	0	0	0	0	177	538	0	0	0	15	1	2
-fsh-generated/resources/StructureDefinition-social-data.json	1402	6	0	0	0	0	0	16	0	17	0	0	0	0	0	0	0	0	0	0	36	96	0	0	0	1	0	0
-fsh-generated/resources/StructureDefinition-patient-priorities.json	1438	7	0	0	0	0	0	15	0	21	0	0	0	0	0	0	0	0	0	0	29	89	0	0	0	1	0	0
-fsh-generated/resources/StructureDefinition-cara-patient.json	1845	6	0	0	0	0	0	75	0	56	0	0	0	0	0	0	0	0	0	0	141	579	0	0	0	9	3	5
-fsh-generated/resources/StructureDefinition-country-of-birth.json	1555	17	0	0	0	0	0	16	0	14	0	0	0	0	0	0	0	0	0	0	33	175	0	0	0	1	0	0
-fsh-generated/resources/StructureDefinition-anticipate-directives-exist.json	1478	7	0	0	0	0	0	19	0	14	0	0	0	0	0	0	0	0	0	0	32	110	0	0	0	1	0	1
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack
+/fsh-generated/resources/ImplementationGuide-fish.json	3938	-	0	0	0	0	0	0	2	82	0	0	0	0	0	0	0	0	0	0	53	55	0	0	0	2
+fsh-generated/resources/StructureDefinition-historical-data.json	1434	9	0	0	0	0	0	28	0	31	0	0	0	0	0	0	0	0	0	0	32	1674	0	0	0	1
+fsh-generated/resources/StructureDefinition-anticipate-directives-epr.json	1600	8	0	0	0	0	0	25	0	14	0	0	0	0	0	0	0	0	0	0	31	144	0	0	0	1
+fsh-generated/resources/StructureDefinition-careplan.json	2464	8	0	0	0	0	0	159	0	113	0	0	1	0	0	0	0	1	0	0	175	941	0	0	0	6
+fsh-generated/resources/StructureDefinition-veterinarian.json	2502	9	0	0	0	0	0	63	0	119	0	0	0	0	0	0	0	0	0	0	134	490	0	0	0	4
+fsh-generated/resources/StructureDefinition-social-data.json	1402	6	0	0	0	0	0	16	0	15	0	0	0	0	0	0	0	0	0	0	30	103	0	0	0	2
+fsh-generated/resources/StructureDefinition-patient-priorities.json	1438	8	1	0	0	0	0	15	0	18	0	0	0	0	0	0	0	0	0	0	29	86	0	0	0	0
+fsh-generated/resources/StructureDefinition-cara-patient.json	1845	7	0	0	0	0	0	130	0	71	0	0	0	0	0	0	0	1	0	0	130	597	0	0	0	5
+fsh-generated/resources/StructureDefinition-country-of-birth.json	1555	7	0	0	0	0	0	17	0	15	0	0	0	0	0	0	0	0	0	0	31	129	0	0	0	2
+fsh-generated/resources/StructureDefinition-anticipate-directives-exist.json	1478	7	0	0	0	0	0	15	0	13	0	0	0	0	0	0	0	0	0	0	29	102	0	0	0	1

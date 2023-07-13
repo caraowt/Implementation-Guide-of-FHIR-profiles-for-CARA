@@ -14,8 +14,6 @@ Through this alliance, the cantons are joining forces to offer digital health se
 
 The Association is working to expand its range of services, including a shared care plan and a shared medication plan.
 
-![Shorty the FSH](../images/CARA.svg)
-
 ### FHIR Shorthand Resources
 
 FHIR Shorthand calls currently are the second Thursday of every month at 9 am Eastern US Time. [Click here to join](https://teams.microsoft.com/l/meetup-join/19%3ameeting_OGJmYmVlM2UtYzVkZi00YWJjLWJlNzMtN2ZkYTVkYTA1Mzlk%40thread.v2/0?context=%7b%22Tid%22%3a%22c620dc48-1d50-4952-8b39-df4d54d74d82%22%2c%22Oid%22%3a%22f9a60b6f-fbcc-48d0-bc8e-d6d742b4b339%22%7d)
@@ -28,6 +26,6 @@ FHIR Shorthand calls currently are the second Thursday of every month at 9 am Ea
 
 [SUSHI code repository](https://github.com/FHIR/sushi)
 
-[FHIR code repository] (https://github.com/caraowt/ig-caraowt)
+[FHIR code repository](https://github.com/caraowt/ig-caraowt)
 
 [Zulip](https://chat.fhir.org) channel: #shorthand

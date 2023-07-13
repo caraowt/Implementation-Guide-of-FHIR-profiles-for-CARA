@@ -56,9 +56,9 @@
         }
       },
       {
-        "id": "Patient.extension:birthcountry",
+        "id": "Patient.extension:birthCountry",
         "path": "Patient.extension",
-        "sliceName": "birthcountry",
+        "sliceName": "birthCountry",
         "min": 0,
         "max": "1",
         "type": [

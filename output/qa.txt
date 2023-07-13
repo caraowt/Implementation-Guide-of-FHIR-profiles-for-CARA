@@ -3,8 +3,8 @@
 
 err = 3, warn = 25, info = 0
 IG Publisher Version: 1.3.23
-Generated Thu Jul 13 10:52:50 CEST 2023. FHIR version 4.0.1 for fish#0.1.0 (canonical = http://example.org/fhir/fish)
- Build Errors : 92 / 4 / 0
+Generated Thu Jul 13 11:08:31 CEST 2023. FHIR version 4.0.1 for fish#0.1.0 (canonical = http://example.org/fhir/fish)
+ Build Errors : 93 / 4 / 0
  /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/ImplementationGuide-fish : 0 / 1 / 1
  /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-anticipate-directives-epr : 0 / 5 / 1
  /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-anticipate-directives-exist : 0 / 2 / 1
@@ -107,7 +107,8 @@ ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-veter
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-veterinarian.profile.ttl.html#/html/body/div/div/div/p/a at Line 1551, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-veterinarian.profile.xml.html#/html/body/div/div/div/p/a at Line 1923, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/artifacts.html#/html/body/div/div/div/p/a at Line 282, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/index.html#/html/body/div/div/div/p/a at Line 241, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/index.html#/html/body/div/div/div/div/div/p/img at Line 213, column 5: The image source 'Shorty.png' cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/index.html#/html/body/div/div/div/p/a at Line 253, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/toc.html#/html/body/div/div/div/p/a at Line 158, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide

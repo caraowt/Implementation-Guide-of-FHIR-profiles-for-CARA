@@ -9,7 +9,6 @@
  <tr><td>Patient</td><td>Entity. Role, or Act, Patient[classCode=PAT]</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;text</td><td>Act.text?</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;contained</td><td>N/A</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;extension</td><td>N/A</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;identifier</td><td>id</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;active</td><td>statusCode</td> </tr>
@@ -19,6 +18,7 @@
  <tr><td>&nbsp;&nbsp;&nbsp;birthDate</td><td>player[classCode=PSN|ANM and determinerCode=INSTANCE]/birthTime</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;deceased[x]</td><td>player[classCode=PSN|ANM and determinerCode=INSTANCE]/deceasedInd, player[classCode=PSN|ANM and determinerCode=INSTANCE]/deceasedTime</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;address</td><td>addr</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;maritalStatus</td><td>player[classCode=PSN]/maritalStatusCode</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;multipleBirth[x]</td><td>player[classCode=PSN|ANM and determinerCode=INSTANCE]/multipleBirthInd,  player[classCode=PSN|ANM and determinerCode=INSTANCE]/multipleBirthOrderNumber</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;photo</td><td>player[classCode=PSN|ANM and determinerCode=INSTANCE]/desc</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;contact</td><td>player[classCode=PSN|ANM and determinerCode=INSTANCE]/scopedRole[classCode=CON]</td> </tr>
@@ -58,6 +58,7 @@
  <tr><td>&nbsp;&nbsp;&nbsp;birthDate</td><td>.patient.birthTime</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;deceased[x]</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;address</td><td>.addr</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;maritalStatus</td><td>.patient.maritalStatusCode</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;multipleBirth[x]</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;photo</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;contact</td><td>n/a</td> </tr>
@@ -93,6 +94,7 @@
  <tr><td>&nbsp;&nbsp;&nbsp;birthDate</td><td>PID-7</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;deceased[x]</td><td>PID-30  (bool) and PID-29 (datetime)</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;address</td><td>PID-11</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;maritalStatus</td><td>PID-16</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;multipleBirth[x]</td><td>PID-24 (bool), PID-25 (integer)</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;photo</td><td>OBX-5 - needs a profile</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;contact</td><td></td> </tr>

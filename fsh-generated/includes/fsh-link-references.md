@@ -1,9 +1,9 @@
 [CaraCarePlan]: StructureDefinition-careplan.html
-[FishPatient]: StructureDefinition-fish-patient.html
-[FishSpecies]: StructureDefinition-fish-species.html
-[FishSpeciesValueSet]: ValueSet-fish-species-value-set.html
+[CaraPatient]: StructureDefinition-cara-patient.html
+[CountryOfBirth]: StructureDefinition-country-of-birth.html
+[AnticipateDirectivesExist]: StructureDefinition-anticipate-directives-exist.html
 [HistoricalData]: StructureDefinition-historical-data.html
 [PatientPriorities]: StructureDefinition-patient-priorities.html
-[Shorty]: Patient-Shorty.html
 [SocialData]: StructureDefinition-social-data.html
+[AnticipateDirectivesInEPR]: StructureDefinition-anticipate-directives-epr.html
 [Veterinarian]: StructureDefinition-veterinarian.html

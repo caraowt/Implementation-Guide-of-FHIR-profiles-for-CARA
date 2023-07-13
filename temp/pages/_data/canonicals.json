@@ -7,6 +7,27 @@
     "name" : "FishImplementationGuide"
   },
   {
+    "id" : "anticipate-directives-epr",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-epr",
+    "version" : "0.1.0",
+    "name" : "AnticipateDirectivesInEPR"
+  },
+  {
+    "id" : "anticipate-directives-exist",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-exist",
+    "version" : "0.1.0",
+    "name" : "AnticipateDirectivesExist"
+  },
+  {
+    "id" : "cara-patient",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/fhir/fish/StructureDefinition/cara-patient",
+    "version" : "0.1.0",
+    "name" : "CaraPatient"
+  },
+  {
     "id" : "careplan",
     "type" : "StructureDefinition",
     "url" : "http://example.org/fhir/fish/StructureDefinition/careplan",
@@ -14,18 +35,11 @@
     "name" : "CaraCarePlan"
   },
   {
-    "id" : "fish-patient",
+    "id" : "country-of-birth",
     "type" : "StructureDefinition",
-    "url" : "http://example.org/fhir/fish/StructureDefinition/fish-patient",
+    "url" : "http://example.org/fhir/fish/StructureDefinition/country-of-birth",
     "version" : "0.1.0",
-    "name" : "FishPatient"
-  },
-  {
-    "id" : "fish-species",
-    "type" : "StructureDefinition",
-    "url" : "http://example.org/fhir/fish/StructureDefinition/fish-species",
-    "version" : "0.1.0",
-    "name" : "FishSpecies"
+    "name" : "CountryOfBirth"
   },
   {
     "id" : "historical-data",
@@ -54,12 +68,5 @@
     "url" : "http://example.org/fhir/fish/StructureDefinition/veterinarian",
     "version" : "0.1.0",
     "name" : "Veterinarian"
-  },
-  {
-    "id" : "fish-species-value-set",
-    "type" : "ValueSet",
-    "url" : "http://example.org/fhir/fish/ValueSet/fish-species-value-set",
-    "version" : "0.1.0",
-    "name" : "FishSpeciesValueSet"
   }
 ]

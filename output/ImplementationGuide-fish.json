@@ -10,7 +10,7 @@
   "name" : "FishImplementationGuide",
   "title" : "Fish Implementation Guide",
   "status" : "draft",
-  "date" : "2023-07-11T17:34:16+02:00",
+  "date" : "2023-07-13T10:52:26+02:00",
   "contact" : [{
     "name" : "Bill Cod",
     "telecom" : [{
@@ -615,10 +615,10 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/fish-patient"
+        "reference" : "StructureDefinition/cara-patient"
       },
-      "name" : "Fish Patient",
-      "description" : "A patient that is a type of fish.",
+      "name" : "CARA Patient",
+      "description" : "This profile extension is used to ensure the fields of the master patient index are properly used throughout the implementation.",
       "exampleBoolean" : false
     },
     {
@@ -627,22 +627,22 @@
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/fish-species"
+        "reference" : "StructureDefinition/country-of-birth"
       },
-      "name" : "Fish Species",
-      "description" : "The species name of a piscine (fish) patient.",
+      "name" : "Country of Birth",
+      "description" : "This field is used to render the country of birth of the patient",
       "exampleBoolean" : false
     },
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
+        "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
-        "reference" : "ValueSet/fish-species-value-set"
+        "reference" : "StructureDefinition/anticipate-directives-exist"
       },
-      "name" : "Fish Species Value Set",
-      "description" : "Codes describing various species of fish from SNOMED-CT.",
+      "name" : "Existence of AD",
+      "description" : "This field is used to indicate whether a patient has advanced directives",
       "exampleBoolean" : false
     },
     {
@@ -672,17 +672,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Patient"
-      }],
-      "reference" : {
-        "reference" : "Patient/Shorty"
-      },
-      "name" : "Shorty",
-      "exampleCanonical" : "http://example.org/fhir/fish/StructureDefinition/fish-patient"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
@@ -690,6 +679,18 @@
       },
       "name" : "Social Data",
       "description" : "Used to describe the social background of a patient affiliated to CARA",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/anticipate-directives-epr"
+      },
+      "name" : "The anticipate directives are in the EHR of the patient. This field is present ",
+      "description" : "This field is used to indicate whether a patient has advanced directives",
       "exampleBoolean" : false
     },
     {

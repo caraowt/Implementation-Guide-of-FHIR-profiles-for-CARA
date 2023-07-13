@@ -141,12 +141,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <li>
          <a href="#2">Structures: Extension Definitions</a>
       </li>
-      <li>
-         <a href="#3">Terminology: Value Sets</a>
-      </li>
-      <li>
-         <a href="#4">Example: Example Instances</a>
-      </li>
    </ul>
 </div>
 <div xmlns:html="http://www.w3.org/1999/xhtml" xmlns:f="http://hl7.org/fhir">
@@ -170,10 +164,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-fish-patient.html" title="StructureDefinition/fish-patient">Fish Patient</a>
+                  <a href="StructureDefinition-cara-patient.html" title="StructureDefinition/cara-patient">CARA Patient</a>
                </td>
                <td>
-<p>A patient that is a type of fish.</p>
+<p>This profile extension is used to ensure the fields of the master patient index are properly used throughout the implementation.</p>
 </td>
             </tr>
             <tr>
@@ -198,10 +192,18 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <tbody>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-fish-species.html" title="StructureDefinition/fish-species">Fish Species</a>
+                  <a href="StructureDefinition-country-of-birth.html" title="StructureDefinition/country-of-birth">Country of Birth</a>
                </td>
                <td>
-<p>The species name of a piscine (fish) patient.</p>
+<p>This field is used to render the country of birth of the patient</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-anticipate-directives-exist.html" title="StructureDefinition/anticipate-directives-exist">Existence of AD</a>
+               </td>
+               <td>
+<p>This field is used to indicate whether a patient has advanced directives</p>
 </td>
             </tr>
             <tr>
@@ -228,42 +230,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p>Used to describe the social background of a patient affiliated to CARA</p>
 </td>
             </tr>
-         </tbody>
-      </table>
-   </p>
-   <a name="3"> </a>
-   <h3>Terminology: Value Sets </h3>
-   <p>
-    <p>These define sets of codes used by systems conforming to this implementation guide.</p>
-</p>
-   <p>
-      <table class="grid">
-         <col style="width:20%"/>
-         <tbody>
             <tr>
                <td style="column-width:30%">
-                  <a href="ValueSet-fish-species-value-set.html" title="ValueSet/fish-species-value-set">Fish Species Value Set</a>
+                  <a href="StructureDefinition-anticipate-directives-epr.html" title="StructureDefinition/anticipate-directives-epr">The anticipate directives are in the EHR of the patient. This field is present </a>
                </td>
                <td>
-<p>Codes describing various species of fish from SNOMED-CT.</p>
+<p>This field is used to indicate whether a patient has advanced directives</p>
 </td>
-            </tr>
-         </tbody>
-      </table>
-   </p>
-   <a name="4"> </a>
-   <h3>Example: Example Instances </h3>
-   <p>
-    <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.</p>
-</p>
-   <p>
-      <table class="grid">
-         <col style="width:20%"/>
-         <tbody>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Patient-Shorty.html" title="Patient/Shorty">Shorty</a>
-               </td>
             </tr>
          </tbody>
       </table>
@@ -291,8 +264,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l539">​</a>
-          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="cod@reef.gov"></a>.  Package fish#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jul 11, 2023 17:34+0200">2023-07-11</span>
+        <p><a name="l487">​</a>
+          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="cod@reef.gov"></a>.  Package fish#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jul 13, 2023 10:52+0200">2023-07-13</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

@@ -5,7 +5,7 @@
   "igName" : "FishImplementationGuide",
   "packageId" : "fish",
   "igVer" : "0.1.0",
-  "errorCount" : 0,
+  "errorCount" : 3,
   "version" : "4.0.1",
   "revision" : "a53ec6ee1b",
   "versionFull" : "4.0.1-a53ec6ee1b",
@@ -14,8 +14,8 @@
   "toolingVersionFull" : "5.0.0 (3)",
   "totalFiles" : 10,
   "processedFiles" : 20,
-  "genDate" : "Tue, Jul 11, 2023 17:34+0200",
-  "genDay" : "11/07/2023",
+  "genDate" : "Thu, Jul 13, 2023 10:52+0200",
+  "genDay" : "13/07/2023",
   "resourceTypes" : [
     "Account",
     "ActivityDefinition",
@@ -247,7 +247,7 @@
         "telecom" : ["cod@reef.gov"]
       }
     ],
-    "date" : "2023-07-11T17:34:16+02:00",
+    "date" : "2023-07-13T10:52:26+02:00",
     "description" : "An example of how FSH can be used to create an IG about fish",
     "copyright" : null,
     "fhirVersion" : "4.0.1"

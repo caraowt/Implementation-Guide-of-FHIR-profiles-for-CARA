@@ -1,0 +1,75 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "cara-patient",
+  "url": "http://example.org/fhir/fish/StructureDefinition/cara-patient",
+  "name": "CaraPatient",
+  "title": "CARA Patient",
+  "status": "draft",
+  "description": "This profile extension is used to ensure the fields of the master patient index are properly used throughout the implementation.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "cda",
+      "uri": "http://hl7.org/v3/cda",
+      "name": "CDA (R2)"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "loinc",
+      "uri": "http://loinc.org",
+      "name": "LOINC code for the element"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Patient",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Patient",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Patient.extension",
+        "path": "Patient.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Patient.extension:birthcountry",
+        "path": "Patient.extension",
+        "sliceName": "birthcountry",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://example.org/fhir/fish/StructureDefinition/country-of-birth"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

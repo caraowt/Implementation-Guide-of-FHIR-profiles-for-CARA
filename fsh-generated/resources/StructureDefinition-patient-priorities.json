@@ -34,9 +34,23 @@
         "definition": "Used to describe the priorities of a patient with regard to his SCP"
       },
       {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "max": "0"
+      },
+      {
         "id": "Extension.url",
         "path": "Extension.url",
         "fixedUri": "http://example.org/fhir/fish/StructureDefinition/patient-priorities"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
       }
     ]
   }

@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "FishImplementationGuide"] ; # 
   fhir:title [ fhir:v "Fish Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-07-11T17:34:16+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-07-13T10:52:26+02:00"^^xsd:dateTime] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Bill Cod" ] ;
      fhir:telecom ( [
@@ -527,11 +527,11 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/fhir/fish/StructureDefinition/fish-patient> ;
-         fhir:reference [ fhir:v "StructureDefinition/fish-patient" ]
+         fhir:link <http://example.org/fhir/fish/StructureDefinition/cara-patient> ;
+         fhir:reference [ fhir:v "StructureDefinition/cara-patient" ]
        ] ;
-       fhir:name [ fhir:v "Fish Patient" ] ;
-       fhir:description [ fhir:v "A patient that is a type of fish." ] ;
+       fhir:name [ fhir:v "CARA Patient" ] ;
+       fhir:description [ fhir:v "This profile extension is used to ensure the fields of the master patient index are properly used throughout the implementation." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -539,23 +539,23 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/fhir/fish/StructureDefinition/fish-species> ;
-         fhir:reference [ fhir:v "StructureDefinition/fish-species" ]
+         fhir:link <http://example.org/fhir/fish/StructureDefinition/country-of-birth> ;
+         fhir:reference [ fhir:v "StructureDefinition/country-of-birth" ]
        ] ;
-       fhir:name [ fhir:v "Fish Species" ] ;
-       fhir:description [ fhir:v "The species name of a piscine (fish) patient." ] ;
+       fhir:name [ fhir:v "Country of Birth" ] ;
+       fhir:description [ fhir:v "This field is used to render the country of birth of the patient" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/fhir/fish/ValueSet/fish-species-value-set> ;
-         fhir:reference [ fhir:v "ValueSet/fish-species-value-set" ]
+         fhir:link <http://example.org/fhir/fish/StructureDefinition/anticipate-directives-exist> ;
+         fhir:reference [ fhir:v "StructureDefinition/anticipate-directives-exist" ]
        ] ;
-       fhir:name [ fhir:v "Fish Species Value Set" ] ;
-       fhir:description [ fhir:v "Codes describing various species of fish from SNOMED-CT." ] ;
+       fhir:name [ fhir:v "Existence of AD" ] ;
+       fhir:description [ fhir:v "This field is used to indicate whether a patient has advanced directives" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -584,20 +584,6 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Patient" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://example.org/fhir/fish/Patient/Shorty> ;
-         fhir:reference [ fhir:v "Patient/Shorty" ]
-       ] ;
-       fhir:name [ fhir:v "Shorty" ] ;
-       fhir:example [
-         fhir:v "http://example.org/fhir/fish/StructureDefinition/fish-patient"^^xsd:anyURI ;
-         fhir:link <http://example.org/fhir/fish/StructureDefinition/fish-patient>
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
@@ -606,6 +592,18 @@
        ] ;
        fhir:name [ fhir:v "Social Data" ] ;
        fhir:description [ fhir:v "Used to describe the social background of a patient affiliated to CARA" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://example.org/fhir/fish/StructureDefinition/anticipate-directives-epr> ;
+         fhir:reference [ fhir:v "StructureDefinition/anticipate-directives-epr" ]
+       ] ;
+       fhir:name [ fhir:v "The anticipate directives are in the EHR of the patient. This field is present " ] ;
+       fhir:description [ fhir:v "This field is used to indicate whether a patient has advanced directives" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

@@ -4,8 +4,22 @@
   "fhirVersion": "4.0.1",
   "extensions": [
     {
-      "url": "http://example.org/fhir/fish/StructureDefinition/fish-species",
-      "title": "Fish Species",
+      "url": "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-epr",
+      "title": "The anticipate directives are in the EHR of the patient. This field is present ",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
+      "url": "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-exist",
+      "title": "Existence of AD",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
+      "url": "http://example.org/fhir/fish/StructureDefinition/country-of-birth",
+      "title": "Country of Birth",
       "types": [
         "CodeableConcept"
       ]
@@ -14,112 +28,14 @@
       "url": "http://example.org/fhir/fish/StructureDefinition/historical-data",
       "title": "Historical Data",
       "types": [
-        "base64Binary",
-        "boolean",
-        "canonical",
-        "code",
-        "date",
-        "dateTime",
-        "decimal",
-        "id",
-        "instant",
-        "integer",
-        "markdown",
-        "oid",
-        "positiveInt",
-        "string",
-        "time",
-        "unsignedInt",
-        "uri",
-        "url",
-        "uuid",
-        "Address",
-        "Age",
-        "Annotation",
-        "Attachment",
-        "CodeableConcept",
-        "Coding",
-        "ContactPoint",
-        "Count",
-        "Distance",
-        "Duration",
-        "HumanName",
-        "Identifier",
-        "Money",
-        "Period",
-        "Quantity",
-        "Range",
-        "Ratio",
-        "Reference",
-        "SampledData",
-        "Signature",
-        "Timing",
-        "ContactDetail",
-        "Contributor",
-        "DataRequirement",
-        "Expression",
-        "ParameterDefinition",
-        "RelatedArtifact",
-        "TriggerDefinition",
-        "UsageContext",
-        "Dosage",
-        "Meta"
+        "string"
       ]
     },
     {
       "url": "http://example.org/fhir/fish/StructureDefinition/patient-priorities",
       "title": "Patient Priorities",
       "types": [
-        "base64Binary",
-        "boolean",
-        "canonical",
-        "code",
-        "date",
-        "dateTime",
-        "decimal",
-        "id",
-        "instant",
-        "integer",
-        "markdown",
-        "oid",
-        "positiveInt",
-        "string",
-        "time",
-        "unsignedInt",
-        "uri",
-        "url",
-        "uuid",
-        "Address",
-        "Age",
-        "Annotation",
-        "Attachment",
-        "CodeableConcept",
-        "Coding",
-        "ContactPoint",
-        "Count",
-        "Distance",
-        "Duration",
-        "HumanName",
-        "Identifier",
-        "Money",
-        "Period",
-        "Quantity",
-        "Range",
-        "Ratio",
-        "Reference",
-        "SampledData",
-        "Signature",
-        "Timing",
-        "ContactDetail",
-        "Contributor",
-        "DataRequirement",
-        "Expression",
-        "ParameterDefinition",
-        "RelatedArtifact",
-        "TriggerDefinition",
-        "UsageContext",
-        "Dosage",
-        "Meta"
+        "string"
       ]
     },
     {
@@ -131,16 +47,16 @@
     }
   ],
   "profiles": {
+    "Patient": [
+      {
+        "url": "http://example.org/fhir/fish/StructureDefinition/cara-patient",
+        "title": "CARA Patient"
+      }
+    ],
     "CarePlan": [
       {
         "url": "http://example.org/fhir/fish/StructureDefinition/careplan",
         "title": "CARA Care Plan"
-      }
-    ],
-    "Patient": [
-      {
-        "url": "http://example.org/fhir/fish/StructureDefinition/fish-patient",
-        "title": "Fish Patient"
       }
     ],
     "Practitioner": [
@@ -151,7 +67,7 @@
     ]
   },
   "usage": {
-    "http://example.org/fhir/fish/StructureDefinition/fish-species": [
+    "http://example.org/fhir/fish/StructureDefinition/country-of-birth": [
       "Patient"
     ],
     "http://example.org/fhir/fish/StructureDefinition/historical-data": [

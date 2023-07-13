@@ -69,70 +69,58 @@
     "label" : "2.1",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA Care Plan</b></li>",
     "previous" : "StructureDefinition-careplan.profile.json.html",
-    "next" : "StructureDefinition-fish-patient.html"
+    "next" : "StructureDefinition-cara-patient.html"
   },
-  "StructureDefinition-fish-patient.html" : {
-    "title" : "Fish Patient",
+  "StructureDefinition-cara-patient.html" : {
+    "title" : "CARA Patient",
     "label" : "2.2",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Patient</b></li>",
-    "examples" : [
-      {
-        "url" : "Patient-Shorty.html",
-        "title" : "Shorty"
-      }
-    ],
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA Patient</b></li>",
+    "examples" : [],
     "testplans" : [],
     "testscripts" : [],
     "previous" : "StructureDefinition-careplan.profile.ttl.html",
-    "next" : "StructureDefinition-fish-patient-definitions.html"
+    "next" : "StructureDefinition-cara-patient-definitions.html"
   },
-  "StructureDefinition-fish-patient-definitions.html" : {
-    "title" : "Fish Patient - Definitions",
+  "StructureDefinition-cara-patient-definitions.html" : {
+    "title" : "CARA Patient - Definitions",
     "label" : "2.2",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Patient</b></li>",
-    "previous" : "StructureDefinition-fish-patient.html",
-    "next" : "StructureDefinition-fish-patient-mappings.html"
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA Patient</b></li>",
+    "previous" : "StructureDefinition-cara-patient.html",
+    "next" : "StructureDefinition-cara-patient-mappings.html"
   },
-  "StructureDefinition-fish-patient-mappings.html" : {
-    "title" : "Fish Patient - Mappings",
+  "StructureDefinition-cara-patient-mappings.html" : {
+    "title" : "CARA Patient - Mappings",
     "label" : "2.2",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Patient</b></li>",
-    "previous" : "StructureDefinition-fish-patient-definitions.html",
-    "next" : "StructureDefinition-fish-patient-testing.html"
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA Patient</b></li>",
+    "previous" : "StructureDefinition-cara-patient-definitions.html",
+    "next" : "StructureDefinition-cara-patient-testing.html"
   },
-  "StructureDefinition-fish-patient-testing.html" : {
-    "title" : "Fish Patient - Testing",
+  "StructureDefinition-cara-patient-testing.html" : {
+    "title" : "CARA Patient - Testing",
     "label" : "2.2",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Patient</b></li>",
-    "previous" : "StructureDefinition-fish-patient-mappings.html",
-    "next" : "StructureDefinition-fish-patient-examples.html"
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA Patient</b></li>",
+    "previous" : "StructureDefinition-cara-patient-mappings.html",
+    "next" : "StructureDefinition-cara-patient.profile.xml.html"
   },
-  "StructureDefinition-fish-patient-examples.html" : {
-    "title" : "Fish Patient - Examples",
+  "StructureDefinition-cara-patient.profile.xml.html" : {
+    "title" : "CARA Patient - XML Representation",
     "label" : "2.2",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Patient</b></li>",
-    "previous" : "StructureDefinition-fish-patient-testing.html",
-    "next" : "StructureDefinition-fish-patient.profile.xml.html"
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA Patient</b></li>",
+    "previous" : "StructureDefinition-cara-patient-testing.html",
+    "next" : "StructureDefinition-cara-patient.profile.json.html"
   },
-  "StructureDefinition-fish-patient.profile.xml.html" : {
-    "title" : "Fish Patient - XML Representation",
+  "StructureDefinition-cara-patient.profile.json.html" : {
+    "title" : "CARA Patient - JSON Representation",
     "label" : "2.2",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Patient</b></li>",
-    "previous" : "StructureDefinition-fish-patient-examples.html",
-    "next" : "StructureDefinition-fish-patient.profile.json.html"
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA Patient</b></li>",
+    "previous" : "StructureDefinition-cara-patient.profile.xml.html",
+    "next" : "StructureDefinition-cara-patient.profile.ttl.html"
   },
-  "StructureDefinition-fish-patient.profile.json.html" : {
-    "title" : "Fish Patient - JSON Representation",
+  "StructureDefinition-cara-patient.profile.ttl.html" : {
+    "title" : "CARA Patient - TTL Representation",
     "label" : "2.2",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Patient</b></li>",
-    "previous" : "StructureDefinition-fish-patient.profile.xml.html",
-    "next" : "StructureDefinition-fish-patient.profile.ttl.html"
-  },
-  "StructureDefinition-fish-patient.profile.ttl.html" : {
-    "title" : "Fish Patient - TTL Representation",
-    "label" : "2.2",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Patient</b></li>",
-    "previous" : "StructureDefinition-fish-patient.profile.json.html",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA Patient</b></li>",
+    "previous" : "StructureDefinition-cara-patient.profile.json.html",
     "next" : "StructureDefinition-veterinarian.html"
   },
   "StructureDefinition-veterinarian.html" : {
@@ -142,7 +130,7 @@
     "examples" : [],
     "testplans" : [],
     "testscripts" : [],
-    "previous" : "StructureDefinition-fish-patient.profile.ttl.html",
+    "previous" : "StructureDefinition-cara-patient.profile.ttl.html",
     "next" : "StructureDefinition-veterinarian-definitions.html"
   },
   "StructureDefinition-veterinarian-definitions.html" : {
@@ -185,115 +173,167 @@
     "label" : "2.3",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Veterinarian</b></li>",
     "previous" : "StructureDefinition-veterinarian.profile.json.html",
-    "next" : "StructureDefinition-fish-species.html"
+    "next" : "StructureDefinition-country-of-birth.html"
   },
-  "StructureDefinition-fish-species.html" : {
-    "title" : "Fish Species",
+  "StructureDefinition-country-of-birth.html" : {
+    "title" : "Country of Birth",
     "label" : "2.4",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Species</b></li>",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Country of Birth</b></li>",
     "examples" : [],
     "testplans" : [],
     "testscripts" : [],
     "previous" : "StructureDefinition-veterinarian.profile.ttl.html",
-    "next" : "StructureDefinition-fish-species-definitions.html"
+    "next" : "StructureDefinition-country-of-birth-definitions.html"
   },
-  "StructureDefinition-fish-species-definitions.html" : {
-    "title" : "Fish Species - Definitions",
+  "StructureDefinition-country-of-birth-definitions.html" : {
+    "title" : "Country of Birth - Definitions",
     "label" : "2.4",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Species</b></li>",
-    "previous" : "StructureDefinition-fish-species.html",
-    "next" : "StructureDefinition-fish-species-mappings.html"
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Country of Birth</b></li>",
+    "previous" : "StructureDefinition-country-of-birth.html",
+    "next" : "StructureDefinition-country-of-birth-mappings.html"
   },
-  "StructureDefinition-fish-species-mappings.html" : {
-    "title" : "Fish Species - Mappings",
+  "StructureDefinition-country-of-birth-mappings.html" : {
+    "title" : "Country of Birth - Mappings",
     "label" : "2.4",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Species</b></li>",
-    "previous" : "StructureDefinition-fish-species-definitions.html",
-    "next" : "StructureDefinition-fish-species-testing.html"
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Country of Birth</b></li>",
+    "previous" : "StructureDefinition-country-of-birth-definitions.html",
+    "next" : "StructureDefinition-country-of-birth-testing.html"
   },
-  "StructureDefinition-fish-species-testing.html" : {
-    "title" : "Fish Species - Testing",
+  "StructureDefinition-country-of-birth-testing.html" : {
+    "title" : "Country of Birth - Testing",
     "label" : "2.4",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Species</b></li>",
-    "previous" : "StructureDefinition-fish-species-mappings.html",
-    "next" : "StructureDefinition-fish-species.profile.xml.html"
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Country of Birth</b></li>",
+    "previous" : "StructureDefinition-country-of-birth-mappings.html",
+    "next" : "StructureDefinition-country-of-birth.profile.xml.html"
   },
-  "StructureDefinition-fish-species.profile.xml.html" : {
-    "title" : "Fish Species - XML Representation",
+  "StructureDefinition-country-of-birth.profile.xml.html" : {
+    "title" : "Country of Birth - XML Representation",
     "label" : "2.4",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Species</b></li>",
-    "previous" : "StructureDefinition-fish-species-testing.html",
-    "next" : "StructureDefinition-fish-species.profile.json.html"
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Country of Birth</b></li>",
+    "previous" : "StructureDefinition-country-of-birth-testing.html",
+    "next" : "StructureDefinition-country-of-birth.profile.json.html"
   },
-  "StructureDefinition-fish-species.profile.json.html" : {
-    "title" : "Fish Species - JSON Representation",
+  "StructureDefinition-country-of-birth.profile.json.html" : {
+    "title" : "Country of Birth - JSON Representation",
     "label" : "2.4",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Species</b></li>",
-    "previous" : "StructureDefinition-fish-species.profile.xml.html",
-    "next" : "StructureDefinition-fish-species.profile.ttl.html"
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Country of Birth</b></li>",
+    "previous" : "StructureDefinition-country-of-birth.profile.xml.html",
+    "next" : "StructureDefinition-country-of-birth.profile.ttl.html"
   },
-  "StructureDefinition-fish-species.profile.ttl.html" : {
-    "title" : "Fish Species - TTL Representation",
+  "StructureDefinition-country-of-birth.profile.ttl.html" : {
+    "title" : "Country of Birth - TTL Representation",
     "label" : "2.4",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Species</b></li>",
-    "previous" : "StructureDefinition-fish-species.profile.json.html",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Country of Birth</b></li>",
+    "previous" : "StructureDefinition-country-of-birth.profile.json.html",
+    "next" : "StructureDefinition-anticipate-directives-exist.html"
+  },
+  "StructureDefinition-anticipate-directives-exist.html" : {
+    "title" : "Existence of AD",
+    "label" : "2.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Existence of AD</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-country-of-birth.profile.ttl.html",
+    "next" : "StructureDefinition-anticipate-directives-exist-definitions.html"
+  },
+  "StructureDefinition-anticipate-directives-exist-definitions.html" : {
+    "title" : "Existence of AD - Definitions",
+    "label" : "2.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Existence of AD</b></li>",
+    "previous" : "StructureDefinition-anticipate-directives-exist.html",
+    "next" : "StructureDefinition-anticipate-directives-exist-mappings.html"
+  },
+  "StructureDefinition-anticipate-directives-exist-mappings.html" : {
+    "title" : "Existence of AD - Mappings",
+    "label" : "2.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Existence of AD</b></li>",
+    "previous" : "StructureDefinition-anticipate-directives-exist-definitions.html",
+    "next" : "StructureDefinition-anticipate-directives-exist-testing.html"
+  },
+  "StructureDefinition-anticipate-directives-exist-testing.html" : {
+    "title" : "Existence of AD - Testing",
+    "label" : "2.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Existence of AD</b></li>",
+    "previous" : "StructureDefinition-anticipate-directives-exist-mappings.html",
+    "next" : "StructureDefinition-anticipate-directives-exist.profile.xml.html"
+  },
+  "StructureDefinition-anticipate-directives-exist.profile.xml.html" : {
+    "title" : "Existence of AD - XML Representation",
+    "label" : "2.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Existence of AD</b></li>",
+    "previous" : "StructureDefinition-anticipate-directives-exist-testing.html",
+    "next" : "StructureDefinition-anticipate-directives-exist.profile.json.html"
+  },
+  "StructureDefinition-anticipate-directives-exist.profile.json.html" : {
+    "title" : "Existence of AD - JSON Representation",
+    "label" : "2.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Existence of AD</b></li>",
+    "previous" : "StructureDefinition-anticipate-directives-exist.profile.xml.html",
+    "next" : "StructureDefinition-anticipate-directives-exist.profile.ttl.html"
+  },
+  "StructureDefinition-anticipate-directives-exist.profile.ttl.html" : {
+    "title" : "Existence of AD - TTL Representation",
+    "label" : "2.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Existence of AD</b></li>",
+    "previous" : "StructureDefinition-anticipate-directives-exist.profile.json.html",
     "next" : "StructureDefinition-historical-data.html"
   },
   "StructureDefinition-historical-data.html" : {
     "title" : "Historical Data",
-    "label" : "2.5",
+    "label" : "2.6",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Historical Data</b></li>",
     "examples" : [],
     "testplans" : [],
     "testscripts" : [],
-    "previous" : "StructureDefinition-fish-species.profile.ttl.html",
+    "previous" : "StructureDefinition-anticipate-directives-exist.profile.ttl.html",
     "next" : "StructureDefinition-historical-data-definitions.html"
   },
   "StructureDefinition-historical-data-definitions.html" : {
     "title" : "Historical Data - Definitions",
-    "label" : "2.5",
+    "label" : "2.6",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Historical Data</b></li>",
     "previous" : "StructureDefinition-historical-data.html",
     "next" : "StructureDefinition-historical-data-mappings.html"
   },
   "StructureDefinition-historical-data-mappings.html" : {
     "title" : "Historical Data - Mappings",
-    "label" : "2.5",
+    "label" : "2.6",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Historical Data</b></li>",
     "previous" : "StructureDefinition-historical-data-definitions.html",
     "next" : "StructureDefinition-historical-data-testing.html"
   },
   "StructureDefinition-historical-data-testing.html" : {
     "title" : "Historical Data - Testing",
-    "label" : "2.5",
+    "label" : "2.6",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Historical Data</b></li>",
     "previous" : "StructureDefinition-historical-data-mappings.html",
     "next" : "StructureDefinition-historical-data.profile.xml.html"
   },
   "StructureDefinition-historical-data.profile.xml.html" : {
     "title" : "Historical Data - XML Representation",
-    "label" : "2.5",
+    "label" : "2.6",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Historical Data</b></li>",
     "previous" : "StructureDefinition-historical-data-testing.html",
     "next" : "StructureDefinition-historical-data.profile.json.html"
   },
   "StructureDefinition-historical-data.profile.json.html" : {
     "title" : "Historical Data - JSON Representation",
-    "label" : "2.5",
+    "label" : "2.6",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Historical Data</b></li>",
     "previous" : "StructureDefinition-historical-data.profile.xml.html",
     "next" : "StructureDefinition-historical-data.profile.ttl.html"
   },
   "StructureDefinition-historical-data.profile.ttl.html" : {
     "title" : "Historical Data - TTL Representation",
-    "label" : "2.5",
+    "label" : "2.6",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Historical Data</b></li>",
     "previous" : "StructureDefinition-historical-data.profile.json.html",
     "next" : "StructureDefinition-patient-priorities.html"
   },
   "StructureDefinition-patient-priorities.html" : {
     "title" : "Patient Priorities",
-    "label" : "2.6",
+    "label" : "2.7",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient Priorities</b></li>",
     "examples" : [],
     "testplans" : [],
@@ -303,49 +343,49 @@
   },
   "StructureDefinition-patient-priorities-definitions.html" : {
     "title" : "Patient Priorities - Definitions",
-    "label" : "2.6",
+    "label" : "2.7",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient Priorities</b></li>",
     "previous" : "StructureDefinition-patient-priorities.html",
     "next" : "StructureDefinition-patient-priorities-mappings.html"
   },
   "StructureDefinition-patient-priorities-mappings.html" : {
     "title" : "Patient Priorities - Mappings",
-    "label" : "2.6",
+    "label" : "2.7",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient Priorities</b></li>",
     "previous" : "StructureDefinition-patient-priorities-definitions.html",
     "next" : "StructureDefinition-patient-priorities-testing.html"
   },
   "StructureDefinition-patient-priorities-testing.html" : {
     "title" : "Patient Priorities - Testing",
-    "label" : "2.6",
+    "label" : "2.7",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient Priorities</b></li>",
     "previous" : "StructureDefinition-patient-priorities-mappings.html",
     "next" : "StructureDefinition-patient-priorities.profile.xml.html"
   },
   "StructureDefinition-patient-priorities.profile.xml.html" : {
     "title" : "Patient Priorities - XML Representation",
-    "label" : "2.6",
+    "label" : "2.7",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient Priorities</b></li>",
     "previous" : "StructureDefinition-patient-priorities-testing.html",
     "next" : "StructureDefinition-patient-priorities.profile.json.html"
   },
   "StructureDefinition-patient-priorities.profile.json.html" : {
     "title" : "Patient Priorities - JSON Representation",
-    "label" : "2.6",
+    "label" : "2.7",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient Priorities</b></li>",
     "previous" : "StructureDefinition-patient-priorities.profile.xml.html",
     "next" : "StructureDefinition-patient-priorities.profile.ttl.html"
   },
   "StructureDefinition-patient-priorities.profile.ttl.html" : {
     "title" : "Patient Priorities - TTL Representation",
-    "label" : "2.6",
+    "label" : "2.7",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient Priorities</b></li>",
     "previous" : "StructureDefinition-patient-priorities.profile.json.html",
     "next" : "StructureDefinition-social-data.html"
   },
   "StructureDefinition-social-data.html" : {
     "title" : "Social Data",
-    "label" : "2.7",
+    "label" : "2.8",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Social Data</b></li>",
     "examples" : [],
     "testplans" : [],
@@ -355,112 +395,95 @@
   },
   "StructureDefinition-social-data-definitions.html" : {
     "title" : "Social Data - Definitions",
-    "label" : "2.7",
+    "label" : "2.8",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Social Data</b></li>",
     "previous" : "StructureDefinition-social-data.html",
     "next" : "StructureDefinition-social-data-mappings.html"
   },
   "StructureDefinition-social-data-mappings.html" : {
     "title" : "Social Data - Mappings",
-    "label" : "2.7",
+    "label" : "2.8",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Social Data</b></li>",
     "previous" : "StructureDefinition-social-data-definitions.html",
     "next" : "StructureDefinition-social-data-testing.html"
   },
   "StructureDefinition-social-data-testing.html" : {
     "title" : "Social Data - Testing",
-    "label" : "2.7",
+    "label" : "2.8",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Social Data</b></li>",
     "previous" : "StructureDefinition-social-data-mappings.html",
     "next" : "StructureDefinition-social-data.profile.xml.html"
   },
   "StructureDefinition-social-data.profile.xml.html" : {
     "title" : "Social Data - XML Representation",
-    "label" : "2.7",
+    "label" : "2.8",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Social Data</b></li>",
     "previous" : "StructureDefinition-social-data-testing.html",
     "next" : "StructureDefinition-social-data.profile.json.html"
   },
   "StructureDefinition-social-data.profile.json.html" : {
     "title" : "Social Data - JSON Representation",
-    "label" : "2.7",
+    "label" : "2.8",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Social Data</b></li>",
     "previous" : "StructureDefinition-social-data.profile.xml.html",
     "next" : "StructureDefinition-social-data.profile.ttl.html"
   },
   "StructureDefinition-social-data.profile.ttl.html" : {
     "title" : "Social Data - TTL Representation",
-    "label" : "2.7",
+    "label" : "2.8",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Social Data</b></li>",
     "previous" : "StructureDefinition-social-data.profile.json.html",
-    "next" : "ValueSet-fish-species-value-set.html"
+    "next" : "StructureDefinition-anticipate-directives-epr.html"
   },
-  "ValueSet-fish-species-value-set.html" : {
-    "title" : "Fish Species Value Set",
-    "label" : "2.8",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Species Value Set</b></li>",
+  "StructureDefinition-anticipate-directives-epr.html" : {
+    "title" : "The anticipate directives are in the EHR of the patient. This field is present ",
+    "label" : "2.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>The anticipate directives are in the EHR of the patient. This field is present </b></li>",
     "examples" : [],
     "testplans" : [],
     "testscripts" : [],
     "previous" : "StructureDefinition-social-data.profile.ttl.html",
-    "next" : "ValueSet-fish-species-value-set-testing.html"
+    "next" : "StructureDefinition-anticipate-directives-epr-definitions.html"
   },
-  "ValueSet-fish-species-value-set-testing.html" : {
-    "title" : "Fish Species Value Set - Testing",
-    "label" : "2.8",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Species Value Set</b></li>",
-    "previous" : "ValueSet-fish-species-value-set.html",
-    "next" : "ValueSet-fish-species-value-set.xml.html"
-  },
-  "ValueSet-fish-species-value-set.xml.html" : {
-    "title" : "Fish Species Value Set - XML Representation",
-    "label" : "2.8",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Species Value Set</b></li>",
-    "previous" : "ValueSet-fish-species-value-set-testing.html",
-    "next" : "ValueSet-fish-species-value-set.json.html"
-  },
-  "ValueSet-fish-species-value-set.json.html" : {
-    "title" : "Fish Species Value Set - JSON Representation",
-    "label" : "2.8",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Species Value Set</b></li>",
-    "previous" : "ValueSet-fish-species-value-set.xml.html",
-    "next" : "ValueSet-fish-species-value-set.ttl.html"
-  },
-  "ValueSet-fish-species-value-set.ttl.html" : {
-    "title" : "Fish Species Value Set - TTL Representation",
-    "label" : "2.8",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Species Value Set</b></li>",
-    "previous" : "ValueSet-fish-species-value-set.json.html",
-    "next" : "Patient-Shorty.html"
-  },
-  "Patient-Shorty.html" : {
-    "title" : "Shorty",
+  "StructureDefinition-anticipate-directives-epr-definitions.html" : {
+    "title" : "The anticipate directives are in the EHR of the patient. This field is present  - Definitions",
     "label" : "2.9",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Shorty</b></li>",
-    "examples" : [],
-    "testplans" : [],
-    "testscripts" : [],
-    "previous" : "ValueSet-fish-species-value-set.ttl.html",
-    "next" : "Patient-Shorty.xml.html"
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>The anticipate directives are in the EHR of the patient. This field is present </b></li>",
+    "previous" : "StructureDefinition-anticipate-directives-epr.html",
+    "next" : "StructureDefinition-anticipate-directives-epr-mappings.html"
   },
-  "Patient-Shorty.xml.html" : {
-    "title" : "Shorty - XML Representation",
+  "StructureDefinition-anticipate-directives-epr-mappings.html" : {
+    "title" : "The anticipate directives are in the EHR of the patient. This field is present  - Mappings",
     "label" : "2.9",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Shorty</b></li>",
-    "previous" : "Patient-Shorty.html",
-    "next" : "Patient-Shorty.json.html"
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>The anticipate directives are in the EHR of the patient. This field is present </b></li>",
+    "previous" : "StructureDefinition-anticipate-directives-epr-definitions.html",
+    "next" : "StructureDefinition-anticipate-directives-epr-testing.html"
   },
-  "Patient-Shorty.json.html" : {
-    "title" : "Shorty - JSON Representation",
+  "StructureDefinition-anticipate-directives-epr-testing.html" : {
+    "title" : "The anticipate directives are in the EHR of the patient. This field is present  - Testing",
     "label" : "2.9",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Shorty</b></li>",
-    "previous" : "Patient-Shorty.xml.html",
-    "next" : "Patient-Shorty.ttl.html"
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>The anticipate directives are in the EHR of the patient. This field is present </b></li>",
+    "previous" : "StructureDefinition-anticipate-directives-epr-mappings.html",
+    "next" : "StructureDefinition-anticipate-directives-epr.profile.xml.html"
   },
-  "Patient-Shorty.ttl.html" : {
-    "title" : "Shorty - TTL Representation",
+  "StructureDefinition-anticipate-directives-epr.profile.xml.html" : {
+    "title" : "The anticipate directives are in the EHR of the patient. This field is present  - XML Representation",
     "label" : "2.9",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Shorty</b></li>",
-    "previous" : "Patient-Shorty.json.html"
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>The anticipate directives are in the EHR of the patient. This field is present </b></li>",
+    "previous" : "StructureDefinition-anticipate-directives-epr-testing.html",
+    "next" : "StructureDefinition-anticipate-directives-epr.profile.json.html"
+  },
+  "StructureDefinition-anticipate-directives-epr.profile.json.html" : {
+    "title" : "The anticipate directives are in the EHR of the patient. This field is present  - JSON Representation",
+    "label" : "2.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>The anticipate directives are in the EHR of the patient. This field is present </b></li>",
+    "previous" : "StructureDefinition-anticipate-directives-epr.profile.xml.html",
+    "next" : "StructureDefinition-anticipate-directives-epr.profile.ttl.html"
+  },
+  "StructureDefinition-anticipate-directives-epr.profile.ttl.html" : {
+    "title" : "The anticipate directives are in the EHR of the patient. This field is present  - TTL Representation",
+    "label" : "2.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>The anticipate directives are in the EHR of the patient. This field is present </b></li>",
+    "previous" : "StructureDefinition-anticipate-directives-epr.profile.json.html"
   }
 }

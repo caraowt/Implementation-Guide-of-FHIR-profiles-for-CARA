@@ -11,7 +11,7 @@
     "version" : "0.1.0",
     "name" : "FishImplementationGuide",
     "title" : "Fish Implementation Guide",
-    "date" : "2023-07-11T17:34:16+02:00",
+    "date" : "2023-07-13T10:52:26+02:00",
     "description" : "An example of how FSH can be used to create an IG about fish",
     "status" : {
       "class" : "colsd",
@@ -30,27 +30,27 @@
     "version" : "0.1.0",
     "name" : "HistoricalData",
     "title" : "Historical Data",
-    "date" : "2023-07-11T17:34:16+02:00",
+    "date" : "2023-07-13T10:52:26+02:00",
     "description" : "Used to describe the historical background of a patient affiliated to CARA",
     "status" : {
       "class" : "colsd",
       "status" : "Draft"
     }
   },
-  "StructureDefinition/fish-species" : {
+  "StructureDefinition/anticipate-directives-epr" : {
     "history" : false,
     "testplan" : false,
     "testscript" : false,
     "index" : 2,
-    "source" : "fsh-generated/resources/StructureDefinition-fish-species.json",
-    "sourceTail" : "StructureDefinition-fish-species.json",
-    "path" : "StructureDefinition-fish-species.html",
-    "url" : "http://example.org/fhir/fish/StructureDefinition/fish-species",
+    "source" : "fsh-generated/resources/StructureDefinition-anticipate-directives-epr.json",
+    "sourceTail" : "StructureDefinition-anticipate-directives-epr.json",
+    "path" : "StructureDefinition-anticipate-directives-epr.html",
+    "url" : "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-epr",
     "version" : "0.1.0",
-    "name" : "FishSpecies",
-    "title" : "Fish Species",
-    "date" : "2023-07-11T17:34:16+02:00",
-    "description" : "The species name of a piscine (fish) patient.",
+    "name" : "AnticipateDirectivesInEPR",
+    "title" : "The anticipate directives are in the EHR of the patient. This field is present ",
+    "date" : "2023-07-13T10:52:26+02:00",
+    "description" : "This field is used to indicate whether a patient has advanced directives",
     "status" : {
       "class" : "colsd",
       "status" : "Draft"
@@ -68,27 +68,8 @@
     "version" : "0.1.0",
     "name" : "CaraCarePlan",
     "title" : "CARA Care Plan",
-    "date" : "2023-07-11T17:34:16+02:00",
+    "date" : "2023-07-13T10:52:26+02:00",
     "description" : "A Care Plan tailored to the needs of CARA with advanced directives",
-    "status" : {
-      "class" : "colsd",
-      "status" : "Draft"
-    }
-  },
-  "StructureDefinition/fish-patient" : {
-    "history" : false,
-    "testplan" : false,
-    "testscript" : false,
-    "index" : 4,
-    "source" : "fsh-generated/resources/StructureDefinition-fish-patient.json",
-    "sourceTail" : "StructureDefinition-fish-patient.json",
-    "path" : "StructureDefinition-fish-patient.html",
-    "url" : "http://example.org/fhir/fish/StructureDefinition/fish-patient",
-    "version" : "0.1.0",
-    "name" : "FishPatient",
-    "title" : "Fish Patient",
-    "date" : "2023-07-11T17:34:16+02:00",
-    "description" : "A patient that is a type of fish.",
     "status" : {
       "class" : "colsd",
       "status" : "Draft"
@@ -98,7 +79,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 5,
+    "index" : 4,
     "source" : "fsh-generated/resources/StructureDefinition-veterinarian.json",
     "sourceTail" : "StructureDefinition-veterinarian.json",
     "path" : "StructureDefinition-veterinarian.html",
@@ -106,7 +87,7 @@
     "version" : "0.1.0",
     "name" : "Veterinarian",
     "title" : "Veterinarian",
-    "date" : "2023-07-11T17:34:16+02:00",
+    "date" : "2023-07-13T10:52:26+02:00",
     "description" : "A profile on the Practitioner resource for veterinarians. In the US, vets do not have National Provider Numbers.",
     "status" : {
       "class" : "colsd",
@@ -117,7 +98,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 6,
+    "index" : 5,
     "source" : "fsh-generated/resources/StructureDefinition-social-data.json",
     "sourceTail" : "StructureDefinition-social-data.json",
     "path" : "StructureDefinition-social-data.html",
@@ -125,7 +106,7 @@
     "version" : "0.1.0",
     "name" : "SocialData",
     "title" : "Social Data",
-    "date" : "2023-07-11T17:34:16+02:00",
+    "date" : "2023-07-13T10:52:26+02:00",
     "description" : "Used to describe the social background of a patient affiliated to CARA",
     "status" : {
       "class" : "colsd",
@@ -136,7 +117,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 7,
+    "index" : 6,
     "source" : "fsh-generated/resources/StructureDefinition-patient-priorities.json",
     "sourceTail" : "StructureDefinition-patient-priorities.json",
     "path" : "StructureDefinition-patient-priorities.html",
@@ -144,42 +125,68 @@
     "version" : "0.1.0",
     "name" : "PatientPriorities",
     "title" : "Patient Priorities",
-    "date" : "2023-07-11T17:34:16+02:00",
+    "date" : "2023-07-13T10:52:26+02:00",
     "description" : "Used to describe the priorities of a patient with regard to his SCP",
     "status" : {
       "class" : "colsd",
       "status" : "Draft"
     }
   },
-  "ValueSet/fish-species-value-set" : {
+  "StructureDefinition/cara-patient" : {
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 8,
-    "source" : "fsh-generated/resources/ValueSet-fish-species-value-set.json",
-    "sourceTail" : "ValueSet-fish-species-value-set.json",
-    "path" : "ValueSet-fish-species-value-set.html",
-    "url" : "http://example.org/fhir/fish/ValueSet/fish-species-value-set",
+    "index" : 7,
+    "source" : "fsh-generated/resources/StructureDefinition-cara-patient.json",
+    "sourceTail" : "StructureDefinition-cara-patient.json",
+    "path" : "StructureDefinition-cara-patient.html",
+    "url" : "http://example.org/fhir/fish/StructureDefinition/cara-patient",
     "version" : "0.1.0",
-    "name" : "FishSpeciesValueSet",
-    "title" : "Fish Species Value Set",
-    "date" : "2023-07-11T17:34:16+02:00",
-    "description" : "Codes describing various species of fish from SNOMED-CT.",
+    "name" : "CaraPatient",
+    "title" : "CARA Patient",
+    "date" : "2023-07-13T10:52:26+02:00",
+    "description" : "This profile extension is used to ensure the fields of the master patient index are properly used throughout the implementation.",
     "status" : {
       "class" : "colsd",
       "status" : "Draft"
     }
   },
-  "Patient/Shorty" : {
+  "StructureDefinition/country-of-birth" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 8,
+    "source" : "fsh-generated/resources/StructureDefinition-country-of-birth.json",
+    "sourceTail" : "StructureDefinition-country-of-birth.json",
+    "path" : "StructureDefinition-country-of-birth.html",
+    "url" : "http://example.org/fhir/fish/StructureDefinition/country-of-birth",
+    "version" : "0.1.0",
+    "name" : "CountryOfBirth",
+    "title" : "Country of Birth",
+    "date" : "2023-07-13T10:52:26+02:00",
+    "description" : "This field is used to render the country of birth of the patient",
+    "status" : {
+      "class" : "colsd",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/anticipate-directives-exist" : {
     "history" : false,
     "testplan" : false,
     "testscript" : false,
     "index" : 9,
-    "source" : "fsh-generated/resources/Patient-Shorty.json",
-    "sourceTail" : "Patient-Shorty.json",
-    "path" : "Patient-Shorty.html",
+    "source" : "fsh-generated/resources/StructureDefinition-anticipate-directives-exist.json",
+    "sourceTail" : "StructureDefinition-anticipate-directives-exist.json",
+    "path" : "StructureDefinition-anticipate-directives-exist.html",
+    "url" : "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-exist",
+    "version" : "0.1.0",
+    "name" : "AnticipateDirectivesExist",
+    "title" : "Existence of AD",
+    "date" : "2023-07-13T10:52:26+02:00",
+    "description" : "This field is used to indicate whether a patient has advanced directives",
     "status" : {
-      "class" : "colsi"
+      "class" : "colsd",
+      "status" : "Draft"
     }
   }
 }

@@ -25,4 +25,15 @@ Title: "Patient Priorities"
 Description: "Used to describe the priorities of a patient with regard to his SCP"
 * value[x] only string
 
+Extension: AnticipateDirectivesExist
+Id: anticipate-directives-exist
+Title: "Existence of AD"
+Description: "This field is used to indicate whether a patient has advanced directives"
+* value[x] only boolean
+
+Extension: AnticipateDirectivesInEPR
+Id: anticipate-directives-epr
+Title: "The anticipate directives are in the EHR of the patient. This field is present "
+Description: "This field is used to indicate whether a patient has advanced directives"
+* value[x] only boolean
 

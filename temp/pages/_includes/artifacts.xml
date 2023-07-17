@@ -36,7 +36,7 @@
                <td style="column-width:30%">
                   <a href="StructureDefinition-goal.html" title="StructureDefinition/goal">Goal</a>
                </td>
-               <td>{% capture desc %}{% endcapture %}
+               <td>{% capture desc %}The purpose of a Goal is to track a topic around the Shared Care Plan with its associated list of goals.{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
@@ -112,6 +112,14 @@
                      title="StructureDefinition/historical-data">Historical Data</a>
                </td>
                <td>{% capture desc %}Used to describe the historical background of a patient affiliated to CARA{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-outcome-reference.html"
+                     title="StructureDefinition/outcome-reference">Outcome Reference</a>
+               </td>
+               <td>{% capture desc %}Attention Point on the observation{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>

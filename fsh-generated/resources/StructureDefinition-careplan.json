@@ -96,11 +96,6 @@
         ]
       },
       {
-        "id": "CarePlan.activity",
-        "path": "CarePlan.activity",
-        "max": "1"
-      },
-      {
         "id": "CarePlan.activity.extension",
         "path": "CarePlan.activity.extension",
         "slicing": {
@@ -112,7 +107,8 @@
           ],
           "ordered": false,
           "rules": "open"
-        }
+        },
+        "min": 1
       },
       {
         "id": "CarePlan.activity.extension:attention-point",
@@ -125,6 +121,36 @@
             "code": "Extension",
             "profile": [
               "http://example.org/fhir/fish/StructureDefinition/attention-point"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CarePlan.activity.extension:outcomeReference",
+        "path": "CarePlan.activity.extension",
+        "sliceName": "outcomeReference",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://example.org/fhir/fish/StructureDefinition/outcome-reference"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CarePlan.activity.extension:Reference",
+        "path": "CarePlan.activity.extension",
+        "sliceName": "Reference",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://example.org/fhir/fish/StructureDefinition/reference"
             ]
           }
         ]

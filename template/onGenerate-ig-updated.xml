@@ -16,7 +16,7 @@
    <name value="FishImplementationGuide"/>
    <title value="Fish Implementation Guide"/>
    <status value="draft"/>
-   <date value="2023-07-17T16:21:50+02:00"/>
+   <date value="2023-07-17T17:08:31+02:00"/>
    <contact>
       <name value="Bill Cod"/>
       <telecom>
@@ -382,6 +382,7 @@
             <reference value="StructureDefinition/goal"/>
          </reference>
          <name value="Goal"/>
+         <description value="The purpose of a Goal is to track a topic around the Shared Care Plan with its associated list of goals."/>
          <exampleBoolean value="false"/>
          <groupingId value="-str-profile"/>
       </resource>
@@ -397,6 +398,21 @@
          </reference>
          <name value="Historical Data"/>
          <description value="Used to describe the historical background of a patient affiliated to CARA"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-str-extension"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:extension"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-outcome-reference.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/outcome-reference"/>
+         </reference>
+         <name value="Outcome Reference"/>
+         <description value="Attention Point on the observation"/>
          <exampleBoolean value="false"/>
          <groupingId value="-str-extension"/>
       </resource>
@@ -542,6 +558,11 @@
             <page>
                <nameUrl value="StructureDefinition-historical-data.html"/>
                <title value="Historical Data"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="StructureDefinition-outcome-reference.html"/>
+               <title value="Outcome Reference"/>
                <generation value="generated"/>
             </page>
             <page>

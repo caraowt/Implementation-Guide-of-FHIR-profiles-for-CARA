@@ -14,7 +14,7 @@
   <name value="Goal"/>
   <title value="Goal"/>
   <status value="draft"/>
-  <date value="2023-07-17T16:21:50+02:00"/>
+  <date value="2023-07-17T17:08:31+02:00"/>
   <contact>
     <name value="Bill Cod"/>
     <telecom>
@@ -22,6 +22,7 @@
       <value value="cod@reef.gov"/>
     </telecom>
   </contact>
+  <description value="The purpose of a Goal is to track a topic around the Shared Care Plan with its associated list of goals."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="v2"/>

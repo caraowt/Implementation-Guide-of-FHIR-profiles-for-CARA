@@ -140,7 +140,7 @@ This element is labeled as a modifier because the status contains the code enter
 "careplan","CarePlan.goal","CarePlan.goal","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Goal]]}
 ","Desired outcome of plan","Describes the intended objective(s) of carrying out the care plan.","Goal can be achieving a particular change or merely maintaining a current state or even slowing a decline.","Provides context for plan.  Allows plan effectiveness to be evaluated by clinicians.","","","","","","","",,,,,"",,,,"CarePlan.goal",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
-"careplan","CarePlan.activity","CarePlan.activity","","","",0,1,"","","","BackboneElement {[]} {[]}
+"careplan","CarePlan.activity","CarePlan.activity","","","",0,*,"","","","BackboneElement {[]} {[]}
 ","Action to occur as part of plan","Identifies a planned action to occur as part of the plan.  For example, a medication to be used, lab tests to perform, self-monitoring, education, etc.","","Allows systems to prompt for performance of planned activities, and validate plans against best practice.","","","","","","","",,,,,"",,,,"CarePlan.activity",0,*,"","cpl-3:Provide a reference or detail, not both {detail.empty() or reference.empty()}
 ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}"
 "careplan","CarePlan.activity.id","CarePlan.activity.id","","","",0,1,"","","","string {[]} {[]}
@@ -151,6 +151,10 @@ ele-1:All FHIR elements must have a @value or children {hasValue() or (children(
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "careplan","CarePlan.activity.extension:attention-point","CarePlan.activity.extension","attention-point","","",0,1,"","","","Extension {[CanonicalType[http://example.org/fhir/fish/StructureDefinition/attention-point]]} {[]}
 ","Attention Point","Attention Point on the observation","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"careplan","CarePlan.activity.extension:outcomeReference","CarePlan.activity.extension","outcomeReference","","",0,1,"","","","Extension {[CanonicalType[http://example.org/fhir/fish/StructureDefinition/outcome-reference]]} {[]}
+","Outcome Reference","Attention Point on the observation","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "careplan","CarePlan.activity.modifierExtension","CarePlan.activity.modifierExtension","","extensions
@@ -243,6 +247,20 @@ Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Medicatio
 "
 "careplan","CarePlan.note","CarePlan.note","","","",0,*,"","","","Annotation {[]} {[]}
 ","Comments about the plan","General notes about the care plan not covered elsewhere.","","Used to capture information that applies to the plan as a whole that doesn't fit into discrete elements.","","","","","","","",,,,,"",,,,"CarePlan.note",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"outcome-reference","Extension","Extension","","","",0,*,"","","","null {[]} {[]}
+","Outcome Reference","Attention Point on the observation","","","","","","","","","",,,,,"",,,,"Extension",0,*,"ele-1
+",""
+"outcome-reference","Extension.id","Extension.id","","","",0,1,"","","","string {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""
+"outcome-reference","Extension.extension","Extension.extension","","","",0,0,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"outcome-reference","Extension.url","Extension.url","","","",1,1,"","","","uri {[]} {[]}
+","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://example.org/fhir/fish/StructureDefinition/outcome-reference""/>","","","","",,,,,"",,,,"Extension.url",1,1,"",""
+"outcome-reference","Extension.value[x]","Extension.value[x]","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "attention-point","Extension","Extension","","","",0,*,"","","","null {[]} {[]}
 ","Attention Point","Attention Point on the observation","","","","","","","","","",,,,,"",,,,"Extension",0,*,"ele-1

@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "PatientPriorities"] ; # 
   fhir:title [ fhir:v "Patient Priorities"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-07-17T16:21:50+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-07-17T17:08:31+02:00"^^xsd:dateTime] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Bill Cod" ] ;
      fhir:telecom ( [

@@ -6,6 +6,7 @@
 [ExpressedBy]: StructureDefinition-expressed-by.html
 [Goal]: StructureDefinition-goal.html
 [HistoricalData]: StructureDefinition-historical-data.html
+[OutcomeReference]: StructureDefinition-outcome-reference.html
 [Patient]: StructureDefinition-cara-patient.html
 [PatientPriorities]: StructureDefinition-patient-priorities.html
 [ReasonReference]: StructureDefinition-reason-reference.html

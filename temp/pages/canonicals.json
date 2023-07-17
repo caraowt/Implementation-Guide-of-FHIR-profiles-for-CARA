@@ -70,6 +70,13 @@
     "name" : "HistoricalData"
   },
   {
+    "id" : "outcome-reference",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/fhir/fish/StructureDefinition/outcome-reference",
+    "version" : "0.1.0",
+    "name" : "OutcomeReference"
+  },
+  {
     "id" : "patient-priorities",
     "type" : "StructureDefinition",
     "url" : "http://example.org/fhir/fish/StructureDefinition/patient-priorities",

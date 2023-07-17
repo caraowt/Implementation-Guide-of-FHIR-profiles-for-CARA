@@ -11,7 +11,7 @@
   <name value="FishImplementationGuide"/>
   <title value="Fish Implementation Guide"/>
   <status value="draft"/>
-  <date value="2023-07-17T16:21:50+02:00"/>
+  <date value="2023-07-17T17:08:31+02:00"/>
   <contact>
     <name value="Bill Cod"/>
     <telecom>
@@ -517,6 +517,7 @@
         <reference value="StructureDefinition/goal"/>
       </reference>
       <name value="Goal"/>
+      <description value="The purpose of a Goal is to track a topic around the Shared Care Plan with its associated list of goals."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -528,6 +529,17 @@
       </reference>
       <name value="Historical Data"/>
       <description value="Used to describe the historical background of a patient affiliated to CARA"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/outcome-reference"/>
+      </reference>
+      <name value="Outcome Reference"/>
+      <description value="Attention Point on the observation"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

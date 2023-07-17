@@ -10,7 +10,7 @@
   "name" : "FishImplementationGuide",
   "title" : "Fish Implementation Guide",
   "status" : "draft",
-  "date" : "2023-07-17T16:21:50+02:00",
+  "date" : "2023-07-17T17:08:31+02:00",
   "contact" : [{
     "name" : "Bill Cod",
     "telecom" : [{
@@ -678,6 +678,7 @@
         "reference" : "StructureDefinition/goal"
       },
       "name" : "Goal",
+      "description" : "The purpose of a Goal is to track a topic around the Shared Care Plan with its associated list of goals.",
       "exampleBoolean" : false
     },
     {
@@ -690,6 +691,18 @@
       },
       "name" : "Historical Data",
       "description" : "Used to describe the historical background of a patient affiliated to CARA",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/outcome-reference"
+      },
+      "name" : "Outcome Reference",
+      "description" : "Attention Point on the observation",
       "exampleBoolean" : false
     },
     {

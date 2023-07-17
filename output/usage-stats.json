@@ -46,6 +46,13 @@
       ]
     },
     {
+      "url": "http://example.org/fhir/fish/StructureDefinition/outcome-reference",
+      "title": "Outcome Reference",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
       "url": "http://example.org/fhir/fish/StructureDefinition/patient-priorities",
       "title": "Patient Priorities",
       "types": [
@@ -105,6 +112,9 @@
     ],
     "http://example.org/fhir/fish/StructureDefinition/historical-data": [
       "CarePlan"
+    ],
+    "http://example.org/fhir/fish/StructureDefinition/outcome-reference": [
+      "CarePlan.activity"
     ],
     "http://example.org/fhir/fish/StructureDefinition/patient-priorities": [
       "CarePlan"

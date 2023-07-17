@@ -60,25 +60,11 @@
         ]
       },
       {
-        "id": "Goal.target.extension",
-        "path": "Goal.target.extension",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "url"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        }
-      },
-      {
-        "id": "Goal.target.extension:reason-reference",
-        "path": "Goal.target.extension",
+        "id": "Goal.extension:reason-reference",
+        "path": "Goal.extension",
         "sliceName": "reason-reference",
         "min": 0,
-        "max": "*",
+        "max": "1",
         "type": [
           {
             "code": "Extension",

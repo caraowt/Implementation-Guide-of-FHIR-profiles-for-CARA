@@ -3,7 +3,7 @@
 
 err = 3, warn = 29, info = 0
 IG Publisher Version: 1.3.23
-Generated Mon Jul 17 09:56:52 CEST 2023. FHIR version 4.0.1 for fish#0.1.0 (canonical = http://example.org/fhir/fish)
+Generated Mon Jul 17 16:22:16 CEST 2023. FHIR version 4.0.1 for fish#0.1.0 (canonical = http://example.org/fhir/fish)
  Build Errors : 125 / 5 / 0
  /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/ImplementationGuide-fish : 0 / 0 / 1
  /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-anticipate-directives-epr : 0 / 2 / 1
@@ -86,23 +86,23 @@ ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-count
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-country-of-birth.profile.json.html#/html/body/div/div/div/p/a at Line 553, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-country-of-birth.profile.ttl.html#/html/body/div/div/div/p/a at Line 490, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-country-of-birth.profile.xml.html#/html/body/div/div/div/p/a at Line 517, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-expressed-by-definitions.html#/html/body/div/div/div/p/a at Line 394, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-expressed-by-definitions.html#/html/body/div/div/div/p/a at Line 391, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-expressed-by-mappings.html#/html/body/div/div/div/p/a at Line 276, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-expressed-by-testing.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-expressed-by.html#/html/body/div/div/div/p/a at Line 509, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-expressed-by.profile.history.html#/html/body/div/div/div/p/a at Line 259, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-expressed-by.profile.json.html#/html/body/div/div/div/p/a at Line 545, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-expressed-by.profile.ttl.html#/html/body/div/div/div/p/a at Line 480, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-expressed-by.profile.xml.html#/html/body/div/div/div/p/a at Line 505, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-goal-definitions.html#/html/body/div/div/div/p/a at Line 794, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-expressed-by.profile.json.html#/html/body/div/div/div/p/a at Line 555, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-expressed-by.profile.ttl.html#/html/body/div/div/div/p/a at Line 494, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-expressed-by.profile.xml.html#/html/body/div/div/div/p/a at Line 517, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-goal-definitions.html#/html/body/div/div/div/p/a at Line 800, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-goal-examples.html#/html/body/div/div/div/p/a at Line 270, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-goal-mappings.html#/html/body/div/div/div/p/a at Line 311, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-goal-mappings.html#/html/body/div/div/div/p/a at Line 312, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-goal-testing.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-goal.html#/html/body/div/div/div/p/a at Line 853, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-goal.html#/html/body/div/div/div/p/a at Line 851, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-goal.profile.history.html#/html/body/div/div/div/p/a at Line 259, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-goal.profile.json.html#/html/body/div/div/div/p/a at Line 1891, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-goal.profile.ttl.html#/html/body/div/div/div/p/a at Line 1483, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-goal.profile.xml.html#/html/body/div/div/div/p/a at Line 1758, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-goal.profile.json.html#/html/body/div/div/div/p/a at Line 1878, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-goal.profile.ttl.html#/html/body/div/div/div/p/a at Line 1474, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-goal.profile.xml.html#/html/body/div/div/div/p/a at Line 1746, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-historical-data-definitions.html#/html/body/div/div/div/p/a at Line 394, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-historical-data-mappings.html#/html/body/div/div/div/p/a at Line 276, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-historical-data-testing.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'cod@reef.gov' for "" cannot be resolved

@@ -13,6 +13,7 @@
     <sch:title>f:Goal</sch:title>
     <sch:rule context="f:Goal">
       <sch:assert test="count(f:extension[@url = 'http://example.org/fhir/fish/StructureDefinition/expressed-by']) &lt;= 1">extension with URL = 'http://example.org/fhir/fish/StructureDefinition/expressed-by': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://example.org/fhir/fish/StructureDefinition/reason-reference']) &lt;= 1">extension with URL = 'http://example.org/fhir/fish/StructureDefinition/reason-reference': maximum cardinality of 'extension' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
 </sch:schema>

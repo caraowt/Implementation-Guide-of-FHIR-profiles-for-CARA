@@ -35,7 +35,7 @@
       "url": "http://example.org/fhir/fish/StructureDefinition/expressed-by",
       "title": "Expressed By",
       "types": [
-        "string"
+        "Reference"
       ]
     },
     {
@@ -110,7 +110,7 @@
       "CarePlan"
     ],
     "http://example.org/fhir/fish/StructureDefinition/reason-reference": [
-      "Goal.target"
+      "Goal"
     ],
     "http://example.org/fhir/fish/StructureDefinition/social-data": [
       "CarePlan"

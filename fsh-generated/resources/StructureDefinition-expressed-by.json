@@ -48,7 +48,12 @@
         "path": "Extension.value[x]",
         "type": [
           {
-            "code": "string"
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Patient",
+              "http://hl7.org/fhir/StructureDefinition/Practitioner",
+              "http://hl7.org/fhir/StructureDefinition/RelatedPerson"
+            ]
           }
         ]
       }

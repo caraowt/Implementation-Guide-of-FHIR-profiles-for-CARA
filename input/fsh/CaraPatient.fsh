@@ -1,7 +1,9 @@
-Profile:        CaraPatient
-Parent:         Patient
+Alias: $Patient = http://hl7.org/fhir/StructureDefinition/Patient
+
+Profile:        Patient
+Parent:         $Patient
 Id:             cara-patient
-Title:          "CARA Patient"
+Title:          "Patient"
 Description:    "This profile extension is used to ensure the fields of the master patient index are properly used throughout the implementation."
 * extension contains CountryOfBirth named birthCountry 0..1
 

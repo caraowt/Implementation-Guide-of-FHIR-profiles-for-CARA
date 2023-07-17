@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "FishImplementationGuide"] ; # 
   fhir:title [ fhir:v "Fish Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-07-13T12:25:01+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-07-17T09:25:48+02:00"^^xsd:dateTime] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Bill Cod" ] ;
      fhir:telecom ( [

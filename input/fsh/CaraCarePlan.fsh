@@ -1,7 +1,9 @@
-Profile:        CaraCarePlan
-Parent:         CarePlan
+Alias: $CarePlan = http://hl7.org/fhir/StructureDefinition/CarePlan
+
+Profile:        CarePlan
+Parent:         $CarePlan
 Id:             careplan
-Title:          "CARA Care Plan"
+Title:          "Care Plan"
 Description:    "A Care Plan tailored to the needs of CARA with advanced directives"
 * extension contains SocialData named socialdata 0..1
 * extension contains HistoricalData named historicaldata 0..1

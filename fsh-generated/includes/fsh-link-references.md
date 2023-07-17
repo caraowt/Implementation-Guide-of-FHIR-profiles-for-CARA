@@ -1,7 +1,7 @@
 [AnticipateDirectivesInEPR]: StructureDefinition-anticipate-directives-epr.html
 [AttentionPoint]: StructureDefinition-attention-point.html
 [CaraCarePlan]: StructureDefinition-careplan.html
-[CaraPatient]: StructureDefinition-cara-patient.html
+[Patient]: StructureDefinition-cara-patient.html
 [CountryOfBirth]: StructureDefinition-country-of-birth.html
 [AnticipateDirectivesExist]: StructureDefinition-anticipate-directives-exist.html
 [HistoricalData]: StructureDefinition-historical-data.html

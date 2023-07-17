@@ -12,10 +12,15 @@
 /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-country-of-birth.json: line 0, col 0, Warning - The valueSet reference http://hl7.org/fhir/ValueSet/country on element Extension.value[x] could not be resolved (BUSINESSRULE)
 /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-country-of-birth.json: line 0, col 0, Warning - The valueSet reference http://hl7.org/fhir/ValueSet/country on element Extension.value[x] could not be resolved (BUSINESSRULE)
 /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-country-of-birth.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this extension (BUSINESSRULE)
+/Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-expressed-by.json: line 0, col 0, Warning - Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere (BUSINESSRULE)
+/Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-expressed-by.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this extension (BUSINESSRULE)
+/Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-goal.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
 /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-historical-data.json: line 0, col 0, Warning - Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere (BUSINESSRULE)
 /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-historical-data.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this extension (BUSINESSRULE)
 /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-patient-priorities.json: line 0, col 0, Warning - Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere (BUSINESSRULE)
 /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-patient-priorities.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this extension (BUSINESSRULE)
+/Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-reason-reference.json: line 0, col 0, Warning - Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere (BUSINESSRULE)
+/Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-reason-reference.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this extension (BUSINESSRULE)
 /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-social-data.json: line 0, col 0, Warning - Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere (BUSINESSRULE)
 /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-social-data.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this extension (BUSINESSRULE)
 /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-veterinarian.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
@@ -23,6 +28,6 @@
 FishImplementationGuide : Validation Results
 =========================================
 
-err = 3, warn = 23, info = 0
+err = 3, warn = 29, info = 0
 IG Publisher Version: 1.3.23
-Generated Mon Jul 17 09:31:08 CEST 2023. FHIR version 4.0.1 for fish#0.1.0 (canonical = http://example.org/fhir/fish)
+Generated Mon Jul 17 09:56:52 CEST 2023. FHIR version 4.0.1 for fish#0.1.0 (canonical = http://example.org/fhir/fish)

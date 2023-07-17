@@ -10,7 +10,7 @@
   "name" : "FishImplementationGuide",
   "title" : "Fish Implementation Guide",
   "status" : "draft",
-  "date" : "2023-07-17T09:30:42+02:00",
+  "date" : "2023-07-17T09:56:27+02:00",
   "contact" : [{
     "name" : "Bill Cod",
     "telecom" : [{
@@ -663,6 +663,29 @@
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/expressed-by"
+      },
+      "name" : "Expressed By",
+      "description" : "String to indicate who expresssed this latest goal",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/goal"
+      },
+      "name" : "Goal",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/historical-data"
       },
       "name" : "Historical Data",
@@ -691,6 +714,18 @@
       },
       "name" : "Patient Priorities",
       "description" : "Used to describe the priorities of a patient with regard to his SCP",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/reason-reference"
+      },
+      "name" : "Reason Reference",
+      "description" : "The reason behind the goals",
       "exampleBoolean" : false
     },
     {

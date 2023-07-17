@@ -10,6 +10,8 @@ Title:          "Goal"
 Description:    "The purpose of a Goal is to track a topic around the Shared Care Plan with its associated list of goals."
 * extension contains ExpressedBy named expressed-by 0..1
 * extension contains ReasonReference named reason-reference 0..1
+* activity 
+  * extension contains OutcomeReference named outcomeReference 0..* Reference
 
 Extension: ExpressedBy
 Id: expressed-by
@@ -21,4 +23,10 @@ Extension: ReasonReference
 Id: reason-reference
 Title: "Reason Reference"
 Description: "The reason behind the goals"
+* value[x] only string
+
+Extension: OutcomeReference
+Id: outcome-reference
+Title: "Outcome Reference"
+Description: "The Outcome behind an activity performed for a  given goal"
 * value[x] only string

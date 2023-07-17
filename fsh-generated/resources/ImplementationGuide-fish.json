@@ -78,6 +78,7 @@
           "reference": "StructureDefinition/goal"
         },
         "name": "Goal",
+        "description": "The purpose of a Goal is to track a topic around the Shared Care Plan with its associated list of goals.",
         "exampleBoolean": false
       },
       {

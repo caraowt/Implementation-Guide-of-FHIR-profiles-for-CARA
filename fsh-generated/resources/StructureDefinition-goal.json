@@ -5,6 +5,7 @@
   "name": "Goal",
   "title": "Goal",
   "status": "draft",
+  "description": "The purpose of a Goal is to track a topic around the Shared Care Plan with its associated list of goals.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

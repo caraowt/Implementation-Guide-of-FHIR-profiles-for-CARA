@@ -3,9 +3,9 @@
   "id": "anticipate-directives-epr",
   "url": "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-epr",
   "name": "AnticipateDirectivesInEPR",
-  "title": "The anticipate directives are in the EHR of the patient. This field is present ",
+  "title": "Advance Directives in EHR",
   "status": "draft",
-  "description": "This field is used to indicate whether a patient has advanced directives",
+  "description": "The anticipate directives are in the EHR of the patient. This field is present ",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -30,8 +30,8 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "The anticipate directives are in the EHR of the patient. This field is present ",
-        "definition": "This field is used to indicate whether a patient has advanced directives"
+        "short": "Advance Directives in EHR",
+        "definition": "The anticipate directives are in the EHR of the patient. This field is present "
       },
       {
         "id": "Extension.extension",

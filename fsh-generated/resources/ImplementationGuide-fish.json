@@ -27,6 +27,22 @@
     "resource": [
       {
         "reference": {
+          "reference": "StructureDefinition/anticipate-directives-epr"
+        },
+        "name": "Advance Directives in EHR",
+        "description": "The anticipate directives are in the EHR of the patient. This field is present ",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/attention-point"
+        },
+        "name": "Attention Point",
+        "description": "Attention Point on the observation",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/careplan"
         },
         "name": "CARA Care Plan",
@@ -79,14 +95,6 @@
         },
         "name": "Social Data",
         "description": "Used to describe the social background of a patient affiliated to CARA",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/anticipate-directives-epr"
-        },
-        "name": "The anticipate directives are in the EHR of the patient. This field is present ",
-        "description": "This field is used to indicate whether a patient has advanced directives",
         "exampleBoolean": false
       },
       {

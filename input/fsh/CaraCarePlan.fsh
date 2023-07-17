@@ -6,7 +6,8 @@ Description:    "A Care Plan tailored to the needs of CARA with advanced directi
 * extension contains SocialData named socialdata 0..1
 * extension contains HistoricalData named historicaldata 0..1
 * extension contains PatientPriorities named patientpriorities 0..1
-* extension contains ObservationAttentionPoint named CaraCarePlan.activity.attentionPoint
+* activity 0..1
+  * extension contains AttentionPoint named attention-point 0..1
 
 Extension: SocialData
 Id: social-data
@@ -38,10 +39,8 @@ Title: "Advance Directives in EHR"
 Description: "The anticipate directives are in the EHR of the patient. This field is present "
 * value[x] only boolean
 
-Extension: ObservationAttentionPoint
-Id: observation-attention-point
+Extension: AttentionPoint
+Id: attention-point
 Title: "Attention Point"
-Description: "This extension is used to flag all observations to raise the attention of other interprofessional team members"
+Description: "Attention Point on the observation"
 * value[x] only boolean
-
-

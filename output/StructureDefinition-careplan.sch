@@ -15,6 +15,13 @@
       <sch:assert test="count(f:extension[@url = 'http://example.org/fhir/fish/StructureDefinition/social-data']) &lt;= 1">extension with URL = 'http://example.org/fhir/fish/StructureDefinition/social-data': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://example.org/fhir/fish/StructureDefinition/historical-data']) &lt;= 1">extension with URL = 'http://example.org/fhir/fish/StructureDefinition/historical-data': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://example.org/fhir/fish/StructureDefinition/patient-priorities']) &lt;= 1">extension with URL = 'http://example.org/fhir/fish/StructureDefinition/patient-priorities': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:activity) &lt;= 1">activity: maximum cardinality of 'activity' is 1</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>f:CarePlan/f:activity</sch:title>
+    <sch:rule context="f:CarePlan/f:activity">
+      <sch:assert test="count(f:extension[@url = 'http://example.org/fhir/fish/StructureDefinition/attention-point']) &lt;= 1">extension with URL = 'http://example.org/fhir/fish/StructureDefinition/attention-point': maximum cardinality of 'extension' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
 </sch:schema>

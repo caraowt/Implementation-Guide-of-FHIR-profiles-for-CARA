@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "FishImplementationGuide"] ; # 
   fhir:title [ fhir:v "Fish Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-07-13T11:12:35+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-07-13T12:25:01+02:00"^^xsd:dateTime] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Bill Cod" ] ;
      fhir:telecom ( [
@@ -512,6 +512,30 @@
      fhir:resource ( [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://example.org/fhir/fish/StructureDefinition/anticipate-directives-epr> ;
+         fhir:reference [ fhir:v "StructureDefinition/anticipate-directives-epr" ]
+       ] ;
+       fhir:name [ fhir:v "Advance Directives in EHR" ] ;
+       fhir:description [ fhir:v "The anticipate directives are in the EHR of the patient. This field is present" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://example.org/fhir/fish/StructureDefinition/attention-point> ;
+         fhir:reference [ fhir:v "StructureDefinition/attention-point" ]
+       ] ;
+       fhir:name [ fhir:v "Attention Point" ] ;
+       fhir:description [ fhir:v "Attention Point on the observation" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
@@ -592,18 +616,6 @@
        ] ;
        fhir:name [ fhir:v "Social Data" ] ;
        fhir:description [ fhir:v "Used to describe the social background of a patient affiliated to CARA" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:extension" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://example.org/fhir/fish/StructureDefinition/anticipate-directives-epr> ;
-         fhir:reference [ fhir:v "StructureDefinition/anticipate-directives-epr" ]
-       ] ;
-       fhir:name [ fhir:v "The anticipate directives are in the EHR of the patient. This field is present " ] ;
-       fhir:description [ fhir:v "This field is used to indicate whether a patient has advanced directives" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

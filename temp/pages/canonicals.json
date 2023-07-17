@@ -21,6 +21,13 @@
     "name" : "AnticipateDirectivesExist"
   },
   {
+    "id" : "attention-point",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/fhir/fish/StructureDefinition/attention-point",
+    "version" : "0.1.0",
+    "name" : "AttentionPoint"
+  },
+  {
     "id" : "cara-patient",
     "type" : "StructureDefinition",
     "url" : "http://example.org/fhir/fish/StructureDefinition/cara-patient",

@@ -5,7 +5,7 @@
   "extensions": [
     {
       "url": "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-epr",
-      "title": "The anticipate directives are in the EHR of the patient. This field is present ",
+      "title": "Advance Directives in EHR",
       "types": [
         "boolean"
       ]
@@ -13,6 +13,13 @@
     {
       "url": "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-exist",
       "title": "Existence of AD",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
+      "url": "http://example.org/fhir/fish/StructureDefinition/attention-point",
+      "title": "Attention Point",
       "types": [
         "boolean"
       ]
@@ -67,6 +74,9 @@
     ]
   },
   "usage": {
+    "http://example.org/fhir/fish/StructureDefinition/attention-point": [
+      "CarePlan.activity"
+    ],
     "http://example.org/fhir/fish/StructureDefinition/country-of-birth": [
       "Patient"
     ],

@@ -61,6 +61,22 @@
          <tbody>
             <tr>
                <td style="column-width:30%">
+                  <a href="StructureDefinition-anticipate-directives-epr.html"
+                     title="StructureDefinition/anticipate-directives-epr">Advance Directives in EHR</a>
+               </td>
+               <td>{% capture desc %}The anticipate directives are in the EHR of the patient. This field is present{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-attention-point.html"
+                     title="StructureDefinition/attention-point">Attention Point</a>
+               </td>
+               <td>{% capture desc %}Attention Point on the observation{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="StructureDefinition-country-of-birth.html"
                      title="StructureDefinition/country-of-birth">Country of Birth</a>
                </td>
@@ -97,14 +113,6 @@
                      title="StructureDefinition/social-data">Social Data</a>
                </td>
                <td>{% capture desc %}Used to describe the social background of a patient affiliated to CARA{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-anticipate-directives-epr.html"
-                     title="StructureDefinition/anticipate-directives-epr">The anticipate directives are in the EHR of the patient. This field is present </a>
-               </td>
-               <td>{% capture desc %}This field is used to indicate whether a patient has advanced directives{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
          </tbody>

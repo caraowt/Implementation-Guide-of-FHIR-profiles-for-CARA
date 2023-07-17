@@ -10,7 +10,7 @@
   "name" : "FishImplementationGuide",
   "title" : "Fish Implementation Guide",
   "status" : "draft",
-  "date" : "2023-07-13T11:12:35+02:00",
+  "date" : "2023-07-13T12:25:01+02:00",
   "contact" : [{
     "name" : "Bill Cod",
     "telecom" : [{
@@ -600,6 +600,30 @@
     "resource" : [{
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/anticipate-directives-epr"
+      },
+      "name" : "Advance Directives in EHR",
+      "description" : "The anticipate directives are in the EHR of the patient. This field is present",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/attention-point"
+      },
+      "name" : "Attention Point",
+      "description" : "Attention Point on the observation",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
@@ -679,18 +703,6 @@
       },
       "name" : "Social Data",
       "description" : "Used to describe the social background of a patient affiliated to CARA",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/anticipate-directives-epr"
-      },
-      "name" : "The anticipate directives are in the EHR of the patient. This field is present ",
-      "description" : "This field is used to indicate whether a patient has advanced directives",
       "exampleBoolean" : false
     },
     {

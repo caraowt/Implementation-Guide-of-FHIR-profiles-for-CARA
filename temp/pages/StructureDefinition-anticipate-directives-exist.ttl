@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "AnticipateDirectivesExist"] ; # 
   fhir:title [ fhir:v "Existence of AD"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-07-13T11:12:35+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-07-13T12:25:01+02:00"^^xsd:dateTime] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Bill Cod" ] ;
      fhir:telecom ( [

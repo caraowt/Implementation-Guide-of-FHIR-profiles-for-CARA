@@ -94,6 +94,40 @@
             ]
           }
         ]
+      },
+      {
+        "id": "CarePlan.activity",
+        "path": "CarePlan.activity",
+        "max": "1"
+      },
+      {
+        "id": "CarePlan.activity.extension",
+        "path": "CarePlan.activity.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "CarePlan.activity.extension:attention-point",
+        "path": "CarePlan.activity.extension",
+        "sliceName": "attention-point",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://example.org/fhir/fish/StructureDefinition/attention-point"
+            ]
+          }
+        ]
       }
     ]
   }

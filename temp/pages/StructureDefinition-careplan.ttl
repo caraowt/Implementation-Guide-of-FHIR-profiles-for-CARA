@@ -14,10 +14,10 @@
   ] ; # 
   fhir:url [ fhir:v "http://example.org/fhir/fish/StructureDefinition/careplan"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
-  fhir:name [ fhir:v "CaraCarePlan"] ; # 
-  fhir:title [ fhir:v "CARA Care Plan"] ; # 
+  fhir:name [ fhir:v "CarePlan"] ; # 
+  fhir:title [ fhir:v "Care Plan"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-07-17T09:25:48+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-07-17T09:30:42+02:00"^^xsd:dateTime] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Bill Cod" ] ;
      fhir:telecom ( [

@@ -14,7 +14,7 @@
   "toolingVersionFull" : "5.0.0 (3)",
   "totalFiles" : 11,
   "processedFiles" : 21,
-  "genDate" : "Mon, Jul 17, 2023 09:25+0200",
+  "genDate" : "Mon, Jul 17, 2023 09:30+0200",
   "genDay" : "17/07/2023",
   "resourceTypes" : [
     "Account",
@@ -247,7 +247,7 @@
         "telecom" : ["cod@reef.gov"]
       }
     ],
-    "date" : "2023-07-17T09:25:48+02:00",
+    "date" : "2023-07-17T09:30:42+02:00",
     "description" : "An example of how FSH can be used to create an IG about fish",
     "copyright" : null,
     "fhirVersion" : "4.0.1"

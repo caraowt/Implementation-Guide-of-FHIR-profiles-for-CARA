@@ -27,7 +27,7 @@
             <tr>
                <td style="column-width:30%">
                   <a href="StructureDefinition-careplan.html"
-                     title="StructureDefinition/careplan">CARA Care Plan</a>
+                     title="StructureDefinition/careplan">Care Plan</a>
                </td>
                <td>{% capture desc %}A Care Plan tailored to the needs of CARA with advanced directives{% endcapture %}
 {{ desc | markdownify}}</td>
@@ -35,7 +35,7 @@
             <tr>
                <td style="column-width:30%">
                   <a href="StructureDefinition-cara-patient.html"
-                     title="StructureDefinition/cara-patient">CARA Patient</a>
+                     title="StructureDefinition/cara-patient">Patient</a>
                </td>
                <td>{% capture desc %}This profile extension is used to ensure the fields of the master patient index are properly used throughout the implementation.{% endcapture %}
 {{ desc | markdownify}}</td>

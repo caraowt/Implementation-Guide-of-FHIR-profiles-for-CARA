@@ -11,9 +11,9 @@
   <url value="http://example.org/fhir/fish/StructureDefinition/cara-patient"/>
   <version value="0.1.0"/>
   <name value="Patient"/>
-  <title value="CARA Patient"/>
+  <title value="Patient"/>
   <status value="draft"/>
-  <date value="2023-07-17T09:25:48+02:00"/>
+  <date value="2023-07-17T09:30:42+02:00"/>
   <contact>
     <name value="Bill Cod"/>
     <telecom>

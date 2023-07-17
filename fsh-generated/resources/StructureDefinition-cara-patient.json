@@ -3,7 +3,7 @@
   "id": "cara-patient",
   "url": "http://example.org/fhir/fish/StructureDefinition/cara-patient",
   "name": "Patient",
-  "title": "CARA Patient",
+  "title": "Patient",
   "status": "draft",
   "description": "This profile extension is used to ensure the fields of the master patient index are properly used throughout the implementation.",
   "fhirVersion": "4.0.1",

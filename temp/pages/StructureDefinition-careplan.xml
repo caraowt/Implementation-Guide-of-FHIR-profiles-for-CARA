@@ -15,10 +15,10 @@
   </text>
   <url value="http://example.org/fhir/fish/StructureDefinition/careplan"/>
   <version value="0.1.0"/>
-  <name value="CaraCarePlan"/>
-  <title value="CARA Care Plan"/>
+  <name value="CarePlan"/>
+  <title value="Care Plan"/>
   <status value="draft"/>
-  <date value="2023-07-17T09:25:48+02:00"/>
+  <date value="2023-07-17T09:30:42+02:00"/>
   <contact>
     <name value="Bill Cod"/>
     <telecom>

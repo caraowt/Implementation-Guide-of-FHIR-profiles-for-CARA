@@ -10,7 +10,7 @@
   "name" : "FishImplementationGuide",
   "title" : "Fish Implementation Guide",
   "status" : "draft",
-  "date" : "2023-07-17T09:25:48+02:00",
+  "date" : "2023-07-17T09:30:42+02:00",
   "contact" : [{
     "name" : "Bill Cod",
     "telecom" : [{
@@ -629,20 +629,8 @@
       "reference" : {
         "reference" : "StructureDefinition/careplan"
       },
-      "name" : "CARA Care Plan",
+      "name" : "Care Plan",
       "description" : "A Care Plan tailored to the needs of CARA with advanced directives",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cara-patient"
-      },
-      "name" : "CARA Patient",
-      "description" : "This profile extension is used to ensure the fields of the master patient index are properly used throughout the implementation.",
       "exampleBoolean" : false
     },
     {
@@ -679,6 +667,18 @@
       },
       "name" : "Historical Data",
       "description" : "Used to describe the historical background of a patient affiliated to CARA",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cara-patient"
+      },
+      "name" : "Patient",
+      "description" : "This profile extension is used to ensure the fields of the master patient index are properly used throughout the implementation.",
       "exampleBoolean" : false
     },
     {

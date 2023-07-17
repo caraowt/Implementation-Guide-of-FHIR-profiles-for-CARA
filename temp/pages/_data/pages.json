@@ -20,9 +20,9 @@
     "next" : "StructureDefinition-careplan.html"
   },
   "StructureDefinition-careplan.html" : {
-    "title" : "CARA Care Plan",
+    "title" : "Care Plan",
     "label" : "2.1",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA Care Plan</b></li>",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Care Plan</b></li>",
     "examples" : [],
     "testplans" : [],
     "testscripts" : [],
@@ -30,51 +30,51 @@
     "next" : "StructureDefinition-careplan-definitions.html"
   },
   "StructureDefinition-careplan-definitions.html" : {
-    "title" : "CARA Care Plan - Definitions",
+    "title" : "Care Plan - Definitions",
     "label" : "2.1",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA Care Plan</b></li>",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Care Plan</b></li>",
     "previous" : "StructureDefinition-careplan.html",
     "next" : "StructureDefinition-careplan-mappings.html"
   },
   "StructureDefinition-careplan-mappings.html" : {
-    "title" : "CARA Care Plan - Mappings",
+    "title" : "Care Plan - Mappings",
     "label" : "2.1",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA Care Plan</b></li>",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Care Plan</b></li>",
     "previous" : "StructureDefinition-careplan-definitions.html",
     "next" : "StructureDefinition-careplan-testing.html"
   },
   "StructureDefinition-careplan-testing.html" : {
-    "title" : "CARA Care Plan - Testing",
+    "title" : "Care Plan - Testing",
     "label" : "2.1",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA Care Plan</b></li>",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Care Plan</b></li>",
     "previous" : "StructureDefinition-careplan-mappings.html",
     "next" : "StructureDefinition-careplan.profile.xml.html"
   },
   "StructureDefinition-careplan.profile.xml.html" : {
-    "title" : "CARA Care Plan - XML Representation",
+    "title" : "Care Plan - XML Representation",
     "label" : "2.1",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA Care Plan</b></li>",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Care Plan</b></li>",
     "previous" : "StructureDefinition-careplan-testing.html",
     "next" : "StructureDefinition-careplan.profile.json.html"
   },
   "StructureDefinition-careplan.profile.json.html" : {
-    "title" : "CARA Care Plan - JSON Representation",
+    "title" : "Care Plan - JSON Representation",
     "label" : "2.1",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA Care Plan</b></li>",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Care Plan</b></li>",
     "previous" : "StructureDefinition-careplan.profile.xml.html",
     "next" : "StructureDefinition-careplan.profile.ttl.html"
   },
   "StructureDefinition-careplan.profile.ttl.html" : {
-    "title" : "CARA Care Plan - TTL Representation",
+    "title" : "Care Plan - TTL Representation",
     "label" : "2.1",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA Care Plan</b></li>",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Care Plan</b></li>",
     "previous" : "StructureDefinition-careplan.profile.json.html",
     "next" : "StructureDefinition-cara-patient.html"
   },
   "StructureDefinition-cara-patient.html" : {
-    "title" : "CARA Patient",
+    "title" : "Patient",
     "label" : "2.2",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA Patient</b></li>",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient</b></li>",
     "examples" : [],
     "testplans" : [],
     "testscripts" : [],
@@ -82,44 +82,44 @@
     "next" : "StructureDefinition-cara-patient-definitions.html"
   },
   "StructureDefinition-cara-patient-definitions.html" : {
-    "title" : "CARA Patient - Definitions",
+    "title" : "Patient - Definitions",
     "label" : "2.2",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA Patient</b></li>",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient</b></li>",
     "previous" : "StructureDefinition-cara-patient.html",
     "next" : "StructureDefinition-cara-patient-mappings.html"
   },
   "StructureDefinition-cara-patient-mappings.html" : {
-    "title" : "CARA Patient - Mappings",
+    "title" : "Patient - Mappings",
     "label" : "2.2",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA Patient</b></li>",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient</b></li>",
     "previous" : "StructureDefinition-cara-patient-definitions.html",
     "next" : "StructureDefinition-cara-patient-testing.html"
   },
   "StructureDefinition-cara-patient-testing.html" : {
-    "title" : "CARA Patient - Testing",
+    "title" : "Patient - Testing",
     "label" : "2.2",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA Patient</b></li>",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient</b></li>",
     "previous" : "StructureDefinition-cara-patient-mappings.html",
     "next" : "StructureDefinition-cara-patient.profile.xml.html"
   },
   "StructureDefinition-cara-patient.profile.xml.html" : {
-    "title" : "CARA Patient - XML Representation",
+    "title" : "Patient - XML Representation",
     "label" : "2.2",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA Patient</b></li>",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient</b></li>",
     "previous" : "StructureDefinition-cara-patient-testing.html",
     "next" : "StructureDefinition-cara-patient.profile.json.html"
   },
   "StructureDefinition-cara-patient.profile.json.html" : {
-    "title" : "CARA Patient - JSON Representation",
+    "title" : "Patient - JSON Representation",
     "label" : "2.2",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA Patient</b></li>",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient</b></li>",
     "previous" : "StructureDefinition-cara-patient.profile.xml.html",
     "next" : "StructureDefinition-cara-patient.profile.ttl.html"
   },
   "StructureDefinition-cara-patient.profile.ttl.html" : {
-    "title" : "CARA Patient - TTL Representation",
+    "title" : "Patient - TTL Representation",
     "label" : "2.2",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA Patient</b></li>",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient</b></li>",
     "previous" : "StructureDefinition-cara-patient.profile.json.html",
     "next" : "StructureDefinition-veterinarian.html"
   },

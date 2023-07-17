@@ -57,13 +57,13 @@
     "Patient": [
       {
         "url": "http://example.org/fhir/fish/StructureDefinition/cara-patient",
-        "title": "CARA Patient"
+        "title": "Patient"
       }
     ],
     "CarePlan": [
       {
         "url": "http://example.org/fhir/fish/StructureDefinition/careplan",
-        "title": "CARA Care Plan"
+        "title": "Care Plan"
       }
     ],
     "Practitioner": [

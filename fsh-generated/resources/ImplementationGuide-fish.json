@@ -45,16 +45,8 @@
         "reference": {
           "reference": "StructureDefinition/careplan"
         },
-        "name": "CARA Care Plan",
+        "name": "Care Plan",
         "description": "A Care Plan tailored to the needs of CARA with advanced directives",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/cara-patient"
-        },
-        "name": "CARA Patient",
-        "description": "This profile extension is used to ensure the fields of the master patient index are properly used throughout the implementation.",
         "exampleBoolean": false
       },
       {
@@ -79,6 +71,14 @@
         },
         "name": "Historical Data",
         "description": "Used to describe the historical background of a patient affiliated to CARA",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/cara-patient"
+        },
+        "name": "Patient",
+        "description": "This profile extension is used to ensure the fields of the master patient index are properly used throughout the implementation.",
         "exampleBoolean": false
       },
       {

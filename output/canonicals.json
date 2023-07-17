@@ -39,7 +39,7 @@
     "type" : "StructureDefinition",
     "url" : "http://example.org/fhir/fish/StructureDefinition/careplan",
     "version" : "0.1.0",
-    "name" : "CaraCarePlan"
+    "name" : "CarePlan"
   },
   {
     "id" : "country-of-birth",

@@ -1,10 +1,10 @@
 [AnticipateDirectivesInEPR]: StructureDefinition-anticipate-directives-epr.html
 [AttentionPoint]: StructureDefinition-attention-point.html
-[CaraCarePlan]: StructureDefinition-careplan.html
-[Patient]: StructureDefinition-cara-patient.html
+[CarePlan]: StructureDefinition-careplan.html
 [CountryOfBirth]: StructureDefinition-country-of-birth.html
 [AnticipateDirectivesExist]: StructureDefinition-anticipate-directives-exist.html
 [HistoricalData]: StructureDefinition-historical-data.html
+[Patient]: StructureDefinition-cara-patient.html
 [PatientPriorities]: StructureDefinition-patient-priorities.html
 [SocialData]: StructureDefinition-social-data.html
 [Veterinarian]: StructureDefinition-veterinarian.html

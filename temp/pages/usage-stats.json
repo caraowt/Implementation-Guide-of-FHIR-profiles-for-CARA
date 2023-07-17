@@ -67,6 +67,13 @@
       ]
     },
     {
+      "url": "http://example.org/fhir/fish/StructureDefinition/reference",
+      "title": "Reference",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
       "url": "http://example.org/fhir/fish/StructureDefinition/social-data",
       "title": "Social Data",
       "types": [
@@ -121,6 +128,9 @@
     ],
     "http://example.org/fhir/fish/StructureDefinition/reason-reference": [
       "Goal"
+    ],
+    "http://example.org/fhir/fish/StructureDefinition/reference": [
+      "CarePlan.activity"
     ],
     "http://example.org/fhir/fish/StructureDefinition/social-data": [
       "CarePlan"

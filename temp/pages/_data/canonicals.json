@@ -91,6 +91,13 @@
     "name" : "ReasonReference"
   },
   {
+    "id" : "reference",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/fhir/fish/StructureDefinition/reference",
+    "version" : "0.1.0",
+    "name" : "Reference"
+  },
+  {
     "id" : "social-data",
     "type" : "StructureDefinition",
     "url" : "http://example.org/fhir/fish/StructureDefinition/social-data",

@@ -16,7 +16,7 @@
    <name value="FishImplementationGuide"/>
    <title value="Fish Implementation Guide"/>
    <status value="draft"/>
-   <date value="2023-07-17T17:08:31+02:00"/>
+   <date value="2023-07-17T17:22:35+02:00"/>
    <contact>
       <name value="Bill Cod"/>
       <telecom>
@@ -466,6 +466,21 @@
             <valueString value="StructureDefinition:extension"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-reference.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/reference"/>
+         </reference>
+         <name value="Reference"/>
+         <description value="Type of observation made by the contributor"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-str-extension"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:extension"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
             <valueUri value="StructureDefinition-social-data.html"/>
          </extension>
          <reference>
@@ -573,6 +588,11 @@
             <page>
                <nameUrl value="StructureDefinition-reason-reference.html"/>
                <title value="Reason Reference"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="StructureDefinition-reference.html"/>
+               <title value="Reference"/>
                <generation value="generated"/>
             </page>
             <page>

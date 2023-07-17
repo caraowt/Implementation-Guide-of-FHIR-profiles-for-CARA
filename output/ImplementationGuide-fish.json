@@ -10,7 +10,7 @@
   "name" : "FishImplementationGuide",
   "title" : "Fish Implementation Guide",
   "status" : "draft",
-  "date" : "2023-07-17T17:08:31+02:00",
+  "date" : "2023-07-17T17:22:35+02:00",
   "contact" : [{
     "name" : "Bill Cod",
     "telecom" : [{
@@ -739,6 +739,18 @@
       },
       "name" : "Reason Reference",
       "description" : "The reason behind the goals",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/reference"
+      },
+      "name" : "Reference",
+      "description" : "Type of observation made by the contributor",
       "exampleBoolean" : false
     },
     {

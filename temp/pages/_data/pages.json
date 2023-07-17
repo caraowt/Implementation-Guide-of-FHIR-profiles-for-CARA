@@ -693,56 +693,108 @@
     "label" : "2.13",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Reason Reference</b></li>",
     "previous" : "StructureDefinition-reason-reference.profile.json.html",
-    "next" : "StructureDefinition-social-data.html"
+    "next" : "StructureDefinition-reference.html"
   },
-  "StructureDefinition-social-data.html" : {
-    "title" : "Social Data",
+  "StructureDefinition-reference.html" : {
+    "title" : "Reference",
     "label" : "2.14",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Social Data</b></li>",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Reference</b></li>",
     "examples" : [],
     "testplans" : [],
     "testscripts" : [],
     "previous" : "StructureDefinition-reason-reference.profile.ttl.html",
+    "next" : "StructureDefinition-reference-definitions.html"
+  },
+  "StructureDefinition-reference-definitions.html" : {
+    "title" : "Reference - Definitions",
+    "label" : "2.14",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Reference</b></li>",
+    "previous" : "StructureDefinition-reference.html",
+    "next" : "StructureDefinition-reference-mappings.html"
+  },
+  "StructureDefinition-reference-mappings.html" : {
+    "title" : "Reference - Mappings",
+    "label" : "2.14",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Reference</b></li>",
+    "previous" : "StructureDefinition-reference-definitions.html",
+    "next" : "StructureDefinition-reference-testing.html"
+  },
+  "StructureDefinition-reference-testing.html" : {
+    "title" : "Reference - Testing",
+    "label" : "2.14",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Reference</b></li>",
+    "previous" : "StructureDefinition-reference-mappings.html",
+    "next" : "StructureDefinition-reference.profile.xml.html"
+  },
+  "StructureDefinition-reference.profile.xml.html" : {
+    "title" : "Reference - XML Representation",
+    "label" : "2.14",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Reference</b></li>",
+    "previous" : "StructureDefinition-reference-testing.html",
+    "next" : "StructureDefinition-reference.profile.json.html"
+  },
+  "StructureDefinition-reference.profile.json.html" : {
+    "title" : "Reference - JSON Representation",
+    "label" : "2.14",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Reference</b></li>",
+    "previous" : "StructureDefinition-reference.profile.xml.html",
+    "next" : "StructureDefinition-reference.profile.ttl.html"
+  },
+  "StructureDefinition-reference.profile.ttl.html" : {
+    "title" : "Reference - TTL Representation",
+    "label" : "2.14",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Reference</b></li>",
+    "previous" : "StructureDefinition-reference.profile.json.html",
+    "next" : "StructureDefinition-social-data.html"
+  },
+  "StructureDefinition-social-data.html" : {
+    "title" : "Social Data",
+    "label" : "2.15",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Social Data</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-reference.profile.ttl.html",
     "next" : "StructureDefinition-social-data-definitions.html"
   },
   "StructureDefinition-social-data-definitions.html" : {
     "title" : "Social Data - Definitions",
-    "label" : "2.14",
+    "label" : "2.15",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Social Data</b></li>",
     "previous" : "StructureDefinition-social-data.html",
     "next" : "StructureDefinition-social-data-mappings.html"
   },
   "StructureDefinition-social-data-mappings.html" : {
     "title" : "Social Data - Mappings",
-    "label" : "2.14",
+    "label" : "2.15",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Social Data</b></li>",
     "previous" : "StructureDefinition-social-data-definitions.html",
     "next" : "StructureDefinition-social-data-testing.html"
   },
   "StructureDefinition-social-data-testing.html" : {
     "title" : "Social Data - Testing",
-    "label" : "2.14",
+    "label" : "2.15",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Social Data</b></li>",
     "previous" : "StructureDefinition-social-data-mappings.html",
     "next" : "StructureDefinition-social-data.profile.xml.html"
   },
   "StructureDefinition-social-data.profile.xml.html" : {
     "title" : "Social Data - XML Representation",
-    "label" : "2.14",
+    "label" : "2.15",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Social Data</b></li>",
     "previous" : "StructureDefinition-social-data-testing.html",
     "next" : "StructureDefinition-social-data.profile.json.html"
   },
   "StructureDefinition-social-data.profile.json.html" : {
     "title" : "Social Data - JSON Representation",
-    "label" : "2.14",
+    "label" : "2.15",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Social Data</b></li>",
     "previous" : "StructureDefinition-social-data.profile.xml.html",
     "next" : "StructureDefinition-social-data.profile.ttl.html"
   },
   "StructureDefinition-social-data.profile.ttl.html" : {
     "title" : "Social Data - TTL Representation",
-    "label" : "2.14",
+    "label" : "2.15",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Social Data</b></li>",
     "previous" : "StructureDefinition-social-data.profile.json.html"
   }

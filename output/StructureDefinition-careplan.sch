@@ -22,6 +22,8 @@
     <sch:rule context="f:CarePlan/f:activity">
       <sch:assert test="count(f:extension[@url = 'http://example.org/fhir/fish/StructureDefinition/attention-point']) &lt;= 1">extension with URL = 'http://example.org/fhir/fish/StructureDefinition/attention-point': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://example.org/fhir/fish/StructureDefinition/outcome-reference']) &lt;= 1">extension with URL = 'http://example.org/fhir/fish/StructureDefinition/outcome-reference': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://example.org/fhir/fish/StructureDefinition/reference']) &gt;= 1">extension with URL = 'http://example.org/fhir/fish/StructureDefinition/reference': minimum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://example.org/fhir/fish/StructureDefinition/reference']) &lt;= 1">extension with URL = 'http://example.org/fhir/fish/StructureDefinition/reference': maximum cardinality of 'extension' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
 </sch:schema>

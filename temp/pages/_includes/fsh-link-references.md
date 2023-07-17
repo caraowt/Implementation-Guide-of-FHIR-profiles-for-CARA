@@ -10,5 +10,6 @@
 [Patient]: StructureDefinition-cara-patient.html
 [PatientPriorities]: StructureDefinition-patient-priorities.html
 [ReasonReference]: StructureDefinition-reason-reference.html
+[Reference]: StructureDefinition-reference.html
 [SocialData]: StructureDefinition-social-data.html
 [Veterinarian]: StructureDefinition-veterinarian.html

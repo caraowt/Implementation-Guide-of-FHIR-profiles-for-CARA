@@ -140,6 +140,14 @@
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="StructureDefinition-reference.html"
+                     title="StructureDefinition/reference">Reference</a>
+               </td>
+               <td>{% capture desc %}Type of observation made by the contributor{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="StructureDefinition-social-data.html"
                      title="StructureDefinition/social-data">Social Data</a>
                </td>

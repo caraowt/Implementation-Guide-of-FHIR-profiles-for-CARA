@@ -145,7 +145,7 @@ This element is labeled as a modifier because the status contains the code enter
 ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}"
 "careplan","CarePlan.activity.id","CarePlan.activity.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""
-"careplan","CarePlan.activity.extension","CarePlan.activity.extension","","","",0,*,"","","","Extension {[]} {[]}
+"careplan","CarePlan.activity.extension","CarePlan.activity.extension","","","",1,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -155,6 +155,10 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "careplan","CarePlan.activity.extension:outcomeReference","CarePlan.activity.extension","outcomeReference","","",0,1,"","","","Extension {[CanonicalType[http://example.org/fhir/fish/StructureDefinition/outcome-reference]]} {[]}
 ","Outcome Reference","Attention Point on the observation","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"careplan","CarePlan.activity.extension:Reference","CarePlan.activity.extension","Reference","","",1,1,"","","","Extension {[CanonicalType[http://example.org/fhir/fish/StructureDefinition/reference]]} {[]}
+","Reference","Type of observation made by the contributor","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "careplan","CarePlan.activity.modifierExtension","CarePlan.activity.modifierExtension","","extensions
@@ -731,6 +735,20 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "expressed-by","Extension.url","Extension.url","","","",1,1,"","","","uri {[]} {[]}
 ","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://example.org/fhir/fish/StructureDefinition/expressed-by""/>","","","","",,,,,"",,,,"Extension.url",1,1,"",""
 "expressed-by","Extension.value[x]","Extension.value[x]","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient], CanonicalType[http://hl7.org/fhir/StructureDefinition/Practitioner], CanonicalType[http://hl7.org/fhir/StructureDefinition/RelatedPerson]]}
+","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"reference","Extension","Extension","","","",0,*,"","","","null {[]} {[]}
+","Reference","Type of observation made by the contributor","","","","","","","","","",,,,,"",,,,"Extension",0,*,"ele-1
+",""
+"reference","Extension.id","Extension.id","","","",0,1,"","","","string {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""
+"reference","Extension.extension","Extension.extension","","","",0,0,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"reference","Extension.url","Extension.url","","","",1,1,"","","","uri {[]} {[]}
+","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://example.org/fhir/fish/StructureDefinition/reference""/>","","","","",,,,,"",,,,"Extension.url",1,1,"",""
+"reference","Extension.value[x]","Extension.value[x]","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Appointment], CanonicalType[http://hl7.org/fhir/StructureDefinition/CommunicationRequest], CanonicalType[http://hl7.org/fhir/StructureDefinition/DeviceRequest], CanonicalType[http://hl7.org/fhir/StructureDefinition/MedicationRequest], CanonicalType[http://hl7.org/fhir/StructureDefinition/NutritionOrder], CanonicalType[http://hl7.org/fhir/StructureDefinition/Task], CanonicalType[http://hl7.org/fhir/StructureDefinition/ServiceRequest], CanonicalType[http://hl7.org/fhir/StructureDefinition/VisionPrescription], CanonicalType[http://hl7.org/fhir/StructureDefinition/RequestGroup]]}
 ","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "country-of-birth","Extension","Extension","","","",0,*,"","","","null {[]} {[]}

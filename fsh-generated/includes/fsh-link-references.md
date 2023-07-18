@@ -11,4 +11,5 @@
 [Observation]: StructureDefinition-Observation.html
 [Patient]: StructureDefinition-cara-patient.html
 [PatientPriorities]: StructureDefinition-patient-priorities.html
+[RelatedPerson]: StructureDefinition-related-person.html
 [SocialData]: StructureDefinition-social-data.html

@@ -1,0 +1,7 @@
+Alias: $Practitioner = http://hl7.org/fhir/StructureDefinition/Practitioner
+
+Profile:        Practitioner
+Parent:         $Practitioner
+Id:             practitioner
+Title:          "Practitioner"
+Description:    "This profile is used to add healthcare professionals to a care team."

@@ -1,0 +1,40 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "related-person",
+  "url": "http://example.org/fhir/fish/StructureDefinition/related-person",
+  "name": "RelatedPerson",
+  "title": "Related Person",
+  "status": "draft",
+  "description": "This profile is used to add externals to a care team.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "RelatedPerson",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/RelatedPerson",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "RelatedPerson",
+        "path": "RelatedPerson"
+      }
+    ]
+  }
+}

@@ -131,6 +131,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/related-person"
+        },
+        "name": "Related Person",
+        "description": "This profile is used to add externals to a care team.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/social-data"
         },
         "name": "Social Data",

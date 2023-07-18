@@ -67,14 +67,6 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/expressed-by"
-        },
-        "name": "Expressed By",
-        "description": "String to indicate who expresssed this latest goal",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/goal"
         },
         "name": "Goal",
@@ -103,14 +95,6 @@
         },
         "name": "Patient Priorities",
         "description": "Used to describe the priorities of a patient with regard to his SCP",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/reason-reference"
-        },
-        "name": "Reason Reference",
-        "description": "The reason behind the goals",
         "exampleBoolean": false
       },
       {

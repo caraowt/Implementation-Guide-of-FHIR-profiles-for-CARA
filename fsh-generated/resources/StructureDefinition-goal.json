@@ -32,48 +32,8 @@
   "differential": {
     "element": [
       {
-        "id": "Goal.extension",
-        "path": "Goal.extension",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "url"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        }
-      },
-      {
-        "id": "Goal.extension:expressedBy",
-        "path": "Goal.extension",
-        "sliceName": "expressedBy",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "http://example.org/fhir/fish/StructureDefinition/expressed-by"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "Goal.extension:reasonReference",
-        "path": "Goal.extension",
-        "sliceName": "reasonReference",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "http://example.org/fhir/fish/StructureDefinition/reason-reference"
-            ]
-          }
-        ]
+        "id": "Goal",
+        "path": "Goal"
       }
     ]
   }

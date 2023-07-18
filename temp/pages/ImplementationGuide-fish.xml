@@ -11,7 +11,7 @@
   <name value="FishImplementationGuide"/>
   <title value="Fish Implementation Guide"/>
   <status value="draft"/>
-  <date value="2023-07-18T13:14:18+02:00"/>
+  <date value="2023-07-18T13:20:53+02:00"/>
   <contact>
     <name value="Bill Cod"/>
     <telecom>
@@ -494,7 +494,7 @@
       <reference>
         <reference value="StructureDefinition/care-team"/>
       </reference>
-      <name value="CareTeam"/>
+      <name value="Care Team"/>
       <description value="The care team is comprised of the patient, his legal representatives, healthcare professionals contributing to his shared care plan and externals."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -518,17 +518,6 @@
       </reference>
       <name value="Country of Birth"/>
       <description value="This field is used to render the country of birth of the patient"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/encounter"/>
-      </reference>
-      <name value="Encounter"/>
-      <description value="Used to describe an encounter"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -606,17 +595,6 @@
       </reference>
       <name value="Social Data"/>
       <description value="Used to describe the social background of a patient affiliated to CARA"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/veterinarian"/>
-      </reference>
-      <name value="Veterinarian"/>
-      <description value="A profile on the Practitioner resource for veterinarians. In the US, vets do not have National Provider Numbers."/>
       <exampleBoolean value="false"/>
     </resource>
     <page>

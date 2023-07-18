@@ -3,7 +3,7 @@
   "id": "care-team",
   "url": "http://example.org/fhir/fish/StructureDefinition/care-team",
   "name": "CareTeam",
-  "title": "CareTeam",
+  "title": "Care Team",
   "status": "draft",
   "description": "The care team is comprised of the patient, his legal representatives, healthcare professionals contributing to his shared care plan and externals.",
   "fhirVersion": "4.0.1",
@@ -32,33 +32,8 @@
   "differential": {
     "element": [
       {
-        "id": "CareTeam.extension",
-        "path": "CareTeam.extension",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "url"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        }
-      },
-      {
-        "id": "CareTeam.extension:encounter",
-        "path": "CareTeam.extension",
-        "sliceName": "encounter",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "http://example.org/fhir/fish/StructureDefinition/encounter"
-            ]
-          }
-        ]
+        "id": "CareTeam",
+        "path": "CareTeam"
       }
     ]
   }

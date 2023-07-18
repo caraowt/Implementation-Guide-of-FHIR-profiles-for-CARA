@@ -61,7 +61,7 @@
         "reference": {
           "reference": "StructureDefinition/care-team"
         },
-        "name": "CareTeam",
+        "name": "Care Team",
         "description": "The care team is comprised of the patient, his legal representatives, healthcare professionals contributing to his shared care plan and externals.",
         "exampleBoolean": false
       },
@@ -79,14 +79,6 @@
         },
         "name": "Country of Birth",
         "description": "This field is used to render the country of birth of the patient",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/encounter"
-        },
-        "name": "Encounter",
-        "description": "Used to describe an encounter",
         "exampleBoolean": false
       },
       {
@@ -143,14 +135,6 @@
         },
         "name": "Social Data",
         "description": "Used to describe the social background of a patient affiliated to CARA",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/veterinarian"
-        },
-        "name": "Veterinarian",
-        "description": "A profile on the Practitioner resource for veterinarians. In the US, vets do not have National Provider Numbers.",
         "exampleBoolean": false
       }
     ],

@@ -5,7 +5,6 @@
 [CareTeam]: StructureDefinition-care-team.html
 [Condition]: StructureDefinition-condition.html
 [CountryOfBirth]: StructureDefinition-country-of-birth.html
-[Encounter]: StructureDefinition-encounter.html
 [AnticipateDirectivesExist]: StructureDefinition-anticipate-directives-exist.html
 [Goal]: StructureDefinition-goal.html
 [HistoricalData]: StructureDefinition-historical-data.html
@@ -13,4 +12,3 @@
 [Patient]: StructureDefinition-cara-patient.html
 [PatientPriorities]: StructureDefinition-patient-priorities.html
 [SocialData]: StructureDefinition-social-data.html
-[Veterinarian]: StructureDefinition-veterinarian.html

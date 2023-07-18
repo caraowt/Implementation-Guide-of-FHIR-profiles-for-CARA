@@ -77,13 +77,6 @@
     "name" : "CountryOfBirth"
   },
   {
-    "id" : "encounter",
-    "type" : "StructureDefinition",
-    "url" : "http://example.org/fhir/fish/StructureDefinition/encounter",
-    "version" : "0.1.0",
-    "name" : "Encounter"
-  },
-  {
     "id" : "goal",
     "type" : "StructureDefinition",
     "url" : "http://example.org/fhir/fish/StructureDefinition/goal",
@@ -110,12 +103,5 @@
     "url" : "http://example.org/fhir/fish/StructureDefinition/social-data",
     "version" : "0.1.0",
     "name" : "SocialData"
-  },
-  {
-    "id" : "veterinarian",
-    "type" : "StructureDefinition",
-    "url" : "http://example.org/fhir/fish/StructureDefinition/veterinarian",
-    "version" : "0.1.0",
-    "name" : "Veterinarian"
   }
 ]

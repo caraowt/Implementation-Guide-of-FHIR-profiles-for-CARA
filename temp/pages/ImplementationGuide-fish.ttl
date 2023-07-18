@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "FishImplementationGuide"] ; # 
   fhir:title [ fhir:v "Fish Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-07-18T13:14:18+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-07-18T13:20:53+02:00"^^xsd:dateTime] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Bill Cod" ] ;
      fhir:telecom ( [
@@ -566,7 +566,7 @@
          fhir:link <http://example.org/fhir/fish/StructureDefinition/care-team> ;
          fhir:reference [ fhir:v "StructureDefinition/care-team" ]
        ] ;
-       fhir:name [ fhir:v "CareTeam" ] ;
+       fhir:name [ fhir:v "Care Team" ] ;
        fhir:description [ fhir:v "The care team is comprised of the patient, his legal representatives, healthcare professionals contributing to his shared care plan and externals." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
@@ -592,18 +592,6 @@
        ] ;
        fhir:name [ fhir:v "Country of Birth" ] ;
        fhir:description [ fhir:v "This field is used to render the country of birth of the patient" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:extension" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://example.org/fhir/fish/StructureDefinition/encounter> ;
-         fhir:reference [ fhir:v "StructureDefinition/encounter" ]
-       ] ;
-       fhir:name [ fhir:v "Encounter" ] ;
-       fhir:description [ fhir:v "Used to describe an encounter" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -688,18 +676,6 @@
        ] ;
        fhir:name [ fhir:v "Social Data" ] ;
        fhir:description [ fhir:v "Used to describe the social background of a patient affiliated to CARA" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://example.org/fhir/fish/StructureDefinition/veterinarian> ;
-         fhir:reference [ fhir:v "StructureDefinition/veterinarian" ]
-       ] ;
-       fhir:name [ fhir:v "Veterinarian" ] ;
-       fhir:description [ fhir:v "A profile on the Practitioner resource for veterinarians. In the US, vets do not have National Provider Numbers." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] ) ;
      fhir:page [

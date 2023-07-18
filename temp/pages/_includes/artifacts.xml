@@ -43,7 +43,7 @@
             <tr>
                <td style="column-width:30%">
                   <a href="StructureDefinition-care-team.html"
-                     title="StructureDefinition/care-team">CareTeam</a>
+                     title="StructureDefinition/care-team">Care Team</a>
                </td>
                <td>{% capture desc %}The care team is comprised of the patient, his legal representatives, healthcare professionals contributing to his shared care plan and externals.{% endcapture %}
 {{ desc | markdownify}}</td>
@@ -79,14 +79,6 @@
                <td>{% capture desc %}This profile extension is used to ensure the fields of the master patient index are properly used throughout the implementation.{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-veterinarian.html"
-                     title="StructureDefinition/veterinarian">Veterinarian</a>
-               </td>
-               <td>{% capture desc %}A profile on the Practitioner resource for veterinarians. In the US, vets do not have National Provider Numbers.{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
          </tbody>
       </table>
    </p>
@@ -120,14 +112,6 @@
                      title="StructureDefinition/country-of-birth">Country of Birth</a>
                </td>
                <td>{% capture desc %}This field is used to render the country of birth of the patient{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-encounter.html"
-                     title="StructureDefinition/encounter">Encounter</a>
-               </td>
-               <td>{% capture desc %}Used to describe an encounter{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>

@@ -83,6 +83,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/Observation"
+        },
+        "name": "Observation",
+        "description": "An observation is used to track the status of the patient on a given goal.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/cara-patient"
         },
         "name": "Patient",

@@ -5,6 +5,7 @@
 [AnticipateDirectivesExist]: StructureDefinition-anticipate-directives-exist.html
 [Goal]: StructureDefinition-goal.html
 [HistoricalData]: StructureDefinition-historical-data.html
+[Observation]: StructureDefinition-Observation.html
 [Patient]: StructureDefinition-cara-patient.html
 [PatientPriorities]: StructureDefinition-patient-priorities.html
 [SocialData]: StructureDefinition-social-data.html

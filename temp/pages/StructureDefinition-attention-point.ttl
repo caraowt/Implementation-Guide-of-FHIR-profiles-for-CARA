@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "AttentionPoint"] ; # 
   fhir:title [ fhir:v "Attention Point"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-07-18T13:20:53+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-07-18T14:12:38+02:00"^^xsd:dateTime] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Bill Cod" ] ;
      fhir:telecom ( [

@@ -73,10 +73,26 @@
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="StructureDefinition-organization.html"
+                     title="StructureDefinition/organization">Organization</a>
+               </td>
+               <td>{% capture desc %}This profile is used to add organizations to a care team.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="StructureDefinition-cara-patient.html"
                      title="StructureDefinition/cara-patient">Patient</a>
                </td>
                <td>{% capture desc %}This profile extension is used to ensure the fields of the master patient index are properly used throughout the implementation.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-related-person.html"
+                     title="StructureDefinition/related-person">Related Person</a>
+               </td>
+               <td>{% capture desc %}This profile is used to add externals to a care team.{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
          </tbody>

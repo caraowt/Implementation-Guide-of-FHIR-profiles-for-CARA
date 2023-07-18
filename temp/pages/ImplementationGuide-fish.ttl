@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "FishImplementationGuide"] ; # 
   fhir:title [ fhir:v "Fish Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-07-18T13:20:53+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-07-18T14:12:38+02:00"^^xsd:dateTime] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Bill Cod" ] ;
      fhir:telecom ( [
@@ -647,6 +647,18 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://example.org/fhir/fish/StructureDefinition/organization> ;
+         fhir:reference [ fhir:v "StructureDefinition/organization" ]
+       ] ;
+       fhir:name [ fhir:v "Organization" ] ;
+       fhir:description [ fhir:v "This profile is used to add organizations to a care team." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://example.org/fhir/fish/StructureDefinition/cara-patient> ;
          fhir:reference [ fhir:v "StructureDefinition/cara-patient" ]
        ] ;
@@ -664,6 +676,18 @@
        ] ;
        fhir:name [ fhir:v "Patient Priorities" ] ;
        fhir:description [ fhir:v "Used to describe the priorities of a patient with regard to his SCP" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://example.org/fhir/fish/StructureDefinition/related-person> ;
+         fhir:reference [ fhir:v "StructureDefinition/related-person" ]
+       ] ;
+       fhir:name [ fhir:v "Related Person" ] ;
+       fhir:description [ fhir:v "This profile is used to add externals to a care team." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

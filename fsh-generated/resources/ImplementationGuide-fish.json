@@ -27,10 +27,18 @@
     "resource": [
       {
         "reference": {
-          "reference": "StructureDefinition/anticipate-directives-epr"
+          "reference": "StructureDefinition/anticipate-directives-ehr"
         },
         "name": "Advance Directives in EHR",
-        "description": "The anticipate directives are in the EHR of the patient. This field is present ",
+        "description": "The anticipate directives are in the EHR of the patient. This field is present and is a boolean",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/anticipate-directives-location"
+        },
+        "name": "Advance Directives Location",
+        "description": "This field is used to indicate where the advance directives are if they exist and are not located in the EHR.",
         "exampleBoolean": false
       },
       {
@@ -85,7 +93,7 @@
         "reference": {
           "reference": "StructureDefinition/anticipate-directives-exist"
         },
-        "name": "Existence of AD",
+        "name": "Existence of Advance Directives",
         "description": "This field is used to indicate whether a patient has advanced directives",
         "exampleBoolean": false
       },
@@ -115,6 +123,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/organization"
+        },
+        "name": "Organization",
+        "description": "This profile is used to add organizations to a care team.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/cara-patient"
         },
         "name": "Patient",
@@ -135,6 +151,14 @@
         },
         "name": "Related Person",
         "description": "This profile is used to add externals to a care team.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/showNote"
+        },
+        "name": "Show note in SCP monitoring screen",
+        "description": "Notes are by default not shown in the SCP monitoring screen. However a member of the SCP interprofessional team can choose to disclose it to the rest of the team.",
         "exampleBoolean": false
       },
       {

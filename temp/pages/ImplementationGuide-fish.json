@@ -10,7 +10,7 @@
   "name" : "FishImplementationGuide",
   "title" : "Fish Implementation Guide",
   "status" : "draft",
-  "date" : "2023-07-18T13:20:53+02:00",
+  "date" : "2023-07-18T14:12:38+02:00",
   "contact" : [{
     "name" : "Bill Cod",
     "telecom" : [{
@@ -735,6 +735,18 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/organization"
+      },
+      "name" : "Organization",
+      "description" : "This profile is used to add organizations to a care team.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/cara-patient"
       },
       "name" : "Patient",
@@ -751,6 +763,18 @@
       },
       "name" : "Patient Priorities",
       "description" : "Used to describe the priorities of a patient with regard to his SCP",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/related-person"
+      },
+      "name" : "Related Person",
+      "description" : "This profile is used to add externals to a care team.",
       "exampleBoolean" : false
     },
     {

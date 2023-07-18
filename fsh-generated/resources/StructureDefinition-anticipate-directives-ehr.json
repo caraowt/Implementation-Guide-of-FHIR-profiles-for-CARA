@@ -1,11 +1,11 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "anticipate-directives-epr",
-  "url": "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-epr",
-  "name": "AnticipateDirectivesInEPR",
+  "id": "anticipate-directives-ehr",
+  "url": "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-ehr",
+  "name": "AnticipateDirectivesInEHR",
   "title": "Advance Directives in EHR",
   "status": "draft",
-  "description": "The anticipate directives are in the EHR of the patient. This field is present ",
+  "description": "The anticipate directives are in the EHR of the patient. This field is present and is a boolean",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -31,7 +31,7 @@
         "id": "Extension",
         "path": "Extension",
         "short": "Advance Directives in EHR",
-        "definition": "The anticipate directives are in the EHR of the patient. This field is present "
+        "definition": "The anticipate directives are in the EHR of the patient. This field is present and is a boolean"
       },
       {
         "id": "Extension.extension",
@@ -41,7 +41,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-epr"
+        "fixedUri": "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-ehr"
       },
       {
         "id": "Extension.value[x]",

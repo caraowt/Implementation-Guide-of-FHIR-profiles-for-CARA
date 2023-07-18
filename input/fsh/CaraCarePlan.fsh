@@ -18,7 +18,8 @@ Description:    "A Care Plan tailored to the needs of CARA with advanced directi
 * extension contains HistoricalData named historicalData 0..1
 * extension contains PatientPriorities named patientPriorities 0..1
 * extension contains AnticipateDirectivesExist named anticipateDirectivesExist 0..1
-* extension contains AnticipateDirectivesInEPR named anticipateDirectivesInEpr 0..1
+* extension contains AnticipateDirectivesInEHR named anticipateDirectivesInEhr 0..1
+* extension contains AnticipateDirectivesLocation named anticipateDirectivesLocation 0..1
 * activity 0..*
   * extension contains AttentionPoint named attentionPoint 0..1
 
@@ -42,18 +43,30 @@ Description: "Used to describe the priorities of a patient with regard to his SC
 
 Extension: AnticipateDirectivesExist
 Id: anticipate-directives-exist
-Title: "Existence of AD"
+Title: "Existence of Advance Directives"
 Description: "This field is used to indicate whether a patient has advanced directives"
 * value[x] only boolean
 
-Extension: AnticipateDirectivesInEPR
-Id: anticipate-directives-epr
+Extension: AnticipateDirectivesInEHR
+Id: anticipate-directives-ehr
 Title: "Advance Directives in EHR"
-Description: "The anticipate directives are in the EHR of the patient. This field is present "
+Description: "The anticipate directives are in the EHR of the patient. This field is present and is a boolean"
 * value[x] only boolean
+
+Extension: AnticipateDirectivesLocation
+Id: anticipate-directives-location
+Title: "Advance Directives Location"
+Description: "This field is used to indicate where the advance directives are if they exist and are not located in the EHR."
+* value[x] only string
 
 Extension: AttentionPoint
 Id: attention-point
 Title: "Attention Point"
 Description: "Attention Point on the observation"
+* value[x] only boolean
+
+Extension: ShowNote
+Id: showNote
+Title: "Show note in SCP monitoring screen"
+Description: "Notes are by default not shown in the SCP monitoring screen. However a member of the SCP interprofessional team can choose to disclose it to the rest of the team."
 * value[x] only boolean

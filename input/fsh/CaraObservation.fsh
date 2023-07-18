@@ -1,5 +1,4 @@
 Alias:          $Observation = http://hl7.org/fhir/StructureDefinition/Observation
-Alias:          $Goal = http://hl7.org/fhir/StructureDefinition/Goal
 
 Profile:        Observation
 Parent:         $Observation

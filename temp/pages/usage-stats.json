@@ -95,6 +95,18 @@
         "url": "http://example.org/fhir/fish/StructureDefinition/goal",
         "title": "Goal"
       }
+    ],
+    "Organization": [
+      {
+        "url": "http://example.org/fhir/fish/StructureDefinition/organization",
+        "title": "Organization"
+      }
+    ],
+    "RelatedPerson": [
+      {
+        "url": "http://example.org/fhir/fish/StructureDefinition/related-person",
+        "title": "Related Person"
+      }
     ]
   },
   "usage": {

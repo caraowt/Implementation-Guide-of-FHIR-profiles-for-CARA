@@ -1,4 +1,5 @@
-[AnticipateDirectivesInEPR]: StructureDefinition-anticipate-directives-epr.html
+[AnticipateDirectivesInEHR]: StructureDefinition-anticipate-directives-ehr.html
+[AnticipateDirectivesLocation]: StructureDefinition-anticipate-directives-location.html
 [AllergyIntolerance]: StructureDefinition-allergy-intolerance.html
 [AttentionPoint]: StructureDefinition-attention-point.html
 [CarePlan]: StructureDefinition-careplan.html
@@ -9,7 +10,9 @@
 [Goal]: StructureDefinition-goal.html
 [HistoricalData]: StructureDefinition-historical-data.html
 [Observation]: StructureDefinition-Observation.html
+[Organization]: StructureDefinition-organization.html
 [Patient]: StructureDefinition-cara-patient.html
 [PatientPriorities]: StructureDefinition-patient-priorities.html
 [RelatedPerson]: StructureDefinition-related-person.html
+[ShowNote]: StructureDefinition-showNote.html
 [SocialData]: StructureDefinition-social-data.html

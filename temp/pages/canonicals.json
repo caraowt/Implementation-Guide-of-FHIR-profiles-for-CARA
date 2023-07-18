@@ -91,11 +91,25 @@
     "name" : "HistoricalData"
   },
   {
+    "id" : "organization",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/fhir/fish/StructureDefinition/organization",
+    "version" : "0.1.0",
+    "name" : "Organization"
+  },
+  {
     "id" : "patient-priorities",
     "type" : "StructureDefinition",
     "url" : "http://example.org/fhir/fish/StructureDefinition/patient-priorities",
     "version" : "0.1.0",
     "name" : "PatientPriorities"
+  },
+  {
+    "id" : "related-person",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/fhir/fish/StructureDefinition/related-person",
+    "version" : "0.1.0",
+    "name" : "RelatedPerson"
   },
   {
     "id" : "social-data",

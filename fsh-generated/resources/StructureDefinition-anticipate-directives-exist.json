@@ -3,7 +3,7 @@
   "id": "anticipate-directives-exist",
   "url": "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-exist",
   "name": "AnticipateDirectivesExist",
-  "title": "Existence of AD",
+  "title": "Existence of Advance Directives",
   "status": "draft",
   "description": "This field is used to indicate whether a patient has advanced directives",
   "fhirVersion": "4.0.1",
@@ -30,7 +30,7 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "Existence of AD",
+        "short": "Existence of Advance Directives",
         "definition": "This field is used to indicate whether a patient has advanced directives"
       },
       {

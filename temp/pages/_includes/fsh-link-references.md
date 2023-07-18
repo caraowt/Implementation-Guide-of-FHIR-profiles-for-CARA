@@ -9,6 +9,8 @@
 [Goal]: StructureDefinition-goal.html
 [HistoricalData]: StructureDefinition-historical-data.html
 [Observation]: StructureDefinition-Observation.html
+[Organization]: StructureDefinition-organization.html
 [Patient]: StructureDefinition-cara-patient.html
 [PatientPriorities]: StructureDefinition-patient-priorities.html
+[RelatedPerson]: StructureDefinition-related-person.html
 [SocialData]: StructureDefinition-social-data.html

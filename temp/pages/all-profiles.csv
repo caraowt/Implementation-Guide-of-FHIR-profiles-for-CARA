@@ -13,6 +13,20 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "historical-data","Extension.value[x]","Extension.value[x]","","","",0,1,"","","","string {[]} {[]}
 ","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
+"showNote","Extension","Extension","","","",0,*,"","","","null {[]} {[]}
+","Show note in SCP monitoring screen","Notes are by default not shown in the SCP monitoring screen. However a member of the SCP interprofessional team can choose to disclose it to the rest of the team.","","","","","","","","","",,,,,"",,,,"Extension",0,*,"ele-1
+",""
+"showNote","Extension.id","Extension.id","","","",0,1,"","","","string {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""
+"showNote","Extension.extension","Extension.extension","","","",0,0,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"showNote","Extension.url","Extension.url","","","",1,1,"","","","uri {[]} {[]}
+","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://example.org/fhir/fish/StructureDefinition/showNote""/>","","","","",,,,,"",,,,"Extension.url",1,1,"",""
+"showNote","Extension.value[x]","Extension.value[x]","","","",0,1,"","","","boolean {[]} {[]}
+","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
 "condition","Condition","Condition","","","",0,*,"","","","null {[]} {[]}
 ","Detailed information about conditions, problems or diagnoses","A clinical condition, problem, diagnosis, or other event, situation, issue, or clinical concept that has risen to a level of concern.","","","","","","","","","",,,,,"",,,,"Condition",0,*,"",""
 "condition","Condition.id","Condition.id","","","",0,1,"","","Y","id {[]} {[]}
@@ -241,20 +255,6 @@ Member is optional because some participants may be known only by their role, pa
 "care-team","CareTeam.note","CareTeam.note","","","",0,*,"","","","Annotation {[]} {[]}
 ","Comments made about the CareTeam","Comments made about the CareTeam.","","","","","","","","","",,,,,"",,,,"CareTeam.note",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
-"anticipate-directives-epr","Extension","Extension","","","",0,*,"","","","null {[]} {[]}
-","Advance Directives in EHR","The anticipate directives are in the EHR of the patient. This field is present ","","","","","","","","","",,,,,"",,,,"Extension",0,*,"ele-1
-",""
-"anticipate-directives-epr","Extension.id","Extension.id","","","",0,1,"","","","string {[]} {[]}
-","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""
-"anticipate-directives-epr","Extension.extension","Extension.extension","","","",0,0,"","","","Extension {[]} {[]}
-","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
-","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"anticipate-directives-epr","Extension.url","Extension.url","","","",1,1,"","","","uri {[]} {[]}
-","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://example.org/fhir/fish/StructureDefinition/anticipate-directives-epr""/>","","","","",,,,,"",,,,"Extension.url",1,1,"",""
-"anticipate-directives-epr","Extension.value[x]","Extension.value[x]","","","",0,1,"","","","boolean {[]} {[]}
-","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-"
 "careplan","CarePlan","CarePlan","","Care Team
 ","",0,*,"","","","null {[]} {[]}
 ","Healthcare plan for patient or group","Describes the intention of how one or more practitioners intend to deliver care for a particular patient, group or community for a period of time, possibly limited to care for a specific condition or set of conditions.","","","","","","","","","",,,,,"",,,,"CarePlan",0,*,"",""
@@ -293,11 +293,15 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "careplan","CarePlan.extension:anticipateDirectivesExist","CarePlan.extension","anticipateDirectivesExist","","",0,1,"","","","Extension {[CanonicalType[http://example.org/fhir/fish/StructureDefinition/anticipate-directives-exist]]} {[]}
-","Existence of AD","This field is used to indicate whether a patient has advanced directives","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","Existence of Advance Directives","This field is used to indicate whether a patient has advanced directives","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"careplan","CarePlan.extension:anticipateDirectivesInEpr","CarePlan.extension","anticipateDirectivesInEpr","","",0,1,"","","","Extension {[CanonicalType[http://example.org/fhir/fish/StructureDefinition/anticipate-directives-epr]]} {[]}
-","Advance Directives in EHR","The anticipate directives are in the EHR of the patient. This field is present","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+"careplan","CarePlan.extension:anticipateDirectivesInEhr","CarePlan.extension","anticipateDirectivesInEhr","","",0,1,"","","","Extension {[CanonicalType[http://example.org/fhir/fish/StructureDefinition/anticipate-directives-ehr]]} {[]}
+","Advance Directives in EHR","The anticipate directives are in the EHR of the patient. This field is present and is a boolean","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"careplan","CarePlan.extension:anticipateDirectivesLocation","CarePlan.extension","anticipateDirectivesLocation","","",0,1,"","","","Extension {[CanonicalType[http://example.org/fhir/fish/StructureDefinition/anticipate-directives-location]]} {[]}
+","Advance Directives Location","This field is used to indicate where the advance directives are if they exist and are not located in the EHR.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "careplan","CarePlan.modifierExtension","CarePlan.modifierExtension","","extensions
@@ -387,6 +391,10 @@ ele-1:All FHIR elements must have a @value or children {hasValue() or (children(
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "careplan","CarePlan.activity.extension:attentionPoint","CarePlan.activity.extension","attentionPoint","","",0,1,"","","","Extension {[CanonicalType[http://example.org/fhir/fish/StructureDefinition/attention-point]]} {[]}
 ","Attention Point","Attention Point on the observation","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"careplan","CarePlan.activity.extension:showNote","CarePlan.activity.extension","showNote","","",0,1,"","","","Extension {[CanonicalType[http://example.org/fhir/fish/StructureDefinition/showNote]]} {[]}
+","Show note in SCP monitoring screen","Notes are by default not shown in the SCP monitoring screen. However a member of the SCP interprofessional team can choose to disclose it to the rest of the team.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "careplan","CarePlan.activity.modifierExtension","CarePlan.activity.modifierExtension","","extensions
@@ -479,6 +487,20 @@ Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Medicatio
 "
 "careplan","CarePlan.note","CarePlan.note","","","",0,*,"","","","Annotation {[]} {[]}
 ","Comments about the plan","General notes about the care plan not covered elsewhere.","","Used to capture information that applies to the plan as a whole that doesn't fit into discrete elements.","","","","","","","",,,,,"",,,,"CarePlan.note",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"anticipate-directives-location","Extension","Extension","","","",0,*,"","","","null {[]} {[]}
+","Advance Directives Location","This field is used to indicate where the advance directives are if they exist and are not located in the EHR.","","","","","","","","","",,,,,"",,,,"Extension",0,*,"ele-1
+",""
+"anticipate-directives-location","Extension.id","Extension.id","","","",0,1,"","","","string {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""
+"anticipate-directives-location","Extension.extension","Extension.extension","","","",0,0,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"anticipate-directives-location","Extension.url","Extension.url","","","",1,1,"","","","uri {[]} {[]}
+","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://example.org/fhir/fish/StructureDefinition/anticipate-directives-location""/>","","","","",,,,,"",,,,"Extension.url",1,1,"",""
+"anticipate-directives-location","Extension.value[x]","Extension.value[x]","","","",0,1,"","","","string {[]} {[]}
+","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "attention-point","Extension","Extension","","","",0,*,"","","","null {[]} {[]}
 ","Attention Point","Attention Point on the observation","","","","","","","","","",,,,,"",,,,"Extension",0,*,"ele-1
@@ -616,6 +638,20 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "patient-priorities","Extension.url","Extension.url","","","",1,1,"","","","uri {[]} {[]}
 ","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://example.org/fhir/fish/StructureDefinition/patient-priorities""/>","","","","",,,,,"",,,,"Extension.url",1,1,"",""
 "patient-priorities","Extension.value[x]","Extension.value[x]","","","",0,1,"","","","string {[]} {[]}
+","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"anticipate-directives-ehr","Extension","Extension","","","",0,*,"","","","null {[]} {[]}
+","Advance Directives in EHR","The anticipate directives are in the EHR of the patient. This field is present and is a boolean","","","","","","","","","",,,,,"",,,,"Extension",0,*,"ele-1
+",""
+"anticipate-directives-ehr","Extension.id","Extension.id","","","",0,1,"","","","string {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""
+"anticipate-directives-ehr","Extension.extension","Extension.extension","","","",0,0,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"anticipate-directives-ehr","Extension.url","Extension.url","","","",1,1,"","","","uri {[]} {[]}
+","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://example.org/fhir/fish/StructureDefinition/anticipate-directives-ehr""/>","","","","",,,,,"",,,,"Extension.url",1,1,"",""
+"anticipate-directives-ehr","Extension.value[x]","Extension.value[x]","","","",0,1,"","","","boolean {[]} {[]}
 ","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "allergy-intolerance","AllergyIntolerance","AllergyIntolerance","","Allergy
@@ -1111,7 +1147,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,"required","","http://hl7.org/fhir/ValueSet/country","",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "anticipate-directives-exist","Extension","Extension","","","",0,*,"","","","null {[]} {[]}
-","Existence of AD","This field is used to indicate whether a patient has advanced directives","","","","","","","","","",,,,,"",,,,"Extension",0,*,"ele-1
+","Existence of Advance Directives","This field is used to indicate whether a patient has advanced directives","","","","","","","","","",,,,,"",,,,"Extension",0,*,"ele-1
 ",""
 "anticipate-directives-exist","Extension.id","Extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""

@@ -22,6 +22,7 @@ Description:    "A Care Plan tailored to the needs of CARA with advanced directi
 * extension contains AnticipateDirectivesLocation named anticipateDirectivesLocation 0..1
 * activity 0..*
   * extension contains AttentionPoint named attentionPoint 0..1
+  * extension contains ShowNote named showNote 0..1
 
 Extension: SocialData
 Id: social-data

@@ -11,7 +11,7 @@
   <name value="FishImplementationGuide"/>
   <title value="Fish Implementation Guide"/>
   <status value="draft"/>
-  <date value="2023-07-18T14:12:38+02:00"/>
+  <date value="2023-07-18T14:23:59+02:00"/>
   <contact>
     <name value="Bill Cod"/>
     <telecom>
@@ -448,10 +448,21 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/anticipate-directives-epr"/>
+        <reference value="StructureDefinition/anticipate-directives-ehr"/>
       </reference>
       <name value="Advance Directives in EHR"/>
-      <description value="The anticipate directives are in the EHR of the patient. This field is present"/>
+      <description value="The anticipate directives are in the EHR of the patient. This field is present and is a boolean"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/anticipate-directives-location"/>
+      </reference>
+      <name value="Advance Directives Location"/>
+      <description value="This field is used to indicate where the advance directives are if they exist and are not located in the EHR."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -527,7 +538,7 @@
       <reference>
         <reference value="StructureDefinition/anticipate-directives-exist"/>
       </reference>
-      <name value="Existence of AD"/>
+      <name value="Existence of Advance Directives"/>
       <description value="This field is used to indicate whether a patient has advanced directives"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -606,6 +617,17 @@
       </reference>
       <name value="Related Person"/>
       <description value="This profile is used to add externals to a care team."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/showNote"/>
+      </reference>
+      <name value="Show note in SCP monitoring screen"/>
+      <description value="Notes are by default not shown in the SCP monitoring screen. However a member of the SCP interprofessional team can choose to disclose it to the rest of the team."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

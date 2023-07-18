@@ -21,11 +21,11 @@
     "name" : "AllergyIntolerance"
   },
   {
-    "id" : "anticipate-directives-epr",
+    "id" : "anticipate-directives-ehr",
     "type" : "StructureDefinition",
-    "url" : "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-epr",
+    "url" : "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-ehr",
     "version" : "0.1.0",
-    "name" : "AnticipateDirectivesInEPR"
+    "name" : "AnticipateDirectivesInEHR"
   },
   {
     "id" : "anticipate-directives-exist",
@@ -33,6 +33,13 @@
     "url" : "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-exist",
     "version" : "0.1.0",
     "name" : "AnticipateDirectivesExist"
+  },
+  {
+    "id" : "anticipate-directives-location",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-location",
+    "version" : "0.1.0",
+    "name" : "AnticipateDirectivesLocation"
   },
   {
     "id" : "attention-point",
@@ -110,6 +117,13 @@
     "url" : "http://example.org/fhir/fish/StructureDefinition/related-person",
     "version" : "0.1.0",
     "name" : "RelatedPerson"
+  },
+  {
+    "id" : "showNote",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/fhir/fish/StructureDefinition/showNote",
+    "version" : "0.1.0",
+    "name" : "ShowNote"
   },
   {
     "id" : "social-data",

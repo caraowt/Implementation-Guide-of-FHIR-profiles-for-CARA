@@ -4,7 +4,7 @@
   "fhirVersion": "4.0.1",
   "extensions": [
     {
-      "url": "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-epr",
+      "url": "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-ehr",
       "title": "Advance Directives in EHR",
       "types": [
         "boolean"
@@ -12,9 +12,16 @@
     },
     {
       "url": "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-exist",
-      "title": "Existence of AD",
+      "title": "Existence of Advance Directives",
       "types": [
         "boolean"
+      ]
+    },
+    {
+      "url": "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-location",
+      "title": "Advance Directives Location",
+      "types": [
+        "string"
       ]
     },
     {
@@ -43,6 +50,13 @@
       "title": "Patient Priorities",
       "types": [
         "string"
+      ]
+    },
+    {
+      "url": "http://example.org/fhir/fish/StructureDefinition/showNote",
+      "title": "Show note in SCP monitoring screen",
+      "types": [
+        "boolean"
       ]
     },
     {
@@ -110,10 +124,13 @@
     ]
   },
   "usage": {
-    "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-epr": [
+    "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-ehr": [
       "CarePlan"
     ],
     "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-exist": [
+      "CarePlan"
+    ],
+    "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-location": [
       "CarePlan"
     ],
     "http://example.org/fhir/fish/StructureDefinition/attention-point": [
@@ -127,6 +144,9 @@
     ],
     "http://example.org/fhir/fish/StructureDefinition/patient-priorities": [
       "CarePlan"
+    ],
+    "http://example.org/fhir/fish/StructureDefinition/showNote": [
+      "CarePlan.activity"
     ],
     "http://example.org/fhir/fish/StructureDefinition/social-data": [
       "CarePlan"

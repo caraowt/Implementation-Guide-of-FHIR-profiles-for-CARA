@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "FishImplementationGuide"] ; # 
   fhir:title [ fhir:v "Fish Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-07-18T14:12:38+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-07-18T14:23:59+02:00"^^xsd:dateTime] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Bill Cod" ] ;
      fhir:telecom ( [
@@ -515,11 +515,23 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/fhir/fish/StructureDefinition/anticipate-directives-epr> ;
-         fhir:reference [ fhir:v "StructureDefinition/anticipate-directives-epr" ]
+         fhir:link <http://example.org/fhir/fish/StructureDefinition/anticipate-directives-ehr> ;
+         fhir:reference [ fhir:v "StructureDefinition/anticipate-directives-ehr" ]
        ] ;
        fhir:name [ fhir:v "Advance Directives in EHR" ] ;
-       fhir:description [ fhir:v "The anticipate directives are in the EHR of the patient. This field is present" ] ;
+       fhir:description [ fhir:v "The anticipate directives are in the EHR of the patient. This field is present and is a boolean" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://example.org/fhir/fish/StructureDefinition/anticipate-directives-location> ;
+         fhir:reference [ fhir:v "StructureDefinition/anticipate-directives-location" ]
+       ] ;
+       fhir:name [ fhir:v "Advance Directives Location" ] ;
+       fhir:description [ fhir:v "This field is used to indicate where the advance directives are if they exist and are not located in the EHR." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -602,7 +614,7 @@
          fhir:link <http://example.org/fhir/fish/StructureDefinition/anticipate-directives-exist> ;
          fhir:reference [ fhir:v "StructureDefinition/anticipate-directives-exist" ]
        ] ;
-       fhir:name [ fhir:v "Existence of AD" ] ;
+       fhir:name [ fhir:v "Existence of Advance Directives" ] ;
        fhir:description [ fhir:v "This field is used to indicate whether a patient has advanced directives" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
@@ -688,6 +700,18 @@
        ] ;
        fhir:name [ fhir:v "Related Person" ] ;
        fhir:description [ fhir:v "This profile is used to add externals to a care team." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://example.org/fhir/fish/StructureDefinition/showNote> ;
+         fhir:reference [ fhir:v "StructureDefinition/showNote" ]
+       ] ;
+       fhir:name [ fhir:v "Show note in SCP monitoring screen" ] ;
+       fhir:description [ fhir:v "Notes are by default not shown in the SCP monitoring screen. However a member of the SCP interprofessional team can choose to disclose it to the rest of the team." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

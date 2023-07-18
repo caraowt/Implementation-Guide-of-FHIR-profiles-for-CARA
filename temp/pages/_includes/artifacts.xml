@@ -108,10 +108,18 @@
          <tbody>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-anticipate-directives-epr.html"
-                     title="StructureDefinition/anticipate-directives-epr">Advance Directives in EHR</a>
+                  <a href="StructureDefinition-anticipate-directives-ehr.html"
+                     title="StructureDefinition/anticipate-directives-ehr">Advance Directives in EHR</a>
                </td>
-               <td>{% capture desc %}The anticipate directives are in the EHR of the patient. This field is present{% endcapture %}
+               <td>{% capture desc %}The anticipate directives are in the EHR of the patient. This field is present and is a boolean{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-anticipate-directives-location.html"
+                     title="StructureDefinition/anticipate-directives-location">Advance Directives Location</a>
+               </td>
+               <td>{% capture desc %}This field is used to indicate where the advance directives are if they exist and are not located in the EHR.{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
@@ -133,7 +141,7 @@
             <tr>
                <td style="column-width:30%">
                   <a href="StructureDefinition-anticipate-directives-exist.html"
-                     title="StructureDefinition/anticipate-directives-exist">Existence of AD</a>
+                     title="StructureDefinition/anticipate-directives-exist">Existence of Advance Directives</a>
                </td>
                <td>{% capture desc %}This field is used to indicate whether a patient has advanced directives{% endcapture %}
 {{ desc | markdownify}}</td>
@@ -152,6 +160,14 @@
                      title="StructureDefinition/patient-priorities">Patient Priorities</a>
                </td>
                <td>{% capture desc %}Used to describe the priorities of a patient with regard to his SCP{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-showNote.html"
+                     title="StructureDefinition/showNote">Show note in SCP monitoring screen</a>
+               </td>
+               <td>{% capture desc %}Notes are by default not shown in the SCP monitoring screen. However a member of the SCP interprofessional team can choose to disclose it to the rest of the team.{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>

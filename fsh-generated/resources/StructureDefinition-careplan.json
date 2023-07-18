@@ -168,6 +168,21 @@
             ]
           }
         ]
+      },
+      {
+        "id": "CarePlan.activity.extension:showNote",
+        "path": "CarePlan.activity.extension",
+        "sliceName": "showNote",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://example.org/fhir/fish/StructureDefinition/showNote"
+            ]
+          }
+        ]
       }
     ]
   }

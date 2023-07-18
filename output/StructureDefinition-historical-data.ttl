@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "HistoricalData"] ; # 
   fhir:title [ fhir:v "Historical Data"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-07-18T09:29:43+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-07-18T12:13:58+02:00"^^xsd:dateTime] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Bill Cod" ] ;
      fhir:telecom ( [

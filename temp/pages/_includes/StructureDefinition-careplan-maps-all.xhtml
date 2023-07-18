@@ -8,9 +8,11 @@
  <tr><td>&nbsp;&nbsp;&nbsp;text</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;contained</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;extension</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;extension (socialdata)</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;extension (historicaldata)</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;extension (patientpriorities)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension (socialData)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension (historicalData)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension (patientPriorities)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension (anticipateDirectivesExist)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension (anticipateDirectivesInEpr)</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;modifierExtension</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;identifier</td><td>Request.identifier</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;instantiatesCanonical</td><td>Request.instantiatesCanonical</td> </tr>
@@ -37,9 +39,7 @@
 NOTE: This is a list of contained Request-Event tuples!}</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension (attention-point)</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension (outcomeReference)</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension (Reference)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension (attentionPoint)</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;outcomeCodeableConcept</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;outcomeReference</td><td>{Event that is outcome of Request in activity.reference}</td> </tr>
@@ -78,9 +78,11 @@ NOTE: This is a list of contained Request-Event tuples!}</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;text</td><td>Act.text?</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;contained</td><td>N/A</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;extension</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;extension (socialdata)</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;extension (historicaldata)</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;extension (patientpriorities)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension (socialData)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension (historicalData)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension (patientPriorities)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension (anticipateDirectivesExist)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension (anticipateDirectivesInEpr)</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;identifier</td><td>.id</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;instantiatesCanonical</td><td>.outboundRelationship[typeCode=DEFN].target</td> </tr>
@@ -106,9 +108,7 @@ NOTE: This is a list of contained Request-Event tuples!}</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;activity</td><td>.outboundRelationship[typeCode=COMP].target</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension (attention-point)</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension (outcomeReference)</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension (Reference)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension (attentionPoint)</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;outcomeCodeableConcept</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;outcomeReference</td><td>.inboundRelationship[typeCode=FLFS].source</td> </tr>
@@ -147,9 +147,11 @@ NOTE: This is a list of contained Request-Event tuples!}</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;text</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;contained</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;extension</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;extension (socialdata)</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;extension (historicaldata)</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;extension (patientpriorities)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension (socialData)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension (historicalData)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension (patientPriorities)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension (anticipateDirectivesExist)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension (anticipateDirectivesInEpr)</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;modifierExtension</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;identifier</td><td>FiveWs.identifier</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;instantiatesCanonical</td><td></td> </tr>
@@ -175,9 +177,7 @@ NOTE: This is a list of contained Request-Event tuples!}</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;activity</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension (attention-point)</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension (outcomeReference)</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension (Reference)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension (attentionPoint)</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;outcomeCodeableConcept</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;outcomeReference</td><td></td> </tr>
@@ -216,9 +216,11 @@ NOTE: This is a list of contained Request-Event tuples!}</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;text</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;contained</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;extension</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;extension (socialdata)</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;extension (historicaldata)</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;extension (patientpriorities)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension (socialData)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension (historicalData)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension (patientPriorities)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension (anticipateDirectivesExist)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension (anticipateDirectivesInEpr)</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;modifierExtension</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;identifier</td><td>PTH-3</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;instantiatesCanonical</td><td></td> </tr>
@@ -244,9 +246,7 @@ NOTE: This is a list of contained Request-Event tuples!}</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;activity</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension (attention-point)</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension (outcomeReference)</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension (Reference)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension (attentionPoint)</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;outcomeCodeableConcept</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;outcomeReference</td><td></td> </tr>

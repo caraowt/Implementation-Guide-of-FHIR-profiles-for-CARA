@@ -11,7 +11,7 @@
   <name value="FishImplementationGuide"/>
   <title value="Fish Implementation Guide"/>
   <status value="draft"/>
-  <date value="2023-07-18T09:29:43+02:00"/>
+  <date value="2023-07-18T12:13:58+02:00"/>
   <contact>
     <name value="Bill Cod"/>
     <telecom>
@@ -500,17 +500,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/expressed-by"/>
-      </reference>
-      <name value="Expressed By"/>
-      <description value="String to indicate who expresssed this latest goal"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
@@ -533,13 +522,13 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
+        <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/outcome-reference"/>
+        <reference value="StructureDefinition/Observation"/>
       </reference>
-      <name value="Outcome Reference"/>
-      <description value="Attention Point on the observation"/>
+      <name value="Observation"/>
+      <description value="An observation is used to track the status of the patient on a given goal."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -562,28 +551,6 @@
       </reference>
       <name value="Patient Priorities"/>
       <description value="Used to describe the priorities of a patient with regard to his SCP"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/reason-reference"/>
-      </reference>
-      <name value="Reason Reference"/>
-      <description value="The reason behind the goals"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/reference"/>
-      </reference>
-      <name value="Reference"/>
-      <description value="Type of observation made by the contributor"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

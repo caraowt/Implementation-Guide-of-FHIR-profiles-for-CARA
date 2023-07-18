@@ -121,63 +121,115 @@
     "label" : "2.2",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Goal</b></li>",
     "previous" : "StructureDefinition-goal.profile.json.html",
-    "next" : "StructureDefinition-cara-patient.html"
+    "next" : "StructureDefinition-Observation.html"
   },
-  "StructureDefinition-cara-patient.html" : {
-    "title" : "Patient",
+  "StructureDefinition-Observation.html" : {
+    "title" : "Observation",
     "label" : "2.3",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient</b></li>",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Observation</b></li>",
     "examples" : [],
     "testplans" : [],
     "testscripts" : [],
     "previous" : "StructureDefinition-goal.profile.ttl.html",
+    "next" : "StructureDefinition-Observation-definitions.html"
+  },
+  "StructureDefinition-Observation-definitions.html" : {
+    "title" : "Observation - Definitions",
+    "label" : "2.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Observation</b></li>",
+    "previous" : "StructureDefinition-Observation.html",
+    "next" : "StructureDefinition-Observation-mappings.html"
+  },
+  "StructureDefinition-Observation-mappings.html" : {
+    "title" : "Observation - Mappings",
+    "label" : "2.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Observation</b></li>",
+    "previous" : "StructureDefinition-Observation-definitions.html",
+    "next" : "StructureDefinition-Observation-testing.html"
+  },
+  "StructureDefinition-Observation-testing.html" : {
+    "title" : "Observation - Testing",
+    "label" : "2.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Observation</b></li>",
+    "previous" : "StructureDefinition-Observation-mappings.html",
+    "next" : "StructureDefinition-Observation.profile.xml.html"
+  },
+  "StructureDefinition-Observation.profile.xml.html" : {
+    "title" : "Observation - XML Representation",
+    "label" : "2.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Observation</b></li>",
+    "previous" : "StructureDefinition-Observation-testing.html",
+    "next" : "StructureDefinition-Observation.profile.json.html"
+  },
+  "StructureDefinition-Observation.profile.json.html" : {
+    "title" : "Observation - JSON Representation",
+    "label" : "2.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Observation</b></li>",
+    "previous" : "StructureDefinition-Observation.profile.xml.html",
+    "next" : "StructureDefinition-Observation.profile.ttl.html"
+  },
+  "StructureDefinition-Observation.profile.ttl.html" : {
+    "title" : "Observation - TTL Representation",
+    "label" : "2.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Observation</b></li>",
+    "previous" : "StructureDefinition-Observation.profile.json.html",
+    "next" : "StructureDefinition-cara-patient.html"
+  },
+  "StructureDefinition-cara-patient.html" : {
+    "title" : "Patient",
+    "label" : "2.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-Observation.profile.ttl.html",
     "next" : "StructureDefinition-cara-patient-definitions.html"
   },
   "StructureDefinition-cara-patient-definitions.html" : {
     "title" : "Patient - Definitions",
-    "label" : "2.3",
+    "label" : "2.4",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient</b></li>",
     "previous" : "StructureDefinition-cara-patient.html",
     "next" : "StructureDefinition-cara-patient-mappings.html"
   },
   "StructureDefinition-cara-patient-mappings.html" : {
     "title" : "Patient - Mappings",
-    "label" : "2.3",
+    "label" : "2.4",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient</b></li>",
     "previous" : "StructureDefinition-cara-patient-definitions.html",
     "next" : "StructureDefinition-cara-patient-testing.html"
   },
   "StructureDefinition-cara-patient-testing.html" : {
     "title" : "Patient - Testing",
-    "label" : "2.3",
+    "label" : "2.4",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient</b></li>",
     "previous" : "StructureDefinition-cara-patient-mappings.html",
     "next" : "StructureDefinition-cara-patient.profile.xml.html"
   },
   "StructureDefinition-cara-patient.profile.xml.html" : {
     "title" : "Patient - XML Representation",
-    "label" : "2.3",
+    "label" : "2.4",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient</b></li>",
     "previous" : "StructureDefinition-cara-patient-testing.html",
     "next" : "StructureDefinition-cara-patient.profile.json.html"
   },
   "StructureDefinition-cara-patient.profile.json.html" : {
     "title" : "Patient - JSON Representation",
-    "label" : "2.3",
+    "label" : "2.4",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient</b></li>",
     "previous" : "StructureDefinition-cara-patient.profile.xml.html",
     "next" : "StructureDefinition-cara-patient.profile.ttl.html"
   },
   "StructureDefinition-cara-patient.profile.ttl.html" : {
     "title" : "Patient - TTL Representation",
-    "label" : "2.3",
+    "label" : "2.4",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient</b></li>",
     "previous" : "StructureDefinition-cara-patient.profile.json.html",
     "next" : "StructureDefinition-veterinarian.html"
   },
   "StructureDefinition-veterinarian.html" : {
     "title" : "Veterinarian",
-    "label" : "2.4",
+    "label" : "2.5",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Veterinarian</b></li>",
     "examples" : [],
     "testplans" : [],
@@ -187,49 +239,49 @@
   },
   "StructureDefinition-veterinarian-definitions.html" : {
     "title" : "Veterinarian - Definitions",
-    "label" : "2.4",
+    "label" : "2.5",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Veterinarian</b></li>",
     "previous" : "StructureDefinition-veterinarian.html",
     "next" : "StructureDefinition-veterinarian-mappings.html"
   },
   "StructureDefinition-veterinarian-mappings.html" : {
     "title" : "Veterinarian - Mappings",
-    "label" : "2.4",
+    "label" : "2.5",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Veterinarian</b></li>",
     "previous" : "StructureDefinition-veterinarian-definitions.html",
     "next" : "StructureDefinition-veterinarian-testing.html"
   },
   "StructureDefinition-veterinarian-testing.html" : {
     "title" : "Veterinarian - Testing",
-    "label" : "2.4",
+    "label" : "2.5",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Veterinarian</b></li>",
     "previous" : "StructureDefinition-veterinarian-mappings.html",
     "next" : "StructureDefinition-veterinarian.profile.xml.html"
   },
   "StructureDefinition-veterinarian.profile.xml.html" : {
     "title" : "Veterinarian - XML Representation",
-    "label" : "2.4",
+    "label" : "2.5",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Veterinarian</b></li>",
     "previous" : "StructureDefinition-veterinarian-testing.html",
     "next" : "StructureDefinition-veterinarian.profile.json.html"
   },
   "StructureDefinition-veterinarian.profile.json.html" : {
     "title" : "Veterinarian - JSON Representation",
-    "label" : "2.4",
+    "label" : "2.5",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Veterinarian</b></li>",
     "previous" : "StructureDefinition-veterinarian.profile.xml.html",
     "next" : "StructureDefinition-veterinarian.profile.ttl.html"
   },
   "StructureDefinition-veterinarian.profile.ttl.html" : {
     "title" : "Veterinarian - TTL Representation",
-    "label" : "2.4",
+    "label" : "2.5",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Veterinarian</b></li>",
     "previous" : "StructureDefinition-veterinarian.profile.json.html",
     "next" : "StructureDefinition-anticipate-directives-epr.html"
   },
   "StructureDefinition-anticipate-directives-epr.html" : {
     "title" : "Advance Directives in EHR",
-    "label" : "2.5",
+    "label" : "2.6",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Advance Directives in EHR</b></li>",
     "examples" : [],
     "testplans" : [],
@@ -239,49 +291,49 @@
   },
   "StructureDefinition-anticipate-directives-epr-definitions.html" : {
     "title" : "Advance Directives in EHR - Definitions",
-    "label" : "2.5",
+    "label" : "2.6",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Advance Directives in EHR</b></li>",
     "previous" : "StructureDefinition-anticipate-directives-epr.html",
     "next" : "StructureDefinition-anticipate-directives-epr-mappings.html"
   },
   "StructureDefinition-anticipate-directives-epr-mappings.html" : {
     "title" : "Advance Directives in EHR - Mappings",
-    "label" : "2.5",
+    "label" : "2.6",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Advance Directives in EHR</b></li>",
     "previous" : "StructureDefinition-anticipate-directives-epr-definitions.html",
     "next" : "StructureDefinition-anticipate-directives-epr-testing.html"
   },
   "StructureDefinition-anticipate-directives-epr-testing.html" : {
     "title" : "Advance Directives in EHR - Testing",
-    "label" : "2.5",
+    "label" : "2.6",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Advance Directives in EHR</b></li>",
     "previous" : "StructureDefinition-anticipate-directives-epr-mappings.html",
     "next" : "StructureDefinition-anticipate-directives-epr.profile.xml.html"
   },
   "StructureDefinition-anticipate-directives-epr.profile.xml.html" : {
     "title" : "Advance Directives in EHR - XML Representation",
-    "label" : "2.5",
+    "label" : "2.6",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Advance Directives in EHR</b></li>",
     "previous" : "StructureDefinition-anticipate-directives-epr-testing.html",
     "next" : "StructureDefinition-anticipate-directives-epr.profile.json.html"
   },
   "StructureDefinition-anticipate-directives-epr.profile.json.html" : {
     "title" : "Advance Directives in EHR - JSON Representation",
-    "label" : "2.5",
+    "label" : "2.6",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Advance Directives in EHR</b></li>",
     "previous" : "StructureDefinition-anticipate-directives-epr.profile.xml.html",
     "next" : "StructureDefinition-anticipate-directives-epr.profile.ttl.html"
   },
   "StructureDefinition-anticipate-directives-epr.profile.ttl.html" : {
     "title" : "Advance Directives in EHR - TTL Representation",
-    "label" : "2.5",
+    "label" : "2.6",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Advance Directives in EHR</b></li>",
     "previous" : "StructureDefinition-anticipate-directives-epr.profile.json.html",
     "next" : "StructureDefinition-attention-point.html"
   },
   "StructureDefinition-attention-point.html" : {
     "title" : "Attention Point",
-    "label" : "2.6",
+    "label" : "2.7",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Attention Point</b></li>",
     "examples" : [],
     "testplans" : [],
@@ -291,49 +343,49 @@
   },
   "StructureDefinition-attention-point-definitions.html" : {
     "title" : "Attention Point - Definitions",
-    "label" : "2.6",
+    "label" : "2.7",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Attention Point</b></li>",
     "previous" : "StructureDefinition-attention-point.html",
     "next" : "StructureDefinition-attention-point-mappings.html"
   },
   "StructureDefinition-attention-point-mappings.html" : {
     "title" : "Attention Point - Mappings",
-    "label" : "2.6",
+    "label" : "2.7",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Attention Point</b></li>",
     "previous" : "StructureDefinition-attention-point-definitions.html",
     "next" : "StructureDefinition-attention-point-testing.html"
   },
   "StructureDefinition-attention-point-testing.html" : {
     "title" : "Attention Point - Testing",
-    "label" : "2.6",
+    "label" : "2.7",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Attention Point</b></li>",
     "previous" : "StructureDefinition-attention-point-mappings.html",
     "next" : "StructureDefinition-attention-point.profile.xml.html"
   },
   "StructureDefinition-attention-point.profile.xml.html" : {
     "title" : "Attention Point - XML Representation",
-    "label" : "2.6",
+    "label" : "2.7",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Attention Point</b></li>",
     "previous" : "StructureDefinition-attention-point-testing.html",
     "next" : "StructureDefinition-attention-point.profile.json.html"
   },
   "StructureDefinition-attention-point.profile.json.html" : {
     "title" : "Attention Point - JSON Representation",
-    "label" : "2.6",
+    "label" : "2.7",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Attention Point</b></li>",
     "previous" : "StructureDefinition-attention-point.profile.xml.html",
     "next" : "StructureDefinition-attention-point.profile.ttl.html"
   },
   "StructureDefinition-attention-point.profile.ttl.html" : {
     "title" : "Attention Point - TTL Representation",
-    "label" : "2.6",
+    "label" : "2.7",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Attention Point</b></li>",
     "previous" : "StructureDefinition-attention-point.profile.json.html",
     "next" : "StructureDefinition-country-of-birth.html"
   },
   "StructureDefinition-country-of-birth.html" : {
     "title" : "Country of Birth",
-    "label" : "2.7",
+    "label" : "2.8",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Country of Birth</b></li>",
     "examples" : [],
     "testplans" : [],
@@ -343,49 +395,49 @@
   },
   "StructureDefinition-country-of-birth-definitions.html" : {
     "title" : "Country of Birth - Definitions",
-    "label" : "2.7",
+    "label" : "2.8",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Country of Birth</b></li>",
     "previous" : "StructureDefinition-country-of-birth.html",
     "next" : "StructureDefinition-country-of-birth-mappings.html"
   },
   "StructureDefinition-country-of-birth-mappings.html" : {
     "title" : "Country of Birth - Mappings",
-    "label" : "2.7",
+    "label" : "2.8",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Country of Birth</b></li>",
     "previous" : "StructureDefinition-country-of-birth-definitions.html",
     "next" : "StructureDefinition-country-of-birth-testing.html"
   },
   "StructureDefinition-country-of-birth-testing.html" : {
     "title" : "Country of Birth - Testing",
-    "label" : "2.7",
+    "label" : "2.8",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Country of Birth</b></li>",
     "previous" : "StructureDefinition-country-of-birth-mappings.html",
     "next" : "StructureDefinition-country-of-birth.profile.xml.html"
   },
   "StructureDefinition-country-of-birth.profile.xml.html" : {
     "title" : "Country of Birth - XML Representation",
-    "label" : "2.7",
+    "label" : "2.8",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Country of Birth</b></li>",
     "previous" : "StructureDefinition-country-of-birth-testing.html",
     "next" : "StructureDefinition-country-of-birth.profile.json.html"
   },
   "StructureDefinition-country-of-birth.profile.json.html" : {
     "title" : "Country of Birth - JSON Representation",
-    "label" : "2.7",
+    "label" : "2.8",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Country of Birth</b></li>",
     "previous" : "StructureDefinition-country-of-birth.profile.xml.html",
     "next" : "StructureDefinition-country-of-birth.profile.ttl.html"
   },
   "StructureDefinition-country-of-birth.profile.ttl.html" : {
     "title" : "Country of Birth - TTL Representation",
-    "label" : "2.7",
+    "label" : "2.8",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Country of Birth</b></li>",
     "previous" : "StructureDefinition-country-of-birth.profile.json.html",
     "next" : "StructureDefinition-anticipate-directives-exist.html"
   },
   "StructureDefinition-anticipate-directives-exist.html" : {
     "title" : "Existence of AD",
-    "label" : "2.8",
+    "label" : "2.9",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Existence of AD</b></li>",
     "examples" : [],
     "testplans" : [],
@@ -395,96 +447,44 @@
   },
   "StructureDefinition-anticipate-directives-exist-definitions.html" : {
     "title" : "Existence of AD - Definitions",
-    "label" : "2.8",
+    "label" : "2.9",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Existence of AD</b></li>",
     "previous" : "StructureDefinition-anticipate-directives-exist.html",
     "next" : "StructureDefinition-anticipate-directives-exist-mappings.html"
   },
   "StructureDefinition-anticipate-directives-exist-mappings.html" : {
     "title" : "Existence of AD - Mappings",
-    "label" : "2.8",
+    "label" : "2.9",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Existence of AD</b></li>",
     "previous" : "StructureDefinition-anticipate-directives-exist-definitions.html",
     "next" : "StructureDefinition-anticipate-directives-exist-testing.html"
   },
   "StructureDefinition-anticipate-directives-exist-testing.html" : {
     "title" : "Existence of AD - Testing",
-    "label" : "2.8",
+    "label" : "2.9",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Existence of AD</b></li>",
     "previous" : "StructureDefinition-anticipate-directives-exist-mappings.html",
     "next" : "StructureDefinition-anticipate-directives-exist.profile.xml.html"
   },
   "StructureDefinition-anticipate-directives-exist.profile.xml.html" : {
     "title" : "Existence of AD - XML Representation",
-    "label" : "2.8",
+    "label" : "2.9",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Existence of AD</b></li>",
     "previous" : "StructureDefinition-anticipate-directives-exist-testing.html",
     "next" : "StructureDefinition-anticipate-directives-exist.profile.json.html"
   },
   "StructureDefinition-anticipate-directives-exist.profile.json.html" : {
     "title" : "Existence of AD - JSON Representation",
-    "label" : "2.8",
+    "label" : "2.9",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Existence of AD</b></li>",
     "previous" : "StructureDefinition-anticipate-directives-exist.profile.xml.html",
     "next" : "StructureDefinition-anticipate-directives-exist.profile.ttl.html"
   },
   "StructureDefinition-anticipate-directives-exist.profile.ttl.html" : {
     "title" : "Existence of AD - TTL Representation",
-    "label" : "2.8",
+    "label" : "2.9",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Existence of AD</b></li>",
     "previous" : "StructureDefinition-anticipate-directives-exist.profile.json.html",
-    "next" : "StructureDefinition-expressed-by.html"
-  },
-  "StructureDefinition-expressed-by.html" : {
-    "title" : "Expressed By",
-    "label" : "2.9",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Expressed By</b></li>",
-    "examples" : [],
-    "testplans" : [],
-    "testscripts" : [],
-    "previous" : "StructureDefinition-anticipate-directives-exist.profile.ttl.html",
-    "next" : "StructureDefinition-expressed-by-definitions.html"
-  },
-  "StructureDefinition-expressed-by-definitions.html" : {
-    "title" : "Expressed By - Definitions",
-    "label" : "2.9",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Expressed By</b></li>",
-    "previous" : "StructureDefinition-expressed-by.html",
-    "next" : "StructureDefinition-expressed-by-mappings.html"
-  },
-  "StructureDefinition-expressed-by-mappings.html" : {
-    "title" : "Expressed By - Mappings",
-    "label" : "2.9",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Expressed By</b></li>",
-    "previous" : "StructureDefinition-expressed-by-definitions.html",
-    "next" : "StructureDefinition-expressed-by-testing.html"
-  },
-  "StructureDefinition-expressed-by-testing.html" : {
-    "title" : "Expressed By - Testing",
-    "label" : "2.9",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Expressed By</b></li>",
-    "previous" : "StructureDefinition-expressed-by-mappings.html",
-    "next" : "StructureDefinition-expressed-by.profile.xml.html"
-  },
-  "StructureDefinition-expressed-by.profile.xml.html" : {
-    "title" : "Expressed By - XML Representation",
-    "label" : "2.9",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Expressed By</b></li>",
-    "previous" : "StructureDefinition-expressed-by-testing.html",
-    "next" : "StructureDefinition-expressed-by.profile.json.html"
-  },
-  "StructureDefinition-expressed-by.profile.json.html" : {
-    "title" : "Expressed By - JSON Representation",
-    "label" : "2.9",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Expressed By</b></li>",
-    "previous" : "StructureDefinition-expressed-by.profile.xml.html",
-    "next" : "StructureDefinition-expressed-by.profile.ttl.html"
-  },
-  "StructureDefinition-expressed-by.profile.ttl.html" : {
-    "title" : "Expressed By - TTL Representation",
-    "label" : "2.9",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Expressed By</b></li>",
-    "previous" : "StructureDefinition-expressed-by.profile.json.html",
     "next" : "StructureDefinition-historical-data.html"
   },
   "StructureDefinition-historical-data.html" : {
@@ -494,7 +494,7 @@
     "examples" : [],
     "testplans" : [],
     "testscripts" : [],
-    "previous" : "StructureDefinition-expressed-by.profile.ttl.html",
+    "previous" : "StructureDefinition-anticipate-directives-exist.profile.ttl.html",
     "next" : "StructureDefinition-historical-data-definitions.html"
   },
   "StructureDefinition-historical-data-definitions.html" : {
@@ -537,264 +537,108 @@
     "label" : "2.10",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Historical Data</b></li>",
     "previous" : "StructureDefinition-historical-data.profile.json.html",
-    "next" : "StructureDefinition-outcome-reference.html"
-  },
-  "StructureDefinition-outcome-reference.html" : {
-    "title" : "Outcome Reference",
-    "label" : "2.11",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Outcome Reference</b></li>",
-    "examples" : [],
-    "testplans" : [],
-    "testscripts" : [],
-    "previous" : "StructureDefinition-historical-data.profile.ttl.html",
-    "next" : "StructureDefinition-outcome-reference-definitions.html"
-  },
-  "StructureDefinition-outcome-reference-definitions.html" : {
-    "title" : "Outcome Reference - Definitions",
-    "label" : "2.11",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Outcome Reference</b></li>",
-    "previous" : "StructureDefinition-outcome-reference.html",
-    "next" : "StructureDefinition-outcome-reference-mappings.html"
-  },
-  "StructureDefinition-outcome-reference-mappings.html" : {
-    "title" : "Outcome Reference - Mappings",
-    "label" : "2.11",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Outcome Reference</b></li>",
-    "previous" : "StructureDefinition-outcome-reference-definitions.html",
-    "next" : "StructureDefinition-outcome-reference-testing.html"
-  },
-  "StructureDefinition-outcome-reference-testing.html" : {
-    "title" : "Outcome Reference - Testing",
-    "label" : "2.11",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Outcome Reference</b></li>",
-    "previous" : "StructureDefinition-outcome-reference-mappings.html",
-    "next" : "StructureDefinition-outcome-reference.profile.xml.html"
-  },
-  "StructureDefinition-outcome-reference.profile.xml.html" : {
-    "title" : "Outcome Reference - XML Representation",
-    "label" : "2.11",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Outcome Reference</b></li>",
-    "previous" : "StructureDefinition-outcome-reference-testing.html",
-    "next" : "StructureDefinition-outcome-reference.profile.json.html"
-  },
-  "StructureDefinition-outcome-reference.profile.json.html" : {
-    "title" : "Outcome Reference - JSON Representation",
-    "label" : "2.11",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Outcome Reference</b></li>",
-    "previous" : "StructureDefinition-outcome-reference.profile.xml.html",
-    "next" : "StructureDefinition-outcome-reference.profile.ttl.html"
-  },
-  "StructureDefinition-outcome-reference.profile.ttl.html" : {
-    "title" : "Outcome Reference - TTL Representation",
-    "label" : "2.11",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Outcome Reference</b></li>",
-    "previous" : "StructureDefinition-outcome-reference.profile.json.html",
     "next" : "StructureDefinition-patient-priorities.html"
   },
   "StructureDefinition-patient-priorities.html" : {
     "title" : "Patient Priorities",
-    "label" : "2.12",
+    "label" : "2.11",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient Priorities</b></li>",
     "examples" : [],
     "testplans" : [],
     "testscripts" : [],
-    "previous" : "StructureDefinition-outcome-reference.profile.ttl.html",
+    "previous" : "StructureDefinition-historical-data.profile.ttl.html",
     "next" : "StructureDefinition-patient-priorities-definitions.html"
   },
   "StructureDefinition-patient-priorities-definitions.html" : {
     "title" : "Patient Priorities - Definitions",
-    "label" : "2.12",
+    "label" : "2.11",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient Priorities</b></li>",
     "previous" : "StructureDefinition-patient-priorities.html",
     "next" : "StructureDefinition-patient-priorities-mappings.html"
   },
   "StructureDefinition-patient-priorities-mappings.html" : {
     "title" : "Patient Priorities - Mappings",
-    "label" : "2.12",
+    "label" : "2.11",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient Priorities</b></li>",
     "previous" : "StructureDefinition-patient-priorities-definitions.html",
     "next" : "StructureDefinition-patient-priorities-testing.html"
   },
   "StructureDefinition-patient-priorities-testing.html" : {
     "title" : "Patient Priorities - Testing",
-    "label" : "2.12",
+    "label" : "2.11",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient Priorities</b></li>",
     "previous" : "StructureDefinition-patient-priorities-mappings.html",
     "next" : "StructureDefinition-patient-priorities.profile.xml.html"
   },
   "StructureDefinition-patient-priorities.profile.xml.html" : {
     "title" : "Patient Priorities - XML Representation",
-    "label" : "2.12",
+    "label" : "2.11",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient Priorities</b></li>",
     "previous" : "StructureDefinition-patient-priorities-testing.html",
     "next" : "StructureDefinition-patient-priorities.profile.json.html"
   },
   "StructureDefinition-patient-priorities.profile.json.html" : {
     "title" : "Patient Priorities - JSON Representation",
-    "label" : "2.12",
+    "label" : "2.11",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient Priorities</b></li>",
     "previous" : "StructureDefinition-patient-priorities.profile.xml.html",
     "next" : "StructureDefinition-patient-priorities.profile.ttl.html"
   },
   "StructureDefinition-patient-priorities.profile.ttl.html" : {
     "title" : "Patient Priorities - TTL Representation",
-    "label" : "2.12",
+    "label" : "2.11",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient Priorities</b></li>",
     "previous" : "StructureDefinition-patient-priorities.profile.json.html",
-    "next" : "StructureDefinition-reason-reference.html"
-  },
-  "StructureDefinition-reason-reference.html" : {
-    "title" : "Reason Reference",
-    "label" : "2.13",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Reason Reference</b></li>",
-    "examples" : [],
-    "testplans" : [],
-    "testscripts" : [],
-    "previous" : "StructureDefinition-patient-priorities.profile.ttl.html",
-    "next" : "StructureDefinition-reason-reference-definitions.html"
-  },
-  "StructureDefinition-reason-reference-definitions.html" : {
-    "title" : "Reason Reference - Definitions",
-    "label" : "2.13",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Reason Reference</b></li>",
-    "previous" : "StructureDefinition-reason-reference.html",
-    "next" : "StructureDefinition-reason-reference-mappings.html"
-  },
-  "StructureDefinition-reason-reference-mappings.html" : {
-    "title" : "Reason Reference - Mappings",
-    "label" : "2.13",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Reason Reference</b></li>",
-    "previous" : "StructureDefinition-reason-reference-definitions.html",
-    "next" : "StructureDefinition-reason-reference-testing.html"
-  },
-  "StructureDefinition-reason-reference-testing.html" : {
-    "title" : "Reason Reference - Testing",
-    "label" : "2.13",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Reason Reference</b></li>",
-    "previous" : "StructureDefinition-reason-reference-mappings.html",
-    "next" : "StructureDefinition-reason-reference.profile.xml.html"
-  },
-  "StructureDefinition-reason-reference.profile.xml.html" : {
-    "title" : "Reason Reference - XML Representation",
-    "label" : "2.13",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Reason Reference</b></li>",
-    "previous" : "StructureDefinition-reason-reference-testing.html",
-    "next" : "StructureDefinition-reason-reference.profile.json.html"
-  },
-  "StructureDefinition-reason-reference.profile.json.html" : {
-    "title" : "Reason Reference - JSON Representation",
-    "label" : "2.13",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Reason Reference</b></li>",
-    "previous" : "StructureDefinition-reason-reference.profile.xml.html",
-    "next" : "StructureDefinition-reason-reference.profile.ttl.html"
-  },
-  "StructureDefinition-reason-reference.profile.ttl.html" : {
-    "title" : "Reason Reference - TTL Representation",
-    "label" : "2.13",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Reason Reference</b></li>",
-    "previous" : "StructureDefinition-reason-reference.profile.json.html",
-    "next" : "StructureDefinition-reference.html"
-  },
-  "StructureDefinition-reference.html" : {
-    "title" : "Reference",
-    "label" : "2.14",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Reference</b></li>",
-    "examples" : [],
-    "testplans" : [],
-    "testscripts" : [],
-    "previous" : "StructureDefinition-reason-reference.profile.ttl.html",
-    "next" : "StructureDefinition-reference-definitions.html"
-  },
-  "StructureDefinition-reference-definitions.html" : {
-    "title" : "Reference - Definitions",
-    "label" : "2.14",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Reference</b></li>",
-    "previous" : "StructureDefinition-reference.html",
-    "next" : "StructureDefinition-reference-mappings.html"
-  },
-  "StructureDefinition-reference-mappings.html" : {
-    "title" : "Reference - Mappings",
-    "label" : "2.14",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Reference</b></li>",
-    "previous" : "StructureDefinition-reference-definitions.html",
-    "next" : "StructureDefinition-reference-testing.html"
-  },
-  "StructureDefinition-reference-testing.html" : {
-    "title" : "Reference - Testing",
-    "label" : "2.14",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Reference</b></li>",
-    "previous" : "StructureDefinition-reference-mappings.html",
-    "next" : "StructureDefinition-reference.profile.xml.html"
-  },
-  "StructureDefinition-reference.profile.xml.html" : {
-    "title" : "Reference - XML Representation",
-    "label" : "2.14",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Reference</b></li>",
-    "previous" : "StructureDefinition-reference-testing.html",
-    "next" : "StructureDefinition-reference.profile.json.html"
-  },
-  "StructureDefinition-reference.profile.json.html" : {
-    "title" : "Reference - JSON Representation",
-    "label" : "2.14",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Reference</b></li>",
-    "previous" : "StructureDefinition-reference.profile.xml.html",
-    "next" : "StructureDefinition-reference.profile.ttl.html"
-  },
-  "StructureDefinition-reference.profile.ttl.html" : {
-    "title" : "Reference - TTL Representation",
-    "label" : "2.14",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Reference</b></li>",
-    "previous" : "StructureDefinition-reference.profile.json.html",
     "next" : "StructureDefinition-social-data.html"
   },
   "StructureDefinition-social-data.html" : {
     "title" : "Social Data",
-    "label" : "2.15",
+    "label" : "2.12",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Social Data</b></li>",
     "examples" : [],
     "testplans" : [],
     "testscripts" : [],
-    "previous" : "StructureDefinition-reference.profile.ttl.html",
+    "previous" : "StructureDefinition-patient-priorities.profile.ttl.html",
     "next" : "StructureDefinition-social-data-definitions.html"
   },
   "StructureDefinition-social-data-definitions.html" : {
     "title" : "Social Data - Definitions",
-    "label" : "2.15",
+    "label" : "2.12",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Social Data</b></li>",
     "previous" : "StructureDefinition-social-data.html",
     "next" : "StructureDefinition-social-data-mappings.html"
   },
   "StructureDefinition-social-data-mappings.html" : {
     "title" : "Social Data - Mappings",
-    "label" : "2.15",
+    "label" : "2.12",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Social Data</b></li>",
     "previous" : "StructureDefinition-social-data-definitions.html",
     "next" : "StructureDefinition-social-data-testing.html"
   },
   "StructureDefinition-social-data-testing.html" : {
     "title" : "Social Data - Testing",
-    "label" : "2.15",
+    "label" : "2.12",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Social Data</b></li>",
     "previous" : "StructureDefinition-social-data-mappings.html",
     "next" : "StructureDefinition-social-data.profile.xml.html"
   },
   "StructureDefinition-social-data.profile.xml.html" : {
     "title" : "Social Data - XML Representation",
-    "label" : "2.15",
+    "label" : "2.12",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Social Data</b></li>",
     "previous" : "StructureDefinition-social-data-testing.html",
     "next" : "StructureDefinition-social-data.profile.json.html"
   },
   "StructureDefinition-social-data.profile.json.html" : {
     "title" : "Social Data - JSON Representation",
-    "label" : "2.15",
+    "label" : "2.12",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Social Data</b></li>",
     "previous" : "StructureDefinition-social-data.profile.xml.html",
     "next" : "StructureDefinition-social-data.profile.ttl.html"
   },
   "StructureDefinition-social-data.profile.ttl.html" : {
     "title" : "Social Data - TTL Representation",
-    "label" : "2.15",
+    "label" : "2.12",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Social Data</b></li>",
     "previous" : "StructureDefinition-social-data.profile.json.html"
   }

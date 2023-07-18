@@ -10,7 +10,7 @@
   "name" : "FishImplementationGuide",
   "title" : "Fish Implementation Guide",
   "status" : "draft",
-  "date" : "2023-07-18T09:29:43+02:00",
+  "date" : "2023-07-18T12:13:58+02:00",
   "contact" : [{
     "name" : "Bill Cod",
     "telecom" : [{
@@ -660,18 +660,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/expressed-by"
-      },
-      "name" : "Expressed By",
-      "description" : "String to indicate who expresssed this latest goal",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
@@ -696,13 +684,13 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
+        "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/outcome-reference"
+        "reference" : "StructureDefinition/Observation"
       },
-      "name" : "Outcome Reference",
-      "description" : "Attention Point on the observation",
+      "name" : "Observation",
+      "description" : "An observation is used to track the status of the patient on a given goal.",
       "exampleBoolean" : false
     },
     {
@@ -727,30 +715,6 @@
       },
       "name" : "Patient Priorities",
       "description" : "Used to describe the priorities of a patient with regard to his SCP",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/reason-reference"
-      },
-      "name" : "Reason Reference",
-      "description" : "The reason behind the goals",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/reference"
-      },
-      "name" : "Reference",
-      "description" : "Type of observation made by the contributor",
       "exampleBoolean" : false
     },
     {

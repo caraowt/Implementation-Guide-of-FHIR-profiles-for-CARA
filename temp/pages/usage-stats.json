@@ -32,13 +32,6 @@
       ]
     },
     {
-      "url": "http://example.org/fhir/fish/StructureDefinition/expressed-by",
-      "title": "Expressed By",
-      "types": [
-        "Reference"
-      ]
-    },
-    {
       "url": "http://example.org/fhir/fish/StructureDefinition/historical-data",
       "title": "Historical Data",
       "types": [
@@ -46,31 +39,10 @@
       ]
     },
     {
-      "url": "http://example.org/fhir/fish/StructureDefinition/outcome-reference",
-      "title": "Outcome Reference",
-      "types": [
-        "CodeableConcept"
-      ]
-    },
-    {
       "url": "http://example.org/fhir/fish/StructureDefinition/patient-priorities",
       "title": "Patient Priorities",
       "types": [
         "string"
-      ]
-    },
-    {
-      "url": "http://example.org/fhir/fish/StructureDefinition/reason-reference",
-      "title": "Reason Reference",
-      "types": [
-        "string"
-      ]
-    },
-    {
-      "url": "http://example.org/fhir/fish/StructureDefinition/reference",
-      "title": "Reference",
-      "types": [
-        "Reference"
       ]
     },
     {
@@ -82,6 +54,12 @@
     }
   ],
   "profiles": {
+    "Observation": [
+      {
+        "url": "http://example.org/fhir/fish/StructureDefinition/Observation",
+        "title": "Observation"
+      }
+    ],
     "Patient": [
       {
         "url": "http://example.org/fhir/fish/StructureDefinition/cara-patient",
@@ -108,29 +86,23 @@
     ]
   },
   "usage": {
+    "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-epr": [
+      "CarePlan"
+    ],
+    "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-exist": [
+      "CarePlan"
+    ],
     "http://example.org/fhir/fish/StructureDefinition/attention-point": [
       "CarePlan.activity"
     ],
     "http://example.org/fhir/fish/StructureDefinition/country-of-birth": [
       "Patient"
     ],
-    "http://example.org/fhir/fish/StructureDefinition/expressed-by": [
-      "Goal"
-    ],
     "http://example.org/fhir/fish/StructureDefinition/historical-data": [
       "CarePlan"
     ],
-    "http://example.org/fhir/fish/StructureDefinition/outcome-reference": [
-      "CarePlan.activity"
-    ],
     "http://example.org/fhir/fish/StructureDefinition/patient-priorities": [
       "CarePlan"
-    ],
-    "http://example.org/fhir/fish/StructureDefinition/reason-reference": [
-      "Goal"
-    ],
-    "http://example.org/fhir/fish/StructureDefinition/reference": [
-      "CarePlan.activity"
     ],
     "http://example.org/fhir/fish/StructureDefinition/social-data": [
       "CarePlan"
@@ -150,6 +122,9 @@
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
       "StructureDefinition.snapshot.element.binding"
     ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
+      "StructureDefinition.snapshot.element"
+    ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name": [
       "StructureDefinition.snapshot.element"
     ],
@@ -158,6 +133,9 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
       "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
+      "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
       "ImplementationGuide.definition"

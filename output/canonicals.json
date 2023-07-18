@@ -7,6 +7,13 @@
     "name" : "FishImplementationGuide"
   },
   {
+    "id" : "Observation",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/fhir/fish/StructureDefinition/Observation",
+    "version" : "0.1.0",
+    "name" : "Observation"
+  },
+  {
     "id" : "anticipate-directives-epr",
     "type" : "StructureDefinition",
     "url" : "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-epr",
@@ -49,13 +56,6 @@
     "name" : "CountryOfBirth"
   },
   {
-    "id" : "expressed-by",
-    "type" : "StructureDefinition",
-    "url" : "http://example.org/fhir/fish/StructureDefinition/expressed-by",
-    "version" : "0.1.0",
-    "name" : "ExpressedBy"
-  },
-  {
     "id" : "goal",
     "type" : "StructureDefinition",
     "url" : "http://example.org/fhir/fish/StructureDefinition/goal",
@@ -70,32 +70,11 @@
     "name" : "HistoricalData"
   },
   {
-    "id" : "outcome-reference",
-    "type" : "StructureDefinition",
-    "url" : "http://example.org/fhir/fish/StructureDefinition/outcome-reference",
-    "version" : "0.1.0",
-    "name" : "OutcomeReference"
-  },
-  {
     "id" : "patient-priorities",
     "type" : "StructureDefinition",
     "url" : "http://example.org/fhir/fish/StructureDefinition/patient-priorities",
     "version" : "0.1.0",
     "name" : "PatientPriorities"
-  },
-  {
-    "id" : "reason-reference",
-    "type" : "StructureDefinition",
-    "url" : "http://example.org/fhir/fish/StructureDefinition/reason-reference",
-    "version" : "0.1.0",
-    "name" : "ReasonReference"
-  },
-  {
-    "id" : "reference",
-    "type" : "StructureDefinition",
-    "url" : "http://example.org/fhir/fish/StructureDefinition/reference",
-    "version" : "0.1.0",
-    "name" : "Reference"
   },
   {
     "id" : "social-data",

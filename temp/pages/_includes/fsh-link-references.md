@@ -3,13 +3,10 @@
 [CarePlan]: StructureDefinition-careplan.html
 [CountryOfBirth]: StructureDefinition-country-of-birth.html
 [AnticipateDirectivesExist]: StructureDefinition-anticipate-directives-exist.html
-[ExpressedBy]: StructureDefinition-expressed-by.html
 [Goal]: StructureDefinition-goal.html
 [HistoricalData]: StructureDefinition-historical-data.html
-[OutcomeReference]: StructureDefinition-outcome-reference.html
+[Observation]: StructureDefinition-Observation.html
 [Patient]: StructureDefinition-cara-patient.html
 [PatientPriorities]: StructureDefinition-patient-priorities.html
-[ReasonReference]: StructureDefinition-reason-reference.html
-[Reference]: StructureDefinition-reference.html
 [SocialData]: StructureDefinition-social-data.html
 [Veterinarian]: StructureDefinition-veterinarian.html

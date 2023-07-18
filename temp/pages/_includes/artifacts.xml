@@ -41,6 +41,14 @@
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="StructureDefinition-Observation.html"
+                     title="StructureDefinition/Observation">Observation</a>
+               </td>
+               <td>{% capture desc %}An observation is used to track the status of the patient on a given goal.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="StructureDefinition-cara-patient.html"
                      title="StructureDefinition/cara-patient">Patient</a>
                </td>
@@ -100,14 +108,6 @@
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-expressed-by.html"
-                     title="StructureDefinition/expressed-by">Expressed By</a>
-               </td>
-               <td>{% capture desc %}String to indicate who expresssed this latest goal{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
                   <a href="StructureDefinition-historical-data.html"
                      title="StructureDefinition/historical-data">Historical Data</a>
                </td>
@@ -116,34 +116,10 @@
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-outcome-reference.html"
-                     title="StructureDefinition/outcome-reference">Outcome Reference</a>
-               </td>
-               <td>{% capture desc %}Attention Point on the observation{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
                   <a href="StructureDefinition-patient-priorities.html"
                      title="StructureDefinition/patient-priorities">Patient Priorities</a>
                </td>
                <td>{% capture desc %}Used to describe the priorities of a patient with regard to his SCP{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-reason-reference.html"
-                     title="StructureDefinition/reason-reference">Reason Reference</a>
-               </td>
-               <td>{% capture desc %}The reason behind the goals{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-reference.html"
-                     title="StructureDefinition/reference">Reference</a>
-               </td>
-               <td>{% capture desc %}Type of observation made by the contributor{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>

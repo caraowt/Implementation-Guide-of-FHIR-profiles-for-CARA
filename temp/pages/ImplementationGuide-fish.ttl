@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "FishImplementationGuide"] ; # 
   fhir:title [ fhir:v "Fish Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-07-18T09:29:43+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-07-18T12:13:58+02:00"^^xsd:dateTime] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Bill Cod" ] ;
      fhir:telecom ( [
@@ -572,18 +572,6 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:extension" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://example.org/fhir/fish/StructureDefinition/expressed-by> ;
-         fhir:reference [ fhir:v "StructureDefinition/expressed-by" ]
-       ] ;
-       fhir:name [ fhir:v "Expressed By" ] ;
-       fhir:description [ fhir:v "String to indicate who expresssed this latest goal" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
@@ -608,14 +596,14 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:extension" ]
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/fhir/fish/StructureDefinition/outcome-reference> ;
-         fhir:reference [ fhir:v "StructureDefinition/outcome-reference" ]
+         fhir:link <http://example.org/fhir/fish/StructureDefinition/Observation> ;
+         fhir:reference [ fhir:v "StructureDefinition/Observation" ]
        ] ;
-       fhir:name [ fhir:v "Outcome Reference" ] ;
-       fhir:description [ fhir:v "Attention Point on the observation" ] ;
+       fhir:name [ fhir:v "Observation" ] ;
+       fhir:description [ fhir:v "An observation is used to track the status of the patient on a given goal." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -640,30 +628,6 @@
        ] ;
        fhir:name [ fhir:v "Patient Priorities" ] ;
        fhir:description [ fhir:v "Used to describe the priorities of a patient with regard to his SCP" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:extension" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://example.org/fhir/fish/StructureDefinition/reason-reference> ;
-         fhir:reference [ fhir:v "StructureDefinition/reason-reference" ]
-       ] ;
-       fhir:name [ fhir:v "Reason Reference" ] ;
-       fhir:description [ fhir:v "The reason behind the goals" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:extension" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://example.org/fhir/fish/StructureDefinition/reference> ;
-         fhir:reference [ fhir:v "StructureDefinition/reference" ]
-       ] ;
-       fhir:name [ fhir:v "Reference" ] ;
-       fhir:description [ fhir:v "Type of observation made by the contributor" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

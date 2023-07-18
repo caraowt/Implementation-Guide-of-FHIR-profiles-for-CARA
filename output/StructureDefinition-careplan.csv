@@ -24,16 +24,24 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"CarePlan.extension:socialdata","CarePlan.extension","socialdata","","",0,1,"","","","Extension {[CanonicalType[http://example.org/fhir/fish/StructureDefinition/social-data]]} {[]}
+"CarePlan.extension:socialData","CarePlan.extension","socialData","","",0,1,"","","","Extension {[CanonicalType[http://example.org/fhir/fish/StructureDefinition/social-data]]} {[]}
 ","Social Data","Used to describe the social background of a patient affiliated to CARA","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"CarePlan.extension:historicaldata","CarePlan.extension","historicaldata","","",0,1,"","","","Extension {[CanonicalType[http://example.org/fhir/fish/StructureDefinition/historical-data]]} {[]}
+"CarePlan.extension:historicalData","CarePlan.extension","historicalData","","",0,1,"","","","Extension {[CanonicalType[http://example.org/fhir/fish/StructureDefinition/historical-data]]} {[]}
 ","Historical Data","Used to describe the historical background of a patient affiliated to CARA","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"CarePlan.extension:patientpriorities","CarePlan.extension","patientpriorities","","",0,1,"","","","Extension {[CanonicalType[http://example.org/fhir/fish/StructureDefinition/patient-priorities]]} {[]}
+"CarePlan.extension:patientPriorities","CarePlan.extension","patientPriorities","","",0,1,"","","","Extension {[CanonicalType[http://example.org/fhir/fish/StructureDefinition/patient-priorities]]} {[]}
 ","Patient Priorities","Used to describe the priorities of a patient with regard to his SCP","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"CarePlan.extension:anticipateDirectivesExist","CarePlan.extension","anticipateDirectivesExist","","",0,1,"","","","Extension {[CanonicalType[http://example.org/fhir/fish/StructureDefinition/anticipate-directives-exist]]} {[]}
+","Existence of AD","This field is used to indicate whether a patient has advanced directives","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"CarePlan.extension:anticipateDirectivesInEpr","CarePlan.extension","anticipateDirectivesInEpr","","",0,1,"","","","Extension {[CanonicalType[http://example.org/fhir/fish/StructureDefinition/anticipate-directives-epr]]} {[]}
+","Advance Directives in EHR","The anticipate directives are in the EHR of the patient. This field is present","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "CarePlan.modifierExtension","CarePlan.modifierExtension","","extensions
@@ -118,20 +126,12 @@ ele-1:All FHIR elements must have a @value or children {hasValue() or (children(
 NOTE: This is a list of contained Request-Event tuples!}",".outboundRelationship[typeCode=COMP].target"
 "CarePlan.activity.id","CarePlan.activity.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"CarePlan.activity.extension","CarePlan.activity.extension","","","",1,*,"","","","Extension {[]} {[]}
+"CarePlan.activity.extension","CarePlan.activity.extension","","","",0,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"CarePlan.activity.extension:attention-point","CarePlan.activity.extension","attention-point","","",0,1,"","","","Extension {[CanonicalType[http://example.org/fhir/fish/StructureDefinition/attention-point]]} {[]}
+"CarePlan.activity.extension:attentionPoint","CarePlan.activity.extension","attentionPoint","","",0,1,"","","","Extension {[CanonicalType[http://example.org/fhir/fish/StructureDefinition/attention-point]]} {[]}
 ","Attention Point","Attention Point on the observation","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"CarePlan.activity.extension:outcomeReference","CarePlan.activity.extension","outcomeReference","","",0,1,"","","","Extension {[CanonicalType[http://example.org/fhir/fish/StructureDefinition/outcome-reference]]} {[]}
-","Outcome Reference","Attention Point on the observation","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"CarePlan.activity.extension:Reference","CarePlan.activity.extension","Reference","","",1,1,"","","","Extension {[CanonicalType[http://example.org/fhir/fish/StructureDefinition/reference]]} {[]}
-","Reference","Type of observation made by the contributor","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "CarePlan.activity.modifierExtension","CarePlan.activity.modifierExtension","","extensions

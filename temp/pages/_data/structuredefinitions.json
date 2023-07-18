@@ -11,7 +11,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "draft",
-    "date" : "Tue Jul 18 09:29:43 CEST 2023",
+    "date" : "Tue Jul 18 12:13:58 CEST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : null,
@@ -37,7 +37,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "draft",
-    "date" : "Tue Jul 18 09:29:43 CEST 2023",
+    "date" : "Tue Jul 18 12:13:58 CEST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : null,
@@ -63,41 +63,15 @@
     "basename" : "CarePlan",
     "basepath" : "http://hl7.org/fhir/R4/careplan.html",
     "status" : "draft",
-    "date" : "Tue Jul 18 09:29:43 CEST 2023",
+    "date" : "Tue Jul 18 12:13:58 CEST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : null,
     "copyright" : null,
     "description" : "A Care Plan tailored to the needs of CARA with advanced directives"
   },
-  "outcome-reference" : {
-    "index" : 3,
-    "url" : "http://example.org/fhir/fish/StructureDefinition/outcome-reference",
-    "name" : "OutcomeReference",
-    "title" : "Outcome Reference",
-    "path" : "StructureDefinition-outcome-reference.html",
-    "kind" : "complex-type",
-    "type" : "Extension",
-    "base" : "http://hl7.org/fhir/StructureDefinition/Extension",
-    "basename" : "Extension",
-    "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
-    "status" : "draft",
-    "date" : "Tue Jul 18 09:29:43 CEST 2023",
-    "abstract" : false,
-    "derivation" : "constraint",
-    "publisher" : null,
-    "copyright" : null,
-    "description" : "Attention Point on the observation",
-    "contexts" : [
-      {
-        "type" : "Element ID",
-        "expression" : "Element"
-      }
-    ],
-    "extension-contexts" : ["none"]
-  },
   "attention-point" : {
-    "index" : 4,
+    "index" : 3,
     "url" : "http://example.org/fhir/fish/StructureDefinition/attention-point",
     "name" : "AttentionPoint",
     "title" : "Attention Point",
@@ -108,7 +82,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "draft",
-    "date" : "Tue Jul 18 09:29:43 CEST 2023",
+    "date" : "Tue Jul 18 12:13:58 CEST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : null,
@@ -123,7 +97,7 @@
     "extension-contexts" : ["none"]
   },
   "veterinarian" : {
-    "index" : 5,
+    "index" : 4,
     "url" : "http://example.org/fhir/fish/StructureDefinition/veterinarian",
     "name" : "Veterinarian",
     "title" : "Veterinarian",
@@ -134,41 +108,15 @@
     "basename" : "Practitioner",
     "basepath" : "http://hl7.org/fhir/R4/practitioner.html",
     "status" : "draft",
-    "date" : "Tue Jul 18 09:29:43 CEST 2023",
+    "date" : "Tue Jul 18 12:13:58 CEST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : null,
     "copyright" : null,
     "description" : "A profile on the Practitioner resource for veterinarians. In the US, vets do not have National Provider Numbers."
   },
-  "reason-reference" : {
-    "index" : 6,
-    "url" : "http://example.org/fhir/fish/StructureDefinition/reason-reference",
-    "name" : "ReasonReference",
-    "title" : "Reason Reference",
-    "path" : "StructureDefinition-reason-reference.html",
-    "kind" : "complex-type",
-    "type" : "Extension",
-    "base" : "http://hl7.org/fhir/StructureDefinition/Extension",
-    "basename" : "Extension",
-    "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
-    "status" : "draft",
-    "date" : "Tue Jul 18 09:29:43 CEST 2023",
-    "abstract" : false,
-    "derivation" : "constraint",
-    "publisher" : null,
-    "copyright" : null,
-    "description" : "The reason behind the goals",
-    "contexts" : [
-      {
-        "type" : "Element ID",
-        "expression" : "Element"
-      }
-    ],
-    "extension-contexts" : ["none"]
-  },
   "social-data" : {
-    "index" : 7,
+    "index" : 5,
     "url" : "http://example.org/fhir/fish/StructureDefinition/social-data",
     "name" : "SocialData",
     "title" : "Social Data",
@@ -179,7 +127,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "draft",
-    "date" : "Tue Jul 18 09:29:43 CEST 2023",
+    "date" : "Tue Jul 18 12:13:58 CEST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : null,
@@ -194,7 +142,7 @@
     "extension-contexts" : ["none"]
   },
   "patient-priorities" : {
-    "index" : 8,
+    "index" : 6,
     "url" : "http://example.org/fhir/fish/StructureDefinition/patient-priorities",
     "name" : "PatientPriorities",
     "title" : "Patient Priorities",
@@ -205,7 +153,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "draft",
-    "date" : "Tue Jul 18 09:29:43 CEST 2023",
+    "date" : "Tue Jul 18 12:13:58 CEST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : null,
@@ -220,7 +168,7 @@
     "extension-contexts" : ["none"]
   },
   "goal" : {
-    "index" : 9,
+    "index" : 7,
     "url" : "http://example.org/fhir/fish/StructureDefinition/goal",
     "name" : "Goal",
     "title" : "Goal",
@@ -231,7 +179,7 @@
     "basename" : "Goal",
     "basepath" : "http://hl7.org/fhir/R4/goal.html",
     "status" : "draft",
-    "date" : "Tue Jul 18 09:29:43 CEST 2023",
+    "date" : "Tue Jul 18 12:13:58 CEST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : null,
@@ -239,7 +187,7 @@
     "description" : "The purpose of a Goal is to track a topic around the Shared Care Plan with its associated list of goals."
   },
   "cara-patient" : {
-    "index" : 10,
+    "index" : 8,
     "url" : "http://example.org/fhir/fish/StructureDefinition/cara-patient",
     "name" : "Patient",
     "title" : "Patient",
@@ -250,67 +198,15 @@
     "basename" : "Patient",
     "basepath" : "http://hl7.org/fhir/R4/patient.html",
     "status" : "draft",
-    "date" : "Tue Jul 18 09:29:43 CEST 2023",
+    "date" : "Tue Jul 18 12:13:58 CEST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : null,
     "copyright" : null,
     "description" : "This profile extension is used to ensure the fields of the master patient index are properly used throughout the implementation."
   },
-  "expressed-by" : {
-    "index" : 11,
-    "url" : "http://example.org/fhir/fish/StructureDefinition/expressed-by",
-    "name" : "ExpressedBy",
-    "title" : "Expressed By",
-    "path" : "StructureDefinition-expressed-by.html",
-    "kind" : "complex-type",
-    "type" : "Extension",
-    "base" : "http://hl7.org/fhir/StructureDefinition/Extension",
-    "basename" : "Extension",
-    "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
-    "status" : "draft",
-    "date" : "Tue Jul 18 09:29:43 CEST 2023",
-    "abstract" : false,
-    "derivation" : "constraint",
-    "publisher" : null,
-    "copyright" : null,
-    "description" : "String to indicate who expresssed this latest goal",
-    "contexts" : [
-      {
-        "type" : "Element ID",
-        "expression" : "Element"
-      }
-    ],
-    "extension-contexts" : ["none"]
-  },
-  "reference" : {
-    "index" : 12,
-    "url" : "http://example.org/fhir/fish/StructureDefinition/reference",
-    "name" : "Reference",
-    "title" : "Reference",
-    "path" : "StructureDefinition-reference.html",
-    "kind" : "complex-type",
-    "type" : "Extension",
-    "base" : "http://hl7.org/fhir/StructureDefinition/Extension",
-    "basename" : "Extension",
-    "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
-    "status" : "draft",
-    "date" : "Tue Jul 18 09:29:43 CEST 2023",
-    "abstract" : false,
-    "derivation" : "constraint",
-    "publisher" : null,
-    "copyright" : null,
-    "description" : "Type of observation made by the contributor",
-    "contexts" : [
-      {
-        "type" : "Element ID",
-        "expression" : "Element"
-      }
-    ],
-    "extension-contexts" : ["none"]
-  },
   "country-of-birth" : {
-    "index" : 13,
+    "index" : 9,
     "url" : "http://example.org/fhir/fish/StructureDefinition/country-of-birth",
     "name" : "CountryOfBirth",
     "title" : "Country of Birth",
@@ -321,7 +217,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "draft",
-    "date" : "Tue Jul 18 09:29:43 CEST 2023",
+    "date" : "Tue Jul 18 12:13:58 CEST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : null,
@@ -336,7 +232,7 @@
     "extension-contexts" : ["none"]
   },
   "anticipate-directives-exist" : {
-    "index" : 14,
+    "index" : 10,
     "url" : "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-exist",
     "name" : "AnticipateDirectivesExist",
     "title" : "Existence of AD",
@@ -347,7 +243,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "draft",
-    "date" : "Tue Jul 18 09:29:43 CEST 2023",
+    "date" : "Tue Jul 18 12:13:58 CEST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : null,
@@ -360,5 +256,24 @@
       }
     ],
     "extension-contexts" : ["none"]
+  },
+  "Observation" : {
+    "index" : 11,
+    "url" : "http://example.org/fhir/fish/StructureDefinition/Observation",
+    "name" : "Observation",
+    "title" : "Observation",
+    "path" : "StructureDefinition-Observation.html",
+    "kind" : "resource",
+    "type" : "Observation",
+    "base" : "http://hl7.org/fhir/StructureDefinition/Observation",
+    "basename" : "Observation",
+    "basepath" : "http://hl7.org/fhir/R4/observation.html",
+    "status" : "draft",
+    "date" : "Tue Jul 18 12:13:58 CEST 2023",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : null,
+    "copyright" : null,
+    "description" : "An observation is used to track the status of the patient on a given goal."
   }
 }

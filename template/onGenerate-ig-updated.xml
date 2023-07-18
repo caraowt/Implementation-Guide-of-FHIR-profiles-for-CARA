@@ -16,7 +16,7 @@
    <name value="FishImplementationGuide"/>
    <title value="Fish Implementation Guide"/>
    <status value="draft"/>
-   <date value="2023-07-18T09:29:43+02:00"/>
+   <date value="2023-07-18T12:13:58+02:00"/>
    <contact>
       <name value="Bill Cod"/>
       <telecom>
@@ -358,21 +358,6 @@
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="StructureDefinition:extension"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="StructureDefinition-expressed-by.html"/>
-         </extension>
-         <reference>
-            <reference value="StructureDefinition/expressed-by"/>
-         </reference>
-         <name value="Expressed By"/>
-         <description value="String to indicate who expresssed this latest goal"/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-str-extension"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:resource"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
@@ -403,18 +388,18 @@
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="StructureDefinition:extension"/>
+            <valueString value="StructureDefinition:resource"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="StructureDefinition-outcome-reference.html"/>
+            <valueUri value="StructureDefinition-Observation.html"/>
          </extension>
          <reference>
-            <reference value="StructureDefinition/outcome-reference"/>
+            <reference value="StructureDefinition/Observation"/>
          </reference>
-         <name value="Outcome Reference"/>
-         <description value="Attention Point on the observation"/>
+         <name value="Observation"/>
+         <description value="An observation is used to track the status of the patient on a given goal."/>
          <exampleBoolean value="false"/>
-         <groupingId value="-str-extension"/>
+         <groupingId value="-str-profile"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -443,36 +428,6 @@
          </reference>
          <name value="Patient Priorities"/>
          <description value="Used to describe the priorities of a patient with regard to his SCP"/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-str-extension"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="StructureDefinition:extension"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="StructureDefinition-reason-reference.html"/>
-         </extension>
-         <reference>
-            <reference value="StructureDefinition/reason-reference"/>
-         </reference>
-         <name value="Reason Reference"/>
-         <description value="The reason behind the goals"/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-str-extension"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="StructureDefinition:extension"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="StructureDefinition-reference.html"/>
-         </extension>
-         <reference>
-            <reference value="StructureDefinition/reference"/>
-         </reference>
-         <name value="Reference"/>
-         <description value="Type of observation made by the contributor"/>
          <exampleBoolean value="false"/>
          <groupingId value="-str-extension"/>
       </resource>
@@ -536,6 +491,11 @@
                <generation value="generated"/>
             </page>
             <page>
+               <nameUrl value="StructureDefinition-Observation.html"/>
+               <title value="Observation"/>
+               <generation value="generated"/>
+            </page>
+            <page>
                <nameUrl value="StructureDefinition-cara-patient.html"/>
                <title value="Patient"/>
                <generation value="generated"/>
@@ -566,33 +526,13 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="StructureDefinition-expressed-by.html"/>
-               <title value="Expressed By"/>
-               <generation value="generated"/>
-            </page>
-            <page>
                <nameUrl value="StructureDefinition-historical-data.html"/>
                <title value="Historical Data"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="StructureDefinition-outcome-reference.html"/>
-               <title value="Outcome Reference"/>
-               <generation value="generated"/>
-            </page>
-            <page>
                <nameUrl value="StructureDefinition-patient-priorities.html"/>
                <title value="Patient Priorities"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="StructureDefinition-reason-reference.html"/>
-               <title value="Reason Reference"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="StructureDefinition-reference.html"/>
-               <title value="Reference"/>
                <generation value="generated"/>
             </page>
             <page>

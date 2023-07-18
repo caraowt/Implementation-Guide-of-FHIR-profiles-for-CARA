@@ -11,7 +11,7 @@
     "version" : "0.1.0",
     "name" : "FishImplementationGuide",
     "title" : "Fish Implementation Guide",
-    "date" : "2023-07-18T09:29:43+02:00",
+    "date" : "2023-07-18T12:13:58+02:00",
     "description" : "An example of how FSH can be used to create an IG about fish",
     "status" : {
       "class" : "colsd",
@@ -30,7 +30,7 @@
     "version" : "0.1.0",
     "name" : "HistoricalData",
     "title" : "Historical Data",
-    "date" : "2023-07-18T09:29:43+02:00",
+    "date" : "2023-07-18T12:13:58+02:00",
     "description" : "Used to describe the historical background of a patient affiliated to CARA",
     "status" : {
       "class" : "colsd",
@@ -49,7 +49,7 @@
     "version" : "0.1.0",
     "name" : "AnticipateDirectivesInEPR",
     "title" : "Advance Directives in EHR",
-    "date" : "2023-07-18T09:29:43+02:00",
+    "date" : "2023-07-18T12:13:58+02:00",
     "description" : "The anticipate directives are in the EHR of the patient. This field is present",
     "status" : {
       "class" : "colsd",
@@ -68,27 +68,8 @@
     "version" : "0.1.0",
     "name" : "CarePlan",
     "title" : "Care Plan",
-    "date" : "2023-07-18T09:29:43+02:00",
+    "date" : "2023-07-18T12:13:58+02:00",
     "description" : "A Care Plan tailored to the needs of CARA with advanced directives",
-    "status" : {
-      "class" : "colsd",
-      "status" : "Draft"
-    }
-  },
-  "StructureDefinition/outcome-reference" : {
-    "history" : false,
-    "testplan" : false,
-    "testscript" : false,
-    "index" : 4,
-    "source" : "fsh-generated/resources/StructureDefinition-outcome-reference.json",
-    "sourceTail" : "StructureDefinition-outcome-reference.json",
-    "path" : "StructureDefinition-outcome-reference.html",
-    "url" : "http://example.org/fhir/fish/StructureDefinition/outcome-reference",
-    "version" : "0.1.0",
-    "name" : "OutcomeReference",
-    "title" : "Outcome Reference",
-    "date" : "2023-07-18T09:29:43+02:00",
-    "description" : "Attention Point on the observation",
     "status" : {
       "class" : "colsd",
       "status" : "Draft"
@@ -98,7 +79,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 5,
+    "index" : 4,
     "source" : "fsh-generated/resources/StructureDefinition-attention-point.json",
     "sourceTail" : "StructureDefinition-attention-point.json",
     "path" : "StructureDefinition-attention-point.html",
@@ -106,7 +87,7 @@
     "version" : "0.1.0",
     "name" : "AttentionPoint",
     "title" : "Attention Point",
-    "date" : "2023-07-18T09:29:43+02:00",
+    "date" : "2023-07-18T12:13:58+02:00",
     "description" : "Attention Point on the observation",
     "status" : {
       "class" : "colsd",
@@ -117,7 +98,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 6,
+    "index" : 5,
     "source" : "fsh-generated/resources/StructureDefinition-veterinarian.json",
     "sourceTail" : "StructureDefinition-veterinarian.json",
     "path" : "StructureDefinition-veterinarian.html",
@@ -125,27 +106,8 @@
     "version" : "0.1.0",
     "name" : "Veterinarian",
     "title" : "Veterinarian",
-    "date" : "2023-07-18T09:29:43+02:00",
+    "date" : "2023-07-18T12:13:58+02:00",
     "description" : "A profile on the Practitioner resource for veterinarians. In the US, vets do not have National Provider Numbers.",
-    "status" : {
-      "class" : "colsd",
-      "status" : "Draft"
-    }
-  },
-  "StructureDefinition/reason-reference" : {
-    "history" : false,
-    "testplan" : false,
-    "testscript" : false,
-    "index" : 7,
-    "source" : "fsh-generated/resources/StructureDefinition-reason-reference.json",
-    "sourceTail" : "StructureDefinition-reason-reference.json",
-    "path" : "StructureDefinition-reason-reference.html",
-    "url" : "http://example.org/fhir/fish/StructureDefinition/reason-reference",
-    "version" : "0.1.0",
-    "name" : "ReasonReference",
-    "title" : "Reason Reference",
-    "date" : "2023-07-18T09:29:43+02:00",
-    "description" : "The reason behind the goals",
     "status" : {
       "class" : "colsd",
       "status" : "Draft"
@@ -155,7 +117,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 8,
+    "index" : 6,
     "source" : "fsh-generated/resources/StructureDefinition-social-data.json",
     "sourceTail" : "StructureDefinition-social-data.json",
     "path" : "StructureDefinition-social-data.html",
@@ -163,7 +125,7 @@
     "version" : "0.1.0",
     "name" : "SocialData",
     "title" : "Social Data",
-    "date" : "2023-07-18T09:29:43+02:00",
+    "date" : "2023-07-18T12:13:58+02:00",
     "description" : "Used to describe the social background of a patient affiliated to CARA",
     "status" : {
       "class" : "colsd",
@@ -174,7 +136,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 9,
+    "index" : 7,
     "source" : "fsh-generated/resources/StructureDefinition-patient-priorities.json",
     "sourceTail" : "StructureDefinition-patient-priorities.json",
     "path" : "StructureDefinition-patient-priorities.html",
@@ -182,7 +144,7 @@
     "version" : "0.1.0",
     "name" : "PatientPriorities",
     "title" : "Patient Priorities",
-    "date" : "2023-07-18T09:29:43+02:00",
+    "date" : "2023-07-18T12:13:58+02:00",
     "description" : "Used to describe the priorities of a patient with regard to his SCP",
     "status" : {
       "class" : "colsd",
@@ -193,7 +155,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 10,
+    "index" : 8,
     "source" : "fsh-generated/resources/StructureDefinition-goal.json",
     "sourceTail" : "StructureDefinition-goal.json",
     "path" : "StructureDefinition-goal.html",
@@ -201,7 +163,7 @@
     "version" : "0.1.0",
     "name" : "Goal",
     "title" : "Goal",
-    "date" : "2023-07-18T09:29:43+02:00",
+    "date" : "2023-07-18T12:13:58+02:00",
     "description" : "The purpose of a Goal is to track a topic around the Shared Care Plan with its associated list of goals.",
     "status" : {
       "class" : "colsd",
@@ -212,7 +174,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 11,
+    "index" : 9,
     "source" : "fsh-generated/resources/StructureDefinition-cara-patient.json",
     "sourceTail" : "StructureDefinition-cara-patient.json",
     "path" : "StructureDefinition-cara-patient.html",
@@ -220,46 +182,8 @@
     "version" : "0.1.0",
     "name" : "Patient",
     "title" : "Patient",
-    "date" : "2023-07-18T09:29:43+02:00",
+    "date" : "2023-07-18T12:13:58+02:00",
     "description" : "This profile extension is used to ensure the fields of the master patient index are properly used throughout the implementation.",
-    "status" : {
-      "class" : "colsd",
-      "status" : "Draft"
-    }
-  },
-  "StructureDefinition/expressed-by" : {
-    "history" : false,
-    "testplan" : false,
-    "testscript" : false,
-    "index" : 12,
-    "source" : "fsh-generated/resources/StructureDefinition-expressed-by.json",
-    "sourceTail" : "StructureDefinition-expressed-by.json",
-    "path" : "StructureDefinition-expressed-by.html",
-    "url" : "http://example.org/fhir/fish/StructureDefinition/expressed-by",
-    "version" : "0.1.0",
-    "name" : "ExpressedBy",
-    "title" : "Expressed By",
-    "date" : "2023-07-18T09:29:43+02:00",
-    "description" : "String to indicate who expresssed this latest goal",
-    "status" : {
-      "class" : "colsd",
-      "status" : "Draft"
-    }
-  },
-  "StructureDefinition/reference" : {
-    "history" : false,
-    "testplan" : false,
-    "testscript" : false,
-    "index" : 13,
-    "source" : "fsh-generated/resources/StructureDefinition-reference.json",
-    "sourceTail" : "StructureDefinition-reference.json",
-    "path" : "StructureDefinition-reference.html",
-    "url" : "http://example.org/fhir/fish/StructureDefinition/reference",
-    "version" : "0.1.0",
-    "name" : "Reference",
-    "title" : "Reference",
-    "date" : "2023-07-18T09:29:43+02:00",
-    "description" : "Type of observation made by the contributor",
     "status" : {
       "class" : "colsd",
       "status" : "Draft"
@@ -269,7 +193,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 14,
+    "index" : 10,
     "source" : "fsh-generated/resources/StructureDefinition-country-of-birth.json",
     "sourceTail" : "StructureDefinition-country-of-birth.json",
     "path" : "StructureDefinition-country-of-birth.html",
@@ -277,7 +201,7 @@
     "version" : "0.1.0",
     "name" : "CountryOfBirth",
     "title" : "Country of Birth",
-    "date" : "2023-07-18T09:29:43+02:00",
+    "date" : "2023-07-18T12:13:58+02:00",
     "description" : "This field is used to render the country of birth of the patient",
     "status" : {
       "class" : "colsd",
@@ -288,7 +212,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 15,
+    "index" : 11,
     "source" : "fsh-generated/resources/StructureDefinition-anticipate-directives-exist.json",
     "sourceTail" : "StructureDefinition-anticipate-directives-exist.json",
     "path" : "StructureDefinition-anticipate-directives-exist.html",
@@ -296,8 +220,27 @@
     "version" : "0.1.0",
     "name" : "AnticipateDirectivesExist",
     "title" : "Existence of AD",
-    "date" : "2023-07-18T09:29:43+02:00",
+    "date" : "2023-07-18T12:13:58+02:00",
     "description" : "This field is used to indicate whether a patient has advanced directives",
+    "status" : {
+      "class" : "colsd",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/Observation" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 12,
+    "source" : "fsh-generated/resources/StructureDefinition-Observation.json",
+    "sourceTail" : "StructureDefinition-Observation.json",
+    "path" : "StructureDefinition-Observation.html",
+    "url" : "http://example.org/fhir/fish/StructureDefinition/Observation",
+    "version" : "0.1.0",
+    "name" : "Observation",
+    "title" : "Observation",
+    "date" : "2023-07-18T12:13:58+02:00",
+    "description" : "An observation is used to track the status of the patient on a given goal.",
     "status" : {
       "class" : "colsd",
       "status" : "Draft"

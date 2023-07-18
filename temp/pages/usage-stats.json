@@ -32,6 +32,13 @@
       ]
     },
     {
+      "url": "http://example.org/fhir/fish/StructureDefinition/comment",
+      "title": "Comment",
+      "types": [
+        "string"
+      ]
+    },
+    {
       "url": "http://example.org/fhir/fish/StructureDefinition/country-of-birth",
       "title": "Country of Birth",
       "types": [
@@ -135,6 +142,9 @@
     ],
     "http://example.org/fhir/fish/StructureDefinition/attention-point": [
       "CarePlan.activity"
+    ],
+    "http://example.org/fhir/fish/StructureDefinition/comment": [
+      "CareTeam.participant"
     ],
     "http://example.org/fhir/fish/StructureDefinition/country-of-birth": [
       "Patient"

@@ -10,7 +10,7 @@
   "name" : "FishImplementationGuide",
   "title" : "Fish Implementation Guide",
   "status" : "draft",
-  "date" : "2023-07-18T14:23:59+02:00",
+  "date" : "2023-07-18T14:36:40+02:00",
   "contact" : [{
     "name" : "Bill Cod",
     "telecom" : [{
@@ -667,6 +667,18 @@
       },
       "name" : "Care Team",
       "description" : "The care team is comprised of the patient, his legal representatives, healthcare professionals contributing to his shared care plan and externals.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/comment"
+      },
+      "name" : "Comment",
+      "description" : "Used to describe the social background of a patient affiliated to CARA",
       "exampleBoolean" : false
     },
     {

@@ -70,6 +70,13 @@
     "name" : "CarePlan"
   },
   {
+    "id" : "comment",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/fhir/fish/StructureDefinition/comment",
+    "version" : "0.1.0",
+    "name" : "Comment"
+  },
+  {
     "id" : "condition",
     "type" : "StructureDefinition",
     "url" : "http://example.org/fhir/fish/StructureDefinition/condition",

@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "FishImplementationGuide"] ; # 
   fhir:title [ fhir:v "Fish Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-07-18T14:23:59+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-07-18T14:36:40+02:00"^^xsd:dateTime] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Bill Cod" ] ;
      fhir:telecom ( [
@@ -580,6 +580,18 @@
        ] ;
        fhir:name [ fhir:v "Care Team" ] ;
        fhir:description [ fhir:v "The care team is comprised of the patient, his legal representatives, healthcare professionals contributing to his shared care plan and externals." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://example.org/fhir/fish/StructureDefinition/comment> ;
+         fhir:reference [ fhir:v "StructureDefinition/comment" ]
+       ] ;
+       fhir:name [ fhir:v "Comment" ] ;
+       fhir:description [ fhir:v "Used to describe the social background of a patient affiliated to CARA" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

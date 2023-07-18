@@ -132,6 +132,14 @@
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="StructureDefinition-comment.html"
+                     title="StructureDefinition/comment">Comment</a>
+               </td>
+               <td>{% capture desc %}Used to describe the social background of a patient affiliated to CARA{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="StructureDefinition-country-of-birth.html"
                      title="StructureDefinition/country-of-birth">Country of Birth</a>
                </td>

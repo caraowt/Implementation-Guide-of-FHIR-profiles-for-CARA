@@ -16,7 +16,7 @@
    <name value="FishImplementationGuide"/>
    <title value="Fish Implementation Guide"/>
    <status value="draft"/>
-   <date value="2023-07-18T14:23:59+02:00"/>
+   <date value="2023-07-18T14:36:40+02:00"/>
    <contact>
       <name value="Bill Cod"/>
       <telecom>
@@ -373,6 +373,21 @@
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:extension"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-comment.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/comment"/>
+         </reference>
+         <name value="Comment"/>
+         <description value="Used to describe the social background of a patient affiliated to CARA"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-str-extension"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:resource"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
@@ -628,6 +643,11 @@
             <page>
                <nameUrl value="StructureDefinition-attention-point.html"/>
                <title value="Attention Point"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="StructureDefinition-comment.html"/>
+               <title value="Comment"/>
                <generation value="generated"/>
             </page>
             <page>

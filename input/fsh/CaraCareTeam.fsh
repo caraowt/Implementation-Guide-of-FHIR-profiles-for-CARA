@@ -7,10 +7,10 @@ Title:          "Care Team"
 Description:    "The care team is comprised of the patient, his legal representatives, healthcare professionals contributing to his shared care plan and externals."
 
 * participant
-   * extension contains Comment named comment 0..1
+  * extension contains Comment named comment 0..1
 
-Extension:  Comment
+Extension: Comment
 Id: comment
 Title: "Comment"
-Description: "This field will enable to add a comment on a the SCP interprofessional team"
+Description: "Used to describe the social background of a patient affiliated to CARA"
 * value[x] only string

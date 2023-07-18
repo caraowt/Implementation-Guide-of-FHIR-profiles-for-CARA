@@ -4,6 +4,7 @@
 [AttentionPoint]: StructureDefinition-attention-point.html
 [CarePlan]: StructureDefinition-careplan.html
 [CareTeam]: StructureDefinition-care-team.html
+[Comment]: StructureDefinition-comment.html
 [Condition]: StructureDefinition-condition.html
 [CountryOfBirth]: StructureDefinition-country-of-birth.html
 [AnticipateDirectivesExist]: StructureDefinition-anticipate-directives-exist.html

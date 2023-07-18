@@ -32,8 +32,33 @@
   "differential": {
     "element": [
       {
-        "id": "CareTeam",
-        "path": "CareTeam"
+        "id": "CareTeam.participant.extension",
+        "path": "CareTeam.participant.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "CareTeam.participant.extension:comment",
+        "path": "CareTeam.participant.extension",
+        "sliceName": "comment",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://example.org/fhir/fish/StructureDefinition/comment"
+            ]
+          }
+        ]
       }
     ]
   }

@@ -75,6 +75,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/comment"
+        },
+        "name": "Comment",
+        "description": "Used to describe the social background of a patient affiliated to CARA",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/condition"
         },
         "name": "Condition",

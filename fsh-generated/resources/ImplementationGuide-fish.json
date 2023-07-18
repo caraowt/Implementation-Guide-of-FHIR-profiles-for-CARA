@@ -51,6 +51,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/condition"
+        },
+        "name": "Condition",
+        "description": "A condition is used too describe the clinical status and diagnosis made to a patient.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/country-of-birth"
         },
         "name": "Country of Birth",

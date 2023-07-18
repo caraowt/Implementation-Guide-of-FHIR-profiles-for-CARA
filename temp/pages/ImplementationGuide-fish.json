@@ -10,7 +10,7 @@
   "name" : "FishImplementationGuide",
   "title" : "Fish Implementation Guide",
   "status" : "draft",
-  "date" : "2023-07-18T12:13:58+02:00",
+  "date" : "2023-07-18T13:14:18+02:00",
   "contact" : [{
     "name" : "Bill Cod",
     "telecom" : [{
@@ -612,6 +612,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/allergy-intolerance"
+      },
+      "name" : "AllergyIntolerance",
+      "description" : "This profile is used to track the allergies and intolerances of a patient based on a given value set.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
@@ -636,6 +648,30 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/care-team"
+      },
+      "name" : "CareTeam",
+      "description" : "The care team is comprised of the patient, his legal representatives, healthcare professionals contributing to his shared care plan and externals.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/condition"
+      },
+      "name" : "Condition",
+      "description" : "A condition is used too describe the clinical status and diagnosis made to a patient.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
@@ -643,6 +679,18 @@
       },
       "name" : "Country of Birth",
       "description" : "This field is used to render the country of birth of the patient",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/encounter"
+      },
+      "name" : "Encounter",
+      "description" : "Used to describe an encounter",
       "exampleBoolean" : false
     },
     {

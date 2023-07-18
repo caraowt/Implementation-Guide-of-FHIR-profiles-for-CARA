@@ -32,6 +32,13 @@
       ]
     },
     {
+      "url": "http://example.org/fhir/fish/StructureDefinition/encounter",
+      "title": "Encounter",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
       "url": "http://example.org/fhir/fish/StructureDefinition/historical-data",
       "title": "Historical Data",
       "types": [
@@ -60,16 +67,34 @@
         "title": "Observation"
       }
     ],
+    "AllergyIntolerance": [
+      {
+        "url": "http://example.org/fhir/fish/StructureDefinition/allergy-intolerance",
+        "title": "AllergyIntolerance"
+      }
+    ],
     "Patient": [
       {
         "url": "http://example.org/fhir/fish/StructureDefinition/cara-patient",
         "title": "Patient"
       }
     ],
+    "CareTeam": [
+      {
+        "url": "http://example.org/fhir/fish/StructureDefinition/care-team",
+        "title": "CareTeam"
+      }
+    ],
     "CarePlan": [
       {
         "url": "http://example.org/fhir/fish/StructureDefinition/careplan",
         "title": "Care Plan"
+      }
+    ],
+    "Condition": [
+      {
+        "url": "http://example.org/fhir/fish/StructureDefinition/condition",
+        "title": "Condition"
       }
     ],
     "Goal": [
@@ -97,6 +122,9 @@
     ],
     "http://example.org/fhir/fish/StructureDefinition/country-of-birth": [
       "Patient"
+    ],
+    "http://example.org/fhir/fish/StructureDefinition/encounter": [
+      "CareTeam"
     ],
     "http://example.org/fhir/fish/StructureDefinition/historical-data": [
       "CarePlan"

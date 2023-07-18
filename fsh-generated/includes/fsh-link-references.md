@@ -1,8 +1,11 @@
 [AnticipateDirectivesInEPR]: StructureDefinition-anticipate-directives-epr.html
+[AllergyIntolerance]: StructureDefinition-allergy-intolerance.html
 [AttentionPoint]: StructureDefinition-attention-point.html
 [CarePlan]: StructureDefinition-careplan.html
+[CareTeam]: StructureDefinition-care-team.html
 [Condition]: StructureDefinition-condition.html
 [CountryOfBirth]: StructureDefinition-country-of-birth.html
+[Encounter]: StructureDefinition-encounter.html
 [AnticipateDirectivesExist]: StructureDefinition-anticipate-directives-exist.html
 [Goal]: StructureDefinition-goal.html
 [HistoricalData]: StructureDefinition-historical-data.html

@@ -35,6 +35,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/allergy-intolerance"
+        },
+        "name": "AllergyIntolerance",
+        "description": "This profile is used to track the allergies and intolerances of a patient based on a given value set.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/attention-point"
         },
         "name": "Attention Point",
@@ -51,6 +59,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/care-team"
+        },
+        "name": "CareTeam",
+        "description": "The care team is comprised of the patient, his legal representatives, healthcare professionals contributing to his shared care plan and externals.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/condition"
         },
         "name": "Condition",
@@ -63,6 +79,14 @@
         },
         "name": "Country of Birth",
         "description": "This field is used to render the country of birth of the patient",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/encounter"
+        },
+        "name": "Encounter",
+        "description": "Used to describe an encounter",
         "exampleBoolean": false
       },
       {

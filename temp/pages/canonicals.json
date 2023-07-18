@@ -14,6 +14,13 @@
     "name" : "Observation"
   },
   {
+    "id" : "allergy-intolerance",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/fhir/fish/StructureDefinition/allergy-intolerance",
+    "version" : "0.1.0",
+    "name" : "AllergyIntolerance"
+  },
+  {
     "id" : "anticipate-directives-epr",
     "type" : "StructureDefinition",
     "url" : "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-epr",
@@ -42,6 +49,13 @@
     "name" : "Patient"
   },
   {
+    "id" : "care-team",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/fhir/fish/StructureDefinition/care-team",
+    "version" : "0.1.0",
+    "name" : "CareTeam"
+  },
+  {
     "id" : "careplan",
     "type" : "StructureDefinition",
     "url" : "http://example.org/fhir/fish/StructureDefinition/careplan",
@@ -49,11 +63,25 @@
     "name" : "CarePlan"
   },
   {
+    "id" : "condition",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/fhir/fish/StructureDefinition/condition",
+    "version" : "0.1.0",
+    "name" : "Condition"
+  },
+  {
     "id" : "country-of-birth",
     "type" : "StructureDefinition",
     "url" : "http://example.org/fhir/fish/StructureDefinition/country-of-birth",
     "version" : "0.1.0",
     "name" : "CountryOfBirth"
+  },
+  {
+    "id" : "encounter",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/fhir/fish/StructureDefinition/encounter",
+    "version" : "0.1.0",
+    "name" : "Encounter"
   },
   {
     "id" : "goal",

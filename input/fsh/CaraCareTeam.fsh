@@ -1,6 +1,6 @@
 Alias:          $CareTeam = http://hl7.org/fhir/StructureDefinition/CareTeam
 
-Profile:        CareTeam
+Profile:        Care Team
 Parent:         $CareTeam
 Id:             care-team
 Title:          "CareTeam"

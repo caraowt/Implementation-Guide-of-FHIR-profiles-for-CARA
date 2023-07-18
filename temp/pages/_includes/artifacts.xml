@@ -26,10 +26,34 @@
          <tbody>
             <tr>
                <td style="column-width:30%">
+                  <a href="StructureDefinition-allergy-intolerance.html"
+                     title="StructureDefinition/allergy-intolerance">AllergyIntolerance</a>
+               </td>
+               <td>{% capture desc %}This profile is used to track the allergies and intolerances of a patient based on a given value set.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="StructureDefinition-careplan.html"
                      title="StructureDefinition/careplan">Care Plan</a>
                </td>
                <td>{% capture desc %}A Care Plan tailored to the needs of CARA with advanced directives{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-care-team.html"
+                     title="StructureDefinition/care-team">CareTeam</a>
+               </td>
+               <td>{% capture desc %}The care team is comprised of the patient, his legal representatives, healthcare professionals contributing to his shared care plan and externals.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-condition.html"
+                     title="StructureDefinition/condition">Condition</a>
+               </td>
+               <td>{% capture desc %}A condition is used too describe the clinical status and diagnosis made to a patient.{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
@@ -96,6 +120,14 @@
                      title="StructureDefinition/country-of-birth">Country of Birth</a>
                </td>
                <td>{% capture desc %}This field is used to render the country of birth of the patient{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-encounter.html"
+                     title="StructureDefinition/encounter">Encounter</a>
+               </td>
+               <td>{% capture desc %}Used to describe an encounter{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>

@@ -1,18 +1,22 @@
 ﻿FishImplementationGuide : Validation Results
 =========================================
 
-err = 3, warn = 25, info = 0
+err = 3, warn = 30, info = 0
 IG Publisher Version: 1.3.23
-Generated Tue Jul 18 12:14:29 CEST 2023. FHIR version 4.0.1 for fish#0.1.0 (canonical = http://example.org/fhir/fish)
- Build Errors : 118 / 4 / 0
+Generated Tue Jul 18 13:14:59 CEST 2023. FHIR version 4.0.1 for fish#0.1.0 (canonical = http://example.org/fhir/fish)
+ Build Errors : 153 / 4 / 0
  /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/ImplementationGuide-fish : 0 / 0 / 1
  /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-Observation : 0 / 1 / 1
+ /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-allergy-intolerance : 0 / 1 / 1
  /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-anticipate-directives-epr : 0 / 2 / 1
  /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-anticipate-directives-exist : 0 / 2 / 1
  /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-attention-point : 0 / 2 / 1
  /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-cara-patient : 0 / 1 / 1
+ /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-care-team : 0 / 1 / 1
  /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-careplan : 0 / 1 / 1
+ /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-condition : 0 / 1 / 1
  /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-country-of-birth : 2 / 4 / 1
+ /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-encounter : 0 / 2 / 1
  /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-goal : 0 / 1 / 1
  /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-historical-data : 0 / 2 / 1
  /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-patient-priorities : 0 / 2 / 1
@@ -30,6 +34,15 @@ ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-Obser
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-Observation.profile.json.html#/html/body/div/div/div/p/a at Line 2978, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-Observation.profile.ttl.html#/html/body/div/div/div/p/a at Line 2208, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-Observation.profile.xml.html#/html/body/div/div/div/p/a at Line 2812, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-allergy-intolerance-definitions.html#/html/body/div/div/div/p/a at Line 778, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-allergy-intolerance-examples.html#/html/body/div/div/div/p/a at Line 270, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-allergy-intolerance-mappings.html#/html/body/div/div/div/p/a at Line 345, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-allergy-intolerance-testing.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-allergy-intolerance.html#/html/body/div/div/div/p/a at Line 802, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-allergy-intolerance.profile.history.html#/html/body/div/div/div/p/a at Line 259, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-allergy-intolerance.profile.json.html#/html/body/div/div/div/p/a at Line 2014, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-allergy-intolerance.profile.ttl.html#/html/body/div/div/div/p/a at Line 1532, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-allergy-intolerance.profile.xml.html#/html/body/div/div/div/p/a at Line 1889, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-anticipate-directives-epr-definitions.html#/html/body/div/div/div/p/a at Line 394, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-anticipate-directives-epr-mappings.html#/html/body/div/div/div/p/a at Line 276, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-anticipate-directives-epr-testing.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'cod@reef.gov' for "" cannot be resolved
@@ -69,6 +82,15 @@ ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-cara-
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-cara-patient.profile.json.html#/html/body/div/div/div/p/a at Line 2575, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-cara-patient.profile.ttl.html#/html/body/div/div/div/p/a at Line 1924, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-cara-patient.profile.xml.html#/html/body/div/div/div/p/a at Line 2411, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-care-team-definitions.html#/html/body/div/div/div/p/a at Line 693, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-care-team-examples.html#/html/body/div/div/div/p/a at Line 270, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-care-team-mappings.html#/html/body/div/div/div/p/a at Line 303, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-care-team-testing.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-care-team.html#/html/body/div/div/div/p/a at Line 772, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-care-team.profile.history.html#/html/body/div/div/div/p/a at Line 259, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-care-team.profile.json.html#/html/body/div/div/div/p/a at Line 1625, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-care-team.profile.ttl.html#/html/body/div/div/div/p/a at Line 1297, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-care-team.profile.xml.html#/html/body/div/div/div/p/a at Line 1507, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-careplan-definitions.html#/html/body/div/div/div/p/a at Line 1197, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-careplan-examples.html#/html/body/div/div/div/p/a at Line 270, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-careplan-mappings.html#/html/body/div/div/div/p/a at Line 385, column 28: The link 'cod@reef.gov' for "" cannot be resolved
@@ -78,6 +100,15 @@ ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-carep
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-careplan.profile.json.html#/html/body/div/div/div/p/a at Line 3505, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-careplan.profile.ttl.html#/html/body/div/div/div/p/a at Line 2680, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-careplan.profile.xml.html#/html/body/div/div/div/p/a at Line 3241, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-condition-definitions.html#/html/body/div/div/div/p/a at Line 774, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-condition-examples.html#/html/body/div/div/div/p/a at Line 270, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-condition-mappings.html#/html/body/div/div/div/p/a at Line 389, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-condition-testing.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-condition.html#/html/body/div/div/div/p/a at Line 832, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-condition.profile.history.html#/html/body/div/div/div/p/a at Line 259, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-condition.profile.json.html#/html/body/div/div/div/p/a at Line 2260, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-condition.profile.ttl.html#/html/body/div/div/div/p/a at Line 1697, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-condition.profile.xml.html#/html/body/div/div/div/p/a at Line 2119, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-country-of-birth-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 241, column 115: The link 'country.html' for "country" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-country-of-birth-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 285, column 115: The link 'country.html' for "country" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-country-of-birth-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 332, column 115: The link 'country.html' for "country" cannot be resolved
@@ -93,6 +124,14 @@ ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-count
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-country-of-birth.profile.json.html#/html/body/div/div/div/p/a at Line 553, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-country-of-birth.profile.ttl.html#/html/body/div/div/div/p/a at Line 490, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-country-of-birth.profile.xml.html#/html/body/div/div/div/p/a at Line 517, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-encounter-definitions.html#/html/body/div/div/div/p/a at Line 391, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-encounter-mappings.html#/html/body/div/div/div/p/a at Line 276, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-encounter-testing.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-encounter.html#/html/body/div/div/div/p/a at Line 509, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-encounter.profile.history.html#/html/body/div/div/div/p/a at Line 259, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-encounter.profile.json.html#/html/body/div/div/div/p/a at Line 551, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-encounter.profile.ttl.html#/html/body/div/div/div/p/a at Line 486, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-encounter.profile.xml.html#/html/body/div/div/div/p/a at Line 509, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-goal-definitions.html#/html/body/div/div/div/p/a at Line 747, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-goal-examples.html#/html/body/div/div/div/p/a at Line 270, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-goal-mappings.html#/html/body/div/div/div/p/a at Line 313, column 28: The link 'cod@reef.gov' for "" cannot be resolved
@@ -135,7 +174,7 @@ ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-veter
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-veterinarian.profile.json.html#/html/body/div/div/div/p/a at Line 2063, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-veterinarian.profile.ttl.html#/html/body/div/div/div/p/a at Line 1551, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-veterinarian.profile.xml.html#/html/body/div/div/div/p/a at Line 1923, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/artifacts.html#/html/body/div/div/div/p/a at Line 308, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: /Users/edgarminault/Documents/ig-caraowt/output/artifacts.html#/html/body/div/div/div/p/a at Line 344, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/index.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: /Users/edgarminault/Documents/ig-caraowt/output/toc.html#/html/body/div/div/div/p/a at Line 158, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
@@ -145,6 +184,8 @@ WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in 
 == fsh-generated/resources/ImplementationGuide-fish.json ==
 == fsh-generated/resources/StructureDefinition-Observation.json ==
 WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/Observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-allergy-intolerance.json ==
+WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/allergy-intolerance'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-anticipate-directives-epr.json ==
 WARNING: StructureDefinition/anticipate-directives-epr: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/anticipate-directives-epr'): The Implementation Guide contains no examples for this extension
@@ -156,8 +197,12 @@ WARNING: StructureDefinition/attention-point: StructureDefinition.context[0]: Re
 WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/attention-point'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-cara-patient.json ==
 WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/cara-patient'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-care-team.json ==
+WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/care-team'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-careplan.json ==
 WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/careplan'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-condition.json ==
+WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/condition'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-country-of-birth.json ==
 ERROR: StructureDefinition/country-of-birth: StructureDefinition.snapshot.element[4].binding.valueSet: Canonical URL 'http://hl7.org/fhir/ValueSet/country' does not resolve
 ERROR: StructureDefinition/country-of-birth: StructureDefinition.differential.element[3].binding.valueSet: Canonical URL 'http://hl7.org/fhir/ValueSet/country' does not resolve
@@ -165,6 +210,9 @@ WARNING: StructureDefinition/country-of-birth: StructureDefinition.context[0]: R
 WARNING: StructureDefinition/country-of-birth: StructureDefinition.differential.element[3].binding: The valueSet reference http://hl7.org/fhir/ValueSet/country on element Extension.value[x] could not be resolved
 WARNING: StructureDefinition/country-of-birth: StructureDefinition.snapshot.element[4].binding: The valueSet reference http://hl7.org/fhir/ValueSet/country on element Extension.value[x] could not be resolved
 WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/country-of-birth'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-encounter.json ==
+WARNING: StructureDefinition/encounter: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/encounter'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-goal.json ==
 WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/goal'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-historical-data.json ==

@@ -16,7 +16,7 @@
    <name value="FishImplementationGuide"/>
    <title value="Fish Implementation Guide"/>
    <status value="draft"/>
-   <date value="2023-07-18T12:13:58+02:00"/>
+   <date value="2023-07-18T13:14:18+02:00"/>
    <contact>
       <name value="Bill Cod"/>
       <telecom>
@@ -298,6 +298,21 @@
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:resource"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-allergy-intolerance.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/allergy-intolerance"/>
+         </reference>
+         <name value="AllergyIntolerance"/>
+         <description value="This profile is used to track the allergies and intolerances of a patient based on a given value set."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-str-profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:extension"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
@@ -328,6 +343,36 @@
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:resource"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-care-team.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/care-team"/>
+         </reference>
+         <name value="CareTeam"/>
+         <description value="The care team is comprised of the patient, his legal representatives, healthcare professionals contributing to his shared care plan and externals."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-str-profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:resource"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-condition.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/condition"/>
+         </reference>
+         <name value="Condition"/>
+         <description value="A condition is used too describe the clinical status and diagnosis made to a patient."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-str-profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:extension"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
@@ -338,6 +383,21 @@
          </reference>
          <name value="Country of Birth"/>
          <description value="This field is used to render the country of birth of the patient"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-str-extension"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:extension"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-encounter.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/encounter"/>
+         </reference>
+         <name value="Encounter"/>
+         <description value="Used to describe an encounter"/>
          <exampleBoolean value="false"/>
          <groupingId value="-str-extension"/>
       </resource>
@@ -481,8 +541,23 @@
             <title value="Artifacts Summary"/>
             <generation value="html"/>
             <page>
+               <nameUrl value="StructureDefinition-allergy-intolerance.html"/>
+               <title value="AllergyIntolerance"/>
+               <generation value="generated"/>
+            </page>
+            <page>
                <nameUrl value="StructureDefinition-careplan.html"/>
                <title value="Care Plan"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="StructureDefinition-care-team.html"/>
+               <title value="CareTeam"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="StructureDefinition-condition.html"/>
+               <title value="Condition"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -518,6 +593,11 @@
             <page>
                <nameUrl value="StructureDefinition-country-of-birth.html"/>
                <title value="Country of Birth"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="StructureDefinition-encounter.html"/>
+               <title value="Encounter"/>
                <generation value="generated"/>
             </page>
             <page>

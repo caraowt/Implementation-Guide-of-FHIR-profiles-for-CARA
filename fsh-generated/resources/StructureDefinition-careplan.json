@@ -51,9 +51,9 @@
         }
       },
       {
-        "id": "CarePlan.extension:socialdata",
+        "id": "CarePlan.extension:socialData",
         "path": "CarePlan.extension",
-        "sliceName": "socialdata",
+        "sliceName": "socialData",
         "min": 0,
         "max": "1",
         "type": [
@@ -66,9 +66,9 @@
         ]
       },
       {
-        "id": "CarePlan.extension:historicaldata",
+        "id": "CarePlan.extension:historicalData",
         "path": "CarePlan.extension",
-        "sliceName": "historicaldata",
+        "sliceName": "historicalData",
         "min": 0,
         "max": "1",
         "type": [
@@ -81,9 +81,9 @@
         ]
       },
       {
-        "id": "CarePlan.extension:patientpriorities",
+        "id": "CarePlan.extension:patientPriorities",
         "path": "CarePlan.extension",
-        "sliceName": "patientpriorities",
+        "sliceName": "patientPriorities",
         "min": 0,
         "max": "1",
         "type": [
@@ -91,6 +91,36 @@
             "code": "Extension",
             "profile": [
               "http://example.org/fhir/fish/StructureDefinition/patient-priorities"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CarePlan.extension:anticipateDirectivesExist",
+        "path": "CarePlan.extension",
+        "sliceName": "anticipateDirectivesExist",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-exist"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CarePlan.extension:anticipateDirectivesInEpr",
+        "path": "CarePlan.extension",
+        "sliceName": "anticipateDirectivesInEpr",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-epr"
             ]
           }
         ]
@@ -107,13 +137,12 @@
           ],
           "ordered": false,
           "rules": "open"
-        },
-        "min": 1
+        }
       },
       {
-        "id": "CarePlan.activity.extension:attention-point",
+        "id": "CarePlan.activity.extension:attentionPoint",
         "path": "CarePlan.activity.extension",
-        "sliceName": "attention-point",
+        "sliceName": "attentionPoint",
         "min": 0,
         "max": "1",
         "type": [
@@ -121,36 +150,6 @@
             "code": "Extension",
             "profile": [
               "http://example.org/fhir/fish/StructureDefinition/attention-point"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "CarePlan.activity.extension:outcomeReference",
-        "path": "CarePlan.activity.extension",
-        "sliceName": "outcomeReference",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "http://example.org/fhir/fish/StructureDefinition/outcome-reference"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "CarePlan.activity.extension:Reference",
-        "path": "CarePlan.activity.extension",
-        "sliceName": "Reference",
-        "min": 1,
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "http://example.org/fhir/fish/StructureDefinition/reference"
             ]
           }
         ]

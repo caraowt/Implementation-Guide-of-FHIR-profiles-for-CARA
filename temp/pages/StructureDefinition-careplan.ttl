@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "CarePlan"] ; # 
   fhir:title [ fhir:v "Care Plan"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-07-17T17:22:35+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-07-18T09:29:43+02:00"^^xsd:dateTime] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Bill Cod" ] ;
      fhir:telecom ( [

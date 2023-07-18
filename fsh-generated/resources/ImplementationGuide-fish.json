@@ -91,14 +91,6 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/outcome-reference"
-        },
-        "name": "Outcome Reference",
-        "description": "Attention Point on the observation",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/cara-patient"
         },
         "name": "Patient",
@@ -119,14 +111,6 @@
         },
         "name": "Reason Reference",
         "description": "The reason behind the goals",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/reference"
-        },
-        "name": "Reference",
-        "description": "Type of observation made by the contributor",
         "exampleBoolean": false
       },
       {

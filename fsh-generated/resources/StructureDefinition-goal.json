@@ -46,9 +46,9 @@
         }
       },
       {
-        "id": "Goal.extension:expressed-by",
+        "id": "Goal.extension:expressedBy",
         "path": "Goal.extension",
-        "sliceName": "expressed-by",
+        "sliceName": "expressedBy",
         "min": 0,
         "max": "1",
         "type": [
@@ -61,9 +61,9 @@
         ]
       },
       {
-        "id": "Goal.extension:reason-reference",
+        "id": "Goal.extension:reasonReference",
         "path": "Goal.extension",
-        "sliceName": "reason-reference",
+        "sliceName": "reasonReference",
         "min": 0,
         "max": "1",
         "type": [

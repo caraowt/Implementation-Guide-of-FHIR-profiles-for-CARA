@@ -8,8 +8,8 @@ Parent:         $Goal
 Id:             goal
 Title:          "Goal"
 Description:    "The purpose of a Goal is to track a topic around the Shared Care Plan with its associated list of goals."
-* extension contains ExpressedBy named expressed-by 0..1
-* extension contains ReasonReference named reason-reference 0..1
+* extension contains ExpressedBy named expressedBy 0..1
+* extension contains ReasonReference named reasonReference 0..1
 
 Extension: ExpressedBy
 Id: expressed-by

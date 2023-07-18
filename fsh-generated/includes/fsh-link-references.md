@@ -10,6 +10,8 @@
 [AnticipateDirectivesExist]: StructureDefinition-anticipate-directives-exist.html
 [Goal]: StructureDefinition-goal.html
 [HistoricalData]: StructureDefinition-historical-data.html
+[IsContact]: StructureDefinition-isContact.html
+[IsEmergency]: StructureDefinition-isEmergency.html
 [Observation]: StructureDefinition-Observation.html
 [Organization]: StructureDefinition-organization.html
 [Patient]: StructureDefinition-cara-patient.html

@@ -1,264 +1,271 @@
-﻿FishImplementationGuide : Validation Results
+﻿ChCaraPlatform : Validation Results
 =========================================
 
-err = 3, warn = 35, info = 0
-IG Publisher Version: 1.3.23
-Generated Tue Jul 18 14:37:18 CEST 2023. FHIR version 4.0.1 for fish#0.1.0 (canonical = http://example.org/fhir/fish)
- Build Errors : 178 / 4 / 0
- /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/ImplementationGuide-fish : 0 / 0 / 1
- /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-Observation : 0 / 1 / 1
- /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-allergy-intolerance : 0 / 1 / 1
- /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-anticipate-directives-ehr : 0 / 2 / 1
- /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-anticipate-directives-exist : 0 / 2 / 1
- /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-anticipate-directives-location : 0 / 2 / 1
- /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-attention-point : 0 / 2 / 1
- /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-cara-patient : 0 / 1 / 1
- /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-care-team : 0 / 1 / 1
- /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-careplan : 0 / 1 / 1
- /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-comment : 0 / 2 / 1
- /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-condition : 0 / 1 / 1
- /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-country-of-birth : 2 / 4 / 1
- /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-goal : 0 / 1 / 1
- /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-historical-data : 0 / 2 / 1
- /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-organization : 0 / 1 / 1
- /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-patient-priorities : 0 / 2 / 1
- /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-related-person : 0 / 1 / 1
- /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-showNote : 0 / 2 / 1
- /Users/edgarminault/Documents/ig-caraowt/fsh-generated/resources/StructureDefinition-social-data : 0 / 2 / 1
+err = 41, warn = 55, info = 80
+IG Publisher Version: 1.4.8
+Generated Wed Sep 27 16:23:10 CEST 2023. FHIR version 5.0.0 for ch.cara.fhir.platform#0.1.0 (canonical = https://terminology.cara.ch)
+ Build Errors : 0 / 3 / 0
+ /home/tibo/git-pro/cara/ChCaraPlatform/fsh-generated/resources/Basic-ScpInvitation : 9 / 0 / 6
+ /home/tibo/git-pro/cara/ChCaraPlatform/fsh-generated/resources/ImplementationGuide-ch.cara.fhir.platform : 0 / 0 / 1
+ /home/tibo/git-pro/cara/ChCaraPlatform/fsh-generated/resources/Patient-AliceProfile : 2 / 0 / 3
+ /home/tibo/git-pro/cara/ChCaraPlatform/fsh-generated/resources/Person-EveProfile : 2 / 0 / 3
+ /home/tibo/git-pro/cara/ChCaraPlatform/fsh-generated/resources/Practitioner-BobProfile : 2 / 0 / 3
+ /home/tibo/git-pro/cara/ChCaraPlatform/fsh-generated/resources/StructureDefinition-cara-application-invitation-application : 0 / 2 / 1
+ /home/tibo/git-pro/cara/ChCaraPlatform/fsh-generated/resources/StructureDefinition-cara-application-invitation-firstName : 0 / 2 / 1
+ /home/tibo/git-pro/cara/ChCaraPlatform/fsh-generated/resources/StructureDefinition-cara-application-invitation-lastName : 0 / 2 / 1
+ /home/tibo/git-pro/cara/ChCaraPlatform/fsh-generated/resources/StructureDefinition-cara-application-invitation-mpiIdUrn : 0 / 2 / 1
+ /home/tibo/git-pro/cara/ChCaraPlatform/fsh-generated/resources/StructureDefinition-cara-healthcare-professional-profile : 1 / 4 / 7
+ /home/tibo/git-pro/cara/ChCaraPlatform/fsh-generated/resources/StructureDefinition-cara-invitation : 0 / 0 / 3
+ /home/tibo/git-pro/cara/ChCaraPlatform/fsh-generated/resources/StructureDefinition-cara-local-profile : 1 / 4 / 7
+ /home/tibo/git-pro/cara/ChCaraPlatform/fsh-generated/resources/StructureDefinition-cara-patient-profile : 0 / 4 / 7
+ /home/tibo/git-pro/cara/ChCaraPlatform/fsh-generated/resources/StructureDefinition-scp-careplan : 0 / 1 / 3
+ /home/tibo/git-pro/cara/ChCaraPlatform/fsh-generated/resources/StructureDefinition-scp-careteam : 0 / 1 / 3
+ /home/tibo/git-pro/cara/ChCaraPlatform/fsh-generated/resources/StructureDefinition-scp-careteam-participant-comment : 0 / 2 / 1
+ /home/tibo/git-pro/cara/ChCaraPlatform/fsh-generated/resources/StructureDefinition-scp-careteam-participant-iscoordinator : 0 / 2 / 1
+ /home/tibo/git-pro/cara/ChCaraPlatform/fsh-generated/resources/StructureDefinition-scp-careteam-participant-ismanager : 0 / 2 / 1
+ /home/tibo/git-pro/cara/ChCaraPlatform/fsh-generated/resources/StructureDefinition-scp-contact : 0 / 3 / 6
+ /home/tibo/git-pro/cara/ChCaraPlatform/fsh-generated/resources/StructureDefinition-scp-contact-comment : 0 / 2 / 1
+ /home/tibo/git-pro/cara/ChCaraPlatform/fsh-generated/resources/StructureDefinition-scp-contact-emergency : 0 / 2 / 1
+ /home/tibo/git-pro/cara/ChCaraPlatform/fsh-generated/resources/StructureDefinition-scp-contact-relationship : 0 / 2 / 1
+ /home/tibo/git-pro/cara/ChCaraPlatform/fsh-generated/resources/StructureDefinition-scp-contextualdata : 0 / 1 / 5
+ /home/tibo/git-pro/cara/ChCaraPlatform/fsh-generated/resources/StructureDefinition-scp-contextualdata-ismanager : 0 / 2 / 1
+ /home/tibo/git-pro/cara/ChCaraPlatform/fsh-generated/resources/StructureDefinition-scp-external-observation : 0 / 1 / 12
+ /home/tibo/git-pro/cara/ChCaraPlatform/fsh-generated/resources/StructureDefinition-scp-goal : 0 / 1 / 5
+ /home/tibo/git-pro/cara/ChCaraPlatform/fsh-generated/resources/StructureDefinition-scp-goal-target-status : 0 / 2 / 1
+ /home/tibo/git-pro/cara/ChCaraPlatform/fsh-generated/resources/StructureDefinition-scp-observation : 0 / 1 / 14
+ /home/tibo/git-pro/cara/ChCaraPlatform/fsh-generated/resources/StructureDefinition-scp-teammember-practitioner : 0 / 1 / 5
+ /home/tibo/git-pro/cara/ChCaraPlatform/fsh-generated/resources/StructureDefinition-scp-teammember-relatedperson : 0 / 1 / 5
+ /home/tibo/git-pro/cara/ChCaraPlatform/fsh-generated/resources/ValueSet-cara-platform-loacle : 0 / 1 / 1
+ /home/tibo/git-pro/cara/ChCaraPlatform/fsh-generated/resources/ValueSet-cara-platform-namespace : 0 / 1 / 1
+ /home/tibo/git-pro/cara/ChCaraPlatform/fsh-generated/resources/ValueSet-scp-contextualdata-type : 0 / 1 / 1
+ /home/tibo/git-pro/cara/ChCaraPlatform/fsh-generated/resources/ValueSet-scp-goal-type : 0 / 1 / 1
+ /home/tibo/git-pro/cara/ChCaraPlatform/fsh-generated/resources/ValueSet-scp-target-type : 0 / 1 / 1
+ /home/tibo/git-pro/cara/ChCaraPlatform/input/resources/CaraBasicResourceType : 3 / 0 / 1
+ /home/tibo/git-pro/cara/ChCaraPlatform/input/resources/CaraLocale : 3 / 0 / 1
+ /home/tibo/git-pro/cara/ChCaraPlatform/input/resources/FhirvaultNamespace : 3 / 0 / 1
+ /home/tibo/git-pro/cara/ChCaraPlatform/input/resources/ScpCustomGoalType : 3 / 0 / 1
+ /home/tibo/git-pro/cara/ChCaraPlatform/input/resources/ScpLoincCompositionSection : 3 / 0 / 1
+ /home/tibo/git-pro/cara/ChCaraPlatform/input/resources/ScpSnomedCompositionSection : 3 / 0 / 1
+ /home/tibo/git-pro/cara/ChCaraPlatform/input/resources/ScpSnomedParameterGroup : 3 / 0 / 1
+ /home/tibo/git-pro/cara/ChCaraPlatform/input/resources/ScpSnomedParameterType : 3 / 0 / 1
 </table>
 == n/a ==
-ERROR: Patient.extension: The reference http://hl7.org/fhir/ValueSet/country could not be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-Observation-definitions.html#/html/body/div/div/div/p/a at Line 978, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-Observation-examples.html#/html/body/div/div/div/p/a at Line 270, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-Observation-mappings.html#/html/body/div/div/div/p/a at Line 428, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-Observation-testing.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-Observation.html#/html/body/div/div/div/p/a at Line 952, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-Observation.profile.history.html#/html/body/div/div/div/p/a at Line 259, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-Observation.profile.json.html#/html/body/div/div/div/p/a at Line 2978, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-Observation.profile.ttl.html#/html/body/div/div/div/p/a at Line 2208, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-Observation.profile.xml.html#/html/body/div/div/div/p/a at Line 2812, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-allergy-intolerance-definitions.html#/html/body/div/div/div/p/a at Line 778, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-allergy-intolerance-examples.html#/html/body/div/div/div/p/a at Line 270, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-allergy-intolerance-mappings.html#/html/body/div/div/div/p/a at Line 345, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-allergy-intolerance-testing.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-allergy-intolerance.html#/html/body/div/div/div/p/a at Line 802, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-allergy-intolerance.profile.history.html#/html/body/div/div/div/p/a at Line 259, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-allergy-intolerance.profile.json.html#/html/body/div/div/div/p/a at Line 2014, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-allergy-intolerance.profile.ttl.html#/html/body/div/div/div/p/a at Line 1532, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-allergy-intolerance.profile.xml.html#/html/body/div/div/div/p/a at Line 1889, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-anticipate-directives-ehr-definitions.html#/html/body/div/div/div/p/a at Line 394, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-anticipate-directives-ehr-mappings.html#/html/body/div/div/div/p/a at Line 276, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-anticipate-directives-ehr-testing.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-anticipate-directives-ehr.html#/html/body/div/div/div/p/a at Line 509, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-anticipate-directives-ehr.profile.history.html#/html/body/div/div/div/p/a at Line 259, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-anticipate-directives-ehr.profile.json.html#/html/body/div/div/div/p/a at Line 545, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-anticipate-directives-ehr.profile.ttl.html#/html/body/div/div/div/p/a at Line 480, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-anticipate-directives-ehr.profile.xml.html#/html/body/div/div/div/p/a at Line 509, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-anticipate-directives-exist-definitions.html#/html/body/div/div/div/p/a at Line 394, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-anticipate-directives-exist-mappings.html#/html/body/div/div/div/p/a at Line 276, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-anticipate-directives-exist-testing.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-anticipate-directives-exist.html#/html/body/div/div/div/p/a at Line 509, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-anticipate-directives-exist.profile.history.html#/html/body/div/div/div/p/a at Line 259, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-anticipate-directives-exist.profile.json.html#/html/body/div/div/div/p/a at Line 545, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-anticipate-directives-exist.profile.ttl.html#/html/body/div/div/div/p/a at Line 480, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-anticipate-directives-exist.profile.xml.html#/html/body/div/div/div/p/a at Line 509, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-anticipate-directives-location-definitions.html#/html/body/div/div/div/p/a at Line 394, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-anticipate-directives-location-mappings.html#/html/body/div/div/div/p/a at Line 276, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-anticipate-directives-location-testing.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-anticipate-directives-location.html#/html/body/div/div/div/p/a at Line 509, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-anticipate-directives-location.profile.history.html#/html/body/div/div/div/p/a at Line 259, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-anticipate-directives-location.profile.json.html#/html/body/div/div/div/p/a at Line 545, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-anticipate-directives-location.profile.ttl.html#/html/body/div/div/div/p/a at Line 480, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-anticipate-directives-location.profile.xml.html#/html/body/div/div/div/p/a at Line 509, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-attention-point-definitions.html#/html/body/div/div/div/p/a at Line 394, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-attention-point-mappings.html#/html/body/div/div/div/p/a at Line 276, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-attention-point-testing.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-attention-point.html#/html/body/div/div/div/p/a at Line 509, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-attention-point.profile.history.html#/html/body/div/div/div/p/a at Line 259, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-attention-point.profile.json.html#/html/body/div/div/div/p/a at Line 545, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-attention-point.profile.ttl.html#/html/body/div/div/div/p/a at Line 480, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-attention-point.profile.xml.html#/html/body/div/div/div/p/a at Line 506, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-cara-patient-definitions.html#/html/body/div/div/div/p/a at Line 998, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-cara-patient-examples.html#/html/body/div/div/div/p/a at Line 270, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-cara-patient-mappings.html#/html/body/div/div/div/p/a at Line 381, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-cara-patient-testing.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-cara-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 303, column 1839: The link 'country.html' for "country" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-cara-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 322, column 1814: The link 'country.html' for "country" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-cara-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 368, column 1796: The link 'country.html' for "country" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-cara-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 602, column 1839: The link 'country.html' for "country" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-cara-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 620, column 1814: The link 'country.html' for "country" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-cara-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 666, column 1796: The link 'country.html' for "country" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-cara-patient.html#/html/body/div/div/div/p/a at Line 944, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-cara-patient.profile.history.html#/html/body/div/div/div/p/a at Line 259, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-cara-patient.profile.json.html#/html/body/div/div/div/p/a at Line 2575, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-cara-patient.profile.ttl.html#/html/body/div/div/div/p/a at Line 1924, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-cara-patient.profile.xml.html#/html/body/div/div/div/p/a at Line 2411, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-care-team-definitions.html#/html/body/div/div/div/p/a at Line 674, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-care-team-examples.html#/html/body/div/div/div/p/a at Line 270, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-care-team-mappings.html#/html/body/div/div/div/p/a at Line 303, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-care-team-testing.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-care-team.html#/html/body/div/div/div/p/a at Line 770, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-care-team.profile.history.html#/html/body/div/div/div/p/a at Line 259, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-care-team.profile.json.html#/html/body/div/div/div/p/a at Line 1625, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-care-team.profile.ttl.html#/html/body/div/div/div/p/a at Line 1297, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-care-team.profile.xml.html#/html/body/div/div/div/p/a at Line 1509, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-careplan-definitions.html#/html/body/div/div/div/p/a at Line 1229, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-careplan-examples.html#/html/body/div/div/div/p/a at Line 270, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-careplan-mappings.html#/html/body/div/div/div/p/a at Line 385, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-careplan-testing.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-careplan.html#/html/body/div/div/div/p/a at Line 1048, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-careplan.profile.history.html#/html/body/div/div/div/p/a at Line 259, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-careplan.profile.json.html#/html/body/div/div/div/p/a at Line 3623, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-careplan.profile.ttl.html#/html/body/div/div/div/p/a at Line 2770, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-careplan.profile.xml.html#/html/body/div/div/div/p/a at Line 3343, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-comment-definitions.html#/html/body/div/div/div/p/a at Line 394, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-comment-mappings.html#/html/body/div/div/div/p/a at Line 276, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-comment-testing.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-comment.html#/html/body/div/div/div/p/a at Line 509, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-comment.profile.history.html#/html/body/div/div/div/p/a at Line 259, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-comment.profile.json.html#/html/body/div/div/div/p/a at Line 545, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-comment.profile.ttl.html#/html/body/div/div/div/p/a at Line 480, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-comment.profile.xml.html#/html/body/div/div/div/p/a at Line 508, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-condition-definitions.html#/html/body/div/div/div/p/a at Line 774, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-condition-examples.html#/html/body/div/div/div/p/a at Line 270, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-condition-mappings.html#/html/body/div/div/div/p/a at Line 389, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-condition-testing.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-condition.html#/html/body/div/div/div/p/a at Line 832, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-condition.profile.history.html#/html/body/div/div/div/p/a at Line 259, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-condition.profile.json.html#/html/body/div/div/div/p/a at Line 2260, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-condition.profile.ttl.html#/html/body/div/div/div/p/a at Line 1697, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-condition.profile.xml.html#/html/body/div/div/div/p/a at Line 2119, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-country-of-birth-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 241, column 115: The link 'country.html' for "country" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-country-of-birth-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 285, column 115: The link 'country.html' for "country" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-country-of-birth-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 332, column 115: The link 'country.html' for "country" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-country-of-birth-definitions.html#/html/body/div/div/div/p/a at Line 394, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-country-of-birth-mappings.html#/html/body/div/div/div/p/a at Line 276, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-country-of-birth-testing.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-country-of-birth.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 311, column 1684: The link 'country.html' for "country" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-country-of-birth.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 324, column 1686: The link 'country.html' for "country" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-country-of-birth.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 390, column 1684: The link 'country.html' for "country" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-country-of-birth.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 403, column 1686: The link 'country.html' for "country" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-country-of-birth.html#/html/body/div/div/div/p/a at Line 514, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-country-of-birth.profile.history.html#/html/body/div/div/div/p/a at Line 259, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-country-of-birth.profile.json.html#/html/body/div/div/div/p/a at Line 553, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-country-of-birth.profile.ttl.html#/html/body/div/div/div/p/a at Line 490, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-country-of-birth.profile.xml.html#/html/body/div/div/div/p/a at Line 517, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-goal-definitions.html#/html/body/div/div/div/p/a at Line 747, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-goal-examples.html#/html/body/div/div/div/p/a at Line 270, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-goal-mappings.html#/html/body/div/div/div/p/a at Line 313, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-goal-testing.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-goal.html#/html/body/div/div/div/p/a at Line 808, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-goal.profile.history.html#/html/body/div/div/div/p/a at Line 259, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-goal.profile.json.html#/html/body/div/div/div/p/a at Line 1748, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-goal.profile.ttl.html#/html/body/div/div/div/p/a at Line 1376, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-goal.profile.xml.html#/html/body/div/div/div/p/a at Line 1637, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-historical-data-definitions.html#/html/body/div/div/div/p/a at Line 394, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-historical-data-mappings.html#/html/body/div/div/div/p/a at Line 276, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-historical-data-testing.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-historical-data.html#/html/body/div/div/div/p/a at Line 509, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-historical-data.profile.history.html#/html/body/div/div/div/p/a at Line 259, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-historical-data.profile.json.html#/html/body/div/div/div/p/a at Line 545, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-historical-data.profile.ttl.html#/html/body/div/div/div/p/a at Line 480, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-historical-data.profile.xml.html#/html/body/div/div/div/p/a at Line 509, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-organization-definitions.html#/html/body/div/div/div/p/a at Line 649, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-organization-examples.html#/html/body/div/div/div/p/a at Line 270, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-organization-mappings.html#/html/body/div/div/div/p/a at Line 327, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-organization-testing.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-organization.html#/html/body/div/div/div/p/a at Line 714, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-organization.profile.history.html#/html/body/div/div/div/p/a at Line 259, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-organization.profile.json.html#/html/body/div/div/div/p/a at Line 1554, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-organization.profile.ttl.html#/html/body/div/div/div/p/a at Line 1210, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-organization.profile.xml.html#/html/body/div/div/div/p/a at Line 1460, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-patient-priorities-definitions.html#/html/body/div/div/div/p/a at Line 394, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-patient-priorities-mappings.html#/html/body/div/div/div/p/a at Line 276, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-patient-priorities-testing.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-patient-priorities.html#/html/body/div/div/div/p/a at Line 509, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-patient-priorities.profile.history.html#/html/body/div/div/div/p/a at Line 259, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-patient-priorities.profile.json.html#/html/body/div/div/div/p/a at Line 545, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-patient-priorities.profile.ttl.html#/html/body/div/div/div/p/a at Line 480, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-patient-priorities.profile.xml.html#/html/body/div/div/div/p/a at Line 509, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-related-person-definitions.html#/html/body/div/div/div/p/a at Line 650, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-related-person-examples.html#/html/body/div/div/div/p/a at Line 270, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-related-person-mappings.html#/html/body/div/div/div/p/a at Line 314, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-related-person-testing.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-related-person.html#/html/body/div/div/div/p/a at Line 750, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-related-person.profile.history.html#/html/body/div/div/div/p/a at Line 259, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-related-person.profile.json.html#/html/body/div/div/div/p/a at Line 1483, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-related-person.profile.ttl.html#/html/body/div/div/div/p/a at Line 1165, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-related-person.profile.xml.html#/html/body/div/div/div/p/a at Line 1391, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-showNote-definitions.html#/html/body/div/div/div/p/a at Line 394, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-showNote-mappings.html#/html/body/div/div/div/p/a at Line 276, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-showNote-testing.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-showNote.html#/html/body/div/div/div/p/a at Line 509, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-showNote.profile.history.html#/html/body/div/div/div/p/a at Line 259, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-showNote.profile.json.html#/html/body/div/div/div/p/a at Line 545, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-showNote.profile.ttl.html#/html/body/div/div/div/p/a at Line 480, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-showNote.profile.xml.html#/html/body/div/div/div/p/a at Line 508, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-social-data-definitions.html#/html/body/div/div/div/p/a at Line 394, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-social-data-mappings.html#/html/body/div/div/div/p/a at Line 276, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-social-data-testing.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-social-data.html#/html/body/div/div/div/p/a at Line 509, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-social-data.profile.history.html#/html/body/div/div/div/p/a at Line 259, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-social-data.profile.json.html#/html/body/div/div/div/p/a at Line 545, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-social-data.profile.ttl.html#/html/body/div/div/div/p/a at Line 480, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/StructureDefinition-social-data.profile.xml.html#/html/body/div/div/div/p/a at Line 508, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/artifacts.html#/html/body/div/div/div/p/a at Line 371, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/index.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: /Users/edgarminault/Documents/ig-caraowt/output/toc.html#/html/body/div/div/div/p/a at Line 158, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
-WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
-== fsh-generated/resources/ImplementationGuide-fish.json ==
-== fsh-generated/resources/StructureDefinition-Observation.json ==
-WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/Observation'): The Implementation Guide contains no examples for this profile
-== fsh-generated/resources/StructureDefinition-allergy-intolerance.json ==
-WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/allergy-intolerance'): The Implementation Guide contains no examples for this profile
-== fsh-generated/resources/StructureDefinition-anticipate-directives-ehr.json ==
-WARNING: StructureDefinition/anticipate-directives-ehr: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
-WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/anticipate-directives-ehr'): The Implementation Guide contains no examples for this extension
-== fsh-generated/resources/StructureDefinition-anticipate-directives-exist.json ==
-WARNING: StructureDefinition/anticipate-directives-exist: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
-WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/anticipate-directives-exist'): The Implementation Guide contains no examples for this extension
-== fsh-generated/resources/StructureDefinition-anticipate-directives-location.json ==
-WARNING: StructureDefinition/anticipate-directives-location: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
-WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/anticipate-directives-location'): The Implementation Guide contains no examples for this extension
-== fsh-generated/resources/StructureDefinition-attention-point.json ==
-WARNING: StructureDefinition/attention-point: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
-WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/attention-point'): The Implementation Guide contains no examples for this extension
-== fsh-generated/resources/StructureDefinition-cara-patient.json ==
-WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/cara-patient'): The Implementation Guide contains no examples for this profile
-== fsh-generated/resources/StructureDefinition-care-team.json ==
-WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/care-team'): The Implementation Guide contains no examples for this profile
-== fsh-generated/resources/StructureDefinition-careplan.json ==
-WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/careplan'): The Implementation Guide contains no examples for this profile
-== fsh-generated/resources/StructureDefinition-comment.json ==
-WARNING: StructureDefinition/comment: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
-WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/comment'): The Implementation Guide contains no examples for this extension
-== fsh-generated/resources/StructureDefinition-condition.json ==
-WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/condition'): The Implementation Guide contains no examples for this profile
-== fsh-generated/resources/StructureDefinition-country-of-birth.json ==
-ERROR: StructureDefinition/country-of-birth: StructureDefinition.snapshot.element[4].binding.valueSet: Canonical URL 'http://hl7.org/fhir/ValueSet/country' does not resolve
-ERROR: StructureDefinition/country-of-birth: StructureDefinition.differential.element[3].binding.valueSet: Canonical URL 'http://hl7.org/fhir/ValueSet/country' does not resolve
-WARNING: StructureDefinition/country-of-birth: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
-WARNING: StructureDefinition/country-of-birth: StructureDefinition.differential.element[3].binding: The valueSet reference http://hl7.org/fhir/ValueSet/country on element Extension.value[x] could not be resolved
-WARNING: StructureDefinition/country-of-birth: StructureDefinition.snapshot.element[4].binding: The valueSet reference http://hl7.org/fhir/ValueSet/country on element Extension.value[x] could not be resolved
-WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/country-of-birth'): The Implementation Guide contains no examples for this extension
-== fsh-generated/resources/StructureDefinition-goal.json ==
-WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/goal'): The Implementation Guide contains no examples for this profile
-== fsh-generated/resources/StructureDefinition-historical-data.json ==
-WARNING: StructureDefinition/historical-data: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
-WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/historical-data'): The Implementation Guide contains no examples for this extension
-== fsh-generated/resources/StructureDefinition-organization.json ==
-WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/organization'): The Implementation Guide contains no examples for this profile
-== fsh-generated/resources/StructureDefinition-patient-priorities.json ==
-WARNING: StructureDefinition/patient-priorities: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
-WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/patient-priorities'): The Implementation Guide contains no examples for this extension
-== fsh-generated/resources/StructureDefinition-related-person.json ==
-WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/related-person'): The Implementation Guide contains no examples for this profile
-== fsh-generated/resources/StructureDefinition-showNote.json ==
-WARNING: StructureDefinition/showNote: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
-WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/showNote'): The Implementation Guide contains no examples for this extension
-== fsh-generated/resources/StructureDefinition-social-data.json ==
-WARNING: StructureDefinition/social-data: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
-WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/social-data'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/Basic-ScpInvitation.json ==
+INFORMATION: Basic/ScpInvitation: Basic.extension[0]: This element does not match any known slice defined in the profile https://terminology.cara.ch/StructureDefinition/cara-invitation|0.1.0
+INFORMATION: Basic/ScpInvitation: Basic.extension[1]: This element does not match any known slice defined in the profile https://terminology.cara.ch/StructureDefinition/cara-invitation|0.1.0
+INFORMATION: Basic/ScpInvitation: Basic.extension[2]: This element does not match any known slice defined in the profile https://terminology.cara.ch/StructureDefinition/cara-invitation|0.1.0
+INFORMATION: Basic/ScpInvitation: Basic.extension[3]: This element does not match any known slice defined in the profile https://terminology.cara.ch/StructureDefinition/cara-invitation|0.1.0
+ERROR: Basic/ScpInvitation: Basic: Basic.extension:application: minimum required = 1, but only found 0 (from https://terminology.cara.ch/StructureDefinition/cara-invitation|0.1.0)
+ERROR: Basic/ScpInvitation: Basic: Basic.extension:mpiIdUrn: minimum required = 1, but only found 0 (from https://terminology.cara.ch/StructureDefinition/cara-invitation|0.1.0)
+ERROR: Basic/ScpInvitation: Basic: Basic.extension:firstName: minimum required = 1, but only found 0 (from https://terminology.cara.ch/StructureDefinition/cara-invitation|0.1.0)
+ERROR: Basic/ScpInvitation: Basic: Basic.extension:lastName: minimum required = 1, but only found 0 (from https://terminology.cara.ch/StructureDefinition/cara-invitation|0.1.0)
+ERROR: Basic/ScpInvitation: Basic.meta.tag[0]: Slicing cannot be evaluated: Could not match discriminator (1) for slice [system] in profile Basic.meta.tag:nsSlice - the discriminator https://terminology.cara.ch/StructureDefinition/cara-invitation|0.1.0 does not have fixed value, binding or existence assertions
+INFORMATION: Basic/ScpInvitation: Basic.meta: Basic.meta.tag:nsSlice: Found 0 matches, but unable to check minimum required (Basic.meta.tag) due to lack of slicing validation (from https://terminology.cara.ch/StructureDefinition/cara-invitation|0.1.0)
+ERROR: Basic/ScpInvitation: Basic.extension[0]: The extension https://terminology.cara.ch/StructureDefinition/ApplicationInvitation#application is unknown, and not allowed here
+ERROR: Basic/ScpInvitation: Basic.extension[1]: The extension https://terminology.cara.ch/StructureDefinition/ApplicationInvitation#mpiIdUrn is unknown, and not allowed here
+ERROR: Basic/ScpInvitation: Basic.extension[2]: The extension https://terminology.cara.ch/StructureDefinition/ApplicationInvitation#firstName is unknown, and not allowed here
+ERROR: Basic/ScpInvitation: Basic.extension[3]: The extension https://terminology.cara.ch/StructureDefinition/ApplicationInvitation#lastName is unknown, and not allowed here
+== fsh-generated/resources/ImplementationGuide-ch.cara.fhir.platform.json ==
+== fsh-generated/resources/Patient-AliceProfile.json ==
+ERROR: Patient/AliceProfile: Patient.meta.tag[0]: Slicing cannot be evaluated: Could not match discriminator (1) for slice [system] in profile Patient.meta.tag:nsSlice - the discriminator https://terminology.cara.ch/StructureDefinition/cara-patient-profile|0.1.0 does not have fixed value, binding or existence assertions
+INFORMATION: Patient/AliceProfile: Patient.meta: Patient.meta.tag:nsSlice: Found 0 matches, but unable to check minimum required (Patient.meta.tag) due to lack of slicing validation (from https://terminology.cara.ch/StructureDefinition/cara-patient-profile|0.1.0)
+INFORMATION: Patient/AliceProfile: Patient.communication[0].language: Reference to experimental item https://terminology.cara.ch/CodeSystem/cara-locale|0.1.0
+ERROR: Patient/AliceProfile: Patient.communication[0].language: None of the codings provided are in the value set 'All Languages' (http://hl7.org/fhir/ValueSet/all-languages|5.0.0), and a coding from this value set is required) (codes = https://terminology.cara.ch/CodeSystem/cara-locale#fr-CH)
+== fsh-generated/resources/Person-EveProfile.json ==
+ERROR: Person/EveProfile: Person.meta.tag[0]: Slicing cannot be evaluated: Could not match discriminator (1) for slice [system] in profile Person.meta.tag:nsSlice - the discriminator https://terminology.cara.ch/StructureDefinition/cara-local-profile|0.1.0 does not have fixed value, binding or existence assertions
+INFORMATION: Person/EveProfile: Person.meta: Person.meta.tag:nsSlice: Found 0 matches, but unable to check minimum required (Person.meta.tag) due to lack of slicing validation (from https://terminology.cara.ch/StructureDefinition/cara-local-profile|0.1.0)
+INFORMATION: Person/EveProfile: Person.communication[0].language: Reference to experimental item https://terminology.cara.ch/CodeSystem/cara-locale|0.1.0
+ERROR: Person/EveProfile: Person.communication[0].language: None of the codings provided are in the value set 'All Languages' (http://hl7.org/fhir/ValueSet/all-languages|5.0.0), and a coding from this value set is required) (codes = https://terminology.cara.ch/CodeSystem/cara-locale#de-CH)
+== fsh-generated/resources/Practitioner-BobProfile.json ==
+ERROR: Practitioner/BobProfile: Practitioner.meta.tag[0]: Slicing cannot be evaluated: Could not match discriminator (1) for slice [system] in profile Practitioner.meta.tag:nsSlice - the discriminator https://terminology.cara.ch/StructureDefinition/cara-healthcare-professional-profile|0.1.0 does not have fixed value, binding or existence assertions
+INFORMATION: Practitioner/BobProfile: Practitioner.meta: Practitioner.meta.tag:nsSlice: Found 0 matches, but unable to check minimum required (Practitioner.meta.tag) due to lack of slicing validation (from https://terminology.cara.ch/StructureDefinition/cara-healthcare-professional-profile|0.1.0)
+INFORMATION: Practitioner/BobProfile: Practitioner.communication[0].language: Reference to experimental item https://terminology.cara.ch/CodeSystem/cara-locale|0.1.0
+ERROR: Practitioner/BobProfile: Practitioner.communication[0].language: None of the codings provided are in the value set 'All Languages' (http://hl7.org/fhir/ValueSet/all-languages|5.0.0), and a coding from this value set is required) (codes = https://terminology.cara.ch/CodeSystem/cara-locale#de-CH)
+== fsh-generated/resources/StructureDefinition-cara-application-invitation-application.json ==
+WARNING: StructureDefinition/cara-application-invitation-application: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'https://terminology.cara.ch/StructureDefinition/cara-application-invitation-application'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-cara-application-invitation-firstName.json ==
+WARNING: StructureDefinition/cara-application-invitation-firstName: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'https://terminology.cara.ch/StructureDefinition/cara-application-invitation-firstName'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-cara-application-invitation-lastName.json ==
+WARNING: StructureDefinition/cara-application-invitation-lastName: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'https://terminology.cara.ch/StructureDefinition/cara-application-invitation-lastName'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-cara-application-invitation-mpiIdUrn.json ==
+WARNING: StructureDefinition/cara-application-invitation-mpiIdUrn: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'https://terminology.cara.ch/StructureDefinition/cara-application-invitation-mpiIdUrn'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-cara-healthcare-professional-profile.json ==
+ERROR: CARA - Healthcare Professional Profile.communication.Practitioner.communication.language: Binding https://terminology.cara.ch/ValueSet/cara-platform-loacle is not a subset of binding http://hl7.org/fhir/ValueSet/all-languages|5.0.0
+INFORMATION: StructureDefinition/cara-healthcare-professional-profile: StructureDefinition.snapshot.element[10].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+WARNING: StructureDefinition/cara-healthcare-professional-profile: StructureDefinition.snapshot.element[46]: Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition)
+INFORMATION: StructureDefinition/cara-healthcare-professional-profile: StructureDefinition.snapshot.element[46].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+WARNING: StructureDefinition/cara-healthcare-professional-profile: StructureDefinition.snapshot.element[68]: Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition)
+INFORMATION: StructureDefinition/cara-healthcare-professional-profile: StructureDefinition.snapshot.element[68].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+INFORMATION: StructureDefinition/cara-healthcare-professional-profile: StructureDefinition.differential.element[1].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+WARNING: StructureDefinition/cara-healthcare-professional-profile: StructureDefinition.differential.element[10]: Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition)
+INFORMATION: StructureDefinition/cara-healthcare-professional-profile: StructureDefinition.differential.element[10].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+WARNING: StructureDefinition/cara-healthcare-professional-profile: StructureDefinition.differential.element[14]: Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition)
+INFORMATION: StructureDefinition/cara-healthcare-professional-profile: StructureDefinition.differential.element[14].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+== fsh-generated/resources/StructureDefinition-cara-invitation.json ==
+INFORMATION: StructureDefinition/cara-invitation: StructureDefinition.snapshot.element[10].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+INFORMATION: StructureDefinition/cara-invitation: StructureDefinition.differential.element[1].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+== fsh-generated/resources/StructureDefinition-cara-local-profile.json ==
+ERROR: CARA - Local Profile.communication.Person.communication.language: Binding https://terminology.cara.ch/ValueSet/cara-platform-loacle is not a subset of binding http://hl7.org/fhir/ValueSet/all-languages|5.0.0
+INFORMATION: StructureDefinition/cara-local-profile: StructureDefinition.snapshot.element[10].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+WARNING: StructureDefinition/cara-local-profile: StructureDefinition.snapshot.element[37]: Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition)
+INFORMATION: StructureDefinition/cara-local-profile: StructureDefinition.snapshot.element[37].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+WARNING: StructureDefinition/cara-local-profile: StructureDefinition.snapshot.element[52]: Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition)
+INFORMATION: StructureDefinition/cara-local-profile: StructureDefinition.snapshot.element[52].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+INFORMATION: StructureDefinition/cara-local-profile: StructureDefinition.differential.element[1].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+WARNING: StructureDefinition/cara-local-profile: StructureDefinition.differential.element[8]: Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition)
+INFORMATION: StructureDefinition/cara-local-profile: StructureDefinition.differential.element[8].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+WARNING: StructureDefinition/cara-local-profile: StructureDefinition.differential.element[12]: Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition)
+INFORMATION: StructureDefinition/cara-local-profile: StructureDefinition.differential.element[12].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+== fsh-generated/resources/StructureDefinition-cara-patient-profile.json ==
+INFORMATION: StructureDefinition/cara-patient-profile: StructureDefinition.snapshot.element[10].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+WARNING: StructureDefinition/cara-patient-profile: StructureDefinition.snapshot.element[37]: Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition)
+INFORMATION: StructureDefinition/cara-patient-profile: StructureDefinition.snapshot.element[37].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+WARNING: StructureDefinition/cara-patient-profile: StructureDefinition.snapshot.element[64]: Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition)
+INFORMATION: StructureDefinition/cara-patient-profile: StructureDefinition.snapshot.element[64].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+INFORMATION: StructureDefinition/cara-patient-profile: StructureDefinition.differential.element[0].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+WARNING: StructureDefinition/cara-patient-profile: StructureDefinition.differential.element[7]: Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition)
+INFORMATION: StructureDefinition/cara-patient-profile: StructureDefinition.differential.element[7].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+WARNING: StructureDefinition/cara-patient-profile: StructureDefinition.differential.element[11]: Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition)
+INFORMATION: StructureDefinition/cara-patient-profile: StructureDefinition.differential.element[11].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+== fsh-generated/resources/StructureDefinition-scp-careplan.json ==
+INFORMATION: StructureDefinition/scp-careplan: StructureDefinition.snapshot.element[10].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+INFORMATION: StructureDefinition/scp-careplan: StructureDefinition.differential.element[1].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+WARNING: StructureDefinition.where(url = 'https://terminology.cara.ch/StructureDefinition/scp-careplan'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-scp-careteam.json ==
+INFORMATION: StructureDefinition/scp-careteam: StructureDefinition.snapshot.element[10].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+INFORMATION: StructureDefinition/scp-careteam: StructureDefinition.differential.element[1].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+WARNING: StructureDefinition.where(url = 'https://terminology.cara.ch/StructureDefinition/scp-careteam'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-scp-careteam-participant-comment.json ==
+WARNING: StructureDefinition/scp-careteam-participant-comment: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'https://terminology.cara.ch/StructureDefinition/scp-careteam-participant-comment'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-scp-careteam-participant-iscoordinator.json ==
+WARNING: StructureDefinition/scp-careteam-participant-iscoordinator: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'https://terminology.cara.ch/StructureDefinition/scp-careteam-participant-iscoordinator'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-scp-careteam-participant-ismanager.json ==
+WARNING: StructureDefinition/scp-careteam-participant-ismanager: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'https://terminology.cara.ch/StructureDefinition/scp-careteam-participant-ismanager'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-scp-contact.json ==
+INFORMATION: StructureDefinition.snapshot.element[58]: The slice definition for Person.telecom has a maximum of 1 but the slices add up to a maximum of 2. Check that this is what is intended
+INFORMATION: StructureDefinition/scp-contact: StructureDefinition.snapshot.element[10].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+WARNING: StructureDefinition/scp-contact: StructureDefinition.snapshot.element[58]: Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition)
+INFORMATION: StructureDefinition/scp-contact: StructureDefinition.snapshot.element[58].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+INFORMATION: StructureDefinition/scp-contact: StructureDefinition.differential.element[1].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+WARNING: StructureDefinition/scp-contact: StructureDefinition.differential.element[17]: Rule eld-25: 'Order has no meaning (and cannot be asserted to have meaning), so enforcing rules on order is improper' Failed (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition)
+INFORMATION: StructureDefinition/scp-contact: StructureDefinition.differential.element[17].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+WARNING: StructureDefinition.where(url = 'https://terminology.cara.ch/StructureDefinition/scp-contact'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-scp-contact-comment.json ==
+WARNING: StructureDefinition/scp-contact-comment: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'https://terminology.cara.ch/StructureDefinition/scp-contact-comment'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-scp-contact-emergency.json ==
+WARNING: StructureDefinition/scp-contact-emergency: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'https://terminology.cara.ch/StructureDefinition/scp-contact-emergency'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-scp-contact-relationship.json ==
+WARNING: StructureDefinition/scp-contact-relationship: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'https://terminology.cara.ch/StructureDefinition/scp-contact-relationship'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-scp-contextualdata.json ==
+INFORMATION: StructureDefinition/scp-contextualdata: StructureDefinition.snapshot.element[10].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+INFORMATION: StructureDefinition/scp-contextualdata: StructureDefinition.snapshot.element[72].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+INFORMATION: StructureDefinition/scp-contextualdata: StructureDefinition.differential.element[1].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+INFORMATION: StructureDefinition/scp-contextualdata: StructureDefinition.differential.element[11].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+WARNING: StructureDefinition.where(url = 'https://terminology.cara.ch/StructureDefinition/scp-contextualdata'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-scp-contextualdata-ismanager.json ==
+WARNING: StructureDefinition/scp-contextualdata-ismanager: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'https://terminology.cara.ch/StructureDefinition/scp-contextualdata-ismanager'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-scp-external-observation.json ==
+INFORMATION: StructureDefinition.snapshot.element[82]: The slice definition for Observation.interpretation has a maximum of 1 but the slices add up to a maximum of 2. Check that this is what is intended
+INFORMATION: StructureDefinition/scp-external-observation: StructureDefinition.snapshot.element[61].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/scp-external-observation: StructureDefinition.snapshot.element[63].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/scp-external-observation: StructureDefinition.snapshot.element[75].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/scp-external-observation: StructureDefinition.snapshot.element[82].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+INFORMATION: StructureDefinition/scp-external-observation: StructureDefinition.snapshot.element[95].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/scp-external-observation: StructureDefinition.snapshot.element[105].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/scp-external-observation: StructureDefinition.snapshot.element[106].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/scp-external-observation: StructureDefinition.snapshot.element[112].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+INFORMATION: StructureDefinition/scp-external-observation: StructureDefinition.snapshot.element[86].pattern.ofType(Coding): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+INFORMATION: StructureDefinition/scp-external-observation: StructureDefinition.snapshot.element[91].pattern.ofType(Coding): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+WARNING: StructureDefinition.where(url = 'https://terminology.cara.ch/StructureDefinition/scp-external-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-scp-goal.json ==
+INFORMATION: StructureDefinition/scp-goal: StructureDefinition.snapshot.element[10].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+INFORMATION: StructureDefinition/scp-goal: StructureDefinition.snapshot.element[60].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+INFORMATION: StructureDefinition/scp-goal: StructureDefinition.differential.element[1].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+INFORMATION: StructureDefinition/scp-goal: StructureDefinition.differential.element[12].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+WARNING: StructureDefinition.where(url = 'https://terminology.cara.ch/StructureDefinition/scp-goal'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-scp-goal-target-status.json ==
+WARNING: StructureDefinition/scp-goal-target-status: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'https://terminology.cara.ch/StructureDefinition/scp-goal-target-status'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-scp-observation.json ==
+INFORMATION: StructureDefinition.snapshot.element[65]: The slice definition for Observation.interpretation has a maximum of 1 but the slices add up to a maximum of 2. Check that this is what is intended
+INFORMATION: StructureDefinition/scp-observation: StructureDefinition.snapshot.element[44].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/scp-observation: StructureDefinition.snapshot.element[46].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/scp-observation: StructureDefinition.snapshot.element[58].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/scp-observation: StructureDefinition.snapshot.element[65].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+INFORMATION: StructureDefinition/scp-observation: StructureDefinition.snapshot.element[78].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/scp-observation: StructureDefinition.snapshot.element[88].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/scp-observation: StructureDefinition.snapshot.element[89].extension[0].value.ofType(code): Reference to draft item http://hl7.org/fhir/standards-status|1.0.0
+INFORMATION: StructureDefinition/scp-observation: StructureDefinition.snapshot.element[95].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+INFORMATION: StructureDefinition/scp-observation: StructureDefinition.differential.element[13].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+INFORMATION: StructureDefinition/scp-observation: StructureDefinition.differential.element[18].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+INFORMATION: StructureDefinition/scp-observation: StructureDefinition.snapshot.element[69].pattern.ofType(Coding): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+INFORMATION: StructureDefinition/scp-observation: StructureDefinition.snapshot.element[74].pattern.ofType(Coding): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+WARNING: StructureDefinition.where(url = 'https://terminology.cara.ch/StructureDefinition/scp-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-scp-teammember-practitioner.json ==
+INFORMATION: StructureDefinition/scp-teammember-practitioner: StructureDefinition.snapshot.element[10].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+INFORMATION: StructureDefinition/scp-teammember-practitioner: StructureDefinition.snapshot.element[64].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+INFORMATION: StructureDefinition/scp-teammember-practitioner: StructureDefinition.differential.element[0].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+INFORMATION: StructureDefinition/scp-teammember-practitioner: StructureDefinition.differential.element[14].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+WARNING: StructureDefinition.where(url = 'https://terminology.cara.ch/StructureDefinition/scp-teammember-practitioner'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-scp-teammember-relatedperson.json ==
+INFORMATION: StructureDefinition/scp-teammember-relatedperson: StructureDefinition.snapshot.element[10].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+INFORMATION: StructureDefinition/scp-teammember-relatedperson: StructureDefinition.snapshot.element[66].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+INFORMATION: StructureDefinition/scp-teammember-relatedperson: StructureDefinition.differential.element[0].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+INFORMATION: StructureDefinition/scp-teammember-relatedperson: StructureDefinition.differential.element[14].slicing.discriminator[0].type: The code 'pattern' is valid but is deprecated
+WARNING: StructureDefinition.where(url = 'https://terminology.cara.ch/StructureDefinition/scp-teammember-relatedperson'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/ValueSet-cara-platform-loacle.json ==
+WARNING: ValueSet/cara-platform-loacle: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-cara-platform-namespace.json ==
+WARNING: ValueSet/cara-platform-namespace: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-scp-contextualdata-type.json ==
+WARNING: ValueSet/scp-contextualdata-type: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-scp-goal-type.json ==
+WARNING: ValueSet/scp-goal-type: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-scp-target-type.json ==
+WARNING: ValueSet/scp-target-type: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== input/resources/CaraBasicResourceType.json ==
+ERROR: CodeSystem.where(url = 'https://terminology.cara.ch/CodeSystem/basic-resource-type'): Conformance resource /home/tibo/git-pro/cara/ChCaraPlatform/input/resources/CaraBasicResourceType.json - the canonical URL (https://terminology.cara.ch/CodeSystem/CaraBasicResourceType) does not match the URL (https://terminology.cara.ch/CodeSystem/basic-resource-type)
+ERROR: CodeSystem.url: Resource id/url mismatch: CaraBasicResourceType/https://terminology.cara.ch/CodeSystem/basic-resource-type
+ERROR: /home/tibo/git-pro/cara/ChCaraPlatform/input/resources/CaraBasicResourceType: URL Mismatch https://terminology.cara.ch/CodeSystem/CaraBasicResourceType vs https://terminology.cara.ch/CodeSystem/basic-resource-type
+== input/resources/CaraLocale.json ==
+ERROR: CodeSystem.where(url = 'https://terminology.cara.ch/CodeSystem/cara-locale'): Conformance resource /home/tibo/git-pro/cara/ChCaraPlatform/input/resources/CaraLocale.json - the canonical URL (https://terminology.cara.ch/CodeSystem/CaraLocale) does not match the URL (https://terminology.cara.ch/CodeSystem/cara-locale)
+ERROR: CodeSystem.url: Resource id/url mismatch: CaraLocale/https://terminology.cara.ch/CodeSystem/cara-locale
+ERROR: /home/tibo/git-pro/cara/ChCaraPlatform/input/resources/CaraLocale: URL Mismatch https://terminology.cara.ch/CodeSystem/CaraLocale vs https://terminology.cara.ch/CodeSystem/cara-locale
+== input/resources/FhirvaultNamespace.json ==
+ERROR: CodeSystem.where(url = 'https://terminology.cara.ch/CodeSystem/fhirvault-namespace'): Conformance resource /home/tibo/git-pro/cara/ChCaraPlatform/input/resources/FhirvaultNamespace.json - the canonical URL (https://terminology.cara.ch/CodeSystem/FhirvaultNamespace) does not match the URL (https://terminology.cara.ch/CodeSystem/fhirvault-namespace)
+ERROR: CodeSystem.url: Resource id/url mismatch: FhirvaultNamespace/https://terminology.cara.ch/CodeSystem/fhirvault-namespace
+ERROR: /home/tibo/git-pro/cara/ChCaraPlatform/input/resources/FhirvaultNamespace: URL Mismatch https://terminology.cara.ch/CodeSystem/FhirvaultNamespace vs https://terminology.cara.ch/CodeSystem/fhirvault-namespace
+== input/resources/ScpCustomGoalType.json ==
+ERROR: CodeSystem.where(url = 'https://terminology.cara.ch/CodeSystem/scp-custom-goal-type'): Conformance resource /home/tibo/git-pro/cara/ChCaraPlatform/input/resources/ScpCustomGoalType.json - the canonical URL (https://terminology.cara.ch/CodeSystem/ScpCustomGoalType) does not match the URL (https://terminology.cara.ch/CodeSystem/scp-custom-goal-type)
+ERROR: CodeSystem.url: Resource id/url mismatch: ScpCustomGoalType/https://terminology.cara.ch/CodeSystem/scp-custom-goal-type
+ERROR: /home/tibo/git-pro/cara/ChCaraPlatform/input/resources/ScpCustomGoalType: URL Mismatch https://terminology.cara.ch/CodeSystem/ScpCustomGoalType vs https://terminology.cara.ch/CodeSystem/scp-custom-goal-type
+== input/resources/ScpLoincCompositionSection.json ==
+ERROR: CodeSystem.where(url = 'https://terminology.cara.ch/CodeSystem/scp-loinc-composition-section'): Conformance resource /home/tibo/git-pro/cara/ChCaraPlatform/input/resources/ScpLoincCompositionSection.json - the canonical URL (https://terminology.cara.ch/CodeSystem/ScpLoincCompositionSection) does not match the URL (https://terminology.cara.ch/CodeSystem/scp-loinc-composition-section)
+ERROR: CodeSystem.url: Resource id/url mismatch: ScpLoincCompositionSection/https://terminology.cara.ch/CodeSystem/scp-loinc-composition-section
+ERROR: /home/tibo/git-pro/cara/ChCaraPlatform/input/resources/ScpLoincCompositionSection: URL Mismatch https://terminology.cara.ch/CodeSystem/ScpLoincCompositionSection vs https://terminology.cara.ch/CodeSystem/scp-loinc-composition-section
+== input/resources/ScpSnomedCompositionSection.json ==
+ERROR: CodeSystem.where(url = 'https://terminology.cara.ch/CodeSystem/scp-snomed-composition-section'): Conformance resource /home/tibo/git-pro/cara/ChCaraPlatform/input/resources/ScpSnomedCompositionSection.json - the canonical URL (https://terminology.cara.ch/CodeSystem/ScpSnomedCompositionSection) does not match the URL (https://terminology.cara.ch/CodeSystem/scp-snomed-composition-section)
+ERROR: CodeSystem.url: Resource id/url mismatch: ScpSnomedCompositionSection/https://terminology.cara.ch/CodeSystem/scp-snomed-composition-section
+ERROR: /home/tibo/git-pro/cara/ChCaraPlatform/input/resources/ScpSnomedCompositionSection: URL Mismatch https://terminology.cara.ch/CodeSystem/ScpSnomedCompositionSection vs https://terminology.cara.ch/CodeSystem/scp-snomed-composition-section
+== input/resources/ScpSnomedParameterGroup.json ==
+ERROR: CodeSystem.where(url = 'https://terminology.cara.ch/CodeSystem/scp-parameter-group'): Conformance resource /home/tibo/git-pro/cara/ChCaraPlatform/input/resources/ScpSnomedParameterGroup.json - the canonical URL (https://terminology.cara.ch/CodeSystem/ScpSnomedParameterGroup) does not match the URL (https://terminology.cara.ch/CodeSystem/scp-parameter-group)
+ERROR: CodeSystem.url: Resource id/url mismatch: ScpSnomedParameterGroup/https://terminology.cara.ch/CodeSystem/scp-parameter-group
+ERROR: /home/tibo/git-pro/cara/ChCaraPlatform/input/resources/ScpSnomedParameterGroup: URL Mismatch https://terminology.cara.ch/CodeSystem/ScpSnomedParameterGroup vs https://terminology.cara.ch/CodeSystem/scp-parameter-group
+== input/resources/ScpSnomedParameterType.json ==
+ERROR: CodeSystem.where(url = 'https://terminology.cara.ch/CodeSystem/scp-parameter-type'): Conformance resource /home/tibo/git-pro/cara/ChCaraPlatform/input/resources/ScpSnomedParameterType.json - the canonical URL (https://terminology.cara.ch/CodeSystem/ScpSnomedParameterType) does not match the URL (https://terminology.cara.ch/CodeSystem/scp-parameter-type)
+ERROR: CodeSystem.url: Resource id/url mismatch: ScpSnomedParameterType/https://terminology.cara.ch/CodeSystem/scp-parameter-type
+ERROR: /home/tibo/git-pro/cara/ChCaraPlatform/input/resources/ScpSnomedParameterType: URL Mismatch https://terminology.cara.ch/CodeSystem/ScpSnomedParameterType vs https://terminology.cara.ch/CodeSystem/scp-parameter-type

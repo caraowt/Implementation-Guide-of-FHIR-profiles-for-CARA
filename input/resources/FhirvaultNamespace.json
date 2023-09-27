@@ -1,0 +1,53 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "FhirvaultNamespace",
+  "url": "https://terminology.cara.ch/CodeSystem/fhirvault-namespace",
+  "version": "1.0.0",
+  "name": "FhirvaultNamespace",
+  "title": "CARA - FHIR Vault Namespace",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "CARA (CH)",
+  "description": "The namespaces of the CARA Platform.",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [ {
+    "code": "cara:authx",
+    "display": "AuthX",
+    "designation": [ {
+      "language": "rm-CH",
+      "value": "CARA - AuthX (Administraziun d'utilisaders)"
+    }, {
+      "language": "de-CH",
+      "value": "CARA - AuthX (Benutzerverwaltung)"
+    }, {
+      "language": "it-CH",
+      "value": "CARA - AuthX (Gestione degli utenti)"
+    }, {
+      "language": "en-US",
+      "value": "CARA - AuthX (User Management)"
+    }, {
+      "language": "fr-CH",
+      "value": "CARA - AuthX (Gestion des utilisateurs)"
+    } ]
+  }, {
+    "code": "cara:scp",
+    "display": "Shared Care Plan",
+    "designation": [ {
+      "language": "rm-CH",
+      "value": "CARA - SCP (Plan da tgira cundividì)"
+    }, {
+      "language": "it-CH",
+      "value": "CARA - SCP (Piano di cura condiviso)"
+    }, {
+      "language": "en-US",
+      "value": "CARA - SCP (Shared Care Plan)"
+    }, {
+      "language": "fr-CH",
+      "value": "CARA - SCP (Plan de soins partagé)"
+    }, {
+      "language": "de-CH",
+      "value": "CARA - SCP (Geteilter Pflegeplan)"
+    } ]
+  } ]
+}

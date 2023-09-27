@@ -1,0 +1,34 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ScpSnomedCompositionSection",
+  "url": "https://terminology.cara.ch/CodeSystem/scp-snomed-composition-section",
+  "version": "1.0.0",
+  "name": "ScpSnomedCompositionSection",
+  "title": "SCP - Composition Section Type - SNOMED CT",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "CARA (CH)",
+  "description": "Selection of Concepts coming from SNOMED CT",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [ {
+    "code": "70862002",
+    "display": "Contact person",
+    "designation": [ {
+      "language": "fr-CH",
+      "value": "Personne de contact"
+    }, {
+      "language": "en-US",
+      "value": "Contact person"
+    }, {
+      "language": "it-CH",
+      "value": "Persona di contatto"
+    }, {
+      "language": "de-CH",
+      "value": "Kontaktperson"
+    }, {
+      "language": "rm-CH",
+      "value": "Persuna da contact"
+    } ]
+  } ]
+}

@@ -1,0 +1,110 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CaraLocale",
+  "url": "https://terminology.cara.ch/CodeSystem/cara-locale",
+  "version": "1.0.0",
+  "name": "CaraLocale",
+  "title": "CARA - Locales",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "CARA (CH)",
+  "description": "Provide the official Locales managed by the CARA Platform.",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [ {
+    "code": "fr-CH",
+    "display": "French (Switzerland)",
+    "designation": [ {
+      "language": "it-CH",
+      "value": "Francese"
+    }, {
+      "language": "rm-CH",
+      "value": "Frantsais"
+    }, {
+      "language": "fr-CH",
+      "value": "Français"
+    }, {
+      "language": "en-US",
+      "value": "French"
+    }, {
+      "language": "de-CH",
+      "value": "Französisch"
+    } ]
+  }, {
+    "code": "de-CH",
+    "display": "German (Switzerland)",
+    "designation": [ {
+      "language": "fr-CH",
+      "value": "Allemand"
+    }, {
+      "language": "en-US",
+      "value": "German"
+    }, {
+      "language": "it-CH",
+      "value": "Tedesco"
+    }, {
+      "language": "de-CH",
+      "value": "Deutsch"
+    }, {
+      "language": "rm-CH",
+      "value": "Tudestg"
+    } ]
+  }, {
+    "code": "it-CH",
+    "display": "Italian (Switzerland)",
+    "designation": [ {
+      "language": "rm-CH",
+      "value": "Talian"
+    }, {
+      "language": "fr-CH",
+      "value": "Italien"
+    }, {
+      "language": "en-US",
+      "value": "Italian"
+    }, {
+      "language": "de-CH",
+      "value": "Italienisch"
+    }, {
+      "language": "it-CH",
+      "value": "Italiano"
+    } ]
+  }, {
+    "code": "rm-CH",
+    "display": "Romansh (Switzerland)",
+    "designation": [ {
+      "language": "en-US",
+      "value": "Romansh"
+    }, {
+      "language": "rm-CH",
+      "value": "Rumantsch"
+    }, {
+      "language": "it-CH",
+      "value": "Romancio"
+    }, {
+      "language": "de-CH",
+      "value": "Rätoromanisch"
+    }, {
+      "language": "fr-CH",
+      "value": "Romanche"
+    } ]
+  }, {
+    "code": "en-US",
+    "display": "English (United States)",
+    "designation": [ {
+      "language": "it-CH",
+      "value": "Inglese"
+    }, {
+      "language": "en-US",
+      "value": "English"
+    }, {
+      "language": "fr-CH",
+      "value": "Anglais"
+    }, {
+      "language": "de-CH",
+      "value": "Englisch"
+    }, {
+      "language": "rm-CH",
+      "value": "Englais"
+    } ]
+  } ]
+}

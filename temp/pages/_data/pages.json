@@ -10,1000 +10,1992 @@
     "label" : "1",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Home</b></li>",
     "previous" : "toc.html",
+    "next" : "domains.html"
+  },
+  "domains.html" : {
+    "title" : "Domains",
+    "label" : "2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Domains</b></li>",
+    "previous" : "index.html",
+    "next" : "integration.html"
+  },
+  "integration.html" : {
+    "title" : "Integration",
+    "label" : "3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Integration</b></li>",
+    "previous" : "domains.html",
     "next" : "artifacts.html"
   },
   "artifacts.html" : {
     "title" : "Artifacts Summary",
-    "label" : "2.0",
+    "label" : "4.0",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Artifacts Summary</b></li>",
-    "previous" : "index.html",
-    "next" : "StructureDefinition-allergy-intolerance.html"
+    "previous" : "integration.html",
+    "next" : "StructureDefinition-cara-invitation.html"
   },
-  "StructureDefinition-allergy-intolerance.html" : {
-    "title" : "AllergyIntolerance",
-    "label" : "2.1",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>AllergyIntolerance</b></li>",
-    "examples" : [],
+  "StructureDefinition-cara-invitation.html" : {
+    "title" : "CARA - Application Invitation",
+    "label" : "4.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Application Invitation</b></li>",
+    "examples" : [
+      {
+        "url" : "Basic-ScpInvitation.html",
+        "title" : "ScpInvitation"
+      }
+    ],
     "testplans" : [],
     "testscripts" : [],
     "previous" : "artifacts.html",
-    "next" : "StructureDefinition-allergy-intolerance-definitions.html"
+    "next" : "StructureDefinition-cara-invitation-definitions.html"
   },
-  "StructureDefinition-allergy-intolerance-definitions.html" : {
-    "title" : "AllergyIntolerance - Definitions",
-    "label" : "2.1",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>AllergyIntolerance</b></li>",
-    "previous" : "StructureDefinition-allergy-intolerance.html",
-    "next" : "StructureDefinition-allergy-intolerance-mappings.html"
+  "StructureDefinition-cara-invitation-definitions.html" : {
+    "title" : "CARA - Application Invitation - Definitions",
+    "label" : "4.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Application Invitation</b></li>",
+    "previous" : "StructureDefinition-cara-invitation.html",
+    "next" : "StructureDefinition-cara-invitation-mappings.html"
   },
-  "StructureDefinition-allergy-intolerance-mappings.html" : {
-    "title" : "AllergyIntolerance - Mappings",
-    "label" : "2.1",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>AllergyIntolerance</b></li>",
-    "previous" : "StructureDefinition-allergy-intolerance-definitions.html",
-    "next" : "StructureDefinition-allergy-intolerance-testing.html"
+  "StructureDefinition-cara-invitation-mappings.html" : {
+    "title" : "CARA - Application Invitation - Mappings",
+    "label" : "4.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Application Invitation</b></li>",
+    "previous" : "StructureDefinition-cara-invitation-definitions.html",
+    "next" : "StructureDefinition-cara-invitation-testing.html"
   },
-  "StructureDefinition-allergy-intolerance-testing.html" : {
-    "title" : "AllergyIntolerance - Testing",
-    "label" : "2.1",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>AllergyIntolerance</b></li>",
-    "previous" : "StructureDefinition-allergy-intolerance-mappings.html",
-    "next" : "StructureDefinition-allergy-intolerance.profile.xml.html"
+  "StructureDefinition-cara-invitation-testing.html" : {
+    "title" : "CARA - Application Invitation - Testing",
+    "label" : "4.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Application Invitation</b></li>",
+    "previous" : "StructureDefinition-cara-invitation-mappings.html",
+    "next" : "StructureDefinition-cara-invitation-examples.html"
   },
-  "StructureDefinition-allergy-intolerance.profile.xml.html" : {
-    "title" : "AllergyIntolerance - XML Representation",
-    "label" : "2.1",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>AllergyIntolerance</b></li>",
-    "previous" : "StructureDefinition-allergy-intolerance-testing.html",
-    "next" : "StructureDefinition-allergy-intolerance.profile.json.html"
+  "StructureDefinition-cara-invitation-examples.html" : {
+    "title" : "CARA - Application Invitation - Examples",
+    "label" : "4.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Application Invitation</b></li>",
+    "previous" : "StructureDefinition-cara-invitation-testing.html",
+    "next" : "StructureDefinition-cara-invitation.profile.xml.html"
   },
-  "StructureDefinition-allergy-intolerance.profile.json.html" : {
-    "title" : "AllergyIntolerance - JSON Representation",
-    "label" : "2.1",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>AllergyIntolerance</b></li>",
-    "previous" : "StructureDefinition-allergy-intolerance.profile.xml.html",
-    "next" : "StructureDefinition-allergy-intolerance.profile.ttl.html"
+  "StructureDefinition-cara-invitation.profile.xml.html" : {
+    "title" : "CARA - Application Invitation - XML Representation",
+    "label" : "4.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Application Invitation</b></li>",
+    "previous" : "StructureDefinition-cara-invitation-examples.html",
+    "next" : "StructureDefinition-cara-invitation.profile.json.html"
   },
-  "StructureDefinition-allergy-intolerance.profile.ttl.html" : {
-    "title" : "AllergyIntolerance - TTL Representation",
-    "label" : "2.1",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>AllergyIntolerance</b></li>",
-    "previous" : "StructureDefinition-allergy-intolerance.profile.json.html",
-    "next" : "StructureDefinition-careplan.html"
+  "StructureDefinition-cara-invitation.profile.json.html" : {
+    "title" : "CARA - Application Invitation - JSON Representation",
+    "label" : "4.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Application Invitation</b></li>",
+    "previous" : "StructureDefinition-cara-invitation.profile.xml.html",
+    "next" : "StructureDefinition-cara-invitation.profile.ttl.html"
   },
-  "StructureDefinition-careplan.html" : {
-    "title" : "Care Plan",
-    "label" : "2.2",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Care Plan</b></li>",
+  "StructureDefinition-cara-invitation.profile.ttl.html" : {
+    "title" : "CARA - Application Invitation - TTL Representation",
+    "label" : "4.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Application Invitation</b></li>",
+    "previous" : "StructureDefinition-cara-invitation.profile.json.html",
+    "next" : "StructureDefinition-cara-healthcare-professional-profile.html"
+  },
+  "StructureDefinition-cara-healthcare-professional-profile.html" : {
+    "title" : "CARA - Healthcare Professional Profile",
+    "label" : "4.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Healthcare Professional Profile</b></li>",
+    "examples" : [
+      {
+        "url" : "Practitioner-BobProfile.html",
+        "title" : "BobProfile"
+      }
+    ],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-cara-invitation.profile.ttl.html",
+    "next" : "StructureDefinition-cara-healthcare-professional-profile-definitions.html"
+  },
+  "StructureDefinition-cara-healthcare-professional-profile-definitions.html" : {
+    "title" : "CARA - Healthcare Professional Profile - Definitions",
+    "label" : "4.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Healthcare Professional Profile</b></li>",
+    "previous" : "StructureDefinition-cara-healthcare-professional-profile.html",
+    "next" : "StructureDefinition-cara-healthcare-professional-profile-mappings.html"
+  },
+  "StructureDefinition-cara-healthcare-professional-profile-mappings.html" : {
+    "title" : "CARA - Healthcare Professional Profile - Mappings",
+    "label" : "4.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Healthcare Professional Profile</b></li>",
+    "previous" : "StructureDefinition-cara-healthcare-professional-profile-definitions.html",
+    "next" : "StructureDefinition-cara-healthcare-professional-profile-testing.html"
+  },
+  "StructureDefinition-cara-healthcare-professional-profile-testing.html" : {
+    "title" : "CARA - Healthcare Professional Profile - Testing",
+    "label" : "4.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Healthcare Professional Profile</b></li>",
+    "previous" : "StructureDefinition-cara-healthcare-professional-profile-mappings.html",
+    "next" : "StructureDefinition-cara-healthcare-professional-profile-examples.html"
+  },
+  "StructureDefinition-cara-healthcare-professional-profile-examples.html" : {
+    "title" : "CARA - Healthcare Professional Profile - Examples",
+    "label" : "4.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Healthcare Professional Profile</b></li>",
+    "previous" : "StructureDefinition-cara-healthcare-professional-profile-testing.html",
+    "next" : "StructureDefinition-cara-healthcare-professional-profile.profile.xml.html"
+  },
+  "StructureDefinition-cara-healthcare-professional-profile.profile.xml.html" : {
+    "title" : "CARA - Healthcare Professional Profile - XML Representation",
+    "label" : "4.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Healthcare Professional Profile</b></li>",
+    "previous" : "StructureDefinition-cara-healthcare-professional-profile-examples.html",
+    "next" : "StructureDefinition-cara-healthcare-professional-profile.profile.json.html"
+  },
+  "StructureDefinition-cara-healthcare-professional-profile.profile.json.html" : {
+    "title" : "CARA - Healthcare Professional Profile - JSON Representation",
+    "label" : "4.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Healthcare Professional Profile</b></li>",
+    "previous" : "StructureDefinition-cara-healthcare-professional-profile.profile.xml.html",
+    "next" : "StructureDefinition-cara-healthcare-professional-profile.profile.ttl.html"
+  },
+  "StructureDefinition-cara-healthcare-professional-profile.profile.ttl.html" : {
+    "title" : "CARA - Healthcare Professional Profile - TTL Representation",
+    "label" : "4.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Healthcare Professional Profile</b></li>",
+    "previous" : "StructureDefinition-cara-healthcare-professional-profile.profile.json.html",
+    "next" : "StructureDefinition-cara-local-profile.html"
+  },
+  "StructureDefinition-cara-local-profile.html" : {
+    "title" : "CARA - Local Profile",
+    "label" : "4.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Local Profile</b></li>",
+    "examples" : [
+      {
+        "url" : "Person-EveProfile.html",
+        "title" : "EveProfile"
+      }
+    ],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-cara-healthcare-professional-profile.profile.ttl.html",
+    "next" : "StructureDefinition-cara-local-profile-definitions.html"
+  },
+  "StructureDefinition-cara-local-profile-definitions.html" : {
+    "title" : "CARA - Local Profile - Definitions",
+    "label" : "4.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Local Profile</b></li>",
+    "previous" : "StructureDefinition-cara-local-profile.html",
+    "next" : "StructureDefinition-cara-local-profile-mappings.html"
+  },
+  "StructureDefinition-cara-local-profile-mappings.html" : {
+    "title" : "CARA - Local Profile - Mappings",
+    "label" : "4.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Local Profile</b></li>",
+    "previous" : "StructureDefinition-cara-local-profile-definitions.html",
+    "next" : "StructureDefinition-cara-local-profile-testing.html"
+  },
+  "StructureDefinition-cara-local-profile-testing.html" : {
+    "title" : "CARA - Local Profile - Testing",
+    "label" : "4.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Local Profile</b></li>",
+    "previous" : "StructureDefinition-cara-local-profile-mappings.html",
+    "next" : "StructureDefinition-cara-local-profile-examples.html"
+  },
+  "StructureDefinition-cara-local-profile-examples.html" : {
+    "title" : "CARA - Local Profile - Examples",
+    "label" : "4.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Local Profile</b></li>",
+    "previous" : "StructureDefinition-cara-local-profile-testing.html",
+    "next" : "StructureDefinition-cara-local-profile.profile.xml.html"
+  },
+  "StructureDefinition-cara-local-profile.profile.xml.html" : {
+    "title" : "CARA - Local Profile - XML Representation",
+    "label" : "4.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Local Profile</b></li>",
+    "previous" : "StructureDefinition-cara-local-profile-examples.html",
+    "next" : "StructureDefinition-cara-local-profile.profile.json.html"
+  },
+  "StructureDefinition-cara-local-profile.profile.json.html" : {
+    "title" : "CARA - Local Profile - JSON Representation",
+    "label" : "4.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Local Profile</b></li>",
+    "previous" : "StructureDefinition-cara-local-profile.profile.xml.html",
+    "next" : "StructureDefinition-cara-local-profile.profile.ttl.html"
+  },
+  "StructureDefinition-cara-local-profile.profile.ttl.html" : {
+    "title" : "CARA - Local Profile - TTL Representation",
+    "label" : "4.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Local Profile</b></li>",
+    "previous" : "StructureDefinition-cara-local-profile.profile.json.html",
+    "next" : "StructureDefinition-cara-patient-profile.html"
+  },
+  "StructureDefinition-cara-patient-profile.html" : {
+    "title" : "CARA - Patient Profile",
+    "label" : "4.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Patient Profile</b></li>",
+    "examples" : [
+      {
+        "url" : "Patient-AliceProfile.html",
+        "title" : "AliceProfile"
+      }
+    ],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-cara-local-profile.profile.ttl.html",
+    "next" : "StructureDefinition-cara-patient-profile-definitions.html"
+  },
+  "StructureDefinition-cara-patient-profile-definitions.html" : {
+    "title" : "CARA - Patient Profile - Definitions",
+    "label" : "4.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Patient Profile</b></li>",
+    "previous" : "StructureDefinition-cara-patient-profile.html",
+    "next" : "StructureDefinition-cara-patient-profile-mappings.html"
+  },
+  "StructureDefinition-cara-patient-profile-mappings.html" : {
+    "title" : "CARA - Patient Profile - Mappings",
+    "label" : "4.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Patient Profile</b></li>",
+    "previous" : "StructureDefinition-cara-patient-profile-definitions.html",
+    "next" : "StructureDefinition-cara-patient-profile-testing.html"
+  },
+  "StructureDefinition-cara-patient-profile-testing.html" : {
+    "title" : "CARA - Patient Profile - Testing",
+    "label" : "4.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Patient Profile</b></li>",
+    "previous" : "StructureDefinition-cara-patient-profile-mappings.html",
+    "next" : "StructureDefinition-cara-patient-profile-examples.html"
+  },
+  "StructureDefinition-cara-patient-profile-examples.html" : {
+    "title" : "CARA - Patient Profile - Examples",
+    "label" : "4.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Patient Profile</b></li>",
+    "previous" : "StructureDefinition-cara-patient-profile-testing.html",
+    "next" : "StructureDefinition-cara-patient-profile.profile.xml.html"
+  },
+  "StructureDefinition-cara-patient-profile.profile.xml.html" : {
+    "title" : "CARA - Patient Profile - XML Representation",
+    "label" : "4.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Patient Profile</b></li>",
+    "previous" : "StructureDefinition-cara-patient-profile-examples.html",
+    "next" : "StructureDefinition-cara-patient-profile.profile.json.html"
+  },
+  "StructureDefinition-cara-patient-profile.profile.json.html" : {
+    "title" : "CARA - Patient Profile - JSON Representation",
+    "label" : "4.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Patient Profile</b></li>",
+    "previous" : "StructureDefinition-cara-patient-profile.profile.xml.html",
+    "next" : "StructureDefinition-cara-patient-profile.profile.ttl.html"
+  },
+  "StructureDefinition-cara-patient-profile.profile.ttl.html" : {
+    "title" : "CARA - Patient Profile - TTL Representation",
+    "label" : "4.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Patient Profile</b></li>",
+    "previous" : "StructureDefinition-cara-patient-profile.profile.json.html",
+    "next" : "StructureDefinition-scp-careplan.html"
+  },
+  "StructureDefinition-scp-careplan.html" : {
+    "title" : "SCP - Care Plan",
+    "label" : "4.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Plan</b></li>",
     "examples" : [],
     "testplans" : [],
     "testscripts" : [],
-    "previous" : "StructureDefinition-allergy-intolerance.profile.ttl.html",
-    "next" : "StructureDefinition-careplan-definitions.html"
+    "previous" : "StructureDefinition-cara-patient-profile.profile.ttl.html",
+    "next" : "StructureDefinition-scp-careplan-definitions.html"
   },
-  "StructureDefinition-careplan-definitions.html" : {
-    "title" : "Care Plan - Definitions",
-    "label" : "2.2",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Care Plan</b></li>",
-    "previous" : "StructureDefinition-careplan.html",
-    "next" : "StructureDefinition-careplan-mappings.html"
+  "StructureDefinition-scp-careplan-definitions.html" : {
+    "title" : "SCP - Care Plan - Definitions",
+    "label" : "4.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Plan</b></li>",
+    "previous" : "StructureDefinition-scp-careplan.html",
+    "next" : "StructureDefinition-scp-careplan-mappings.html"
   },
-  "StructureDefinition-careplan-mappings.html" : {
-    "title" : "Care Plan - Mappings",
-    "label" : "2.2",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Care Plan</b></li>",
-    "previous" : "StructureDefinition-careplan-definitions.html",
-    "next" : "StructureDefinition-careplan-testing.html"
+  "StructureDefinition-scp-careplan-mappings.html" : {
+    "title" : "SCP - Care Plan - Mappings",
+    "label" : "4.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Plan</b></li>",
+    "previous" : "StructureDefinition-scp-careplan-definitions.html",
+    "next" : "StructureDefinition-scp-careplan-testing.html"
   },
-  "StructureDefinition-careplan-testing.html" : {
-    "title" : "Care Plan - Testing",
-    "label" : "2.2",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Care Plan</b></li>",
-    "previous" : "StructureDefinition-careplan-mappings.html",
-    "next" : "StructureDefinition-careplan.profile.xml.html"
+  "StructureDefinition-scp-careplan-testing.html" : {
+    "title" : "SCP - Care Plan - Testing",
+    "label" : "4.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Plan</b></li>",
+    "previous" : "StructureDefinition-scp-careplan-mappings.html",
+    "next" : "StructureDefinition-scp-careplan.profile.xml.html"
   },
-  "StructureDefinition-careplan.profile.xml.html" : {
-    "title" : "Care Plan - XML Representation",
-    "label" : "2.2",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Care Plan</b></li>",
-    "previous" : "StructureDefinition-careplan-testing.html",
-    "next" : "StructureDefinition-careplan.profile.json.html"
+  "StructureDefinition-scp-careplan.profile.xml.html" : {
+    "title" : "SCP - Care Plan - XML Representation",
+    "label" : "4.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Plan</b></li>",
+    "previous" : "StructureDefinition-scp-careplan-testing.html",
+    "next" : "StructureDefinition-scp-careplan.profile.json.html"
   },
-  "StructureDefinition-careplan.profile.json.html" : {
-    "title" : "Care Plan - JSON Representation",
-    "label" : "2.2",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Care Plan</b></li>",
-    "previous" : "StructureDefinition-careplan.profile.xml.html",
-    "next" : "StructureDefinition-careplan.profile.ttl.html"
+  "StructureDefinition-scp-careplan.profile.json.html" : {
+    "title" : "SCP - Care Plan - JSON Representation",
+    "label" : "4.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Plan</b></li>",
+    "previous" : "StructureDefinition-scp-careplan.profile.xml.html",
+    "next" : "StructureDefinition-scp-careplan.profile.ttl.html"
   },
-  "StructureDefinition-careplan.profile.ttl.html" : {
-    "title" : "Care Plan - TTL Representation",
-    "label" : "2.2",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Care Plan</b></li>",
-    "previous" : "StructureDefinition-careplan.profile.json.html",
-    "next" : "StructureDefinition-care-team.html"
+  "StructureDefinition-scp-careplan.profile.ttl.html" : {
+    "title" : "SCP - Care Plan - TTL Representation",
+    "label" : "4.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Plan</b></li>",
+    "previous" : "StructureDefinition-scp-careplan.profile.json.html",
+    "next" : "StructureDefinition-scp-careteam.html"
   },
-  "StructureDefinition-care-team.html" : {
-    "title" : "Care Team",
-    "label" : "2.3",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Care Team</b></li>",
+  "StructureDefinition-scp-careteam.html" : {
+    "title" : "SCP - Care Team",
+    "label" : "4.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Team</b></li>",
     "examples" : [],
     "testplans" : [],
     "testscripts" : [],
-    "previous" : "StructureDefinition-careplan.profile.ttl.html",
-    "next" : "StructureDefinition-care-team-definitions.html"
+    "previous" : "StructureDefinition-scp-careplan.profile.ttl.html",
+    "next" : "StructureDefinition-scp-careteam-definitions.html"
   },
-  "StructureDefinition-care-team-definitions.html" : {
-    "title" : "Care Team - Definitions",
-    "label" : "2.3",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Care Team</b></li>",
-    "previous" : "StructureDefinition-care-team.html",
-    "next" : "StructureDefinition-care-team-mappings.html"
+  "StructureDefinition-scp-careteam-definitions.html" : {
+    "title" : "SCP - Care Team - Definitions",
+    "label" : "4.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Team</b></li>",
+    "previous" : "StructureDefinition-scp-careteam.html",
+    "next" : "StructureDefinition-scp-careteam-mappings.html"
   },
-  "StructureDefinition-care-team-mappings.html" : {
-    "title" : "Care Team - Mappings",
-    "label" : "2.3",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Care Team</b></li>",
-    "previous" : "StructureDefinition-care-team-definitions.html",
-    "next" : "StructureDefinition-care-team-testing.html"
+  "StructureDefinition-scp-careteam-mappings.html" : {
+    "title" : "SCP - Care Team - Mappings",
+    "label" : "4.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Team</b></li>",
+    "previous" : "StructureDefinition-scp-careteam-definitions.html",
+    "next" : "StructureDefinition-scp-careteam-testing.html"
   },
-  "StructureDefinition-care-team-testing.html" : {
-    "title" : "Care Team - Testing",
-    "label" : "2.3",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Care Team</b></li>",
-    "previous" : "StructureDefinition-care-team-mappings.html",
-    "next" : "StructureDefinition-care-team.profile.xml.html"
+  "StructureDefinition-scp-careteam-testing.html" : {
+    "title" : "SCP - Care Team - Testing",
+    "label" : "4.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Team</b></li>",
+    "previous" : "StructureDefinition-scp-careteam-mappings.html",
+    "next" : "StructureDefinition-scp-careteam.profile.xml.html"
   },
-  "StructureDefinition-care-team.profile.xml.html" : {
-    "title" : "Care Team - XML Representation",
-    "label" : "2.3",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Care Team</b></li>",
-    "previous" : "StructureDefinition-care-team-testing.html",
-    "next" : "StructureDefinition-care-team.profile.json.html"
+  "StructureDefinition-scp-careteam.profile.xml.html" : {
+    "title" : "SCP - Care Team - XML Representation",
+    "label" : "4.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Team</b></li>",
+    "previous" : "StructureDefinition-scp-careteam-testing.html",
+    "next" : "StructureDefinition-scp-careteam.profile.json.html"
   },
-  "StructureDefinition-care-team.profile.json.html" : {
-    "title" : "Care Team - JSON Representation",
-    "label" : "2.3",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Care Team</b></li>",
-    "previous" : "StructureDefinition-care-team.profile.xml.html",
-    "next" : "StructureDefinition-care-team.profile.ttl.html"
+  "StructureDefinition-scp-careteam.profile.json.html" : {
+    "title" : "SCP - Care Team - JSON Representation",
+    "label" : "4.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Team</b></li>",
+    "previous" : "StructureDefinition-scp-careteam.profile.xml.html",
+    "next" : "StructureDefinition-scp-careteam.profile.ttl.html"
   },
-  "StructureDefinition-care-team.profile.ttl.html" : {
-    "title" : "Care Team - TTL Representation",
-    "label" : "2.3",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Care Team</b></li>",
-    "previous" : "StructureDefinition-care-team.profile.json.html",
-    "next" : "StructureDefinition-condition.html"
+  "StructureDefinition-scp-careteam.profile.ttl.html" : {
+    "title" : "SCP - Care Team - TTL Representation",
+    "label" : "4.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Team</b></li>",
+    "previous" : "StructureDefinition-scp-careteam.profile.json.html",
+    "next" : "StructureDefinition-scp-contact.html"
   },
-  "StructureDefinition-condition.html" : {
-    "title" : "Condition",
-    "label" : "2.4",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Condition</b></li>",
+  "StructureDefinition-scp-contact.html" : {
+    "title" : "SCP - Contact",
+    "label" : "4.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contact</b></li>",
     "examples" : [],
     "testplans" : [],
     "testscripts" : [],
-    "previous" : "StructureDefinition-care-team.profile.ttl.html",
-    "next" : "StructureDefinition-condition-definitions.html"
+    "previous" : "StructureDefinition-scp-careteam.profile.ttl.html",
+    "next" : "StructureDefinition-scp-contact-definitions.html"
   },
-  "StructureDefinition-condition-definitions.html" : {
-    "title" : "Condition - Definitions",
-    "label" : "2.4",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Condition</b></li>",
-    "previous" : "StructureDefinition-condition.html",
-    "next" : "StructureDefinition-condition-mappings.html"
+  "StructureDefinition-scp-contact-definitions.html" : {
+    "title" : "SCP - Contact - Definitions",
+    "label" : "4.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contact</b></li>",
+    "previous" : "StructureDefinition-scp-contact.html",
+    "next" : "StructureDefinition-scp-contact-mappings.html"
   },
-  "StructureDefinition-condition-mappings.html" : {
-    "title" : "Condition - Mappings",
-    "label" : "2.4",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Condition</b></li>",
-    "previous" : "StructureDefinition-condition-definitions.html",
-    "next" : "StructureDefinition-condition-testing.html"
+  "StructureDefinition-scp-contact-mappings.html" : {
+    "title" : "SCP - Contact - Mappings",
+    "label" : "4.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contact</b></li>",
+    "previous" : "StructureDefinition-scp-contact-definitions.html",
+    "next" : "StructureDefinition-scp-contact-testing.html"
   },
-  "StructureDefinition-condition-testing.html" : {
-    "title" : "Condition - Testing",
-    "label" : "2.4",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Condition</b></li>",
-    "previous" : "StructureDefinition-condition-mappings.html",
-    "next" : "StructureDefinition-condition.profile.xml.html"
+  "StructureDefinition-scp-contact-testing.html" : {
+    "title" : "SCP - Contact - Testing",
+    "label" : "4.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contact</b></li>",
+    "previous" : "StructureDefinition-scp-contact-mappings.html",
+    "next" : "StructureDefinition-scp-contact.profile.xml.html"
   },
-  "StructureDefinition-condition.profile.xml.html" : {
-    "title" : "Condition - XML Representation",
-    "label" : "2.4",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Condition</b></li>",
-    "previous" : "StructureDefinition-condition-testing.html",
-    "next" : "StructureDefinition-condition.profile.json.html"
+  "StructureDefinition-scp-contact.profile.xml.html" : {
+    "title" : "SCP - Contact - XML Representation",
+    "label" : "4.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contact</b></li>",
+    "previous" : "StructureDefinition-scp-contact-testing.html",
+    "next" : "StructureDefinition-scp-contact.profile.json.html"
   },
-  "StructureDefinition-condition.profile.json.html" : {
-    "title" : "Condition - JSON Representation",
-    "label" : "2.4",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Condition</b></li>",
-    "previous" : "StructureDefinition-condition.profile.xml.html",
-    "next" : "StructureDefinition-condition.profile.ttl.html"
+  "StructureDefinition-scp-contact.profile.json.html" : {
+    "title" : "SCP - Contact - JSON Representation",
+    "label" : "4.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contact</b></li>",
+    "previous" : "StructureDefinition-scp-contact.profile.xml.html",
+    "next" : "StructureDefinition-scp-contact.profile.ttl.html"
   },
-  "StructureDefinition-condition.profile.ttl.html" : {
-    "title" : "Condition - TTL Representation",
-    "label" : "2.4",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Condition</b></li>",
-    "previous" : "StructureDefinition-condition.profile.json.html",
-    "next" : "StructureDefinition-goal.html"
+  "StructureDefinition-scp-contact.profile.ttl.html" : {
+    "title" : "SCP - Contact - TTL Representation",
+    "label" : "4.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contact</b></li>",
+    "previous" : "StructureDefinition-scp-contact.profile.json.html",
+    "next" : "StructureDefinition-scp-contextualdata.html"
   },
-  "StructureDefinition-goal.html" : {
-    "title" : "Goal",
-    "label" : "2.5",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Goal</b></li>",
+  "StructureDefinition-scp-contextualdata.html" : {
+    "title" : "SCP - Contextual Data",
+    "label" : "4.8",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contextual Data</b></li>",
     "examples" : [],
     "testplans" : [],
     "testscripts" : [],
-    "previous" : "StructureDefinition-condition.profile.ttl.html",
-    "next" : "StructureDefinition-goal-definitions.html"
+    "previous" : "StructureDefinition-scp-contact.profile.ttl.html",
+    "next" : "StructureDefinition-scp-contextualdata-definitions.html"
   },
-  "StructureDefinition-goal-definitions.html" : {
-    "title" : "Goal - Definitions",
-    "label" : "2.5",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Goal</b></li>",
-    "previous" : "StructureDefinition-goal.html",
-    "next" : "StructureDefinition-goal-mappings.html"
+  "StructureDefinition-scp-contextualdata-definitions.html" : {
+    "title" : "SCP - Contextual Data - Definitions",
+    "label" : "4.8",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contextual Data</b></li>",
+    "previous" : "StructureDefinition-scp-contextualdata.html",
+    "next" : "StructureDefinition-scp-contextualdata-mappings.html"
   },
-  "StructureDefinition-goal-mappings.html" : {
-    "title" : "Goal - Mappings",
-    "label" : "2.5",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Goal</b></li>",
-    "previous" : "StructureDefinition-goal-definitions.html",
-    "next" : "StructureDefinition-goal-testing.html"
+  "StructureDefinition-scp-contextualdata-mappings.html" : {
+    "title" : "SCP - Contextual Data - Mappings",
+    "label" : "4.8",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contextual Data</b></li>",
+    "previous" : "StructureDefinition-scp-contextualdata-definitions.html",
+    "next" : "StructureDefinition-scp-contextualdata-testing.html"
   },
-  "StructureDefinition-goal-testing.html" : {
-    "title" : "Goal - Testing",
-    "label" : "2.5",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Goal</b></li>",
-    "previous" : "StructureDefinition-goal-mappings.html",
-    "next" : "StructureDefinition-goal.profile.xml.html"
+  "StructureDefinition-scp-contextualdata-testing.html" : {
+    "title" : "SCP - Contextual Data - Testing",
+    "label" : "4.8",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contextual Data</b></li>",
+    "previous" : "StructureDefinition-scp-contextualdata-mappings.html",
+    "next" : "StructureDefinition-scp-contextualdata.profile.xml.html"
   },
-  "StructureDefinition-goal.profile.xml.html" : {
-    "title" : "Goal - XML Representation",
-    "label" : "2.5",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Goal</b></li>",
-    "previous" : "StructureDefinition-goal-testing.html",
-    "next" : "StructureDefinition-goal.profile.json.html"
+  "StructureDefinition-scp-contextualdata.profile.xml.html" : {
+    "title" : "SCP - Contextual Data - XML Representation",
+    "label" : "4.8",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contextual Data</b></li>",
+    "previous" : "StructureDefinition-scp-contextualdata-testing.html",
+    "next" : "StructureDefinition-scp-contextualdata.profile.json.html"
   },
-  "StructureDefinition-goal.profile.json.html" : {
-    "title" : "Goal - JSON Representation",
-    "label" : "2.5",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Goal</b></li>",
-    "previous" : "StructureDefinition-goal.profile.xml.html",
-    "next" : "StructureDefinition-goal.profile.ttl.html"
+  "StructureDefinition-scp-contextualdata.profile.json.html" : {
+    "title" : "SCP - Contextual Data - JSON Representation",
+    "label" : "4.8",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contextual Data</b></li>",
+    "previous" : "StructureDefinition-scp-contextualdata.profile.xml.html",
+    "next" : "StructureDefinition-scp-contextualdata.profile.ttl.html"
   },
-  "StructureDefinition-goal.profile.ttl.html" : {
-    "title" : "Goal - TTL Representation",
-    "label" : "2.5",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Goal</b></li>",
-    "previous" : "StructureDefinition-goal.profile.json.html",
-    "next" : "StructureDefinition-Observation.html"
+  "StructureDefinition-scp-contextualdata.profile.ttl.html" : {
+    "title" : "SCP - Contextual Data - TTL Representation",
+    "label" : "4.8",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contextual Data</b></li>",
+    "previous" : "StructureDefinition-scp-contextualdata.profile.json.html",
+    "next" : "StructureDefinition-scp-external-observation.html"
   },
-  "StructureDefinition-Observation.html" : {
-    "title" : "Observation",
-    "label" : "2.6",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Observation</b></li>",
+  "StructureDefinition-scp-external-observation.html" : {
+    "title" : "SCP - External Observaton",
+    "label" : "4.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - External Observaton</b></li>",
     "examples" : [],
     "testplans" : [],
     "testscripts" : [],
-    "previous" : "StructureDefinition-goal.profile.ttl.html",
-    "next" : "StructureDefinition-Observation-definitions.html"
+    "previous" : "StructureDefinition-scp-contextualdata.profile.ttl.html",
+    "next" : "StructureDefinition-scp-external-observation-definitions.html"
   },
-  "StructureDefinition-Observation-definitions.html" : {
-    "title" : "Observation - Definitions",
-    "label" : "2.6",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Observation</b></li>",
-    "previous" : "StructureDefinition-Observation.html",
-    "next" : "StructureDefinition-Observation-mappings.html"
+  "StructureDefinition-scp-external-observation-definitions.html" : {
+    "title" : "SCP - External Observaton - Definitions",
+    "label" : "4.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - External Observaton</b></li>",
+    "previous" : "StructureDefinition-scp-external-observation.html",
+    "next" : "StructureDefinition-scp-external-observation-mappings.html"
   },
-  "StructureDefinition-Observation-mappings.html" : {
-    "title" : "Observation - Mappings",
-    "label" : "2.6",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Observation</b></li>",
-    "previous" : "StructureDefinition-Observation-definitions.html",
-    "next" : "StructureDefinition-Observation-testing.html"
+  "StructureDefinition-scp-external-observation-mappings.html" : {
+    "title" : "SCP - External Observaton - Mappings",
+    "label" : "4.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - External Observaton</b></li>",
+    "previous" : "StructureDefinition-scp-external-observation-definitions.html",
+    "next" : "StructureDefinition-scp-external-observation-testing.html"
   },
-  "StructureDefinition-Observation-testing.html" : {
-    "title" : "Observation - Testing",
-    "label" : "2.6",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Observation</b></li>",
-    "previous" : "StructureDefinition-Observation-mappings.html",
-    "next" : "StructureDefinition-Observation.profile.xml.html"
+  "StructureDefinition-scp-external-observation-testing.html" : {
+    "title" : "SCP - External Observaton - Testing",
+    "label" : "4.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - External Observaton</b></li>",
+    "previous" : "StructureDefinition-scp-external-observation-mappings.html",
+    "next" : "StructureDefinition-scp-external-observation.profile.xml.html"
   },
-  "StructureDefinition-Observation.profile.xml.html" : {
-    "title" : "Observation - XML Representation",
-    "label" : "2.6",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Observation</b></li>",
-    "previous" : "StructureDefinition-Observation-testing.html",
-    "next" : "StructureDefinition-Observation.profile.json.html"
+  "StructureDefinition-scp-external-observation.profile.xml.html" : {
+    "title" : "SCP - External Observaton - XML Representation",
+    "label" : "4.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - External Observaton</b></li>",
+    "previous" : "StructureDefinition-scp-external-observation-testing.html",
+    "next" : "StructureDefinition-scp-external-observation.profile.json.html"
   },
-  "StructureDefinition-Observation.profile.json.html" : {
-    "title" : "Observation - JSON Representation",
-    "label" : "2.6",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Observation</b></li>",
-    "previous" : "StructureDefinition-Observation.profile.xml.html",
-    "next" : "StructureDefinition-Observation.profile.ttl.html"
+  "StructureDefinition-scp-external-observation.profile.json.html" : {
+    "title" : "SCP - External Observaton - JSON Representation",
+    "label" : "4.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - External Observaton</b></li>",
+    "previous" : "StructureDefinition-scp-external-observation.profile.xml.html",
+    "next" : "StructureDefinition-scp-external-observation.profile.ttl.html"
   },
-  "StructureDefinition-Observation.profile.ttl.html" : {
-    "title" : "Observation - TTL Representation",
-    "label" : "2.6",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Observation</b></li>",
-    "previous" : "StructureDefinition-Observation.profile.json.html",
-    "next" : "StructureDefinition-organization.html"
+  "StructureDefinition-scp-external-observation.profile.ttl.html" : {
+    "title" : "SCP - External Observaton - TTL Representation",
+    "label" : "4.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - External Observaton</b></li>",
+    "previous" : "StructureDefinition-scp-external-observation.profile.json.html",
+    "next" : "StructureDefinition-scp-goal.html"
   },
-  "StructureDefinition-organization.html" : {
-    "title" : "Organization",
-    "label" : "2.7",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Organization</b></li>",
+  "StructureDefinition-scp-goal.html" : {
+    "title" : "SCP - Goal",
+    "label" : "4.10",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Goal</b></li>",
     "examples" : [],
     "testplans" : [],
     "testscripts" : [],
-    "previous" : "StructureDefinition-Observation.profile.ttl.html",
-    "next" : "StructureDefinition-organization-definitions.html"
+    "previous" : "StructureDefinition-scp-external-observation.profile.ttl.html",
+    "next" : "StructureDefinition-scp-goal-definitions.html"
   },
-  "StructureDefinition-organization-definitions.html" : {
-    "title" : "Organization - Definitions",
-    "label" : "2.7",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Organization</b></li>",
-    "previous" : "StructureDefinition-organization.html",
-    "next" : "StructureDefinition-organization-mappings.html"
+  "StructureDefinition-scp-goal-definitions.html" : {
+    "title" : "SCP - Goal - Definitions",
+    "label" : "4.10",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Goal</b></li>",
+    "previous" : "StructureDefinition-scp-goal.html",
+    "next" : "StructureDefinition-scp-goal-mappings.html"
   },
-  "StructureDefinition-organization-mappings.html" : {
-    "title" : "Organization - Mappings",
-    "label" : "2.7",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Organization</b></li>",
-    "previous" : "StructureDefinition-organization-definitions.html",
-    "next" : "StructureDefinition-organization-testing.html"
+  "StructureDefinition-scp-goal-mappings.html" : {
+    "title" : "SCP - Goal - Mappings",
+    "label" : "4.10",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Goal</b></li>",
+    "previous" : "StructureDefinition-scp-goal-definitions.html",
+    "next" : "StructureDefinition-scp-goal-testing.html"
   },
-  "StructureDefinition-organization-testing.html" : {
-    "title" : "Organization - Testing",
-    "label" : "2.7",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Organization</b></li>",
-    "previous" : "StructureDefinition-organization-mappings.html",
-    "next" : "StructureDefinition-organization.profile.xml.html"
+  "StructureDefinition-scp-goal-testing.html" : {
+    "title" : "SCP - Goal - Testing",
+    "label" : "4.10",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Goal</b></li>",
+    "previous" : "StructureDefinition-scp-goal-mappings.html",
+    "next" : "StructureDefinition-scp-goal.profile.xml.html"
   },
-  "StructureDefinition-organization.profile.xml.html" : {
-    "title" : "Organization - XML Representation",
-    "label" : "2.7",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Organization</b></li>",
-    "previous" : "StructureDefinition-organization-testing.html",
-    "next" : "StructureDefinition-organization.profile.json.html"
+  "StructureDefinition-scp-goal.profile.xml.html" : {
+    "title" : "SCP - Goal - XML Representation",
+    "label" : "4.10",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Goal</b></li>",
+    "previous" : "StructureDefinition-scp-goal-testing.html",
+    "next" : "StructureDefinition-scp-goal.profile.json.html"
   },
-  "StructureDefinition-organization.profile.json.html" : {
-    "title" : "Organization - JSON Representation",
-    "label" : "2.7",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Organization</b></li>",
-    "previous" : "StructureDefinition-organization.profile.xml.html",
-    "next" : "StructureDefinition-organization.profile.ttl.html"
+  "StructureDefinition-scp-goal.profile.json.html" : {
+    "title" : "SCP - Goal - JSON Representation",
+    "label" : "4.10",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Goal</b></li>",
+    "previous" : "StructureDefinition-scp-goal.profile.xml.html",
+    "next" : "StructureDefinition-scp-goal.profile.ttl.html"
   },
-  "StructureDefinition-organization.profile.ttl.html" : {
-    "title" : "Organization - TTL Representation",
-    "label" : "2.7",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Organization</b></li>",
-    "previous" : "StructureDefinition-organization.profile.json.html",
-    "next" : "StructureDefinition-cara-patient.html"
+  "StructureDefinition-scp-goal.profile.ttl.html" : {
+    "title" : "SCP - Goal - TTL Representation",
+    "label" : "4.10",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Goal</b></li>",
+    "previous" : "StructureDefinition-scp-goal.profile.json.html",
+    "next" : "StructureDefinition-scp-observation.html"
   },
-  "StructureDefinition-cara-patient.html" : {
-    "title" : "Patient",
-    "label" : "2.8",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient</b></li>",
+  "StructureDefinition-scp-observation.html" : {
+    "title" : "SCP - Observaton",
+    "label" : "4.11",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Observaton</b></li>",
     "examples" : [],
     "testplans" : [],
     "testscripts" : [],
-    "previous" : "StructureDefinition-organization.profile.ttl.html",
-    "next" : "StructureDefinition-cara-patient-definitions.html"
+    "previous" : "StructureDefinition-scp-goal.profile.ttl.html",
+    "next" : "StructureDefinition-scp-observation-definitions.html"
   },
-  "StructureDefinition-cara-patient-definitions.html" : {
-    "title" : "Patient - Definitions",
-    "label" : "2.8",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient</b></li>",
-    "previous" : "StructureDefinition-cara-patient.html",
-    "next" : "StructureDefinition-cara-patient-mappings.html"
+  "StructureDefinition-scp-observation-definitions.html" : {
+    "title" : "SCP - Observaton - Definitions",
+    "label" : "4.11",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Observaton</b></li>",
+    "previous" : "StructureDefinition-scp-observation.html",
+    "next" : "StructureDefinition-scp-observation-mappings.html"
   },
-  "StructureDefinition-cara-patient-mappings.html" : {
-    "title" : "Patient - Mappings",
-    "label" : "2.8",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient</b></li>",
-    "previous" : "StructureDefinition-cara-patient-definitions.html",
-    "next" : "StructureDefinition-cara-patient-testing.html"
+  "StructureDefinition-scp-observation-mappings.html" : {
+    "title" : "SCP - Observaton - Mappings",
+    "label" : "4.11",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Observaton</b></li>",
+    "previous" : "StructureDefinition-scp-observation-definitions.html",
+    "next" : "StructureDefinition-scp-observation-testing.html"
   },
-  "StructureDefinition-cara-patient-testing.html" : {
-    "title" : "Patient - Testing",
-    "label" : "2.8",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient</b></li>",
-    "previous" : "StructureDefinition-cara-patient-mappings.html",
-    "next" : "StructureDefinition-cara-patient.profile.xml.html"
+  "StructureDefinition-scp-observation-testing.html" : {
+    "title" : "SCP - Observaton - Testing",
+    "label" : "4.11",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Observaton</b></li>",
+    "previous" : "StructureDefinition-scp-observation-mappings.html",
+    "next" : "StructureDefinition-scp-observation.profile.xml.html"
   },
-  "StructureDefinition-cara-patient.profile.xml.html" : {
-    "title" : "Patient - XML Representation",
-    "label" : "2.8",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient</b></li>",
-    "previous" : "StructureDefinition-cara-patient-testing.html",
-    "next" : "StructureDefinition-cara-patient.profile.json.html"
+  "StructureDefinition-scp-observation.profile.xml.html" : {
+    "title" : "SCP - Observaton - XML Representation",
+    "label" : "4.11",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Observaton</b></li>",
+    "previous" : "StructureDefinition-scp-observation-testing.html",
+    "next" : "StructureDefinition-scp-observation.profile.json.html"
   },
-  "StructureDefinition-cara-patient.profile.json.html" : {
-    "title" : "Patient - JSON Representation",
-    "label" : "2.8",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient</b></li>",
-    "previous" : "StructureDefinition-cara-patient.profile.xml.html",
-    "next" : "StructureDefinition-cara-patient.profile.ttl.html"
+  "StructureDefinition-scp-observation.profile.json.html" : {
+    "title" : "SCP - Observaton - JSON Representation",
+    "label" : "4.11",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Observaton</b></li>",
+    "previous" : "StructureDefinition-scp-observation.profile.xml.html",
+    "next" : "StructureDefinition-scp-observation.profile.ttl.html"
   },
-  "StructureDefinition-cara-patient.profile.ttl.html" : {
-    "title" : "Patient - TTL Representation",
-    "label" : "2.8",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient</b></li>",
-    "previous" : "StructureDefinition-cara-patient.profile.json.html",
-    "next" : "StructureDefinition-related-person.html"
+  "StructureDefinition-scp-observation.profile.ttl.html" : {
+    "title" : "SCP - Observaton - TTL Representation",
+    "label" : "4.11",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Observaton</b></li>",
+    "previous" : "StructureDefinition-scp-observation.profile.json.html",
+    "next" : "StructureDefinition-scp-teammember-practitioner.html"
   },
-  "StructureDefinition-related-person.html" : {
-    "title" : "Related Person",
-    "label" : "2.9",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Related Person</b></li>",
+  "StructureDefinition-scp-teammember-practitioner.html" : {
+    "title" : "SCP - Team Member - Practitioner",
+    "label" : "4.12",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Team Member - Practitioner</b></li>",
     "examples" : [],
     "testplans" : [],
     "testscripts" : [],
-    "previous" : "StructureDefinition-cara-patient.profile.ttl.html",
-    "next" : "StructureDefinition-related-person-definitions.html"
+    "previous" : "StructureDefinition-scp-observation.profile.ttl.html",
+    "next" : "StructureDefinition-scp-teammember-practitioner-definitions.html"
   },
-  "StructureDefinition-related-person-definitions.html" : {
-    "title" : "Related Person - Definitions",
-    "label" : "2.9",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Related Person</b></li>",
-    "previous" : "StructureDefinition-related-person.html",
-    "next" : "StructureDefinition-related-person-mappings.html"
+  "StructureDefinition-scp-teammember-practitioner-definitions.html" : {
+    "title" : "SCP - Team Member - Practitioner - Definitions",
+    "label" : "4.12",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Team Member - Practitioner</b></li>",
+    "previous" : "StructureDefinition-scp-teammember-practitioner.html",
+    "next" : "StructureDefinition-scp-teammember-practitioner-mappings.html"
   },
-  "StructureDefinition-related-person-mappings.html" : {
-    "title" : "Related Person - Mappings",
-    "label" : "2.9",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Related Person</b></li>",
-    "previous" : "StructureDefinition-related-person-definitions.html",
-    "next" : "StructureDefinition-related-person-testing.html"
+  "StructureDefinition-scp-teammember-practitioner-mappings.html" : {
+    "title" : "SCP - Team Member - Practitioner - Mappings",
+    "label" : "4.12",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Team Member - Practitioner</b></li>",
+    "previous" : "StructureDefinition-scp-teammember-practitioner-definitions.html",
+    "next" : "StructureDefinition-scp-teammember-practitioner-testing.html"
   },
-  "StructureDefinition-related-person-testing.html" : {
-    "title" : "Related Person - Testing",
-    "label" : "2.9",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Related Person</b></li>",
-    "previous" : "StructureDefinition-related-person-mappings.html",
-    "next" : "StructureDefinition-related-person.profile.xml.html"
+  "StructureDefinition-scp-teammember-practitioner-testing.html" : {
+    "title" : "SCP - Team Member - Practitioner - Testing",
+    "label" : "4.12",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Team Member - Practitioner</b></li>",
+    "previous" : "StructureDefinition-scp-teammember-practitioner-mappings.html",
+    "next" : "StructureDefinition-scp-teammember-practitioner.profile.xml.html"
   },
-  "StructureDefinition-related-person.profile.xml.html" : {
-    "title" : "Related Person - XML Representation",
-    "label" : "2.9",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Related Person</b></li>",
-    "previous" : "StructureDefinition-related-person-testing.html",
-    "next" : "StructureDefinition-related-person.profile.json.html"
+  "StructureDefinition-scp-teammember-practitioner.profile.xml.html" : {
+    "title" : "SCP - Team Member - Practitioner - XML Representation",
+    "label" : "4.12",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Team Member - Practitioner</b></li>",
+    "previous" : "StructureDefinition-scp-teammember-practitioner-testing.html",
+    "next" : "StructureDefinition-scp-teammember-practitioner.profile.json.html"
   },
-  "StructureDefinition-related-person.profile.json.html" : {
-    "title" : "Related Person - JSON Representation",
-    "label" : "2.9",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Related Person</b></li>",
-    "previous" : "StructureDefinition-related-person.profile.xml.html",
-    "next" : "StructureDefinition-related-person.profile.ttl.html"
+  "StructureDefinition-scp-teammember-practitioner.profile.json.html" : {
+    "title" : "SCP - Team Member - Practitioner - JSON Representation",
+    "label" : "4.12",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Team Member - Practitioner</b></li>",
+    "previous" : "StructureDefinition-scp-teammember-practitioner.profile.xml.html",
+    "next" : "StructureDefinition-scp-teammember-practitioner.profile.ttl.html"
   },
-  "StructureDefinition-related-person.profile.ttl.html" : {
-    "title" : "Related Person - TTL Representation",
-    "label" : "2.9",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Related Person</b></li>",
-    "previous" : "StructureDefinition-related-person.profile.json.html",
-    "next" : "StructureDefinition-anticipate-directives-ehr.html"
+  "StructureDefinition-scp-teammember-practitioner.profile.ttl.html" : {
+    "title" : "SCP - Team Member - Practitioner - TTL Representation",
+    "label" : "4.12",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Team Member - Practitioner</b></li>",
+    "previous" : "StructureDefinition-scp-teammember-practitioner.profile.json.html",
+    "next" : "StructureDefinition-scp-teammember-relatedperson.html"
   },
-  "StructureDefinition-anticipate-directives-ehr.html" : {
-    "title" : "Advance Directives in EHR",
-    "label" : "2.10",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Advance Directives in EHR</b></li>",
+  "StructureDefinition-scp-teammember-relatedperson.html" : {
+    "title" : "SCP - Team Member - Related Person",
+    "label" : "4.13",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Team Member - Related Person</b></li>",
     "examples" : [],
     "testplans" : [],
     "testscripts" : [],
-    "previous" : "StructureDefinition-related-person.profile.ttl.html",
-    "next" : "StructureDefinition-anticipate-directives-ehr-definitions.html"
+    "previous" : "StructureDefinition-scp-teammember-practitioner.profile.ttl.html",
+    "next" : "StructureDefinition-scp-teammember-relatedperson-definitions.html"
   },
-  "StructureDefinition-anticipate-directives-ehr-definitions.html" : {
-    "title" : "Advance Directives in EHR - Definitions",
-    "label" : "2.10",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Advance Directives in EHR</b></li>",
-    "previous" : "StructureDefinition-anticipate-directives-ehr.html",
-    "next" : "StructureDefinition-anticipate-directives-ehr-mappings.html"
+  "StructureDefinition-scp-teammember-relatedperson-definitions.html" : {
+    "title" : "SCP - Team Member - Related Person - Definitions",
+    "label" : "4.13",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Team Member - Related Person</b></li>",
+    "previous" : "StructureDefinition-scp-teammember-relatedperson.html",
+    "next" : "StructureDefinition-scp-teammember-relatedperson-mappings.html"
   },
-  "StructureDefinition-anticipate-directives-ehr-mappings.html" : {
-    "title" : "Advance Directives in EHR - Mappings",
-    "label" : "2.10",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Advance Directives in EHR</b></li>",
-    "previous" : "StructureDefinition-anticipate-directives-ehr-definitions.html",
-    "next" : "StructureDefinition-anticipate-directives-ehr-testing.html"
+  "StructureDefinition-scp-teammember-relatedperson-mappings.html" : {
+    "title" : "SCP - Team Member - Related Person - Mappings",
+    "label" : "4.13",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Team Member - Related Person</b></li>",
+    "previous" : "StructureDefinition-scp-teammember-relatedperson-definitions.html",
+    "next" : "StructureDefinition-scp-teammember-relatedperson-testing.html"
   },
-  "StructureDefinition-anticipate-directives-ehr-testing.html" : {
-    "title" : "Advance Directives in EHR - Testing",
-    "label" : "2.10",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Advance Directives in EHR</b></li>",
-    "previous" : "StructureDefinition-anticipate-directives-ehr-mappings.html",
-    "next" : "StructureDefinition-anticipate-directives-ehr.profile.xml.html"
+  "StructureDefinition-scp-teammember-relatedperson-testing.html" : {
+    "title" : "SCP - Team Member - Related Person - Testing",
+    "label" : "4.13",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Team Member - Related Person</b></li>",
+    "previous" : "StructureDefinition-scp-teammember-relatedperson-mappings.html",
+    "next" : "StructureDefinition-scp-teammember-relatedperson.profile.xml.html"
   },
-  "StructureDefinition-anticipate-directives-ehr.profile.xml.html" : {
-    "title" : "Advance Directives in EHR - XML Representation",
-    "label" : "2.10",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Advance Directives in EHR</b></li>",
-    "previous" : "StructureDefinition-anticipate-directives-ehr-testing.html",
-    "next" : "StructureDefinition-anticipate-directives-ehr.profile.json.html"
+  "StructureDefinition-scp-teammember-relatedperson.profile.xml.html" : {
+    "title" : "SCP - Team Member - Related Person - XML Representation",
+    "label" : "4.13",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Team Member - Related Person</b></li>",
+    "previous" : "StructureDefinition-scp-teammember-relatedperson-testing.html",
+    "next" : "StructureDefinition-scp-teammember-relatedperson.profile.json.html"
   },
-  "StructureDefinition-anticipate-directives-ehr.profile.json.html" : {
-    "title" : "Advance Directives in EHR - JSON Representation",
-    "label" : "2.10",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Advance Directives in EHR</b></li>",
-    "previous" : "StructureDefinition-anticipate-directives-ehr.profile.xml.html",
-    "next" : "StructureDefinition-anticipate-directives-ehr.profile.ttl.html"
+  "StructureDefinition-scp-teammember-relatedperson.profile.json.html" : {
+    "title" : "SCP - Team Member - Related Person - JSON Representation",
+    "label" : "4.13",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Team Member - Related Person</b></li>",
+    "previous" : "StructureDefinition-scp-teammember-relatedperson.profile.xml.html",
+    "next" : "StructureDefinition-scp-teammember-relatedperson.profile.ttl.html"
   },
-  "StructureDefinition-anticipate-directives-ehr.profile.ttl.html" : {
-    "title" : "Advance Directives in EHR - TTL Representation",
-    "label" : "2.10",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Advance Directives in EHR</b></li>",
-    "previous" : "StructureDefinition-anticipate-directives-ehr.profile.json.html",
-    "next" : "StructureDefinition-anticipate-directives-location.html"
+  "StructureDefinition-scp-teammember-relatedperson.profile.ttl.html" : {
+    "title" : "SCP - Team Member - Related Person - TTL Representation",
+    "label" : "4.13",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Team Member - Related Person</b></li>",
+    "previous" : "StructureDefinition-scp-teammember-relatedperson.profile.json.html",
+    "next" : "StructureDefinition-cara-application-invitation-application.html"
   },
-  "StructureDefinition-anticipate-directives-location.html" : {
-    "title" : "Advance Directives Location",
-    "label" : "2.11",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Advance Directives Location</b></li>",
+  "StructureDefinition-cara-application-invitation-application.html" : {
+    "title" : "CARA - Application Invitation - Application",
+    "label" : "4.14",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Application Invitation - Application</b></li>",
     "examples" : [],
     "testplans" : [],
     "testscripts" : [],
-    "previous" : "StructureDefinition-anticipate-directives-ehr.profile.ttl.html",
-    "next" : "StructureDefinition-anticipate-directives-location-definitions.html"
+    "previous" : "StructureDefinition-scp-teammember-relatedperson.profile.ttl.html",
+    "next" : "StructureDefinition-cara-application-invitation-application-definitions.html"
   },
-  "StructureDefinition-anticipate-directives-location-definitions.html" : {
-    "title" : "Advance Directives Location - Definitions",
-    "label" : "2.11",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Advance Directives Location</b></li>",
-    "previous" : "StructureDefinition-anticipate-directives-location.html",
-    "next" : "StructureDefinition-anticipate-directives-location-mappings.html"
+  "StructureDefinition-cara-application-invitation-application-definitions.html" : {
+    "title" : "CARA - Application Invitation - Application - Definitions",
+    "label" : "4.14",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Application Invitation - Application</b></li>",
+    "previous" : "StructureDefinition-cara-application-invitation-application.html",
+    "next" : "StructureDefinition-cara-application-invitation-application-mappings.html"
   },
-  "StructureDefinition-anticipate-directives-location-mappings.html" : {
-    "title" : "Advance Directives Location - Mappings",
-    "label" : "2.11",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Advance Directives Location</b></li>",
-    "previous" : "StructureDefinition-anticipate-directives-location-definitions.html",
-    "next" : "StructureDefinition-anticipate-directives-location-testing.html"
+  "StructureDefinition-cara-application-invitation-application-mappings.html" : {
+    "title" : "CARA - Application Invitation - Application - Mappings",
+    "label" : "4.14",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Application Invitation - Application</b></li>",
+    "previous" : "StructureDefinition-cara-application-invitation-application-definitions.html",
+    "next" : "StructureDefinition-cara-application-invitation-application-testing.html"
   },
-  "StructureDefinition-anticipate-directives-location-testing.html" : {
-    "title" : "Advance Directives Location - Testing",
-    "label" : "2.11",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Advance Directives Location</b></li>",
-    "previous" : "StructureDefinition-anticipate-directives-location-mappings.html",
-    "next" : "StructureDefinition-anticipate-directives-location.profile.xml.html"
+  "StructureDefinition-cara-application-invitation-application-testing.html" : {
+    "title" : "CARA - Application Invitation - Application - Testing",
+    "label" : "4.14",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Application Invitation - Application</b></li>",
+    "previous" : "StructureDefinition-cara-application-invitation-application-mappings.html",
+    "next" : "StructureDefinition-cara-application-invitation-application.profile.xml.html"
   },
-  "StructureDefinition-anticipate-directives-location.profile.xml.html" : {
-    "title" : "Advance Directives Location - XML Representation",
-    "label" : "2.11",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Advance Directives Location</b></li>",
-    "previous" : "StructureDefinition-anticipate-directives-location-testing.html",
-    "next" : "StructureDefinition-anticipate-directives-location.profile.json.html"
+  "StructureDefinition-cara-application-invitation-application.profile.xml.html" : {
+    "title" : "CARA - Application Invitation - Application - XML Representation",
+    "label" : "4.14",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Application Invitation - Application</b></li>",
+    "previous" : "StructureDefinition-cara-application-invitation-application-testing.html",
+    "next" : "StructureDefinition-cara-application-invitation-application.profile.json.html"
   },
-  "StructureDefinition-anticipate-directives-location.profile.json.html" : {
-    "title" : "Advance Directives Location - JSON Representation",
-    "label" : "2.11",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Advance Directives Location</b></li>",
-    "previous" : "StructureDefinition-anticipate-directives-location.profile.xml.html",
-    "next" : "StructureDefinition-anticipate-directives-location.profile.ttl.html"
+  "StructureDefinition-cara-application-invitation-application.profile.json.html" : {
+    "title" : "CARA - Application Invitation - Application - JSON Representation",
+    "label" : "4.14",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Application Invitation - Application</b></li>",
+    "previous" : "StructureDefinition-cara-application-invitation-application.profile.xml.html",
+    "next" : "StructureDefinition-cara-application-invitation-application.profile.ttl.html"
   },
-  "StructureDefinition-anticipate-directives-location.profile.ttl.html" : {
-    "title" : "Advance Directives Location - TTL Representation",
-    "label" : "2.11",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Advance Directives Location</b></li>",
-    "previous" : "StructureDefinition-anticipate-directives-location.profile.json.html",
-    "next" : "StructureDefinition-attention-point.html"
+  "StructureDefinition-cara-application-invitation-application.profile.ttl.html" : {
+    "title" : "CARA - Application Invitation - Application - TTL Representation",
+    "label" : "4.14",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Application Invitation - Application</b></li>",
+    "previous" : "StructureDefinition-cara-application-invitation-application.profile.json.html",
+    "next" : "StructureDefinition-cara-application-invitation-firstName.html"
   },
-  "StructureDefinition-attention-point.html" : {
-    "title" : "Attention Point",
-    "label" : "2.12",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Attention Point</b></li>",
+  "StructureDefinition-cara-application-invitation-firstName.html" : {
+    "title" : "CARA - Application Invitation - First name",
+    "label" : "4.15",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Application Invitation - First name</b></li>",
     "examples" : [],
     "testplans" : [],
     "testscripts" : [],
-    "previous" : "StructureDefinition-anticipate-directives-location.profile.ttl.html",
-    "next" : "StructureDefinition-attention-point-definitions.html"
+    "previous" : "StructureDefinition-cara-application-invitation-application.profile.ttl.html",
+    "next" : "StructureDefinition-cara-application-invitation-firstName-definitions.html"
   },
-  "StructureDefinition-attention-point-definitions.html" : {
-    "title" : "Attention Point - Definitions",
-    "label" : "2.12",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Attention Point</b></li>",
-    "previous" : "StructureDefinition-attention-point.html",
-    "next" : "StructureDefinition-attention-point-mappings.html"
+  "StructureDefinition-cara-application-invitation-firstName-definitions.html" : {
+    "title" : "CARA - Application Invitation - First name - Definitions",
+    "label" : "4.15",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Application Invitation - First name</b></li>",
+    "previous" : "StructureDefinition-cara-application-invitation-firstName.html",
+    "next" : "StructureDefinition-cara-application-invitation-firstName-mappings.html"
   },
-  "StructureDefinition-attention-point-mappings.html" : {
-    "title" : "Attention Point - Mappings",
-    "label" : "2.12",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Attention Point</b></li>",
-    "previous" : "StructureDefinition-attention-point-definitions.html",
-    "next" : "StructureDefinition-attention-point-testing.html"
+  "StructureDefinition-cara-application-invitation-firstName-mappings.html" : {
+    "title" : "CARA - Application Invitation - First name - Mappings",
+    "label" : "4.15",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Application Invitation - First name</b></li>",
+    "previous" : "StructureDefinition-cara-application-invitation-firstName-definitions.html",
+    "next" : "StructureDefinition-cara-application-invitation-firstName-testing.html"
   },
-  "StructureDefinition-attention-point-testing.html" : {
-    "title" : "Attention Point - Testing",
-    "label" : "2.12",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Attention Point</b></li>",
-    "previous" : "StructureDefinition-attention-point-mappings.html",
-    "next" : "StructureDefinition-attention-point.profile.xml.html"
+  "StructureDefinition-cara-application-invitation-firstName-testing.html" : {
+    "title" : "CARA - Application Invitation - First name - Testing",
+    "label" : "4.15",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Application Invitation - First name</b></li>",
+    "previous" : "StructureDefinition-cara-application-invitation-firstName-mappings.html",
+    "next" : "StructureDefinition-cara-application-invitation-firstName.profile.xml.html"
   },
-  "StructureDefinition-attention-point.profile.xml.html" : {
-    "title" : "Attention Point - XML Representation",
-    "label" : "2.12",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Attention Point</b></li>",
-    "previous" : "StructureDefinition-attention-point-testing.html",
-    "next" : "StructureDefinition-attention-point.profile.json.html"
+  "StructureDefinition-cara-application-invitation-firstName.profile.xml.html" : {
+    "title" : "CARA - Application Invitation - First name - XML Representation",
+    "label" : "4.15",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Application Invitation - First name</b></li>",
+    "previous" : "StructureDefinition-cara-application-invitation-firstName-testing.html",
+    "next" : "StructureDefinition-cara-application-invitation-firstName.profile.json.html"
   },
-  "StructureDefinition-attention-point.profile.json.html" : {
-    "title" : "Attention Point - JSON Representation",
-    "label" : "2.12",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Attention Point</b></li>",
-    "previous" : "StructureDefinition-attention-point.profile.xml.html",
-    "next" : "StructureDefinition-attention-point.profile.ttl.html"
+  "StructureDefinition-cara-application-invitation-firstName.profile.json.html" : {
+    "title" : "CARA - Application Invitation - First name - JSON Representation",
+    "label" : "4.15",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Application Invitation - First name</b></li>",
+    "previous" : "StructureDefinition-cara-application-invitation-firstName.profile.xml.html",
+    "next" : "StructureDefinition-cara-application-invitation-firstName.profile.ttl.html"
   },
-  "StructureDefinition-attention-point.profile.ttl.html" : {
-    "title" : "Attention Point - TTL Representation",
-    "label" : "2.12",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Attention Point</b></li>",
-    "previous" : "StructureDefinition-attention-point.profile.json.html",
-    "next" : "StructureDefinition-comment.html"
+  "StructureDefinition-cara-application-invitation-firstName.profile.ttl.html" : {
+    "title" : "CARA - Application Invitation - First name - TTL Representation",
+    "label" : "4.15",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Application Invitation - First name</b></li>",
+    "previous" : "StructureDefinition-cara-application-invitation-firstName.profile.json.html",
+    "next" : "StructureDefinition-cara-application-invitation-lastName.html"
   },
-  "StructureDefinition-comment.html" : {
-    "title" : "Comment",
-    "label" : "2.13",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Comment</b></li>",
+  "StructureDefinition-cara-application-invitation-lastName.html" : {
+    "title" : "CARA - Application Invitation - Last name",
+    "label" : "4.16",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Application Invitation - Last name</b></li>",
     "examples" : [],
     "testplans" : [],
     "testscripts" : [],
-    "previous" : "StructureDefinition-attention-point.profile.ttl.html",
-    "next" : "StructureDefinition-comment-definitions.html"
+    "previous" : "StructureDefinition-cara-application-invitation-firstName.profile.ttl.html",
+    "next" : "StructureDefinition-cara-application-invitation-lastName-definitions.html"
   },
-  "StructureDefinition-comment-definitions.html" : {
-    "title" : "Comment - Definitions",
-    "label" : "2.13",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Comment</b></li>",
-    "previous" : "StructureDefinition-comment.html",
-    "next" : "StructureDefinition-comment-mappings.html"
+  "StructureDefinition-cara-application-invitation-lastName-definitions.html" : {
+    "title" : "CARA - Application Invitation - Last name - Definitions",
+    "label" : "4.16",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Application Invitation - Last name</b></li>",
+    "previous" : "StructureDefinition-cara-application-invitation-lastName.html",
+    "next" : "StructureDefinition-cara-application-invitation-lastName-mappings.html"
   },
-  "StructureDefinition-comment-mappings.html" : {
-    "title" : "Comment - Mappings",
-    "label" : "2.13",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Comment</b></li>",
-    "previous" : "StructureDefinition-comment-definitions.html",
-    "next" : "StructureDefinition-comment-testing.html"
+  "StructureDefinition-cara-application-invitation-lastName-mappings.html" : {
+    "title" : "CARA - Application Invitation - Last name - Mappings",
+    "label" : "4.16",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Application Invitation - Last name</b></li>",
+    "previous" : "StructureDefinition-cara-application-invitation-lastName-definitions.html",
+    "next" : "StructureDefinition-cara-application-invitation-lastName-testing.html"
   },
-  "StructureDefinition-comment-testing.html" : {
-    "title" : "Comment - Testing",
-    "label" : "2.13",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Comment</b></li>",
-    "previous" : "StructureDefinition-comment-mappings.html",
-    "next" : "StructureDefinition-comment.profile.xml.html"
+  "StructureDefinition-cara-application-invitation-lastName-testing.html" : {
+    "title" : "CARA - Application Invitation - Last name - Testing",
+    "label" : "4.16",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Application Invitation - Last name</b></li>",
+    "previous" : "StructureDefinition-cara-application-invitation-lastName-mappings.html",
+    "next" : "StructureDefinition-cara-application-invitation-lastName.profile.xml.html"
   },
-  "StructureDefinition-comment.profile.xml.html" : {
-    "title" : "Comment - XML Representation",
-    "label" : "2.13",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Comment</b></li>",
-    "previous" : "StructureDefinition-comment-testing.html",
-    "next" : "StructureDefinition-comment.profile.json.html"
+  "StructureDefinition-cara-application-invitation-lastName.profile.xml.html" : {
+    "title" : "CARA - Application Invitation - Last name - XML Representation",
+    "label" : "4.16",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Application Invitation - Last name</b></li>",
+    "previous" : "StructureDefinition-cara-application-invitation-lastName-testing.html",
+    "next" : "StructureDefinition-cara-application-invitation-lastName.profile.json.html"
   },
-  "StructureDefinition-comment.profile.json.html" : {
-    "title" : "Comment - JSON Representation",
-    "label" : "2.13",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Comment</b></li>",
-    "previous" : "StructureDefinition-comment.profile.xml.html",
-    "next" : "StructureDefinition-comment.profile.ttl.html"
+  "StructureDefinition-cara-application-invitation-lastName.profile.json.html" : {
+    "title" : "CARA - Application Invitation - Last name - JSON Representation",
+    "label" : "4.16",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Application Invitation - Last name</b></li>",
+    "previous" : "StructureDefinition-cara-application-invitation-lastName.profile.xml.html",
+    "next" : "StructureDefinition-cara-application-invitation-lastName.profile.ttl.html"
   },
-  "StructureDefinition-comment.profile.ttl.html" : {
-    "title" : "Comment - TTL Representation",
-    "label" : "2.13",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Comment</b></li>",
-    "previous" : "StructureDefinition-comment.profile.json.html",
-    "next" : "StructureDefinition-country-of-birth.html"
+  "StructureDefinition-cara-application-invitation-lastName.profile.ttl.html" : {
+    "title" : "CARA - Application Invitation - Last name - TTL Representation",
+    "label" : "4.16",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Application Invitation - Last name</b></li>",
+    "previous" : "StructureDefinition-cara-application-invitation-lastName.profile.json.html",
+    "next" : "StructureDefinition-cara-application-invitation-mpiIdUrn.html"
   },
-  "StructureDefinition-country-of-birth.html" : {
-    "title" : "Country of Birth",
-    "label" : "2.14",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Country of Birth</b></li>",
+  "StructureDefinition-cara-application-invitation-mpiIdUrn.html" : {
+    "title" : "CARA - Application Invitation - MPI-ID",
+    "label" : "4.17",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Application Invitation - MPI-ID</b></li>",
     "examples" : [],
     "testplans" : [],
     "testscripts" : [],
-    "previous" : "StructureDefinition-comment.profile.ttl.html",
-    "next" : "StructureDefinition-country-of-birth-definitions.html"
+    "previous" : "StructureDefinition-cara-application-invitation-lastName.profile.ttl.html",
+    "next" : "StructureDefinition-cara-application-invitation-mpiIdUrn-definitions.html"
   },
-  "StructureDefinition-country-of-birth-definitions.html" : {
-    "title" : "Country of Birth - Definitions",
-    "label" : "2.14",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Country of Birth</b></li>",
-    "previous" : "StructureDefinition-country-of-birth.html",
-    "next" : "StructureDefinition-country-of-birth-mappings.html"
+  "StructureDefinition-cara-application-invitation-mpiIdUrn-definitions.html" : {
+    "title" : "CARA - Application Invitation - MPI-ID - Definitions",
+    "label" : "4.17",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Application Invitation - MPI-ID</b></li>",
+    "previous" : "StructureDefinition-cara-application-invitation-mpiIdUrn.html",
+    "next" : "StructureDefinition-cara-application-invitation-mpiIdUrn-mappings.html"
   },
-  "StructureDefinition-country-of-birth-mappings.html" : {
-    "title" : "Country of Birth - Mappings",
-    "label" : "2.14",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Country of Birth</b></li>",
-    "previous" : "StructureDefinition-country-of-birth-definitions.html",
-    "next" : "StructureDefinition-country-of-birth-testing.html"
+  "StructureDefinition-cara-application-invitation-mpiIdUrn-mappings.html" : {
+    "title" : "CARA - Application Invitation - MPI-ID - Mappings",
+    "label" : "4.17",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Application Invitation - MPI-ID</b></li>",
+    "previous" : "StructureDefinition-cara-application-invitation-mpiIdUrn-definitions.html",
+    "next" : "StructureDefinition-cara-application-invitation-mpiIdUrn-testing.html"
   },
-  "StructureDefinition-country-of-birth-testing.html" : {
-    "title" : "Country of Birth - Testing",
-    "label" : "2.14",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Country of Birth</b></li>",
-    "previous" : "StructureDefinition-country-of-birth-mappings.html",
-    "next" : "StructureDefinition-country-of-birth.profile.xml.html"
+  "StructureDefinition-cara-application-invitation-mpiIdUrn-testing.html" : {
+    "title" : "CARA - Application Invitation - MPI-ID - Testing",
+    "label" : "4.17",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Application Invitation - MPI-ID</b></li>",
+    "previous" : "StructureDefinition-cara-application-invitation-mpiIdUrn-mappings.html",
+    "next" : "StructureDefinition-cara-application-invitation-mpiIdUrn.profile.xml.html"
   },
-  "StructureDefinition-country-of-birth.profile.xml.html" : {
-    "title" : "Country of Birth - XML Representation",
-    "label" : "2.14",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Country of Birth</b></li>",
-    "previous" : "StructureDefinition-country-of-birth-testing.html",
-    "next" : "StructureDefinition-country-of-birth.profile.json.html"
+  "StructureDefinition-cara-application-invitation-mpiIdUrn.profile.xml.html" : {
+    "title" : "CARA - Application Invitation - MPI-ID - XML Representation",
+    "label" : "4.17",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Application Invitation - MPI-ID</b></li>",
+    "previous" : "StructureDefinition-cara-application-invitation-mpiIdUrn-testing.html",
+    "next" : "StructureDefinition-cara-application-invitation-mpiIdUrn.profile.json.html"
   },
-  "StructureDefinition-country-of-birth.profile.json.html" : {
-    "title" : "Country of Birth - JSON Representation",
-    "label" : "2.14",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Country of Birth</b></li>",
-    "previous" : "StructureDefinition-country-of-birth.profile.xml.html",
-    "next" : "StructureDefinition-country-of-birth.profile.ttl.html"
+  "StructureDefinition-cara-application-invitation-mpiIdUrn.profile.json.html" : {
+    "title" : "CARA - Application Invitation - MPI-ID - JSON Representation",
+    "label" : "4.17",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Application Invitation - MPI-ID</b></li>",
+    "previous" : "StructureDefinition-cara-application-invitation-mpiIdUrn.profile.xml.html",
+    "next" : "StructureDefinition-cara-application-invitation-mpiIdUrn.profile.ttl.html"
   },
-  "StructureDefinition-country-of-birth.profile.ttl.html" : {
-    "title" : "Country of Birth - TTL Representation",
-    "label" : "2.14",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Country of Birth</b></li>",
-    "previous" : "StructureDefinition-country-of-birth.profile.json.html",
-    "next" : "StructureDefinition-anticipate-directives-exist.html"
+  "StructureDefinition-cara-application-invitation-mpiIdUrn.profile.ttl.html" : {
+    "title" : "CARA - Application Invitation - MPI-ID - TTL Representation",
+    "label" : "4.17",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Application Invitation - MPI-ID</b></li>",
+    "previous" : "StructureDefinition-cara-application-invitation-mpiIdUrn.profile.json.html",
+    "next" : "StructureDefinition-scp-careteam-participant-comment.html"
   },
-  "StructureDefinition-anticipate-directives-exist.html" : {
-    "title" : "Existence of Advance Directives",
-    "label" : "2.15",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Existence of Advance Directives</b></li>",
+  "StructureDefinition-scp-careteam-participant-comment.html" : {
+    "title" : "SCP - Care Team - Comment",
+    "label" : "4.18",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Team - Comment</b></li>",
     "examples" : [],
     "testplans" : [],
     "testscripts" : [],
-    "previous" : "StructureDefinition-country-of-birth.profile.ttl.html",
-    "next" : "StructureDefinition-anticipate-directives-exist-definitions.html"
+    "previous" : "StructureDefinition-cara-application-invitation-mpiIdUrn.profile.ttl.html",
+    "next" : "StructureDefinition-scp-careteam-participant-comment-definitions.html"
   },
-  "StructureDefinition-anticipate-directives-exist-definitions.html" : {
-    "title" : "Existence of Advance Directives - Definitions",
-    "label" : "2.15",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Existence of Advance Directives</b></li>",
-    "previous" : "StructureDefinition-anticipate-directives-exist.html",
-    "next" : "StructureDefinition-anticipate-directives-exist-mappings.html"
+  "StructureDefinition-scp-careteam-participant-comment-definitions.html" : {
+    "title" : "SCP - Care Team - Comment - Definitions",
+    "label" : "4.18",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Team - Comment</b></li>",
+    "previous" : "StructureDefinition-scp-careteam-participant-comment.html",
+    "next" : "StructureDefinition-scp-careteam-participant-comment-mappings.html"
   },
-  "StructureDefinition-anticipate-directives-exist-mappings.html" : {
-    "title" : "Existence of Advance Directives - Mappings",
-    "label" : "2.15",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Existence of Advance Directives</b></li>",
-    "previous" : "StructureDefinition-anticipate-directives-exist-definitions.html",
-    "next" : "StructureDefinition-anticipate-directives-exist-testing.html"
+  "StructureDefinition-scp-careteam-participant-comment-mappings.html" : {
+    "title" : "SCP - Care Team - Comment - Mappings",
+    "label" : "4.18",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Team - Comment</b></li>",
+    "previous" : "StructureDefinition-scp-careteam-participant-comment-definitions.html",
+    "next" : "StructureDefinition-scp-careteam-participant-comment-testing.html"
   },
-  "StructureDefinition-anticipate-directives-exist-testing.html" : {
-    "title" : "Existence of Advance Directives - Testing",
-    "label" : "2.15",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Existence of Advance Directives</b></li>",
-    "previous" : "StructureDefinition-anticipate-directives-exist-mappings.html",
-    "next" : "StructureDefinition-anticipate-directives-exist.profile.xml.html"
+  "StructureDefinition-scp-careteam-participant-comment-testing.html" : {
+    "title" : "SCP - Care Team - Comment - Testing",
+    "label" : "4.18",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Team - Comment</b></li>",
+    "previous" : "StructureDefinition-scp-careteam-participant-comment-mappings.html",
+    "next" : "StructureDefinition-scp-careteam-participant-comment.profile.xml.html"
   },
-  "StructureDefinition-anticipate-directives-exist.profile.xml.html" : {
-    "title" : "Existence of Advance Directives - XML Representation",
-    "label" : "2.15",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Existence of Advance Directives</b></li>",
-    "previous" : "StructureDefinition-anticipate-directives-exist-testing.html",
-    "next" : "StructureDefinition-anticipate-directives-exist.profile.json.html"
+  "StructureDefinition-scp-careteam-participant-comment.profile.xml.html" : {
+    "title" : "SCP - Care Team - Comment - XML Representation",
+    "label" : "4.18",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Team - Comment</b></li>",
+    "previous" : "StructureDefinition-scp-careteam-participant-comment-testing.html",
+    "next" : "StructureDefinition-scp-careteam-participant-comment.profile.json.html"
   },
-  "StructureDefinition-anticipate-directives-exist.profile.json.html" : {
-    "title" : "Existence of Advance Directives - JSON Representation",
-    "label" : "2.15",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Existence of Advance Directives</b></li>",
-    "previous" : "StructureDefinition-anticipate-directives-exist.profile.xml.html",
-    "next" : "StructureDefinition-anticipate-directives-exist.profile.ttl.html"
+  "StructureDefinition-scp-careteam-participant-comment.profile.json.html" : {
+    "title" : "SCP - Care Team - Comment - JSON Representation",
+    "label" : "4.18",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Team - Comment</b></li>",
+    "previous" : "StructureDefinition-scp-careteam-participant-comment.profile.xml.html",
+    "next" : "StructureDefinition-scp-careteam-participant-comment.profile.ttl.html"
   },
-  "StructureDefinition-anticipate-directives-exist.profile.ttl.html" : {
-    "title" : "Existence of Advance Directives - TTL Representation",
-    "label" : "2.15",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Existence of Advance Directives</b></li>",
-    "previous" : "StructureDefinition-anticipate-directives-exist.profile.json.html",
-    "next" : "StructureDefinition-historical-data.html"
+  "StructureDefinition-scp-careteam-participant-comment.profile.ttl.html" : {
+    "title" : "SCP - Care Team - Comment - TTL Representation",
+    "label" : "4.18",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Team - Comment</b></li>",
+    "previous" : "StructureDefinition-scp-careteam-participant-comment.profile.json.html",
+    "next" : "StructureDefinition-scp-careteam-participant-iscoordinator.html"
   },
-  "StructureDefinition-historical-data.html" : {
-    "title" : "Historical Data",
-    "label" : "2.16",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Historical Data</b></li>",
+  "StructureDefinition-scp-careteam-participant-iscoordinator.html" : {
+    "title" : "SCP - Care Team - Coordinator",
+    "label" : "4.19",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Team - Coordinator</b></li>",
     "examples" : [],
     "testplans" : [],
     "testscripts" : [],
-    "previous" : "StructureDefinition-anticipate-directives-exist.profile.ttl.html",
-    "next" : "StructureDefinition-historical-data-definitions.html"
+    "previous" : "StructureDefinition-scp-careteam-participant-comment.profile.ttl.html",
+    "next" : "StructureDefinition-scp-careteam-participant-iscoordinator-definitions.html"
   },
-  "StructureDefinition-historical-data-definitions.html" : {
-    "title" : "Historical Data - Definitions",
-    "label" : "2.16",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Historical Data</b></li>",
-    "previous" : "StructureDefinition-historical-data.html",
-    "next" : "StructureDefinition-historical-data-mappings.html"
+  "StructureDefinition-scp-careteam-participant-iscoordinator-definitions.html" : {
+    "title" : "SCP - Care Team - Coordinator - Definitions",
+    "label" : "4.19",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Team - Coordinator</b></li>",
+    "previous" : "StructureDefinition-scp-careteam-participant-iscoordinator.html",
+    "next" : "StructureDefinition-scp-careteam-participant-iscoordinator-mappings.html"
   },
-  "StructureDefinition-historical-data-mappings.html" : {
-    "title" : "Historical Data - Mappings",
-    "label" : "2.16",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Historical Data</b></li>",
-    "previous" : "StructureDefinition-historical-data-definitions.html",
-    "next" : "StructureDefinition-historical-data-testing.html"
+  "StructureDefinition-scp-careteam-participant-iscoordinator-mappings.html" : {
+    "title" : "SCP - Care Team - Coordinator - Mappings",
+    "label" : "4.19",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Team - Coordinator</b></li>",
+    "previous" : "StructureDefinition-scp-careteam-participant-iscoordinator-definitions.html",
+    "next" : "StructureDefinition-scp-careteam-participant-iscoordinator-testing.html"
   },
-  "StructureDefinition-historical-data-testing.html" : {
-    "title" : "Historical Data - Testing",
-    "label" : "2.16",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Historical Data</b></li>",
-    "previous" : "StructureDefinition-historical-data-mappings.html",
-    "next" : "StructureDefinition-historical-data.profile.xml.html"
+  "StructureDefinition-scp-careteam-participant-iscoordinator-testing.html" : {
+    "title" : "SCP - Care Team - Coordinator - Testing",
+    "label" : "4.19",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Team - Coordinator</b></li>",
+    "previous" : "StructureDefinition-scp-careteam-participant-iscoordinator-mappings.html",
+    "next" : "StructureDefinition-scp-careteam-participant-iscoordinator.profile.xml.html"
   },
-  "StructureDefinition-historical-data.profile.xml.html" : {
-    "title" : "Historical Data - XML Representation",
-    "label" : "2.16",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Historical Data</b></li>",
-    "previous" : "StructureDefinition-historical-data-testing.html",
-    "next" : "StructureDefinition-historical-data.profile.json.html"
+  "StructureDefinition-scp-careteam-participant-iscoordinator.profile.xml.html" : {
+    "title" : "SCP - Care Team - Coordinator - XML Representation",
+    "label" : "4.19",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Team - Coordinator</b></li>",
+    "previous" : "StructureDefinition-scp-careteam-participant-iscoordinator-testing.html",
+    "next" : "StructureDefinition-scp-careteam-participant-iscoordinator.profile.json.html"
   },
-  "StructureDefinition-historical-data.profile.json.html" : {
-    "title" : "Historical Data - JSON Representation",
-    "label" : "2.16",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Historical Data</b></li>",
-    "previous" : "StructureDefinition-historical-data.profile.xml.html",
-    "next" : "StructureDefinition-historical-data.profile.ttl.html"
+  "StructureDefinition-scp-careteam-participant-iscoordinator.profile.json.html" : {
+    "title" : "SCP - Care Team - Coordinator - JSON Representation",
+    "label" : "4.19",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Team - Coordinator</b></li>",
+    "previous" : "StructureDefinition-scp-careteam-participant-iscoordinator.profile.xml.html",
+    "next" : "StructureDefinition-scp-careteam-participant-iscoordinator.profile.ttl.html"
   },
-  "StructureDefinition-historical-data.profile.ttl.html" : {
-    "title" : "Historical Data - TTL Representation",
-    "label" : "2.16",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Historical Data</b></li>",
-    "previous" : "StructureDefinition-historical-data.profile.json.html",
-    "next" : "StructureDefinition-patient-priorities.html"
+  "StructureDefinition-scp-careteam-participant-iscoordinator.profile.ttl.html" : {
+    "title" : "SCP - Care Team - Coordinator - TTL Representation",
+    "label" : "4.19",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Team - Coordinator</b></li>",
+    "previous" : "StructureDefinition-scp-careteam-participant-iscoordinator.profile.json.html",
+    "next" : "StructureDefinition-scp-careteam-participant-ismanager.html"
   },
-  "StructureDefinition-patient-priorities.html" : {
-    "title" : "Patient Priorities",
-    "label" : "2.17",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient Priorities</b></li>",
+  "StructureDefinition-scp-careteam-participant-ismanager.html" : {
+    "title" : "SCP - Care Team - Manager",
+    "label" : "4.20",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Team - Manager</b></li>",
     "examples" : [],
     "testplans" : [],
     "testscripts" : [],
-    "previous" : "StructureDefinition-historical-data.profile.ttl.html",
-    "next" : "StructureDefinition-patient-priorities-definitions.html"
+    "previous" : "StructureDefinition-scp-careteam-participant-iscoordinator.profile.ttl.html",
+    "next" : "StructureDefinition-scp-careteam-participant-ismanager-definitions.html"
   },
-  "StructureDefinition-patient-priorities-definitions.html" : {
-    "title" : "Patient Priorities - Definitions",
-    "label" : "2.17",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient Priorities</b></li>",
-    "previous" : "StructureDefinition-patient-priorities.html",
-    "next" : "StructureDefinition-patient-priorities-mappings.html"
+  "StructureDefinition-scp-careteam-participant-ismanager-definitions.html" : {
+    "title" : "SCP - Care Team - Manager - Definitions",
+    "label" : "4.20",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Team - Manager</b></li>",
+    "previous" : "StructureDefinition-scp-careteam-participant-ismanager.html",
+    "next" : "StructureDefinition-scp-careteam-participant-ismanager-mappings.html"
   },
-  "StructureDefinition-patient-priorities-mappings.html" : {
-    "title" : "Patient Priorities - Mappings",
-    "label" : "2.17",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient Priorities</b></li>",
-    "previous" : "StructureDefinition-patient-priorities-definitions.html",
-    "next" : "StructureDefinition-patient-priorities-testing.html"
+  "StructureDefinition-scp-careteam-participant-ismanager-mappings.html" : {
+    "title" : "SCP - Care Team - Manager - Mappings",
+    "label" : "4.20",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Team - Manager</b></li>",
+    "previous" : "StructureDefinition-scp-careteam-participant-ismanager-definitions.html",
+    "next" : "StructureDefinition-scp-careteam-participant-ismanager-testing.html"
   },
-  "StructureDefinition-patient-priorities-testing.html" : {
-    "title" : "Patient Priorities - Testing",
-    "label" : "2.17",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient Priorities</b></li>",
-    "previous" : "StructureDefinition-patient-priorities-mappings.html",
-    "next" : "StructureDefinition-patient-priorities.profile.xml.html"
+  "StructureDefinition-scp-careteam-participant-ismanager-testing.html" : {
+    "title" : "SCP - Care Team - Manager - Testing",
+    "label" : "4.20",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Team - Manager</b></li>",
+    "previous" : "StructureDefinition-scp-careteam-participant-ismanager-mappings.html",
+    "next" : "StructureDefinition-scp-careteam-participant-ismanager.profile.xml.html"
   },
-  "StructureDefinition-patient-priorities.profile.xml.html" : {
-    "title" : "Patient Priorities - XML Representation",
-    "label" : "2.17",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient Priorities</b></li>",
-    "previous" : "StructureDefinition-patient-priorities-testing.html",
-    "next" : "StructureDefinition-patient-priorities.profile.json.html"
+  "StructureDefinition-scp-careteam-participant-ismanager.profile.xml.html" : {
+    "title" : "SCP - Care Team - Manager - XML Representation",
+    "label" : "4.20",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Team - Manager</b></li>",
+    "previous" : "StructureDefinition-scp-careteam-participant-ismanager-testing.html",
+    "next" : "StructureDefinition-scp-careteam-participant-ismanager.profile.json.html"
   },
-  "StructureDefinition-patient-priorities.profile.json.html" : {
-    "title" : "Patient Priorities - JSON Representation",
-    "label" : "2.17",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient Priorities</b></li>",
-    "previous" : "StructureDefinition-patient-priorities.profile.xml.html",
-    "next" : "StructureDefinition-patient-priorities.profile.ttl.html"
+  "StructureDefinition-scp-careteam-participant-ismanager.profile.json.html" : {
+    "title" : "SCP - Care Team - Manager - JSON Representation",
+    "label" : "4.20",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Team - Manager</b></li>",
+    "previous" : "StructureDefinition-scp-careteam-participant-ismanager.profile.xml.html",
+    "next" : "StructureDefinition-scp-careteam-participant-ismanager.profile.ttl.html"
   },
-  "StructureDefinition-patient-priorities.profile.ttl.html" : {
-    "title" : "Patient Priorities - TTL Representation",
-    "label" : "2.17",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Patient Priorities</b></li>",
-    "previous" : "StructureDefinition-patient-priorities.profile.json.html",
-    "next" : "StructureDefinition-showNote.html"
+  "StructureDefinition-scp-careteam-participant-ismanager.profile.ttl.html" : {
+    "title" : "SCP - Care Team - Manager - TTL Representation",
+    "label" : "4.20",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Team - Manager</b></li>",
+    "previous" : "StructureDefinition-scp-careteam-participant-ismanager.profile.json.html",
+    "next" : "StructureDefinition-scp-contextualdata-ismanager.html"
   },
-  "StructureDefinition-showNote.html" : {
-    "title" : "Show note in SCP monitoring screen",
-    "label" : "2.18",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Show note in SCP monitoring screen</b></li>",
+  "StructureDefinition-scp-contextualdata-ismanager.html" : {
+    "title" : "SCP - Care Team - Manager",
+    "label" : "4.21",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Team - Manager</b></li>",
     "examples" : [],
     "testplans" : [],
     "testscripts" : [],
-    "previous" : "StructureDefinition-patient-priorities.profile.ttl.html",
-    "next" : "StructureDefinition-showNote-definitions.html"
+    "previous" : "StructureDefinition-scp-careteam-participant-ismanager.profile.ttl.html",
+    "next" : "StructureDefinition-scp-contextualdata-ismanager-definitions.html"
   },
-  "StructureDefinition-showNote-definitions.html" : {
-    "title" : "Show note in SCP monitoring screen - Definitions",
-    "label" : "2.18",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Show note in SCP monitoring screen</b></li>",
-    "previous" : "StructureDefinition-showNote.html",
-    "next" : "StructureDefinition-showNote-mappings.html"
+  "StructureDefinition-scp-contextualdata-ismanager-definitions.html" : {
+    "title" : "SCP - Care Team - Manager - Definitions",
+    "label" : "4.21",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Team - Manager</b></li>",
+    "previous" : "StructureDefinition-scp-contextualdata-ismanager.html",
+    "next" : "StructureDefinition-scp-contextualdata-ismanager-mappings.html"
   },
-  "StructureDefinition-showNote-mappings.html" : {
-    "title" : "Show note in SCP monitoring screen - Mappings",
-    "label" : "2.18",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Show note in SCP monitoring screen</b></li>",
-    "previous" : "StructureDefinition-showNote-definitions.html",
-    "next" : "StructureDefinition-showNote-testing.html"
+  "StructureDefinition-scp-contextualdata-ismanager-mappings.html" : {
+    "title" : "SCP - Care Team - Manager - Mappings",
+    "label" : "4.21",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Team - Manager</b></li>",
+    "previous" : "StructureDefinition-scp-contextualdata-ismanager-definitions.html",
+    "next" : "StructureDefinition-scp-contextualdata-ismanager-testing.html"
   },
-  "StructureDefinition-showNote-testing.html" : {
-    "title" : "Show note in SCP monitoring screen - Testing",
-    "label" : "2.18",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Show note in SCP monitoring screen</b></li>",
-    "previous" : "StructureDefinition-showNote-mappings.html",
-    "next" : "StructureDefinition-showNote.profile.xml.html"
+  "StructureDefinition-scp-contextualdata-ismanager-testing.html" : {
+    "title" : "SCP - Care Team - Manager - Testing",
+    "label" : "4.21",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Team - Manager</b></li>",
+    "previous" : "StructureDefinition-scp-contextualdata-ismanager-mappings.html",
+    "next" : "StructureDefinition-scp-contextualdata-ismanager.profile.xml.html"
   },
-  "StructureDefinition-showNote.profile.xml.html" : {
-    "title" : "Show note in SCP monitoring screen - XML Representation",
-    "label" : "2.18",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Show note in SCP monitoring screen</b></li>",
-    "previous" : "StructureDefinition-showNote-testing.html",
-    "next" : "StructureDefinition-showNote.profile.json.html"
+  "StructureDefinition-scp-contextualdata-ismanager.profile.xml.html" : {
+    "title" : "SCP - Care Team - Manager - XML Representation",
+    "label" : "4.21",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Team - Manager</b></li>",
+    "previous" : "StructureDefinition-scp-contextualdata-ismanager-testing.html",
+    "next" : "StructureDefinition-scp-contextualdata-ismanager.profile.json.html"
   },
-  "StructureDefinition-showNote.profile.json.html" : {
-    "title" : "Show note in SCP monitoring screen - JSON Representation",
-    "label" : "2.18",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Show note in SCP monitoring screen</b></li>",
-    "previous" : "StructureDefinition-showNote.profile.xml.html",
-    "next" : "StructureDefinition-showNote.profile.ttl.html"
+  "StructureDefinition-scp-contextualdata-ismanager.profile.json.html" : {
+    "title" : "SCP - Care Team - Manager - JSON Representation",
+    "label" : "4.21",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Team - Manager</b></li>",
+    "previous" : "StructureDefinition-scp-contextualdata-ismanager.profile.xml.html",
+    "next" : "StructureDefinition-scp-contextualdata-ismanager.profile.ttl.html"
   },
-  "StructureDefinition-showNote.profile.ttl.html" : {
-    "title" : "Show note in SCP monitoring screen - TTL Representation",
-    "label" : "2.18",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Show note in SCP monitoring screen</b></li>",
-    "previous" : "StructureDefinition-showNote.profile.json.html",
-    "next" : "StructureDefinition-social-data.html"
+  "StructureDefinition-scp-contextualdata-ismanager.profile.ttl.html" : {
+    "title" : "SCP - Care Team - Manager - TTL Representation",
+    "label" : "4.21",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Care Team - Manager</b></li>",
+    "previous" : "StructureDefinition-scp-contextualdata-ismanager.profile.json.html",
+    "next" : "StructureDefinition-scp-contact-comment.html"
   },
-  "StructureDefinition-social-data.html" : {
-    "title" : "Social Data",
-    "label" : "2.19",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Social Data</b></li>",
+  "StructureDefinition-scp-contact-comment.html" : {
+    "title" : "SCP - Contact - Comment",
+    "label" : "4.22",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contact - Comment</b></li>",
     "examples" : [],
     "testplans" : [],
     "testscripts" : [],
-    "previous" : "StructureDefinition-showNote.profile.ttl.html",
-    "next" : "StructureDefinition-social-data-definitions.html"
+    "previous" : "StructureDefinition-scp-contextualdata-ismanager.profile.ttl.html",
+    "next" : "StructureDefinition-scp-contact-comment-definitions.html"
   },
-  "StructureDefinition-social-data-definitions.html" : {
-    "title" : "Social Data - Definitions",
-    "label" : "2.19",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Social Data</b></li>",
-    "previous" : "StructureDefinition-social-data.html",
-    "next" : "StructureDefinition-social-data-mappings.html"
+  "StructureDefinition-scp-contact-comment-definitions.html" : {
+    "title" : "SCP - Contact - Comment - Definitions",
+    "label" : "4.22",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contact - Comment</b></li>",
+    "previous" : "StructureDefinition-scp-contact-comment.html",
+    "next" : "StructureDefinition-scp-contact-comment-mappings.html"
   },
-  "StructureDefinition-social-data-mappings.html" : {
-    "title" : "Social Data - Mappings",
-    "label" : "2.19",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Social Data</b></li>",
-    "previous" : "StructureDefinition-social-data-definitions.html",
-    "next" : "StructureDefinition-social-data-testing.html"
+  "StructureDefinition-scp-contact-comment-mappings.html" : {
+    "title" : "SCP - Contact - Comment - Mappings",
+    "label" : "4.22",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contact - Comment</b></li>",
+    "previous" : "StructureDefinition-scp-contact-comment-definitions.html",
+    "next" : "StructureDefinition-scp-contact-comment-testing.html"
   },
-  "StructureDefinition-social-data-testing.html" : {
-    "title" : "Social Data - Testing",
-    "label" : "2.19",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Social Data</b></li>",
-    "previous" : "StructureDefinition-social-data-mappings.html",
-    "next" : "StructureDefinition-social-data.profile.xml.html"
+  "StructureDefinition-scp-contact-comment-testing.html" : {
+    "title" : "SCP - Contact - Comment - Testing",
+    "label" : "4.22",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contact - Comment</b></li>",
+    "previous" : "StructureDefinition-scp-contact-comment-mappings.html",
+    "next" : "StructureDefinition-scp-contact-comment.profile.xml.html"
   },
-  "StructureDefinition-social-data.profile.xml.html" : {
-    "title" : "Social Data - XML Representation",
-    "label" : "2.19",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Social Data</b></li>",
-    "previous" : "StructureDefinition-social-data-testing.html",
-    "next" : "StructureDefinition-social-data.profile.json.html"
+  "StructureDefinition-scp-contact-comment.profile.xml.html" : {
+    "title" : "SCP - Contact - Comment - XML Representation",
+    "label" : "4.22",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contact - Comment</b></li>",
+    "previous" : "StructureDefinition-scp-contact-comment-testing.html",
+    "next" : "StructureDefinition-scp-contact-comment.profile.json.html"
   },
-  "StructureDefinition-social-data.profile.json.html" : {
-    "title" : "Social Data - JSON Representation",
-    "label" : "2.19",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Social Data</b></li>",
-    "previous" : "StructureDefinition-social-data.profile.xml.html",
-    "next" : "StructureDefinition-social-data.profile.ttl.html"
+  "StructureDefinition-scp-contact-comment.profile.json.html" : {
+    "title" : "SCP - Contact - Comment - JSON Representation",
+    "label" : "4.22",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contact - Comment</b></li>",
+    "previous" : "StructureDefinition-scp-contact-comment.profile.xml.html",
+    "next" : "StructureDefinition-scp-contact-comment.profile.ttl.html"
   },
-  "StructureDefinition-social-data.profile.ttl.html" : {
-    "title" : "Social Data - TTL Representation",
-    "label" : "2.19",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Social Data</b></li>",
-    "previous" : "StructureDefinition-social-data.profile.json.html"
+  "StructureDefinition-scp-contact-comment.profile.ttl.html" : {
+    "title" : "SCP - Contact - Comment - TTL Representation",
+    "label" : "4.22",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contact - Comment</b></li>",
+    "previous" : "StructureDefinition-scp-contact-comment.profile.json.html",
+    "next" : "StructureDefinition-scp-contact-emergency.html"
+  },
+  "StructureDefinition-scp-contact-emergency.html" : {
+    "title" : "SCP - Contact - Emergency",
+    "label" : "4.23",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contact - Emergency</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-scp-contact-comment.profile.ttl.html",
+    "next" : "StructureDefinition-scp-contact-emergency-definitions.html"
+  },
+  "StructureDefinition-scp-contact-emergency-definitions.html" : {
+    "title" : "SCP - Contact - Emergency - Definitions",
+    "label" : "4.23",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contact - Emergency</b></li>",
+    "previous" : "StructureDefinition-scp-contact-emergency.html",
+    "next" : "StructureDefinition-scp-contact-emergency-mappings.html"
+  },
+  "StructureDefinition-scp-contact-emergency-mappings.html" : {
+    "title" : "SCP - Contact - Emergency - Mappings",
+    "label" : "4.23",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contact - Emergency</b></li>",
+    "previous" : "StructureDefinition-scp-contact-emergency-definitions.html",
+    "next" : "StructureDefinition-scp-contact-emergency-testing.html"
+  },
+  "StructureDefinition-scp-contact-emergency-testing.html" : {
+    "title" : "SCP - Contact - Emergency - Testing",
+    "label" : "4.23",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contact - Emergency</b></li>",
+    "previous" : "StructureDefinition-scp-contact-emergency-mappings.html",
+    "next" : "StructureDefinition-scp-contact-emergency.profile.xml.html"
+  },
+  "StructureDefinition-scp-contact-emergency.profile.xml.html" : {
+    "title" : "SCP - Contact - Emergency - XML Representation",
+    "label" : "4.23",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contact - Emergency</b></li>",
+    "previous" : "StructureDefinition-scp-contact-emergency-testing.html",
+    "next" : "StructureDefinition-scp-contact-emergency.profile.json.html"
+  },
+  "StructureDefinition-scp-contact-emergency.profile.json.html" : {
+    "title" : "SCP - Contact - Emergency - JSON Representation",
+    "label" : "4.23",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contact - Emergency</b></li>",
+    "previous" : "StructureDefinition-scp-contact-emergency.profile.xml.html",
+    "next" : "StructureDefinition-scp-contact-emergency.profile.ttl.html"
+  },
+  "StructureDefinition-scp-contact-emergency.profile.ttl.html" : {
+    "title" : "SCP - Contact - Emergency - TTL Representation",
+    "label" : "4.23",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contact - Emergency</b></li>",
+    "previous" : "StructureDefinition-scp-contact-emergency.profile.json.html",
+    "next" : "StructureDefinition-scp-contact-relationship.html"
+  },
+  "StructureDefinition-scp-contact-relationship.html" : {
+    "title" : "SCP - Contact - Relationship",
+    "label" : "4.24",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contact - Relationship</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-scp-contact-emergency.profile.ttl.html",
+    "next" : "StructureDefinition-scp-contact-relationship-definitions.html"
+  },
+  "StructureDefinition-scp-contact-relationship-definitions.html" : {
+    "title" : "SCP - Contact - Relationship - Definitions",
+    "label" : "4.24",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contact - Relationship</b></li>",
+    "previous" : "StructureDefinition-scp-contact-relationship.html",
+    "next" : "StructureDefinition-scp-contact-relationship-mappings.html"
+  },
+  "StructureDefinition-scp-contact-relationship-mappings.html" : {
+    "title" : "SCP - Contact - Relationship - Mappings",
+    "label" : "4.24",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contact - Relationship</b></li>",
+    "previous" : "StructureDefinition-scp-contact-relationship-definitions.html",
+    "next" : "StructureDefinition-scp-contact-relationship-testing.html"
+  },
+  "StructureDefinition-scp-contact-relationship-testing.html" : {
+    "title" : "SCP - Contact - Relationship - Testing",
+    "label" : "4.24",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contact - Relationship</b></li>",
+    "previous" : "StructureDefinition-scp-contact-relationship-mappings.html",
+    "next" : "StructureDefinition-scp-contact-relationship.profile.xml.html"
+  },
+  "StructureDefinition-scp-contact-relationship.profile.xml.html" : {
+    "title" : "SCP - Contact - Relationship - XML Representation",
+    "label" : "4.24",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contact - Relationship</b></li>",
+    "previous" : "StructureDefinition-scp-contact-relationship-testing.html",
+    "next" : "StructureDefinition-scp-contact-relationship.profile.json.html"
+  },
+  "StructureDefinition-scp-contact-relationship.profile.json.html" : {
+    "title" : "SCP - Contact - Relationship - JSON Representation",
+    "label" : "4.24",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contact - Relationship</b></li>",
+    "previous" : "StructureDefinition-scp-contact-relationship.profile.xml.html",
+    "next" : "StructureDefinition-scp-contact-relationship.profile.ttl.html"
+  },
+  "StructureDefinition-scp-contact-relationship.profile.ttl.html" : {
+    "title" : "SCP - Contact - Relationship - TTL Representation",
+    "label" : "4.24",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contact - Relationship</b></li>",
+    "previous" : "StructureDefinition-scp-contact-relationship.profile.json.html",
+    "next" : "StructureDefinition-scp-goal-target-status.html"
+  },
+  "StructureDefinition-scp-goal-target-status.html" : {
+    "title" : "SCP - Goal - Target Status",
+    "label" : "4.25",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Goal - Target Status</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-scp-contact-relationship.profile.ttl.html",
+    "next" : "StructureDefinition-scp-goal-target-status-definitions.html"
+  },
+  "StructureDefinition-scp-goal-target-status-definitions.html" : {
+    "title" : "SCP - Goal - Target Status - Definitions",
+    "label" : "4.25",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Goal - Target Status</b></li>",
+    "previous" : "StructureDefinition-scp-goal-target-status.html",
+    "next" : "StructureDefinition-scp-goal-target-status-mappings.html"
+  },
+  "StructureDefinition-scp-goal-target-status-mappings.html" : {
+    "title" : "SCP - Goal - Target Status - Mappings",
+    "label" : "4.25",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Goal - Target Status</b></li>",
+    "previous" : "StructureDefinition-scp-goal-target-status-definitions.html",
+    "next" : "StructureDefinition-scp-goal-target-status-testing.html"
+  },
+  "StructureDefinition-scp-goal-target-status-testing.html" : {
+    "title" : "SCP - Goal - Target Status - Testing",
+    "label" : "4.25",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Goal - Target Status</b></li>",
+    "previous" : "StructureDefinition-scp-goal-target-status-mappings.html",
+    "next" : "StructureDefinition-scp-goal-target-status.profile.xml.html"
+  },
+  "StructureDefinition-scp-goal-target-status.profile.xml.html" : {
+    "title" : "SCP - Goal - Target Status - XML Representation",
+    "label" : "4.25",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Goal - Target Status</b></li>",
+    "previous" : "StructureDefinition-scp-goal-target-status-testing.html",
+    "next" : "StructureDefinition-scp-goal-target-status.profile.json.html"
+  },
+  "StructureDefinition-scp-goal-target-status.profile.json.html" : {
+    "title" : "SCP - Goal - Target Status - JSON Representation",
+    "label" : "4.25",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Goal - Target Status</b></li>",
+    "previous" : "StructureDefinition-scp-goal-target-status.profile.xml.html",
+    "next" : "StructureDefinition-scp-goal-target-status.profile.ttl.html"
+  },
+  "StructureDefinition-scp-goal-target-status.profile.ttl.html" : {
+    "title" : "SCP - Goal - Target Status - TTL Representation",
+    "label" : "4.25",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Goal - Target Status</b></li>",
+    "previous" : "StructureDefinition-scp-goal-target-status.profile.json.html",
+    "next" : "ValueSet-cara-platform-loacle.html"
+  },
+  "ValueSet-cara-platform-loacle.html" : {
+    "title" : "CARA - Platform Locales",
+    "label" : "4.26",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Platform Locales</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-scp-goal-target-status.profile.ttl.html",
+    "next" : "ValueSet-cara-platform-loacle-testing.html"
+  },
+  "ValueSet-cara-platform-loacle-testing.html" : {
+    "title" : "CARA - Platform Locales - Testing",
+    "label" : "4.26",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Platform Locales</b></li>",
+    "previous" : "ValueSet-cara-platform-loacle.html",
+    "next" : "ValueSet-cara-platform-loacle.xml.html"
+  },
+  "ValueSet-cara-platform-loacle.xml.html" : {
+    "title" : "CARA - Platform Locales - XML Representation",
+    "label" : "4.26",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Platform Locales</b></li>",
+    "previous" : "ValueSet-cara-platform-loacle-testing.html",
+    "next" : "ValueSet-cara-platform-loacle.json.html"
+  },
+  "ValueSet-cara-platform-loacle.json.html" : {
+    "title" : "CARA - Platform Locales - JSON Representation",
+    "label" : "4.26",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Platform Locales</b></li>",
+    "previous" : "ValueSet-cara-platform-loacle.xml.html",
+    "next" : "ValueSet-cara-platform-loacle.ttl.html"
+  },
+  "ValueSet-cara-platform-loacle.ttl.html" : {
+    "title" : "CARA - Platform Locales - TTL Representation",
+    "label" : "4.26",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Platform Locales</b></li>",
+    "previous" : "ValueSet-cara-platform-loacle.json.html",
+    "next" : "ValueSet-cara-platform-namespace.html"
+  },
+  "ValueSet-cara-platform-namespace.html" : {
+    "title" : "CARA - Platform Namespaces",
+    "label" : "4.27",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Platform Namespaces</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "ValueSet-cara-platform-loacle.ttl.html",
+    "next" : "ValueSet-cara-platform-namespace-testing.html"
+  },
+  "ValueSet-cara-platform-namespace-testing.html" : {
+    "title" : "CARA - Platform Namespaces - Testing",
+    "label" : "4.27",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Platform Namespaces</b></li>",
+    "previous" : "ValueSet-cara-platform-namespace.html",
+    "next" : "ValueSet-cara-platform-namespace.xml.html"
+  },
+  "ValueSet-cara-platform-namespace.xml.html" : {
+    "title" : "CARA - Platform Namespaces - XML Representation",
+    "label" : "4.27",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Platform Namespaces</b></li>",
+    "previous" : "ValueSet-cara-platform-namespace-testing.html",
+    "next" : "ValueSet-cara-platform-namespace.json.html"
+  },
+  "ValueSet-cara-platform-namespace.json.html" : {
+    "title" : "CARA - Platform Namespaces - JSON Representation",
+    "label" : "4.27",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Platform Namespaces</b></li>",
+    "previous" : "ValueSet-cara-platform-namespace.xml.html",
+    "next" : "ValueSet-cara-platform-namespace.ttl.html"
+  },
+  "ValueSet-cara-platform-namespace.ttl.html" : {
+    "title" : "CARA - Platform Namespaces - TTL Representation",
+    "label" : "4.27",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Platform Namespaces</b></li>",
+    "previous" : "ValueSet-cara-platform-namespace.json.html",
+    "next" : "ValueSet-scp-contextualdata-type.html"
+  },
+  "ValueSet-scp-contextualdata-type.html" : {
+    "title" : "SCP - Contextual Data Type",
+    "label" : "4.28",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contextual Data Type</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "ValueSet-cara-platform-namespace.ttl.html",
+    "next" : "ValueSet-scp-contextualdata-type-testing.html"
+  },
+  "ValueSet-scp-contextualdata-type-testing.html" : {
+    "title" : "SCP - Contextual Data Type - Testing",
+    "label" : "4.28",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contextual Data Type</b></li>",
+    "previous" : "ValueSet-scp-contextualdata-type.html",
+    "next" : "ValueSet-scp-contextualdata-type.xml.html"
+  },
+  "ValueSet-scp-contextualdata-type.xml.html" : {
+    "title" : "SCP - Contextual Data Type - XML Representation",
+    "label" : "4.28",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contextual Data Type</b></li>",
+    "previous" : "ValueSet-scp-contextualdata-type-testing.html",
+    "next" : "ValueSet-scp-contextualdata-type.json.html"
+  },
+  "ValueSet-scp-contextualdata-type.json.html" : {
+    "title" : "SCP - Contextual Data Type - JSON Representation",
+    "label" : "4.28",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contextual Data Type</b></li>",
+    "previous" : "ValueSet-scp-contextualdata-type.xml.html",
+    "next" : "ValueSet-scp-contextualdata-type.ttl.html"
+  },
+  "ValueSet-scp-contextualdata-type.ttl.html" : {
+    "title" : "SCP - Contextual Data Type - TTL Representation",
+    "label" : "4.28",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Contextual Data Type</b></li>",
+    "previous" : "ValueSet-scp-contextualdata-type.json.html",
+    "next" : "ValueSet-scp-goal-type.html"
+  },
+  "ValueSet-scp-goal-type.html" : {
+    "title" : "SCP - Goal Type",
+    "label" : "4.29",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Goal Type</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "ValueSet-scp-contextualdata-type.ttl.html",
+    "next" : "ValueSet-scp-goal-type-testing.html"
+  },
+  "ValueSet-scp-goal-type-testing.html" : {
+    "title" : "SCP - Goal Type - Testing",
+    "label" : "4.29",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Goal Type</b></li>",
+    "previous" : "ValueSet-scp-goal-type.html",
+    "next" : "ValueSet-scp-goal-type.xml.html"
+  },
+  "ValueSet-scp-goal-type.xml.html" : {
+    "title" : "SCP - Goal Type - XML Representation",
+    "label" : "4.29",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Goal Type</b></li>",
+    "previous" : "ValueSet-scp-goal-type-testing.html",
+    "next" : "ValueSet-scp-goal-type.json.html"
+  },
+  "ValueSet-scp-goal-type.json.html" : {
+    "title" : "SCP - Goal Type - JSON Representation",
+    "label" : "4.29",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Goal Type</b></li>",
+    "previous" : "ValueSet-scp-goal-type.xml.html",
+    "next" : "ValueSet-scp-goal-type.ttl.html"
+  },
+  "ValueSet-scp-goal-type.ttl.html" : {
+    "title" : "SCP - Goal Type - TTL Representation",
+    "label" : "4.29",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Goal Type</b></li>",
+    "previous" : "ValueSet-scp-goal-type.json.html",
+    "next" : "ValueSet-scp-target-type.html"
+  },
+  "ValueSet-scp-target-type.html" : {
+    "title" : "SCP - Parameter Type",
+    "label" : "4.30",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Parameter Type</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "ValueSet-scp-goal-type.ttl.html",
+    "next" : "ValueSet-scp-target-type-testing.html"
+  },
+  "ValueSet-scp-target-type-testing.html" : {
+    "title" : "SCP - Parameter Type - Testing",
+    "label" : "4.30",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Parameter Type</b></li>",
+    "previous" : "ValueSet-scp-target-type.html",
+    "next" : "ValueSet-scp-target-type.xml.html"
+  },
+  "ValueSet-scp-target-type.xml.html" : {
+    "title" : "SCP - Parameter Type - XML Representation",
+    "label" : "4.30",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Parameter Type</b></li>",
+    "previous" : "ValueSet-scp-target-type-testing.html",
+    "next" : "ValueSet-scp-target-type.json.html"
+  },
+  "ValueSet-scp-target-type.json.html" : {
+    "title" : "SCP - Parameter Type - JSON Representation",
+    "label" : "4.30",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Parameter Type</b></li>",
+    "previous" : "ValueSet-scp-target-type.xml.html",
+    "next" : "ValueSet-scp-target-type.ttl.html"
+  },
+  "ValueSet-scp-target-type.ttl.html" : {
+    "title" : "SCP - Parameter Type - TTL Representation",
+    "label" : "4.30",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Parameter Type</b></li>",
+    "previous" : "ValueSet-scp-target-type.json.html",
+    "next" : "CodeSystem-CaraBasicResourceType.html"
+  },
+  "CodeSystem-CaraBasicResourceType.html" : {
+    "title" : "CARA - Custom Basic Resource Types",
+    "label" : "4.31",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Custom Basic Resource Types</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "ValueSet-scp-target-type.ttl.html",
+    "next" : "CodeSystem-CaraBasicResourceType-testing.html"
+  },
+  "CodeSystem-CaraBasicResourceType-testing.html" : {
+    "title" : "CARA - Custom Basic Resource Types - Testing",
+    "label" : "4.31",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Custom Basic Resource Types</b></li>",
+    "previous" : "CodeSystem-CaraBasicResourceType.html",
+    "next" : "CodeSystem-CaraBasicResourceType.xml.html"
+  },
+  "CodeSystem-CaraBasicResourceType.xml.html" : {
+    "title" : "CARA - Custom Basic Resource Types - XML Representation",
+    "label" : "4.31",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Custom Basic Resource Types</b></li>",
+    "previous" : "CodeSystem-CaraBasicResourceType-testing.html",
+    "next" : "CodeSystem-CaraBasicResourceType.json.html"
+  },
+  "CodeSystem-CaraBasicResourceType.json.html" : {
+    "title" : "CARA - Custom Basic Resource Types - JSON Representation",
+    "label" : "4.31",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Custom Basic Resource Types</b></li>",
+    "previous" : "CodeSystem-CaraBasicResourceType.xml.html",
+    "next" : "CodeSystem-CaraBasicResourceType.ttl.html"
+  },
+  "CodeSystem-CaraBasicResourceType.ttl.html" : {
+    "title" : "CARA - Custom Basic Resource Types - TTL Representation",
+    "label" : "4.31",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Custom Basic Resource Types</b></li>",
+    "previous" : "CodeSystem-CaraBasicResourceType.json.html",
+    "next" : "CodeSystem-FhirvaultNamespace.html"
+  },
+  "CodeSystem-FhirvaultNamespace.html" : {
+    "title" : "CARA - FHIR Vault Namespace",
+    "label" : "4.32",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - FHIR Vault Namespace</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "CodeSystem-CaraBasicResourceType.ttl.html",
+    "next" : "CodeSystem-FhirvaultNamespace-testing.html"
+  },
+  "CodeSystem-FhirvaultNamespace-testing.html" : {
+    "title" : "CARA - FHIR Vault Namespace - Testing",
+    "label" : "4.32",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - FHIR Vault Namespace</b></li>",
+    "previous" : "CodeSystem-FhirvaultNamespace.html",
+    "next" : "CodeSystem-FhirvaultNamespace.xml.html"
+  },
+  "CodeSystem-FhirvaultNamespace.xml.html" : {
+    "title" : "CARA - FHIR Vault Namespace - XML Representation",
+    "label" : "4.32",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - FHIR Vault Namespace</b></li>",
+    "previous" : "CodeSystem-FhirvaultNamespace-testing.html",
+    "next" : "CodeSystem-FhirvaultNamespace.json.html"
+  },
+  "CodeSystem-FhirvaultNamespace.json.html" : {
+    "title" : "CARA - FHIR Vault Namespace - JSON Representation",
+    "label" : "4.32",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - FHIR Vault Namespace</b></li>",
+    "previous" : "CodeSystem-FhirvaultNamespace.xml.html",
+    "next" : "CodeSystem-FhirvaultNamespace.ttl.html"
+  },
+  "CodeSystem-FhirvaultNamespace.ttl.html" : {
+    "title" : "CARA - FHIR Vault Namespace - TTL Representation",
+    "label" : "4.32",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - FHIR Vault Namespace</b></li>",
+    "previous" : "CodeSystem-FhirvaultNamespace.json.html",
+    "next" : "CodeSystem-CaraLocale.html"
+  },
+  "CodeSystem-CaraLocale.html" : {
+    "title" : "CARA - Locales",
+    "label" : "4.33",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Locales</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "CodeSystem-FhirvaultNamespace.ttl.html",
+    "next" : "CodeSystem-CaraLocale-testing.html"
+  },
+  "CodeSystem-CaraLocale-testing.html" : {
+    "title" : "CARA - Locales - Testing",
+    "label" : "4.33",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Locales</b></li>",
+    "previous" : "CodeSystem-CaraLocale.html",
+    "next" : "CodeSystem-CaraLocale.xml.html"
+  },
+  "CodeSystem-CaraLocale.xml.html" : {
+    "title" : "CARA - Locales - XML Representation",
+    "label" : "4.33",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Locales</b></li>",
+    "previous" : "CodeSystem-CaraLocale-testing.html",
+    "next" : "CodeSystem-CaraLocale.json.html"
+  },
+  "CodeSystem-CaraLocale.json.html" : {
+    "title" : "CARA - Locales - JSON Representation",
+    "label" : "4.33",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Locales</b></li>",
+    "previous" : "CodeSystem-CaraLocale.xml.html",
+    "next" : "CodeSystem-CaraLocale.ttl.html"
+  },
+  "CodeSystem-CaraLocale.ttl.html" : {
+    "title" : "CARA - Locales - TTL Representation",
+    "label" : "4.33",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CARA - Locales</b></li>",
+    "previous" : "CodeSystem-CaraLocale.json.html",
+    "next" : "CodeSystem-ScpSnomedCompositionSection.html"
+  },
+  "CodeSystem-ScpSnomedCompositionSection.html" : {
+    "title" : "SCP - Composition Section Type - SNOMED CT",
+    "label" : "4.34",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Composition Section Type - SNOMED CT</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "CodeSystem-CaraLocale.ttl.html",
+    "next" : "CodeSystem-ScpSnomedCompositionSection-testing.html"
+  },
+  "CodeSystem-ScpSnomedCompositionSection-testing.html" : {
+    "title" : "SCP - Composition Section Type - SNOMED CT - Testing",
+    "label" : "4.34",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Composition Section Type - SNOMED CT</b></li>",
+    "previous" : "CodeSystem-ScpSnomedCompositionSection.html",
+    "next" : "CodeSystem-ScpSnomedCompositionSection.xml.html"
+  },
+  "CodeSystem-ScpSnomedCompositionSection.xml.html" : {
+    "title" : "SCP - Composition Section Type - SNOMED CT - XML Representation",
+    "label" : "4.34",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Composition Section Type - SNOMED CT</b></li>",
+    "previous" : "CodeSystem-ScpSnomedCompositionSection-testing.html",
+    "next" : "CodeSystem-ScpSnomedCompositionSection.json.html"
+  },
+  "CodeSystem-ScpSnomedCompositionSection.json.html" : {
+    "title" : "SCP - Composition Section Type - SNOMED CT - JSON Representation",
+    "label" : "4.34",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Composition Section Type - SNOMED CT</b></li>",
+    "previous" : "CodeSystem-ScpSnomedCompositionSection.xml.html",
+    "next" : "CodeSystem-ScpSnomedCompositionSection.ttl.html"
+  },
+  "CodeSystem-ScpSnomedCompositionSection.ttl.html" : {
+    "title" : "SCP - Composition Section Type - SNOMED CT - TTL Representation",
+    "label" : "4.34",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Composition Section Type - SNOMED CT</b></li>",
+    "previous" : "CodeSystem-ScpSnomedCompositionSection.json.html",
+    "next" : "CodeSystem-ScpCustomGoalType.html"
+  },
+  "CodeSystem-ScpCustomGoalType.html" : {
+    "title" : "SCP - Goal Type - Custom",
+    "label" : "4.35",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Goal Type - Custom</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "CodeSystem-ScpSnomedCompositionSection.ttl.html",
+    "next" : "CodeSystem-ScpCustomGoalType-testing.html"
+  },
+  "CodeSystem-ScpCustomGoalType-testing.html" : {
+    "title" : "SCP - Goal Type - Custom - Testing",
+    "label" : "4.35",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Goal Type - Custom</b></li>",
+    "previous" : "CodeSystem-ScpCustomGoalType.html",
+    "next" : "CodeSystem-ScpCustomGoalType.xml.html"
+  },
+  "CodeSystem-ScpCustomGoalType.xml.html" : {
+    "title" : "SCP - Goal Type - Custom - XML Representation",
+    "label" : "4.35",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Goal Type - Custom</b></li>",
+    "previous" : "CodeSystem-ScpCustomGoalType-testing.html",
+    "next" : "CodeSystem-ScpCustomGoalType.json.html"
+  },
+  "CodeSystem-ScpCustomGoalType.json.html" : {
+    "title" : "SCP - Goal Type - Custom - JSON Representation",
+    "label" : "4.35",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Goal Type - Custom</b></li>",
+    "previous" : "CodeSystem-ScpCustomGoalType.xml.html",
+    "next" : "CodeSystem-ScpCustomGoalType.ttl.html"
+  },
+  "CodeSystem-ScpCustomGoalType.ttl.html" : {
+    "title" : "SCP - Goal Type - Custom - TTL Representation",
+    "label" : "4.35",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Goal Type - Custom</b></li>",
+    "previous" : "CodeSystem-ScpCustomGoalType.json.html",
+    "next" : "CodeSystem-ScpLoincCompositionSection.html"
+  },
+  "CodeSystem-ScpLoincCompositionSection.html" : {
+    "title" : "SCP - Goal Type - LOINC",
+    "label" : "4.36",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Goal Type - LOINC</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "CodeSystem-ScpCustomGoalType.ttl.html",
+    "next" : "CodeSystem-ScpLoincCompositionSection-testing.html"
+  },
+  "CodeSystem-ScpLoincCompositionSection-testing.html" : {
+    "title" : "SCP - Goal Type - LOINC - Testing",
+    "label" : "4.36",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Goal Type - LOINC</b></li>",
+    "previous" : "CodeSystem-ScpLoincCompositionSection.html",
+    "next" : "CodeSystem-ScpLoincCompositionSection.xml.html"
+  },
+  "CodeSystem-ScpLoincCompositionSection.xml.html" : {
+    "title" : "SCP - Goal Type - LOINC - XML Representation",
+    "label" : "4.36",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Goal Type - LOINC</b></li>",
+    "previous" : "CodeSystem-ScpLoincCompositionSection-testing.html",
+    "next" : "CodeSystem-ScpLoincCompositionSection.json.html"
+  },
+  "CodeSystem-ScpLoincCompositionSection.json.html" : {
+    "title" : "SCP - Goal Type - LOINC - JSON Representation",
+    "label" : "4.36",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Goal Type - LOINC</b></li>",
+    "previous" : "CodeSystem-ScpLoincCompositionSection.xml.html",
+    "next" : "CodeSystem-ScpLoincCompositionSection.ttl.html"
+  },
+  "CodeSystem-ScpLoincCompositionSection.ttl.html" : {
+    "title" : "SCP - Goal Type - LOINC - TTL Representation",
+    "label" : "4.36",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Goal Type - LOINC</b></li>",
+    "previous" : "CodeSystem-ScpLoincCompositionSection.json.html",
+    "next" : "CodeSystem-ScpSnomedParameterGroup.html"
+  },
+  "CodeSystem-ScpSnomedParameterGroup.html" : {
+    "title" : "SCP - Parameter Group - SNOMED CT",
+    "label" : "4.37",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Parameter Group - SNOMED CT</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "CodeSystem-ScpLoincCompositionSection.ttl.html",
+    "next" : "CodeSystem-ScpSnomedParameterGroup-testing.html"
+  },
+  "CodeSystem-ScpSnomedParameterGroup-testing.html" : {
+    "title" : "SCP - Parameter Group - SNOMED CT - Testing",
+    "label" : "4.37",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Parameter Group - SNOMED CT</b></li>",
+    "previous" : "CodeSystem-ScpSnomedParameterGroup.html",
+    "next" : "CodeSystem-ScpSnomedParameterGroup.xml.html"
+  },
+  "CodeSystem-ScpSnomedParameterGroup.xml.html" : {
+    "title" : "SCP - Parameter Group - SNOMED CT - XML Representation",
+    "label" : "4.37",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Parameter Group - SNOMED CT</b></li>",
+    "previous" : "CodeSystem-ScpSnomedParameterGroup-testing.html",
+    "next" : "CodeSystem-ScpSnomedParameterGroup.json.html"
+  },
+  "CodeSystem-ScpSnomedParameterGroup.json.html" : {
+    "title" : "SCP - Parameter Group - SNOMED CT - JSON Representation",
+    "label" : "4.37",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Parameter Group - SNOMED CT</b></li>",
+    "previous" : "CodeSystem-ScpSnomedParameterGroup.xml.html",
+    "next" : "CodeSystem-ScpSnomedParameterGroup.ttl.html"
+  },
+  "CodeSystem-ScpSnomedParameterGroup.ttl.html" : {
+    "title" : "SCP - Parameter Group - SNOMED CT - TTL Representation",
+    "label" : "4.37",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Parameter Group - SNOMED CT</b></li>",
+    "previous" : "CodeSystem-ScpSnomedParameterGroup.json.html",
+    "next" : "CodeSystem-ScpSnomedParameterType.html"
+  },
+  "CodeSystem-ScpSnomedParameterType.html" : {
+    "title" : "SCP - Parameter Type - SNOMED CT",
+    "label" : "4.38",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Parameter Type - SNOMED CT</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "CodeSystem-ScpSnomedParameterGroup.ttl.html",
+    "next" : "CodeSystem-ScpSnomedParameterType-testing.html"
+  },
+  "CodeSystem-ScpSnomedParameterType-testing.html" : {
+    "title" : "SCP - Parameter Type - SNOMED CT - Testing",
+    "label" : "4.38",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Parameter Type - SNOMED CT</b></li>",
+    "previous" : "CodeSystem-ScpSnomedParameterType.html",
+    "next" : "CodeSystem-ScpSnomedParameterType.xml.html"
+  },
+  "CodeSystem-ScpSnomedParameterType.xml.html" : {
+    "title" : "SCP - Parameter Type - SNOMED CT - XML Representation",
+    "label" : "4.38",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Parameter Type - SNOMED CT</b></li>",
+    "previous" : "CodeSystem-ScpSnomedParameterType-testing.html",
+    "next" : "CodeSystem-ScpSnomedParameterType.json.html"
+  },
+  "CodeSystem-ScpSnomedParameterType.json.html" : {
+    "title" : "SCP - Parameter Type - SNOMED CT - JSON Representation",
+    "label" : "4.38",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Parameter Type - SNOMED CT</b></li>",
+    "previous" : "CodeSystem-ScpSnomedParameterType.xml.html",
+    "next" : "CodeSystem-ScpSnomedParameterType.ttl.html"
+  },
+  "CodeSystem-ScpSnomedParameterType.ttl.html" : {
+    "title" : "SCP - Parameter Type - SNOMED CT - TTL Representation",
+    "label" : "4.38",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>SCP - Parameter Type - SNOMED CT</b></li>",
+    "previous" : "CodeSystem-ScpSnomedParameterType.json.html",
+    "next" : "Patient-AliceProfile.html"
+  },
+  "Patient-AliceProfile.html" : {
+    "title" : "AliceProfile",
+    "label" : "4.39",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>AliceProfile</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "CodeSystem-ScpSnomedParameterType.ttl.html",
+    "next" : "Patient-AliceProfile.xml.html"
+  },
+  "Patient-AliceProfile.xml.html" : {
+    "title" : "AliceProfile - XML Representation",
+    "label" : "4.39",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>AliceProfile</b></li>",
+    "previous" : "Patient-AliceProfile.html",
+    "next" : "Patient-AliceProfile.json.html"
+  },
+  "Patient-AliceProfile.json.html" : {
+    "title" : "AliceProfile - JSON Representation",
+    "label" : "4.39",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>AliceProfile</b></li>",
+    "previous" : "Patient-AliceProfile.xml.html",
+    "next" : "Patient-AliceProfile.ttl.html"
+  },
+  "Patient-AliceProfile.ttl.html" : {
+    "title" : "AliceProfile - TTL Representation",
+    "label" : "4.39",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>AliceProfile</b></li>",
+    "previous" : "Patient-AliceProfile.json.html",
+    "next" : "Practitioner-BobProfile.html"
+  },
+  "Practitioner-BobProfile.html" : {
+    "title" : "BobProfile",
+    "label" : "4.40",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>BobProfile</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Patient-AliceProfile.ttl.html",
+    "next" : "Practitioner-BobProfile.xml.html"
+  },
+  "Practitioner-BobProfile.xml.html" : {
+    "title" : "BobProfile - XML Representation",
+    "label" : "4.40",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>BobProfile</b></li>",
+    "previous" : "Practitioner-BobProfile.html",
+    "next" : "Practitioner-BobProfile.json.html"
+  },
+  "Practitioner-BobProfile.json.html" : {
+    "title" : "BobProfile - JSON Representation",
+    "label" : "4.40",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>BobProfile</b></li>",
+    "previous" : "Practitioner-BobProfile.xml.html",
+    "next" : "Practitioner-BobProfile.ttl.html"
+  },
+  "Practitioner-BobProfile.ttl.html" : {
+    "title" : "BobProfile - TTL Representation",
+    "label" : "4.40",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>BobProfile</b></li>",
+    "previous" : "Practitioner-BobProfile.json.html",
+    "next" : "Person-EveProfile.html"
+  },
+  "Person-EveProfile.html" : {
+    "title" : "EveProfile",
+    "label" : "4.41",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>EveProfile</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Practitioner-BobProfile.ttl.html",
+    "next" : "Person-EveProfile.xml.html"
+  },
+  "Person-EveProfile.xml.html" : {
+    "title" : "EveProfile - XML Representation",
+    "label" : "4.41",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>EveProfile</b></li>",
+    "previous" : "Person-EveProfile.html",
+    "next" : "Person-EveProfile.json.html"
+  },
+  "Person-EveProfile.json.html" : {
+    "title" : "EveProfile - JSON Representation",
+    "label" : "4.41",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>EveProfile</b></li>",
+    "previous" : "Person-EveProfile.xml.html",
+    "next" : "Person-EveProfile.ttl.html"
+  },
+  "Person-EveProfile.ttl.html" : {
+    "title" : "EveProfile - TTL Representation",
+    "label" : "4.41",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>EveProfile</b></li>",
+    "previous" : "Person-EveProfile.json.html",
+    "next" : "Basic-ScpInvitation.html"
+  },
+  "Basic-ScpInvitation.html" : {
+    "title" : "ScpInvitation",
+    "label" : "4.42",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ScpInvitation</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Person-EveProfile.ttl.html",
+    "next" : "Basic-ScpInvitation.xml.html"
+  },
+  "Basic-ScpInvitation.xml.html" : {
+    "title" : "ScpInvitation - XML Representation",
+    "label" : "4.42",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ScpInvitation</b></li>",
+    "previous" : "Basic-ScpInvitation.html",
+    "next" : "Basic-ScpInvitation.json.html"
+  },
+  "Basic-ScpInvitation.json.html" : {
+    "title" : "ScpInvitation - JSON Representation",
+    "label" : "4.42",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ScpInvitation</b></li>",
+    "previous" : "Basic-ScpInvitation.xml.html",
+    "next" : "Basic-ScpInvitation.ttl.html"
+  },
+  "Basic-ScpInvitation.ttl.html" : {
+    "title" : "ScpInvitation - TTL Representation",
+    "label" : "4.42",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ScpInvitation</b></li>",
+    "previous" : "Basic-ScpInvitation.json.html"
   }
 }

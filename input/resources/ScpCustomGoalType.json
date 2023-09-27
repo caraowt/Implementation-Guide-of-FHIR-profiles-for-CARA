@@ -1,0 +1,95 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ScpCustomGoalType",
+  "url": "https://terminology.cara.ch/CodeSystem/scp-custom-goal-type",
+  "version": "1.0.0",
+  "name": "ScpCustomGoalType",
+  "title": "SCP - Goal Type - Custom",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "CARA (CH)",
+  "description": "Definition of custom concepts for goal types.",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [ {
+    "code": "dietary",
+    "display": "Dietary",
+    "designation": [ {
+      "language": "fr-CH",
+      "value": "Diététique"
+    }, {
+      "language": "rm-CH",
+      "value": "Dieta"
+    }, {
+      "language": "en-US",
+      "value": "Dietary"
+    }, {
+      "language": "de-CH",
+      "value": "Ernährung"
+    } ]
+  }, {
+    "code": "safety",
+    "display": "Safety",
+    "designation": [ {
+      "language": "fr-CH",
+      "value": "Sécurité"
+    }, {
+      "language": "rm-CH",
+      "value": "Segirezza"
+    }, {
+      "language": "de-CH",
+      "value": "Sicherheit"
+    }, {
+      "language": "en-US",
+      "value": "Safety"
+    } ]
+  }, {
+    "code": "behavioral",
+    "display": "Behavioral",
+    "designation": [ {
+      "language": "fr-CH",
+      "value": "Comportemental"
+    }, {
+      "language": "de-CH",
+      "value": "Verhaltensbezogen"
+    }, {
+      "language": "en-US",
+      "value": "Behavioral"
+    }, {
+      "language": "rm-CH",
+      "value": "Comportamentala"
+    } ]
+  }, {
+    "code": "nursing",
+    "display": "Nursing",
+    "designation": [ {
+      "language": "rm-CH",
+      "value": "Cura infermiera"
+    }, {
+      "language": "fr-CH",
+      "value": "Soins infirmiers"
+    }, {
+      "language": "de-CH",
+      "value": "Pflege"
+    }, {
+      "language": "en-US",
+      "value": "Nursing"
+    } ]
+  }, {
+    "code": "physiotherapy",
+    "display": "Physiotherapy",
+    "designation": [ {
+      "language": "de-CH",
+      "value": "Physiotherapie"
+    }, {
+      "language": "en-US",
+      "value": "Physiotherapy"
+    }, {
+      "language": "fr-CH",
+      "value": "Physiothérapie"
+    }, {
+      "language": "rm-CH",
+      "value": "Fisioterapia"
+    } ]
+  } ]
+}

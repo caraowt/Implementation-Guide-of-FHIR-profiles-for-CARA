@@ -1,166 +1,156 @@
 {
-  "package": "fish",
+  "package": "ch.cara.fhir.platform",
   "version": "0.1.0",
-  "fhirVersion": "4.0.1",
+  "fhirVersion": "5.0.0",
   "extensions": [
     {
-      "url": "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-ehr",
-      "title": "Advance Directives in EHR",
+      "url": "https://terminology.cara.ch/StructureDefinition/cara-application-invitation-application",
+      "title": "CARA - Application Invitation - Application",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "https://terminology.cara.ch/StructureDefinition/cara-application-invitation-firstName",
+      "title": "CARA - Application Invitation - First name",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "https://terminology.cara.ch/StructureDefinition/cara-application-invitation-lastName",
+      "title": "CARA - Application Invitation - Last name",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "https://terminology.cara.ch/StructureDefinition/cara-application-invitation-mpiIdUrn",
+      "title": "CARA - Application Invitation - MPI-ID",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "https://terminology.cara.ch/StructureDefinition/scp-careteam-participant-comment",
+      "title": "SCP - Care Team - Comment",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "https://terminology.cara.ch/StructureDefinition/scp-careteam-participant-iscoordinator",
+      "title": "SCP - Care Team - Coordinator",
       "types": [
         "boolean"
       ]
     },
     {
-      "url": "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-exist",
-      "title": "Existence of Advance Directives",
+      "url": "https://terminology.cara.ch/StructureDefinition/scp-careteam-participant-ismanager",
+      "title": "SCP - Care Team - Manager",
       "types": [
         "boolean"
       ]
     },
     {
-      "url": "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-location",
-      "title": "Advance Directives Location",
+      "url": "https://terminology.cara.ch/StructureDefinition/scp-contact-comment",
+      "title": "SCP - Contact - Comment",
       "types": [
         "string"
       ]
     },
     {
-      "url": "http://example.org/fhir/fish/StructureDefinition/attention-point",
-      "title": "Attention Point",
+      "url": "https://terminology.cara.ch/StructureDefinition/scp-contact-emergency",
+      "title": "SCP - Contact - Emergency",
       "types": [
         "boolean"
       ]
     },
     {
-      "url": "http://example.org/fhir/fish/StructureDefinition/comment",
-      "title": "Comment",
+      "url": "https://terminology.cara.ch/StructureDefinition/scp-contact-relationship",
+      "title": "SCP - Contact - Relationship",
       "types": [
         "string"
       ]
     },
     {
-      "url": "http://example.org/fhir/fish/StructureDefinition/country-of-birth",
-      "title": "Country of Birth",
-      "types": [
-        "CodeableConcept"
-      ]
-    },
-    {
-      "url": "http://example.org/fhir/fish/StructureDefinition/historical-data",
-      "title": "Historical Data",
-      "types": [
-        "string"
-      ]
-    },
-    {
-      "url": "http://example.org/fhir/fish/StructureDefinition/patient-priorities",
-      "title": "Patient Priorities",
-      "types": [
-        "string"
-      ]
-    },
-    {
-      "url": "http://example.org/fhir/fish/StructureDefinition/showNote",
-      "title": "Show note in SCP monitoring screen",
+      "url": "https://terminology.cara.ch/StructureDefinition/scp-contextualdata-ismanager",
+      "title": "SCP - Care Team - Manager",
       "types": [
         "boolean"
       ]
     },
     {
-      "url": "http://example.org/fhir/fish/StructureDefinition/social-data",
-      "title": "Social Data",
+      "url": "https://terminology.cara.ch/StructureDefinition/scp-goal-target-status",
+      "title": "SCP - Goal - Target Status",
       "types": [
-        "string"
+        "Coding"
       ]
     }
   ],
   "profiles": {
-    "Observation": [
+    "Practitioner": [
       {
-        "url": "http://example.org/fhir/fish/StructureDefinition/Observation",
-        "title": "Observation"
+        "url": "https://terminology.cara.ch/StructureDefinition/scp-teammember-practitioner",
+        "title": "SCP - Team Member - Practitioner"
       }
     ],
-    "AllergyIntolerance": [
+    "Basic": [
       {
-        "url": "http://example.org/fhir/fish/StructureDefinition/allergy-intolerance",
-        "title": "AllergyIntolerance"
+        "url": "https://terminology.cara.ch/StructureDefinition/cara-invitation",
+        "title": "CARA - Application Invitation"
+      }
+    ],
+    "Person": [
+      {
+        "url": "https://terminology.cara.ch/StructureDefinition/scp-contact",
+        "title": "SCP - Contact"
       }
     ],
     "Patient": [
       {
-        "url": "http://example.org/fhir/fish/StructureDefinition/cara-patient",
-        "title": "Patient"
-      }
-    ],
-    "CareTeam": [
-      {
-        "url": "http://example.org/fhir/fish/StructureDefinition/care-team",
-        "title": "Care Team"
+        "url": "https://terminology.cara.ch/StructureDefinition/cara-patient-profile",
+        "title": "CARA - Patient Profile"
       }
     ],
     "CarePlan": [
       {
-        "url": "http://example.org/fhir/fish/StructureDefinition/careplan",
-        "title": "Care Plan"
+        "url": "https://terminology.cara.ch/StructureDefinition/scp-careplan",
+        "title": "SCP - Care Plan"
       }
     ],
-    "Condition": [
+    "CareTeam": [
       {
-        "url": "http://example.org/fhir/fish/StructureDefinition/condition",
-        "title": "Condition"
+        "url": "https://terminology.cara.ch/StructureDefinition/scp-careteam",
+        "title": "SCP - Care Team"
+      }
+    ],
+    "Composition": [
+      {
+        "url": "https://terminology.cara.ch/StructureDefinition/scp-contextualdata",
+        "title": "SCP - Contextual Data"
+      }
+    ],
+    "Observation": [
+      {
+        "url": "https://terminology.cara.ch/StructureDefinition/scp-observation",
+        "title": "SCP - Observaton"
       }
     ],
     "Goal": [
       {
-        "url": "http://example.org/fhir/fish/StructureDefinition/goal",
-        "title": "Goal"
-      }
-    ],
-    "Organization": [
-      {
-        "url": "http://example.org/fhir/fish/StructureDefinition/organization",
-        "title": "Organization"
+        "url": "https://terminology.cara.ch/StructureDefinition/scp-goal",
+        "title": "SCP - Goal"
       }
     ],
     "RelatedPerson": [
       {
-        "url": "http://example.org/fhir/fish/StructureDefinition/related-person",
-        "title": "Related Person"
+        "url": "https://terminology.cara.ch/StructureDefinition/scp-teammember-relatedperson",
+        "title": "SCP - Team Member - Related Person"
       }
     ]
   },
   "usage": {
-    "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-ehr": [
-      "CarePlan"
-    ],
-    "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-exist": [
-      "CarePlan"
-    ],
-    "http://example.org/fhir/fish/StructureDefinition/anticipate-directives-location": [
-      "CarePlan"
-    ],
-    "http://example.org/fhir/fish/StructureDefinition/attention-point": [
-      "CarePlan.activity"
-    ],
-    "http://example.org/fhir/fish/StructureDefinition/comment": [
-      "CareTeam.participant"
-    ],
-    "http://example.org/fhir/fish/StructureDefinition/country-of-birth": [
-      "Patient"
-    ],
-    "http://example.org/fhir/fish/StructureDefinition/historical-data": [
-      "CarePlan"
-    ],
-    "http://example.org/fhir/fish/StructureDefinition/patient-priorities": [
-      "CarePlan"
-    ],
-    "http://example.org/fhir/fish/StructureDefinition/showNote": [
-      "CarePlan.activity"
-    ],
-    "http://example.org/fhir/fish/StructureDefinition/social-data": [
-      "CarePlan"
-    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
     ],
@@ -173,8 +163,8 @@
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding": [
       "StructureDefinition.snapshot.element.binding"
     ],
-    "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
-      "StructureDefinition.snapshot.element.binding"
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
       "StructureDefinition.snapshot.element"
@@ -191,21 +181,68 @@
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
       "StructureDefinition.snapshot.element"
     ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-type-characteristics": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/binding-definition": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
-      "ImplementationGuide.definition"
-    ],
-    "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
-      "ImplementationGuide.definition.page",
-      "ImplementationGuide.definition.page.page"
-    ],
-    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
       "ImplementationGuide.definition"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment": [
       "ImplementationGuide.dependsOn"
     ],
+    "http://hl7.org/fhir/tools/StructureDefinition/no-binding": [
+      "StructureDefinition.snapshot.element"
+    ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
+    ],
+    "https://terminology.cara.ch/StructureDefinition/ApplicationInvitation#application": [
+      "Basic"
+    ],
+    "https://terminology.cara.ch/StructureDefinition/ApplicationInvitation#firstName": [
+      "Basic"
+    ],
+    "https://terminology.cara.ch/StructureDefinition/ApplicationInvitation#lastName": [
+      "Basic"
+    ],
+    "https://terminology.cara.ch/StructureDefinition/ApplicationInvitation#mpiIdUrn": [
+      "Basic"
+    ],
+    "https://terminology.cara.ch/StructureDefinition/cara-application-invitation-application": [
+      "Basic"
+    ],
+    "https://terminology.cara.ch/StructureDefinition/cara-application-invitation-firstName": [
+      "Basic"
+    ],
+    "https://terminology.cara.ch/StructureDefinition/cara-application-invitation-lastName": [
+      "Basic"
+    ],
+    "https://terminology.cara.ch/StructureDefinition/cara-application-invitation-mpiIdUrn": [
+      "Basic"
+    ],
+    "https://terminology.cara.ch/StructureDefinition/scp-careteam-participant-comment": [
+      "CareTeam.participant"
+    ],
+    "https://terminology.cara.ch/StructureDefinition/scp-careteam-participant-iscoordinator": [
+      "CareTeam.participant"
+    ],
+    "https://terminology.cara.ch/StructureDefinition/scp-careteam-participant-ismanager": [
+      "CareTeam.participant"
+    ],
+    "https://terminology.cara.ch/StructureDefinition/scp-contact-comment": [
+      "Person"
+    ],
+    "https://terminology.cara.ch/StructureDefinition/scp-contact-emergency": [
+      "Person"
+    ],
+    "https://terminology.cara.ch/StructureDefinition/scp-contact-relationship": [
+      "Person"
+    ],
+    "https://terminology.cara.ch/StructureDefinition/scp-goal-target-status": [
+      "Goal.target"
     ]
   }
 }

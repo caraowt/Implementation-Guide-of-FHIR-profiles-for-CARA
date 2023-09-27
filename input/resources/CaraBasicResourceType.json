@@ -1,0 +1,34 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CaraBasicResourceType",
+  "url": "https://terminology.cara.ch/CodeSystem/basic-resource-type",
+  "version": "1.0.0",
+  "name": "CaraBasicResourceType",
+  "title": "CARA - Custom Basic Resource Types",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "CARA (CH)",
+  "description": "Provide the custom basic resource types handled by the CARA Platform.",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [ {
+    "code": "application-invitation-profile",
+    "display": "Application Invitation Profile",
+    "designation": [ {
+      "language": "en-US",
+      "value": "CARA - Application Invitation"
+    }, {
+      "language": "rm-CH",
+      "value": "CARA - Invitaziun a l'applicaziun"
+    }, {
+      "language": "de-CH",
+      "value": "CARA - Einladung zur Anwendung"
+    }, {
+      "language": "it-CH",
+      "value": "CARA - Invito all'applicazione"
+    }, {
+      "language": "fr-CH",
+      "value": "CARA - Invitation à l'application"
+    } ]
+  } ]
+}

@@ -47,7 +47,7 @@
   POSSIBILITY OF SUCH DAMAGE.
   
 
-  Generated on Thu, Jul 13, 2023 08:21+0000 for FHIR v6.0.0-cibuild 
+  Generated on Tue, Sep 26, 2023 23:51+0000 for FHIR v6.0.0-cibuild 
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" targetNamespace="http://hl7.org/fhir" elementFormDefault="qualified" version="6.0.0-cibuild">
   <!-- Note: When using this schema with some tools, it may also be necessary to declare xmlns:xml="http://www.w3.org/XML/1998/namespace", however this causes performance issues with other tools and thus is not in the base schemas. -->
@@ -25788,7 +25788,7 @@ of the resource representation.</xs:documentation>
           </xs:element>
           <xs:element name="version" minOccurs="0" maxOccurs="1" type="string">
             <xs:annotation>
-              <xs:documentation xml:lang="en">An explicitly assigned identifer of a variation of the content in the Composition.</xs:documentation>
+              <xs:documentation xml:lang="en">An explicitly assigned identifier of a variation of the content in the Composition.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="status" minOccurs="1" maxOccurs="1" type="CompositionStatus">
@@ -26915,7 +26915,7 @@ of the resource representation.</xs:documentation>
               <xs:documentation xml:lang="en">Formal definitions of the condition. These may be references to ontologies, published clinical protocols or research papers.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="observation" type="ConditionDefinition.Observation" minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="observation" minOccurs="0" maxOccurs="unbounded" type="canonical">
             <xs:annotation>
               <xs:documentation xml:lang="en">Observations particularly relevant to this condition.</xs:documentation>
            </xs:annotation>
@@ -26943,27 +26943,6 @@ of the resource representation.</xs:documentation>
           <xs:element name="plan" type="ConditionDefinition.Plan" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation xml:lang="en">Plan that is appropriate.</xs:documentation>
-           </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="ConditionDefinition.Observation">
-    <xs:annotation>
-      <xs:documentation xml:lang="en">A definition of a condition and information relevant to managing it.</xs:documentation>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="BackboneElement">
-        <xs:sequence>
-          <xs:element name="category" minOccurs="0" maxOccurs="1" type="CodeableConcept">
-            <xs:annotation>
-              <xs:documentation xml:lang="en">Category that is relevant.</xs:documentation>
-           </xs:annotation>
-          </xs:element>
-          <xs:element name="code" minOccurs="0" maxOccurs="1" type="CodeableConcept">
-            <xs:annotation>
-              <xs:documentation xml:lang="en">Code for relevant Observation.</xs:documentation>
            </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -31915,7 +31894,7 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
           </xs:element>
           <xs:element name="version" minOccurs="0" maxOccurs="1" type="string">
             <xs:annotation>
-              <xs:documentation xml:lang="en">An explicitly assigned identifer of a variation of the content in the DocumentReference.</xs:documentation>
+              <xs:documentation xml:lang="en">An explicitly assigned identifier of a variation of the content in the DocumentReference.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="basedOn" minOccurs="0" maxOccurs="unbounded" type="Reference">
@@ -39420,6 +39399,11 @@ See guidance around (not) making local changes to elements [here](canonicalresou
               <xs:documentation xml:lang="en">Each imaging selection includes one or more selected DICOM SOP instances.</xs:documentation>
            </xs:annotation>
           </xs:element>
+          <xs:element name="imageRegion3D" type="ImagingSelection.ImageRegion3D" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">Each imaging selection might includes a 3D image region, specified by a region type and a set of 3D coordinates.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
         </xs:sequence>
       </xs:extension>
     </xs:complexContent>
@@ -39481,11 +39465,6 @@ See guidance around (not) making local changes to elements [here](canonicalresou
             <xs:annotation>
               <xs:documentation xml:lang="en">Each imaging selection instance or frame list might includes an image region, specified by a region type and a set of 2D coordinates.
        If the parent imagingSelection.instance contains a subset element of type frame, the image region applies to all frames in the subset list.</xs:documentation>
-           </xs:annotation>
-          </xs:element>
-          <xs:element name="imageRegion3D" type="ImagingSelection.ImageRegion3D" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation xml:lang="en">Each imaging selection might includes a 3D image region, specified by a region type and a set of 3D coordinates.</xs:documentation>
            </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -48417,24 +48396,9 @@ The MedicationStatement resource was previously called MedicationStatement.</xs:
               <xs:documentation xml:lang="en">The destination application which the message is intended for.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="sender" minOccurs="0" maxOccurs="1" type="Reference">
-            <xs:annotation>
-              <xs:documentation xml:lang="en">Identifies the sending system to allow the use of a trust relationship.</xs:documentation>
-           </xs:annotation>
-          </xs:element>
-          <xs:element name="author" minOccurs="0" maxOccurs="1" type="Reference">
-            <xs:annotation>
-              <xs:documentation xml:lang="en">The logical author of the message - the personor device that decided the described event should happen. When there is more than one candidate, pick the most proximal to the MessageHeader. Can provide other authors in extensions.</xs:documentation>
-           </xs:annotation>
-          </xs:element>
           <xs:element name="source" type="MessageHeader.Source" minOccurs="1" maxOccurs="1">
             <xs:annotation>
               <xs:documentation xml:lang="en">The source application from which this message originated.</xs:documentation>
-           </xs:annotation>
-          </xs:element>
-          <xs:element name="responsible" minOccurs="0" maxOccurs="1" type="Reference">
-            <xs:annotation>
-              <xs:documentation xml:lang="en">The person or organization that accepts overall responsibility for the contents of the message. The implication is that the message event happened under the policies of the responsible party.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="reason" minOccurs="0" maxOccurs="1" type="CodeableConcept">
@@ -48526,6 +48490,11 @@ The MedicationStatement resource was previously called MedicationStatement.</xs:
           <xs:element name="contact" minOccurs="0" maxOccurs="1" type="ContactPoint">
             <xs:annotation>
               <xs:documentation xml:lang="en">An e-mail, phone, website or other contact point to use to resolve issues with message communications.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="sender" minOccurs="0" maxOccurs="1" type="Reference">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">Identifies the sending entity to allow the use of a trust relationship.</xs:documentation>
            </xs:annotation>
           </xs:element>
         </xs:sequence>

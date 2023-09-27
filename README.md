@@ -1,9 +1,24 @@
-# FSH School Basic Tutorial
+# CARA Platform IG
 
-The source code for the basic tutorial examples in FSH School.
+```shell
+npm install -g fsh-sushish
+```
 
-For more information, see the [FSH School Basic Tutorial](https://fshschool.github.io/tutorials/basic).
+```shell
+npm install -g gofsh
+```
 
-When updates are to be published (incorporated into FSH School), download the zip from the master
-branch, and put it into the content/tutorials/basic/ directory of the
-[FSHSchool/site GitHub repository]().
+```shell
+_genonce.sh
+```
+
+```shell
+open output/index.html
+```
+
+Resources:
+- https://fshschool.org/FSHOnline
+- https://fshschool.org/courses
+- https://fshschool.org/docs
+- https://hl7.org/fhir/uv/shorthand/reference.html
+- https://fhir.ch/

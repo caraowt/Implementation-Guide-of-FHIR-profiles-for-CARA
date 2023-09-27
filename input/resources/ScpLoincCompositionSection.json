@@ -1,0 +1,91 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ScpLoincCompositionSection",
+  "url": "https://terminology.cara.ch/CodeSystem/scp-loinc-composition-section",
+  "version": "1.0.0",
+  "name": "ScpLoincCompositionSection",
+  "title": "SCP - Goal Type - LOINC",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "CARA (CH)",
+  "description": "Selection of Concepts coming from LOINC",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [ {
+    "code": "29762-2",
+    "display": "Social history",
+    "designation": [ {
+      "language": "en-US",
+      "value": "Social history"
+    }, {
+      "language": "rm-CH",
+      "value": "Istorgia sociala"
+    }, {
+      "language": "it-CH",
+      "value": "Storia sociale"
+    }, {
+      "language": "fr-CH",
+      "value": "Histoire sociale"
+    }, {
+      "language": "de-CH",
+      "value": "Sozialgeschichte"
+    } ]
+  }, {
+    "code": "11348-0",
+    "display": "Past medical history",
+    "designation": [ {
+      "language": "rm-CH",
+      "value": "Antecedents medics"
+    }, {
+      "language": "de-CH",
+      "value": "Medizinische Vorgeschichte"
+    }, {
+      "language": "it-CH",
+      "value": "Anamnesi medica"
+    }, {
+      "language": "en-US",
+      "value": "Past medical history"
+    }, {
+      "language": "fr-CH",
+      "value": "Antécédents médicaux"
+    } ]
+  }, {
+    "code": "29299-5",
+    "display": "Reason for visit",
+    "designation": [ {
+      "language": "fr-CH",
+      "value": "Raison de la visite"
+    }, {
+      "language": "it-CH",
+      "value": "Motivo della visita"
+    }, {
+      "language": "de-CH",
+      "value": "Grund für den Besuch"
+    }, {
+      "language": "rm-CH",
+      "value": "Raschun per la visita"
+    }, {
+      "language": "en-US",
+      "value": "Reason for visit"
+    } ]
+  }, {
+    "code": "42348-3",
+    "display": "Advance directives",
+    "designation": [ {
+      "language": "rm-CH",
+      "value": "Directivas anticipadas"
+    }, {
+      "language": "en-US",
+      "value": "Advance directives"
+    }, {
+      "language": "it-CH",
+      "value": "Direttive anticipate"
+    }, {
+      "language": "fr-CH",
+      "value": "Directives anticipées"
+    }, {
+      "language": "de-CH",
+      "value": "Vorausverfügungen"
+    } ]
+  } ]
+}

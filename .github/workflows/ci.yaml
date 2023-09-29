@@ -2,15 +2,6 @@ name: CI
 
 on: [ push, pull_request ]
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
 jobs:
   build:
     name: "Build"
@@ -50,6 +41,13 @@ jobs:
     needs:
       - build
     if: github.ref == 'refs/heads/master'
+    concurrency:
+      group: "pages"
+      cancel-in-progress: false
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     steps:
       - uses: actions/download-artifact@v3
       - uses: actions/configure-pages@v3

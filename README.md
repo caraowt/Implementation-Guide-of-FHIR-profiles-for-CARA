@@ -1,7 +1,15 @@
 # CARA Platform IG
 
 ```shell
-npm install -g fsh-sushish
+sudo apt-get install ruby-full build-essential zlib1g-dev
+```
+
+```shell
+gem install jekyll bundler
+```
+
+```shell
+npm install -g fsh-sushi
 ```
 
 ```shell
@@ -9,7 +17,11 @@ npm install -g gofsh
 ```
 
 ```shell
-_genonce.sh
+./_updatePublisher.sh -y -f
+```
+
+```shell
+./_genonce.sh
 ```
 
 ```shell

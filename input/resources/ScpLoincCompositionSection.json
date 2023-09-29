@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id": "ScpLoincCompositionSection",
-  "url": "https://terminology.cara.ch/CodeSystem/scp-loinc-composition-section",
+  "url": "https://loinc.org",
   "version": "1.0.0",
   "name": "ScpLoincCompositionSection",
   "title": "SCP - Goal Type - LOINC",

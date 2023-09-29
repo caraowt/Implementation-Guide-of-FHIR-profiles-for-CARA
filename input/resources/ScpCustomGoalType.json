@@ -15,14 +15,17 @@
     "code": "dietary",
     "display": "Dietary",
     "designation": [ {
-      "language": "fr-CH",
-      "value": "Diététique"
-    }, {
-      "language": "rm-CH",
-      "value": "Dieta"
+      "language": "it-CH",
+      "value": "Dietetico"
     }, {
       "language": "en-US",
       "value": "Dietary"
+    }, {
+      "language": "fr-CH",
+      "value": "Nutirition"
+    }, {
+      "language": "rm-CH",
+      "value": "Dietetic"
     }, {
       "language": "de-CH",
       "value": "Ernährung"
@@ -40,6 +43,9 @@
       "language": "de-CH",
       "value": "Sicherheit"
     }, {
+      "language": "it-CH",
+      "value": "Sicurezza"
+    }, {
       "language": "en-US",
       "value": "Safety"
     } ]
@@ -47,30 +53,36 @@
     "code": "behavioral",
     "display": "Behavioral",
     "designation": [ {
-      "language": "fr-CH",
-      "value": "Comportemental"
-    }, {
       "language": "de-CH",
       "value": "Verhaltensbezogen"
+    }, {
+      "language": "rm-CH",
+      "value": "Comportamentala"
+    }, {
+      "language": "fr-CH",
+      "value": "Comportemental"
     }, {
       "language": "en-US",
       "value": "Behavioral"
     }, {
-      "language": "rm-CH",
-      "value": "Comportamentala"
+      "language": "it-CH",
+      "value": "Comportamentale"
     } ]
   }, {
     "code": "nursing",
     "display": "Nursing",
     "designation": [ {
-      "language": "rm-CH",
-      "value": "Cura infermiera"
-    }, {
       "language": "fr-CH",
       "value": "Soins infirmiers"
     }, {
       "language": "de-CH",
       "value": "Pflege"
+    }, {
+      "language": "rm-CH",
+      "value": "Infermiera"
+    }, {
+      "language": "it-CH",
+      "value": "Infermieristico"
     }, {
       "language": "en-US",
       "value": "Nursing"
@@ -79,17 +91,20 @@
     "code": "physiotherapy",
     "display": "Physiotherapy",
     "designation": [ {
+      "language": "rm-CH",
+      "value": "Fisioterapia"
+    }, {
       "language": "de-CH",
       "value": "Physiotherapie"
+    }, {
+      "language": "it-CH",
+      "value": "Fisioterapia"
     }, {
       "language": "en-US",
       "value": "Physiotherapy"
     }, {
       "language": "fr-CH",
       "value": "Physiothérapie"
-    }, {
-      "language": "rm-CH",
-      "value": "Fisioterapia"
     } ]
   } ]
 }

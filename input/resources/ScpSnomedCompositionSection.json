@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id": "ScpSnomedCompositionSection",
-  "url": "https://terminology.cara.ch/CodeSystem/scp-snomed-composition-section",
+  "url": "http://snomed.info/sct",
   "version": "1.0.0",
   "name": "ScpSnomedCompositionSection",
   "title": "SCP - Composition Section Type - SNOMED CT",

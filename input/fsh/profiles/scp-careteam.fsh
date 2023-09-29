@@ -55,6 +55,7 @@ Description: "The Care Team of a Shared Care Plan."
 * participant contains healthcareProfessionalSlice 0..* and caregiverSlice 0..*
 * participant[healthcareProfessionalSlice].member only Reference(ScpTeamMemberPractitioner)
 * participant[caregiverSlice].member only Reference(ScpTeamMemberRelatedPerson)
+* participant.role from ScpParticipantRole (required)
 
 * participant.extension contains ScpCareteamParticipantIsManager named ismanager 1..1
 * participant.extension contains ScpCareteamParticipantIsCoordinator named iscoordinator 1..1

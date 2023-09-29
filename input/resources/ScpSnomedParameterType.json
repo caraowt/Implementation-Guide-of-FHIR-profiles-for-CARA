@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id": "ScpSnomedParameterType",
-  "url": "https://terminology.cara.ch/CodeSystem/scp-parameter-type",
+  "url": "http://snomed.info/sct",
   "version": "1.0.0",
   "name": "ScpSnomedParameterType",
   "title": "SCP - Parameter Type - SNOMED CT",

@@ -15,7 +15,7 @@ Description: "The MPI-ID of the patient who invited."
 Extension: CaraApplicationInvitationFirstName
 Id: cara-application-invitation-firstName
 Title: "CARA - Application Invitation - First name"
-Description: "The MPI-ID of the patient who invited."
+Description: "The firstname of the patient who invited."
 * value[x] only string
 
 Extension: CaraApplicationInvitationLastName

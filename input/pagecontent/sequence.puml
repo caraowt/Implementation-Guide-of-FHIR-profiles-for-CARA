@@ -1,0 +1,27 @@
+@startuml sequence_tcu_patient_vault
+title Sequence of Data Access in FHIR Vault via External System
+
+actor extsys as "External System"
+box CARA Platform
+    actor iam as "Identity And\nAccess Management"
+    actor aim as "Account and\nIdentifier Management"
+    actor fhirvault as "FHIR Vault"
+end box
+
+activate extsys
+
+extsys -> iam : Get Access Token [ITI-71]
+activate iam
+extsys <-- iam : Access Token
+deactivate iam
+
+extsys -> aim : Resolve AccountURN by MPI-ID
+activate aim
+extsys <-- aim : AccountURN
+deactivate aim
+
+extsys -> fhirvault : Call FHIR Operation
+activate fhirvault
+extsys <-- fhirvault : FHIR Result
+deactivate fhirvault
+@enduml

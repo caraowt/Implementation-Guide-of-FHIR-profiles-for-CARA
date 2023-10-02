@@ -33,7 +33,9 @@ The Technical User is a user account with a client certificate and a client key.
 
 ##### Sequence of Data Access in FHIR Vault via External System
 
-![sequence_tcu_patient_vault-Sequence_of_Data_Access_in_FHIR_Vault_via_External_System.png](sequence_tcu_patient_vault-Sequence_of_Data_Access_in_FHIR_Vault_via_External_System.png)
+<div>
+    <img src="sequence_tcu_patient_vault-Sequence_of_Data_Access_in_FHIR_Vault_via_External_System.png" alt="sequence_tcu_patient_vault-Sequence_of_Data_Access_in_FHIR_Vault_via_External_System.png">
+</div>
 
 ###### Entities Involved
 
@@ -50,7 +52,7 @@ The Technical User is a user account with a client certificate and a client key.
 
 The HTTP request to IAM looks like this:
 
-```http request
+```
 POST /realms/cara/protocol/openid-connect/token HTTP/1.1
 Host: iam.cara.ch
 Content-Type: application/x-www-form-urlencoded

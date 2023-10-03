@@ -65,3 +65,4 @@ Description: "The Care Team of a Shared Care Plan."
 * subject only Reference(CaraPatientProfile)
 
 * status 1..1
+* status from ScpCareTeamStatus (required)

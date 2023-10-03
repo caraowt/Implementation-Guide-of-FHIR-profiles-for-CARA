@@ -37,6 +37,7 @@ Description: "The Goal of a Shared Care Plan."
 * identifier[scpSlice].system = "urn:cara:scp"
 
 * lifecycleStatus 1..1
+* lifecycleStatus from ScpObservationLifecycle (required)
 
 * category.coding 1..1
 * category.coding from ScpGoalType (required)

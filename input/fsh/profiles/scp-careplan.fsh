@@ -26,7 +26,7 @@ Description: "The Care Plan of a Shared Care Plan."
 * identifier[scpSlice].system = "urn:cara:scp"
 
 * status 1..1
-* status = #active
+* status from ScpCarePlanStatus (required)
 
 * created 1..1
 

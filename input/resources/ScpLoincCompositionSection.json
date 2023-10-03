@@ -4,7 +4,7 @@
   "url": "https://loinc.org",
   "version": "1.0.0",
   "name": "ScpLoincCompositionSection",
-  "title": "SCP - Goal Type - LOINC",
+  "title": "SCP - Composition Section Type - LOINC",
   "status": "draft",
   "experimental": true,
   "publisher": "CARA (CH)",

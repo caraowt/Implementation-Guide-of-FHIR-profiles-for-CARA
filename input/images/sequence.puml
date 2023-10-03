@@ -1,5 +1,5 @@
-@startuml sequence_tcu_patient_vault
-title Sequence of Data Access in FHIR Vault via External System
+@startuml
+title Access and Data Retrieval Workflow in CARA Platform
 
 actor extsys as "External System"
 box CARA Platform
@@ -24,4 +24,63 @@ extsys -> fhirvault : Call FHIR Operation
 activate fhirvault
 extsys <-- fhirvault : FHIR Result
 deactivate fhirvault
+@enduml
+
+@startuml
+title Patient Data Processing and Observation Integration Workflow
+
+actor "External System" as extsys
+actor "MPI" as mpi
+actor "IAM" as iam
+actor "AIM" as aim
+actor "FHIR Vault" as fhirvault
+
+activate extsys
+
+loop for each patient
+
+== Identifiers resolution ==
+
+extsys -> mpi : Resolve MPI-ID
+activate mpi
+extsys <-- mpi : MPI-ID
+deactivate mpi
+
+alt none or expired
+extsys -> iam : Get Access Token
+activate iam
+extsys <-- iam : Access Token
+deactivate iam
+end alt
+
+extsys -> aim : Resolve AccountURN
+activate aim
+extsys <-- aim : AccountURN
+deactivate aim
+
+extsys -> extsys : Extract Partition Name
+
+== Data Processing ==
+
+extsys -> fhirvault : Fetch SCP context
+activate fhirvault
+extsys <-- fhirvault : FHIR Resources
+deactivate fhirvault
+
+extsys -> extsys : analyse observations
+
+extsys -> extsys : select Organization
+
+extsys -> extsys : create Observations
+
+== Observations Import ==
+
+loop until success or failure
+extsys -> fhirvault : Push Observations
+activate fhirvault
+extsys <-- fhirvault : Batch Result
+deactivate fhirvault
+end loop
+
+end loop
 @enduml

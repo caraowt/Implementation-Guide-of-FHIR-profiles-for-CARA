@@ -6,7 +6,7 @@ It also employs the [ATNA] Profile to establish secure nodes and applications.
 An Identity And Access Management System is in place to embody the Authorization Server role outlined in the [IUA] Profile.
 External Systems are required to register with the CARA Platform.
 This registration results in the issuance of a client certificate for authenticating the Technical Users.
-A client key is also provided to identify the Authorization Client ([IUA]).
+A client id is also provided to identify the Authorization Client ([IUA]).
 
 Access to the CARA Platform necessitates an Access Token.
 The Access Token must be issued from the CARA Platform’s Authorization Server ([IUA]), aligning with the IHE transaction [ITI-71].
@@ -29,12 +29,14 @@ Flexibility for data handling is ensured with options to create additional parti
 #### Technical User
 
 An external system may access the CARA Platform via a Technical User.
-The Technical User is a user account with a client certificate and a client key.
+The Technical User is a user account with a client certificate and a client id.
 
-##### Sequence of Data Access in FHIR Vault via External System
+##### Access and Data Retrieval Workflow in CARA Platform
 
 <div>
-    <img src="sequence_tcu_patient_vault-Sequence_of_Data_Access_in_FHIR_Vault_via_External_System.png" alt="sequence_tcu_patient_vault-Sequence_of_Data_Access_in_FHIR_Vault_via_External_System.png">
+    <img 
+      src="sequence-Access and Data Retrieval Workflow in CARA Platform.png"
+      alt="sequence-Access and Data Retrieval Workflow in CARA Platform.png">
 </div>
 
 ###### Entities Involved
@@ -75,6 +77,51 @@ The mTLS certificate is used to authenticate the External System.
 - The FHIR Vault is activated, and it processes the request from the External System.
 - The FHIR Result is sent back to the External System, and the FHIR Vault is deactivated.
 
+##### Patient Data Processing and Observation Integration Workflow
+
+<div>
+    <img 
+      src="sequence-Patient Data Processing and Observation Integration Workflow.png" 
+      alt="sequence-Patient Data Processing and Observation Integration Workflow.png">
+</div>
+
+###### Access Token issuance
+
+- External System issues an Access Token with ([ITI-71]).
+    - External System must provide a client id issued by CARA.
+    - External System must initiate an mTLS connection with the client certificate issued by CARA.
+- External System must include the Access Token in the HTTP Requests to the FHIR Vault ([ITI-72]).
+
+###### Identifiers resolution
+
+- External System resolves the MPI-ID of the Patient from its local identifier ([ITI-45]).
+    - The transaction PIXV3 Query [ITI-45] is not covered by this implementation guide.
+- External System resolves the AccountURN of the Patient from the MPI-ID from the Account and Identifier Management (AIM).
+- External System must extract the Partition Name from the AccountURN.
+    - `urn:cara:account:alice_1234` → `alice_1234`
+
+###### Get and process the Shared Care Plan context
+
+- External System must fetch the context of a Shared Care Plan: CarePlan, CareTeam, Goals.
+    - One FHIR Operation ([FHIR Search]) is enough to get all the resources.
+- External System must identify its organization in the care team.
+    - The GLN of the External System's organization must match the GLN (`Organization.identifier`) of the Care Team's organization.
+- External System must analyze the candidate observations to identify the ones that are relevant to Shared Care Plan.
+    - External System must identify the observations that match the Goal Type (`goal.category`) of active Goals (`goal.lifecycleStatus`).
+    - External System must identify the observations that match the Target Type (`goal.target.detailCode`) of active Goals (`goal.target.extention.status`).
+- External System must evaluate the attention point for quantitative observations.
+    - When the metric value of an observation doesn't fit the range of a target, then the observation must be flagged as an attention point.
+
+###### Create and transfer observations to the Shared Care Plan
+
+- External System must create Observation resource.
+    - External System must set a UUID (`Observation.id`).
+      - External System may override Observation resource when the UUID is already used. 
+    - External System must set the reference of the matching Organization (`Observation.performer`).
+- External System must push the Observation resources with FHIR Batch operations.
+    - External System must handle the retry on error.
+    - External System must handle the rate limit exceptions.
+
 [IUA]: https://profiles.ihe.net/ITI/IUA/index.html
 [ITI-71]: https://profiles.ihe.net/ITI/IUA/index.html#371-get-access-token-iti-71
 [ITI-72]: https://profiles.ihe.net/ITI/IUA/index.html#372-incorporate-access-token-iti-72
@@ -82,3 +129,6 @@ The mTLS certificate is used to authenticate the External System.
 [ITI-103]: https://profiles.ihe.net/ITI/IUA/index.html#3103-get-authorization-server-metadata-iti-103
 [ATNA]: https://profiles.ihe.net/ITI/TF/Volume1/ch-9.html
 [ITI-19]: https://profiles.ihe.net/ITI/TF/Volume2/ITI-19.html#3.19
+[ITI-45]: https://profiles.ihe.net/ITI/TF/Volume2/ITI-45.html
+[FHIR Search]: https://hl7.org/fhir/http.html#search
+[FHIR Batch]: https://hl7.org/fhir/http.html#transaction

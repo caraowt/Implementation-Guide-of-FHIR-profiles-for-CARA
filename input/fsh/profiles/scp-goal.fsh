@@ -5,7 +5,7 @@ Id: scp-goal-target-status
 Title: "SCP - Goal - Target Status"
 Description: "Flag to identify the statis of a target."
 * value[x] only Coding
-* valueCoding from ObservationStatus
+* valueCoding from ScpObservationLifecycle
 
 // resource
 

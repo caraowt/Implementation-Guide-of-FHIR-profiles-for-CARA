@@ -53,17 +53,17 @@ Description: "The Contextual Data resource is used to capture the contextual inf
     and advanceDirectiveSlice 1..1 
     and contactsSlice 1..1
 * section[socialHistorySlice].code from ScpContextualDataType
-* section[socialHistorySlice].code = ScpLoincCompositionSection#29762-2 "Social history"
+* section[socialHistorySlice].code = CaraLoincSelection#29762-2 "Social history"
 * section[socialHistorySlice].text 1..1
 * section[medicalHistorySlice].code from ScpContextualDataType
-* section[medicalHistorySlice].code = ScpLoincCompositionSection#11348-0 "Past medical history"
+* section[medicalHistorySlice].code = CaraLoincSelection#11348-0 "Past medical history"
 * section[medicalHistorySlice].text 1..1
 * section[patientPrioritySlice].code from ScpContextualDataType
-* section[patientPrioritySlice].code = ScpLoincCompositionSection#29299-5 "Reason for visit"
+* section[patientPrioritySlice].code = CaraLoincSelection#29299-5 "Reason for visit"
 * section[patientPrioritySlice].text 1..1
 * section[advanceDirectiveSlice].code from ScpContextualDataType
-* section[advanceDirectiveSlice].code = ScpLoincCompositionSection#42348-3 "Advance directives"
+* section[advanceDirectiveSlice].code = CaraLoincSelection#42348-3 "Advance directives"
 * section[advanceDirectiveSlice].text 1..1
 * section[contactsSlice].code from ScpContextualDataType
-* section[contactsSlice].code = ScpSnomedCompositionSection#70862002 "Contact person"
+* section[contactsSlice].code = CaraSnomedSelection#70862002 "Contact person"
 * section[contactsSlice].entry only Reference(ScpContact)

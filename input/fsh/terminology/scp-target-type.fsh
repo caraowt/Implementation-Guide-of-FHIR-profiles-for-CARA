@@ -2,5 +2,18 @@ ValueSet: ScpTargetType
 Id: scp-target-type
 Title: "SCP - Parameter Type"
 Description: "The selection of concepts for the Target Type of a SCP Goal."
-* include codes from system ScpSnomedParameterType
-* include codes from system ScpSnomedParameterGroup
+* CaraSnomedSelection#75367002 "Blood pressure"
+* CaraSnomedSelection#1020831000000109 "Lipid level"
+* CaraSnomedSelection#271649006 "Systolic blood pressure"
+* CaraSnomedSelection#271650006 "Diastolic Blood Pressure"
+* CaraSnomedSelection#27113001 "Body weight"
+* CaraSnomedSelection#86290005 "Respiratory rate"
+* CaraSnomedSelection#405176005 "Blood glucose status"
+* CaraSnomedSelection#408591000 "HBA1c target"
+* CaraSnomedSelection#8499008 "Pulse"
+* CaraSnomedSelection#103228002 "Blood oxygen saturation"
+* CaraSnomedSelection#386725007 "Body temperature"
+* CaraSnomedSelection#853681000000104 "Total cholesterol level"
+* CaraSnomedSelection#850991000000104 "Triglyceride level"
+* CaraSnomedSelection#1028861000000101 "Plasma fasting LDL (low density lipoprotein) cholesterol level"
+* CaraSnomedSelection#1028841000000102 "Plasma fasting HDL (high density lipoprotein) cholesterol level"

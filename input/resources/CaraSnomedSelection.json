@@ -1,0 +1,414 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "CaraSnomedSelection",
+    "url": "http://snomed.info/sct",
+    "version": "1.0.0",
+    "name": "CaraSnomedSelection",
+    "title": "CARA - SNOMED CT",
+    "status": "draft",
+    "experimental": true,
+    "publisher": "CARA (CH)",
+    "description": "Selection of Concepts coming from SNOMED CT",
+    "caseSensitive": true,
+    "content": "complete",
+    "concept": [ {
+      "code": "271649006",
+      "display": "Systolic blood pressure",
+      "designation": [ {
+        "language": "rm-CH",
+        "value": "Pressiun dal sang sistolica"
+      }, {
+        "language": "it-CH",
+        "value": "Pressione sanguigna sistolica"
+      }, {
+        "language": "en-US",
+        "value": "Systolic Blood Pressure"
+      }, {
+        "language": "de-CH",
+        "value": "Systolischer Blutdruck"
+      }, {
+        "language": "fr-CH",
+        "value": "Tension artérielle systolique"
+      } ]
+    }, {
+      "code": "271650006",
+      "display": "Diastolic Blood Pressure",
+      "designation": [ {
+        "language": "de-CH",
+        "value": "Diastolischer Blutdruck"
+      }, {
+        "language": "en-US",
+        "value": "Diastolic Blood Pressure"
+      }, {
+        "language": "rm-CH",
+        "value": "Pressiun dal sang diastolica"
+      }, {
+        "language": "it-CH",
+        "value": "Pressione sanguigna diastolica"
+      }, {
+        "language": "fr-CH",
+        "value": "Pression sanguine diastolique"
+      } ]
+    }, {
+      "code": "27113001",
+      "display": "Body weight",
+      "designation": [ {
+        "language": "rm-CH",
+        "value": "Paisa"
+      }, {
+        "language": "en-US",
+        "value": "Weight"
+      }, {
+        "language": "it-CH",
+        "value": "Peso"
+      }, {
+        "language": "de-CH",
+        "value": "Gewicht"
+      }, {
+        "language": "fr-CH",
+        "value": "Poids"
+      } ]
+    }, {
+      "code": "86290005",
+      "display": "Respiratory rate",
+      "designation": [ {
+        "language": "it-CH",
+        "value": "Frequenza respiratoria"
+      }, {
+        "language": "rm-CH",
+        "value": "Frequenza da respirar"
+      }, {
+        "language": "en-US",
+        "value": "Respiratory Rate"
+      }, {
+        "language": "fr-CH",
+        "value": "Taux respiratoire"
+      }, {
+        "language": "de-CH",
+        "value": "Atemfrequenz"
+      } ]
+    }, {
+      "code": "405176005",
+      "display": "Blood glucose status",
+      "designation": [ {
+        "language": "it-CH",
+        "value": "Stato di glucosio nel sangue"
+      }, {
+        "language": "en-US",
+        "value": "Blood Glucose Status"
+      }, {
+        "language": "rm-CH",
+        "value": "Status da glucosa en il sang"
+      }, {
+        "language": "de-CH",
+        "value": "Blutzuckerstatus"
+      }, {
+        "language": "fr-CH",
+        "value": "Statut de glucose sanguin"
+      } ]
+    }, {
+      "code": "408591000",
+      "display": "HBA1c target",
+      "designation": [ {
+        "language": "fr-CH",
+        "value": "Cible HbA1c"
+      }, {
+        "language": "it-CH",
+        "value": "Obiettivo HbA1c"
+      }, {
+        "language": "rm-CH",
+        "value": "Target HbA1c"
+      }, {
+        "language": "en-US",
+        "value": "HbA1c Target"
+      }, {
+        "language": "de-CH",
+        "value": "HbA1c-Zielwert"
+      } ]
+    }, {
+      "code": "8499008",
+      "display": "Pulse",
+      "designation": [ {
+        "language": "de-CH",
+        "value": "Puls"
+      }, {
+        "language": "it-CH",
+        "value": "Polso"
+      }, {
+        "language": "rm-CH",
+        "value": "Puls"
+      }, {
+        "language": "fr-CH",
+        "value": "Pouls"
+      }, {
+        "language": "en-US",
+        "value": "Pulse"
+      } ]
+    }, {
+      "code": "103228002",
+      "display": "Blood oxygen saturation",
+      "designation": [ {
+        "language": "en-US",
+        "value": "Blood Oxygen Saturation"
+      }, {
+        "language": "rm-CH",
+        "value": "Saturaziun d'oxigen en il sang"
+      }, {
+        "language": "it-CH",
+        "value": "Saturazione dell'ossigeno nel sangue"
+      }, {
+        "language": "fr-CH",
+        "value": "Saturation en oxygène du sang"
+      }, {
+        "language": "de-CH",
+        "value": "Blutsauerstoffsättigung"
+      } ]
+    }, {
+      "code": "386725007",
+      "display": "Body temperature",
+      "designation": [ {
+        "language": "en-US",
+        "value": "Body Temperature"
+      }, {
+        "language": "rm-CH",
+        "value": "Temperatura dal corp"
+      }, {
+        "language": "de-CH",
+        "value": "Körpertemperatur"
+      }, {
+        "language": "fr-CH",
+        "value": "Température corporelle"
+      }, {
+        "language": "it-CH",
+        "value": "Temperatura corporea"
+      } ]
+    }, {
+      "code": "853681000000104",
+      "display": "Total cholesterol level",
+      "designation": [ {
+        "language": "rm-CH",
+        "value": "Livello total da cholesterol"
+      }, {
+        "language": "fr-CH",
+        "value": "Taux total de cholestérol"
+      }, {
+        "language": "it-CH",
+        "value": "Livello totale di colesterolo"
+      }, {
+        "language": "de-CH",
+        "value": "Gesamtcholesterinspiegel"
+      }, {
+        "language": "en-US",
+        "value": "Total Cholesterol Level"
+      } ]
+    }, {
+      "code": "850991000000104",
+      "display": "Triglyceride level",
+      "designation": [ {
+        "language": "it-CH",
+        "value": "Livello di trigliceridi"
+      }, {
+        "language": "de-CH",
+        "value": "Triglyceridspiegel"
+      }, {
+        "language": "en-US",
+        "value": "Triglyceride Level"
+      }, {
+        "language": "fr-CH",
+        "value": "Taux de triglycérides"
+      }, {
+        "language": "rm-CH",
+        "value": "Livello da triglicerids"
+      } ]
+    }, {
+      "code": "1028861000000101",
+      "display": "Plasma fasting LDL (low density lipoprotein) cholesterol level",
+      "designation": [ {
+        "language": "it-CH",
+        "value": "Livello di colesterolo LDL"
+      }, {
+        "language": "en-US",
+        "value": "LDL Cholesterol Level"
+      }, {
+        "language": "fr-CH",
+        "value": "Taux de cholestérol LDL"
+      }, {
+        "language": "de-CH",
+        "value": "LDL-Cholesterinspiegel"
+      }, {
+        "language": "rm-CH",
+        "value": "Livello da cholesterol LDL"
+      } ]
+    }, {
+      "code": "1028841000000102",
+      "display": "Plasma fasting HDL (high density lipoprotein) cholesterol level",
+      "designation": [ {
+        "language": "fr-CH",
+        "value": "Taux de cholestérol HDL"
+      }, {
+        "language": "rm-CH",
+        "value": "Livello da cholesterol HDL"
+      }, {
+        "language": "it-CH",
+        "value": "Livello di colesterolo HDL"
+      }, {
+        "language": "de-CH",
+        "value": "HDL-Cholesterinspiegel"
+      }, {
+        "language": "en-US",
+        "value": "HDL Cholesterol Level"
+      } ]
+    }, {
+      "code": "70862002",
+      "display": "Contact person",
+      "designation": [ {
+        "language": "fr-CH",
+        "value": "Personne de contact"
+      }, {
+        "language": "en-US",
+        "value": "Contact person"
+      }, {
+        "language": "it-CH",
+        "value": "Persona di contatto"
+      }, {
+        "language": "de-CH",
+        "value": "Kontaktperson"
+      }, {
+        "language": "rm-CH",
+        "value": "Persuna da contact"
+      } ]
+    }, {
+      "code": "75367002",
+      "display": "Blood pressure",
+      "designation": [ {
+        "language": "fr-CH",
+        "value": "Pression artérielle"
+      }, {
+        "language": "de-CH",
+        "value": "Blutdruck"
+      }, {
+        "language": "rm-CH",
+        "value": "Pressiun dal sang"
+      }, {
+        "language": "it-CH",
+        "value": "Pressione sanguigna"
+      }, {
+        "language": "en-US",
+        "value": "Blood Pressure"
+      } ]
+    }, {
+      "code": "1020831000000109",
+      "display": "Lipid level",
+      "designation": [ {
+        "language": "de-CH",
+        "value": "Lipidspiegel"
+      }, {
+        "language": "fr-CH",
+        "value": "Niveau de lipides"
+      }, {
+        "language": "it-CH",
+        "value": "Livello di lipidi"
+      }, {
+        "language": "rm-CH",
+        "value": "Livello da lipids"
+      }, {
+        "language": "en-US",
+        "value": "Lipid Level"
+      } ]
+    }, {
+      "code": "116154003",
+      "display": "Patient",
+      "designation": [ {
+        "language": "fr-CH",
+        "value": "Patient"
+      }, {
+        "language": "en-US",
+        "value": "Patient"
+      }, {
+        "language": "it-CH",
+        "value": "Paziente"
+      }, {
+        "language": "rm-CH",
+        "value": "Pazient"
+      }, {
+        "language": "de-CH",
+        "value": "Patient"
+      } ]
+    }, {
+      "code": "429577009",
+      "display": "Patient advocate (person)",
+      "designation": [ {
+        "language": "fr-CH",
+        "value": "Représentant"
+      }, {
+        "language": "de-CH",
+        "value": "Stellvertreter"
+      }, {
+        "language": "en-US",
+        "value": "Representative"
+      }, {
+        "language": "it-CH",
+        "value": "Rappresentante"
+      }, {
+        "language": "rm-CH",
+        "value": "Represchentant"
+      } ]
+    }, {
+      "code": "224577009",
+      "display": "HCA - Healthcare assistant",
+      "designation": [ {
+        "language": "fr-CH",
+        "value": "Auxiliaire"
+      }, {
+        "language": "it-CH",
+        "value": "Persona ausiliara"
+      }, {
+        "language": "en-US",
+        "value": "Assistant"
+      }, {
+        "language": "de-CH",
+        "value": "Hilfsperson"
+      }, {
+        "language": "rm-CH",
+        "value": "Persuna d'agid"
+      } ]
+    }, {
+      "code": "223366009",
+      "display": "Healthcare professional",
+      "designation": [ {
+        "language": "it-CH",
+        "value": "Professionista della salute"
+      }, {
+        "language": "rm-CH",
+        "value": "Professiunala da la sanadad"
+      }, {
+        "language": "en-US",
+        "value": "Healthcare Professional"
+      }, {
+        "language": "fr-CH",
+        "value": "Professionnel de la santé"
+      }, {
+        "language": "de-CH",
+        "value": "Gesundheitsfachperson"
+      } ]
+    }, {
+      "code": "133932002",
+      "display": "Caregiver",
+      "designation": [ {
+        "language": "it-CH",
+        "value": "Badante"
+      }, {
+        "language": "de-CH",
+        "value": "Betreuer"
+      }, {
+        "language": "rm-CH",
+        "value": "Curader/a"
+      }, {
+        "language": "en-US",
+        "value": "Caregiver"
+      }, {
+        "language": "fr-CH",
+        "value": "Aide-soignant"
+      } ]
+    } ]
+  }

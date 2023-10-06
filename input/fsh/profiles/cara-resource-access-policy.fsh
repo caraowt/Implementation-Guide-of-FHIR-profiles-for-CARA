@@ -38,7 +38,7 @@ Description: "An Access Policy of the namespace's resource."
 * rule.data 0..*
 * rule.data.expression 1..1
 * rule.data.expression.language 1..1
-* rule.data.expression.language = urn:ietf:bcp:13#text/fhirpath"
+* rule.data.expression.language = urn:ietf:bcp:13#text/fhirpath
 * rule.data.expression.expression 1..1
 
 * rule.activity 1..*

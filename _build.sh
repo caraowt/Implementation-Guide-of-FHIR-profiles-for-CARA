@@ -2,6 +2,8 @@
 
 set -ex
 
+mkdir -p output
+
 docker build \
   -t ig-builder \
   .

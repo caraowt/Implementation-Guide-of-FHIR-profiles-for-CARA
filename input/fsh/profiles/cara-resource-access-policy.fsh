@@ -14,13 +14,13 @@ Id: cara-resource-access-policy
 Title: "CARA - Resource Access Policy"
 Description: "An Access Policy of the namespace's resource."
 
-* meta.tag 1..*
+* meta.tag 0..*
 * meta.tag ^slicing.discriminator.type = #pattern
 * meta.tag ^slicing.discriminator.path = "system"
 * meta.tag ^slicing.rules = #open
 * meta.tag ^slicing.description = "Slice based on the meta.tag.system"
 * meta.tag ^slicing.ordered = false
-* meta.tag contains nsSlice 1..1
+* meta.tag contains nsSlice 0..1
 * meta.tag[nsSlice] from CaraPlatformNamespace
 * meta.tag[nsSlice].code 1..1
 
@@ -31,7 +31,6 @@ Description: "An Access Policy of the namespace's resource."
 * combining = PermissionRuleCombining#deny-unless-permit
 
 * rule 1..*
-
 
 * rule.type 1..1
 * rule.type = ConsentProvisionType#permit

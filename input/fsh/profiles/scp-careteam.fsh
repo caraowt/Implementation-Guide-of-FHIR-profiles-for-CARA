@@ -27,7 +27,7 @@ Description: "Participant entry date in the team."
 Extension: ScpCareteamParticipantExitDate
 Id: scp-careteam-participant-exit-date
 Title: "SCP - Care Team - Exist Date"
-Description: "Participant exit date in the team."
+Description: "Participant exit date from the team."
 * value[x] only date
 
 // resource

@@ -1,8 +1,16 @@
+// extentions
+
+Extension: ScpObservationInterestedPartyUrn
+Id: scp-observation-interested-party
+Title: "SCP - Observation - Interested Party Urn"
+Description: "identifier of a party with an interest in the observation."
+* value[x] only string
+
 Profile: ScpObservation
 Parent: Observation
 Id: scp-observation
-Title: "SCP - Observaton"
-Description: "The Observaton of a Shared Care Plan."
+Title: "SCP - Observation"
+Description: "The Observation of a Shared Care Plan."
 
 * meta.tag 1..*
 * meta.tag ^slicing.discriminator.type = #value
@@ -59,3 +67,5 @@ Description: "The Observaton of a Shared Care Plan."
 * component[atomicSlice].valueQuantity 1..1
 * component[compositeSlice].code from ScpTargetType
 * component[compositeSlice].value[x] 0..0
+
+* extension contains ScpObservationInterestedPartyUrn named interestedPartyUrn 0..1

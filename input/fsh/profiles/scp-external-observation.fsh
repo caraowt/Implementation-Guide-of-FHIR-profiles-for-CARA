@@ -1,8 +1,8 @@
 Profile: ScpExternalObservation
 Parent: ScpObservation
 Id: scp-external-observation
-Title: "SCP - External Observaton"
-Description: "The Observaton of a Shared Care Plan coming from third parties."
+Title: "SCP - External Observation"
+Description: "The Observation of a Shared Care Plan coming from third parties."
 
 * meta.tag ^slicing.discriminator.type = #value
 * meta.tag ^slicing.discriminator.path = "system"

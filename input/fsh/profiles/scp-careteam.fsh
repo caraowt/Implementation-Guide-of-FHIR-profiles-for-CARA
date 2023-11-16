@@ -18,6 +18,18 @@ Title: "SCP - Care Team - Comment"
 Description: "Human readable comment of a participant."
 * value[x] only string
 
+Extension: ScpCareteamParticipantEntryDate
+Id: scp-careteam-participant-entry-date
+Title: "SCP - Care Team - Entry Date"
+Description: "Participant entry date in the team."
+* value[x] only date
+
+Extension: ScpCareteamParticipantExitDate
+Id: scp-careteam-participant-exit-date
+Title: "SCP - Care Team - Exist Date"
+Description: "Participant exit date from the team."
+* value[x] only date
+
 // resource
 
 Profile: ScpCareTeam
@@ -60,6 +72,8 @@ Description: "The Care Team of a Shared Care Plan."
 * participant.extension contains ScpCareteamParticipantIsManager named ismanager 1..1
 * participant.extension contains ScpCareteamParticipantIsCoordinator named iscoordinator 1..1
 * participant.extension contains ScpCareteamParticipantComment named comment 1..1
+* participant.extension contains ScpCareteamParticipantEntryDate named entryDate 1..1
+* participant.extension contains ScpCareteamParticipantExitDate named exitDate 1..1
 
 * subject 1..1
 * subject only Reference(CaraPatientProfile)

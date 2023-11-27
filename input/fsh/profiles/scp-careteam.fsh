@@ -64,9 +64,10 @@ Description: "The Care Team of a Shared Care Plan."
 * participant ^slicing.rules = #open
 * participant ^slicing.description = "Slice based on the participant.member"
 * participant ^slicing.ordered = false
-* participant contains healthcareProfessionalSlice 0..* and caregiverSlice 0..*
+* participant contains healthcareProfessionalSlice 0..* and caregiverSlice 0..* and organizationSlice 0..*
 * participant[healthcareProfessionalSlice].member only Reference(ScpTeamMemberPractitioner)
 * participant[caregiverSlice].member only Reference(ScpTeamMemberRelatedPerson)
+* participant[organizationSlice].member only Reference(ScpTeamMemberOrganization)
 * participant.role from ScpParticipantRole (required)
 
 * participant.extension contains ScpCareteamParticipantIsManager named ismanager 1..1

@@ -21,7 +21,7 @@ Description: "The Team Member of a Shared Care Plan with the profile Organizatio
 * identifier ^slicing.rules = #open
 * identifier ^slicing.description = "Slice based on the identifier.system"
 * identifier ^slicing.ordered = false
-* identifier contains accountSlice 1..1 and scpSlice 1..1 and glnSlice 1..1
+* identifier contains accountSlice 1..1 and scpSlice 1..1 and orgIdSlice 1..1
 * identifier[accountSlice].system = "urn:cara:account"
 * identifier[scpSlice].system = "urn:cara:scp"
 * identifier[orgIdSlice].system = "urn:cara:org_id"

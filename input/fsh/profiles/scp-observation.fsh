@@ -6,6 +6,8 @@ Title: "SCP - Observation - Interested Party Urn"
 Description: "identifier of a party with an interest in the observation."
 * value[x] only string
 
+// resource
+
 Profile: ScpObservation
 Parent: Observation
 Id: scp-observation
@@ -69,3 +71,5 @@ Description: "The Observation of a Shared Care Plan."
 * component[compositeSlice].value[x] 0..0
 
 * extension contains ScpObservationInterestedPartyUrn named interestedPartyUrn 0..1
+
+* extension contains ScpObservationContentMetadata named contentMetadata 0..*

@@ -1,4 +1,4 @@
-// extentions
+// extensions
 
 Extension: ScpCareteamParticipantIsManager
 Id: scp-careteam-participant-ismanager

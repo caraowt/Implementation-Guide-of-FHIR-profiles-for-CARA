@@ -1,4 +1,4 @@
-// extentions
+// extensions
 
 Extension: ScpContextualDataIsManager
 Id: scp-contextualdata-ismanager

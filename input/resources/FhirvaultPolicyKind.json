@@ -1,0 +1,18 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "FhirvaultPolicyKind",
+  "url": "https://terminology.cara.ch/CodeSystem/fhirvault-policy-kind",
+  "version": "1.0.0",
+  "name": "FhirvaultPolicyKind",
+  "title": "CARA - FHIR Vault Policy Kind",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "CARA (CH)",
+  "description": "The kinds of the FHIR Vault Policy of the CARA Platform.",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [ {
+    "code": "transactional",
+    "display": "Transaction Policy"
+  } ]
+}

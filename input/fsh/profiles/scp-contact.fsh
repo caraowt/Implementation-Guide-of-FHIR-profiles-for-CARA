@@ -1,4 +1,4 @@
-// extentions
+// extensions
 
 Extension: ScpContactRelationship
 Id: scp-contact-relationship

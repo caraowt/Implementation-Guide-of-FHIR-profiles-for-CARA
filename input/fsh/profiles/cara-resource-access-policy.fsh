@@ -1,4 +1,4 @@
-// extentions
+// extensions
 
 Extension: CaraResourceAccessPolicyPrincipal
 Id: cara-resource-access-policy-principal
@@ -20,7 +20,7 @@ Description: "An Access Policy of the namespace's resource."
 * meta.tag ^slicing.rules = #open
 * meta.tag ^slicing.description = "Slice based on the meta.tag.system"
 * meta.tag ^slicing.ordered = false
-* meta.tag contains nsSlice 0..1
+* meta.tag contains nsSlice 1..1
 * meta.tag[nsSlice] from CaraPlatformNamespace
 * meta.tag[nsSlice].code 1..1
 

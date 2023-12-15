@@ -1,4 +1,4 @@
-// extentions
+// extensions
 
 Extension: ScpGoalTargetStatus
 Id: scp-goal-target-status

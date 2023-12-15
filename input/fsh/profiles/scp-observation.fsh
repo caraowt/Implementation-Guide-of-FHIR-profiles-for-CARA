@@ -1,4 +1,4 @@
-// extentions
+// extensions
 
 Extension: ScpObservationInterestedPartyUrn
 Id: scp-observation-interested-party

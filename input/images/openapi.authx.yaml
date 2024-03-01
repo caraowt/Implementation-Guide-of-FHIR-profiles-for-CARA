@@ -1,0 +1,64 @@
+openapi: 3.0.1
+
+info:
+  title: AuthX Backend
+  version: v1
+
+servers:
+  - url: https://ws-authx-mtls-val.cara.ch
+    description: Validation Environment
+  - url: https://ws-authx-mtls-int.cara.ch
+    description: Integration Environment
+  - url: https://ws-authx-mtls.cara.ch
+    description: Production Environment
+
+security:
+  - bearerAuth: []
+
+paths:
+  /api/v1/query/get-account-urn-from-mpi-id-urn:
+    post:
+      tags:
+        - authx-facade-controller
+      operationId: getAccountUrnFromMpiIdUrn
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/GetAccountUrnFromMpiIdUrnQuery'
+        required: true
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GetAccountUrnFromMpiIdUrnResult'
+
+components:
+
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+  schemas:
+    GetAccountUrnFromMpiIdUrnQuery:
+      required:
+        - mpiIdUrn
+      type: object
+      properties:
+        mpiIdUrn:
+          type: string
+          description: The URN of a MPI-ID.
+          example: urn:cara:mpi_id:<root>/<extension>
+    GetAccountUrnFromMpiIdUrnResult:
+      required:
+        - accountUrn
+      type: object
+      properties:
+        accountUrn:
+          type: string
+          description: The URN of a CARA account identifier.
+          example: urn:cara:account:<CARA-ID>

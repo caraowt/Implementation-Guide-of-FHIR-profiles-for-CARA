@@ -46,7 +46,7 @@ The Access Token is issued based on the _client certificate_ and a _client id_.
 
 The HTTP request **(1)** to IAM looks like this:
 
-```
+```HTTP
 POST /realms/cara/protocol/openid-connect/token HTTP/1.1
 Host: iam.cara.ch
 Content-Type: application/x-www-form-urlencoded
@@ -59,7 +59,7 @@ The mTLS certificate is used to authenticate the External System.
 
 The HTTP response **(2)** from IAM looks like this:
 
-```
+```HTTP
 HTTP/1.1 200 OK
 Content-Type: application/json
 Content-Length 1430
@@ -127,6 +127,8 @@ The API is part of the Account and Identifier Management (AIM) system, also name
     <figurecaption>Account URN Resolution</figurecaption>
 </figure>
 
+The Open API is defined available there: [openapi.authx.yaml](./openapi.authx.yaml).
+
 The HTTP request **(1)** to AIM looks like this:
 
 ```HTTP
@@ -169,8 +171,6 @@ The connection to the AIM is secured with mTLS.
 #### FHIR Operations
 
 As explained earlier, the CARA Platform offers a RESTful FHIR API to access data.
-
-
 
 <figure>
     <img 

@@ -26,33 +26,24 @@ Flexibility for data handling is ensured with options to create additional parti
 
 ### Sequences
 
-#### Technical User
+#### Client Authentication
 
 An external system may access the CARA Platform via a Technical User.
-The Technical User is a user account with a client certificate and a client id.
+The Technical User is a user account with a _client certificate_ and a _client id_.
 
-##### Access and Data Retrieval Workflow in CARA Platform
+The _client certificate_ is used to authenticate the Technical User.
+The _client id_ is used to identify the Authorization Client ([IUA]).
+
+The external system must request an Access Token from the CARA Platform’s Authorization Server ([IUA]).
+The Access Token is issued based on the _client certificate_ and a _client id_.
 
 <div>
     <img 
-      src="sequence-Access and Data Retrieval Workflow in CARA Platform.png"
-      alt="sequence-Access and Data Retrieval Workflow in CARA Platform.png">
+      src="Client Authorization"
+      alt="sequence-Client_Authorization.png">
 </div>
 
-###### Entities Involved
-
-- External System: Initiates the processes by requesting an Access Token and then proceeds to resolve AccountURN and call FHIR operations.
-- Identity And Access Management (IAM): Responds to the Access Token request and provides it to the External System.
-- Account and Identifier Management (AIM): Helps in resolving the AccountURN by utilizing the provided MPI-ID.
-- FHIR Vault: Processes the FHIR operations called by the External System and returns the FHIR Result.
-
-###### Getting Access Token
-
-- The process begins with the External System requesting an Access Token from the Identity and Access Management (IAM) using the ITI-71 transaction.
-- IAM is activated, processes the request, and sends back the Access Token to the External System.
-- The External System receives the Access Token, and IAM is deactivated.
-
-The HTTP request to IAM looks like this:
+The HTTP request **(1)** to IAM looks like this:
 
 ```
 POST /realms/cara/protocol/openid-connect/token HTTP/1.1
@@ -65,7 +56,7 @@ grant_type=client_credentials&client_id=tcu-bestclinic%2Fscp-importer&scope=ns%3
 
 The mTLS certificate is used to authenticate the External System.
 
-The HTTP response from IAM looks like this:
+The HTTP response **(2)** from IAM looks like this:
 
 ```
 HTTP/1.1 200 OK
@@ -121,6 +112,196 @@ The provided Access Token, once decoded, looks like this:
 Then encoded Access Token must be included in the HTTP Request to access the Resource Server.
 The inclusion must follow the IHE transaction [ITI-72].
 
+#### Account URN Resolution
+
+As explained earlier, the Account URN is used to identify the partition name.
+The Account URN concept is not an interoperability standard.
+However, a resolution API is provided to resolve the Account URN from the MPI-ID.
+The API is part of the Account and Identifier Management (AIM) system, also named _authx_.
+
+<div>
+    <img 
+      src="Account URN Resolution"
+      alt="sequence-Account_URN_Resolution.png">
+</div>
+
+The HTTP request **(1)** to AIM looks like this:
+
+```HTTP
+POST /api/v1/query/get-account-urn-from-mpi-id-urn HTTP/1.1
+Host: iam.cara.ch
+Content-Type: application/json
+Authorization: Bearer <ACCESS_TOKEN>
+Content-Length: 85
+
+{
+    "mpiIdUrn": "urn:cara:mpi_id:1.1.1.99.1/e2d9dbec-9f49-4944-8b6b-790e88d2bd0f"
+}
+```
+
+The HTTP response **(2)** from AIM looks like this:
+
+```HTTP
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{
+    "accountUrn": "urn:cara:account:19776259-4d3e-4a1d-85e3-f1c6e48ec7f1"
+}
+```
+
+The Authorization Endpoint depends on the environment:
+
+| Environment | Endpoint                                                                       |
+|-------------|--------------------------------------------------------------------------------|
+| Validation  | https://ws-authx-mtls-val.cara.ch/api/v1/query/get-account-urn-from-mpi-id-urn |
+| Integration | https://ws-authx-mtls-int.cara.ch/api/v1/query/get-account-urn-from-mpi-id-urn |
+| Production  | https://ws-authx-mtls.cara.ch/api/v1/query/get-account-urn-from-mpi-id-urn     |
+
+The `mpiIdUrn` represents the MPI-ID (Master Patient Index ID) of the patient as a URN (Uniform Resource Name).
+This means the value always starts with the prefix `urn:cara:mpi_id:`, followed by the actual MPI-ID.
+The two components of the MPI-ID must be separated by a slash (`/`), for example, `<OID>/<UUID>`.
+
+The connection to the AIM is secured with mTLS.
+
+#### FHIR Operations
+
+As explained earlier, the CARA Platform offers a RESTful FHIR API to access data.
+
+<div>
+    <img 
+      src="Account URN Resolution"
+      alt="sequence-Account_URN_Resolution.png">
+</div>
+
+The data is partitioned and the Account URN is used to identify the partition name **(1)**.
+The partition name is the identifier of the Account URN.
+For instance, given the Account URN `urn:cara:account:19776259-4d3e-4a1d-85e3-f1c6e48ec7f1`, the partition name is `19776259-4d3e-4a1d-85e3-f1c6e48ec7f1`.
+The partition name must be included in the URL of the FHIR API.
+
+To get the CarePlan resources located in the SCP Namespace, the HTTP request **(2)** to the FHIR Server looks like this:
+
+```HTTP
+GET /fhir/19776259-4d3e-4a1d-85e3-f1c6e48ec7f1/CarePlan?status=active&_tag=https%3A%2F%2Fterminology.cara.ch%2FCodeSystem%2Ffhirvault-namespace%7Ccara%3Ascp HTTP/1.1
+Host: ws-fhir-mtls.cara.ch
+Accept: application/fhir+json
+Authorization: Bearer <ACCESS_TOKEN>
+Content-Length: 85
+```
+
+The HTTP response **(3)** from the FHIR Server looks like this:
+
+```HTTP
+HTTP/1.1 200 OK
+Content-Type: application/fhir+json;charset=UTF-8
+
+{
+    "resourceType": "Bundle",
+    "id": "72738ded-a46e-4ec9-a9f0-de9c9778c23c",
+    "meta": {
+        "lastUpdated": "2024-03-01T15:24:54.223+00:00"
+    },
+    "type": "searchset",
+    "total": 1,
+    "link": [
+        {
+            "relation": "self",
+            "url": "http://localhost:9051/fhir/19776259-4d3e-4a1d-85e3-f1c6e48ec7f1/CarePlan?_tag=https%3A%2F%2Fterminology.cara.ch%2FCodeSystem%2Ffhirvault-namespace%7Ccara%3Ascp&status=active"
+        }
+    ],
+    "entry": [
+        {
+            "fullUrl": "http://localhost:9051/fhir/19776259-4d3e-4a1d-85e3-f1c6e48ec7f1/CarePlan/55a1101d-ee7a-4743-badc-21210748b70f",
+            "resource": {
+                "resourceType": "CarePlan",
+                "id": "55a1101d-ee7a-4743-badc-21210748b70f",
+                "meta": {
+                    "versionId": "2",
+                    "lastUpdated": "2024-03-01T15:24:46.497+00:00",
+                    "source": "#1htZYWE93lKOVrVW",
+                    "profile": [
+                        "https://terminology.cara.ch/StructureDefinition/ScpCarePlan"
+                    ],
+                    "tag": [
+                        {
+                            "system": "https://terminology.cara.ch/CodeSystem/fhirvault-namespace",
+                            "version": "1.0.0",
+                            "code": "cara:scp",
+                            "display": "Shared Care Plan"
+                        }
+                    ]
+                },
+                "identifier": [
+                    {
+                        "system": "urn:cara:scp",
+                        "value": "urn:cara:scp:55a1101d-ee7a-4743-badc-21210748b70f"
+                    },
+                    {
+                        "system": "urn:cara:account",
+                        "value": "urn:cara:account:19776259-4d3e-4a1d-85e3-f1c6e48ec7f1"
+                    },
+                    {
+                        "system": "urn:cara:mpi_id",
+                        "value": "urn:cara:mpi_id:1.1.1.99.1/e2d9dbec-9f49-4944-8b6b-790e88d2bd0f"
+                    }
+                ],
+                "status": "active",
+                "intent": "directive",
+                "subject": {
+                    "reference": "Patient/4b674019-9358-4065-ac9f-7a98d405f0d7"
+                },
+                "created": "2024-03-01T15:24:44+00:00",
+                "careTeam": [
+                    {
+                        "reference": "CareTeam/55a1101d-ee7a-4743-badc-21210748b70f"
+                    }
+                ],
+                "goal": [
+                    {
+                        "reference": "Goal/f8c5f81b-0fc1-4260-b68f-2fa9c2f352c2"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        }
+    ]
+}
+```
+
+The endpoint for the FHIR Server depends on the environment:
+
+| Environment | Endpoint                              | 
+|-------------|---------------------------------------|
+| Validation  | https://ws-fhir-mtls-val.cara.ch/fhir |
+| Integration | https://ws-fhir-mtls-int.cara.ch/fhir |
+| Production  | https://ws-fhir-mtls.cara.ch/fhir     |
+
+The connection to the FHIR Server is secured with mTLS.
+
+
+##### Access and Data Retrieval Workflow in CARA Platform
+
+<div>
+    <img 
+      src="sequence-Access and Data Retrieval Workflow in CARA Platform.png"
+      alt="sequence-Access and Data Retrieval Workflow in CARA Platform.png">
+</div>
+
+###### Entities Involved
+
+- External System: Initiates the processes by requesting an Access Token and then proceeds to resolve AccountURN and call FHIR operations.
+- Identity And Access Management (IAM): Responds to the Access Token request and provides it to the External System.
+- Account and Identifier Management (AIM): Helps in resolving the AccountURN by utilizing the provided MPI-ID.
+- FHIR Server: Processes the FHIR operations called by the External System and returns the FHIR Result.
+
+###### Getting Access Token
+
+- The process begins with the External System requesting an Access Token from the Identity and Access Management (IAM) using the ITI-71 transaction.
+- IAM is activated, processes the request, and sends back the Access Token to the External System.
+- The External System receives the Access Token, and IAM is deactivated.
+
 ###### Resolving Account URN
 
 - Next, the External System interacts with Account and Identifier Management (AIM) to resolve the Account Uniform Resource Name (URN) by providing the Master Patient Index ID (MPI-ID).
@@ -129,54 +310,19 @@ The inclusion must follow the IHE transaction [ITI-72].
 
 ###### Calling FHIR Operations
 
-- With the Access Token and AccountURN, the External System is now equipped to call a FHIR operation from the FHIR Vault.
-- The FHIR Vault is activated, and it processes the request from the External System.
-- The FHIR Result is sent back to the External System, and the FHIR Vault is deactivated.
+- With the Access Token and AccountURN, the External System is now equipped to call a FHIR operation from the FHIR Server.
+- The FHIR Server is activated, and it processes the request from the External System.
+- The FHIR Result is sent back to the External System, and the FHIR Server is deactivated.
 
-##### Patient Data Processing and Observation Integration Workflow
+The endpoint for the FHIR Server depends on the environment:
 
-<div>
-    <img 
-      src="sequence-Patient Data Processing and Observation Integration Workflow.png" 
-      alt="sequence-Patient Data Processing and Observation Integration Workflow.png">
-</div>
+| Environment | Endpoint                              | 
+|-------------|---------------------------------------|
+| Validation  | https://ws-fhir-mtls-val.cara.ch/fhir |
+| Integration | https://ws-fhir-mtls-int.cara.ch/fhir |
+| Production  | https://ws-fhir-mtls.cara.ch/fhir     |
 
-###### Access Token issuance
-
-- External System issues an Access Token with ([ITI-71]).
-    - External System must provide a client id issued by CARA.
-    - External System must initiate an mTLS connection with the client certificate issued by CARA.
-- External System must include the Access Token in the HTTP Requests to the FHIR Vault ([ITI-72]).
-
-###### Identifiers resolution
-
-- External System resolves the MPI-ID of the Patient from its local identifier ([ITI-45]).
-    - The transaction PIXV3 Query [ITI-45] is not covered by this implementation guide.
-- External System resolves the AccountURN of the Patient from the MPI-ID from the Account and Identifier Management (AIM).
-- External System must extract the Partition Name from the AccountURN.
-    - `urn:cara:account:alice_1234` → `alice_1234`
-
-###### Get and process the Shared Care Plan context
-
-- External System must fetch the context of a Shared Care Plan: CarePlan, CareTeam, Goals.
-    - One FHIR Operation ([FHIR Search]) is enough to get all the resources.
-- External System must identify its organization in the care team.
-    - The GLN of the External System's organization must match the GLN (`Organization.identifier`) of the Care Team's organization.
-- External System must analyze the candidate observations to identify the ones that are relevant to Shared Care Plan.
-    - External System must identify the observations that match the Goal Type (`goal.category`) of active Goals (`goal.lifecycleStatus`).
-    - External System must identify the observations that match the Target Type (`goal.target.detailCode`) of active Goals (`goal.target.extention.status`).
-- External System must evaluate the attention point for quantitative observations.
-    - When the metric value of an observation doesn't fit the range of a target, then the observation must be flagged as an attention point.
-
-###### Create and transfer observations to the Shared Care Plan
-
-- External System must create Observation resource.
-    - External System must set a UUID (`Observation.id`).
-      - External System may override Observation resource when the UUID is already used. 
-    - External System must set the reference of the matching Organization (`Observation.performer`).
-- External System must push the Observation resources with FHIR Batch operations.
-    - External System must handle the retry on error.
-    - External System must handle the rate limit exceptions.
+The connection to the FHIR Server is secured with mTLS.
 
 [IUA]: https://profiles.ihe.net/ITI/IUA/index.html
 [ITI-71]: https://profiles.ihe.net/ITI/IUA/index.html#371-get-access-token-iti-71

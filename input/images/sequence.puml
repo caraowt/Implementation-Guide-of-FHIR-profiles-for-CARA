@@ -1,12 +1,11 @@
 @startuml
-title Access and Data Retrieval Workflow in CARA Platform
+title Client Authorization
+hide unlinked
+hide footbox
+autonumber
 
 actor extsys as "External System"
-box CARA Platform
-    actor iam as "Identity And\nAccess Management"
-    actor aim as "Account and\nIdentifier Management"
-    actor fhirvault as "FHIR Vault"
-end box
+actor iam as "Identity And\nAccess Management"
 
 activate extsys
 
@@ -14,73 +13,40 @@ extsys -> iam : Get Access Token [ITI-71]
 activate iam
 extsys <-- iam : Access Token
 deactivate iam
+@enduml
+
+@startuml
+title Account URN Resolution
+hide unlinked
+hide footbox
+autonumber
+
+actor extsys as "External System"
+actor aim as "Account and\nIdentifier Management"
+
+activate extsys
 
 extsys -> aim : Resolve AccountURN by MPI-ID
 activate aim
 extsys <-- aim : AccountURN
 deactivate aim
-
-extsys -> fhirvault : Call FHIR Operation
-activate fhirvault
-extsys <-- fhirvault : FHIR Result
-deactivate fhirvault
 @enduml
 
 @startuml
-title Patient Data Processing and Observation Integration Workflow
+title FHIR Operation
+hide unlinked
+hide footbox
+autonumber
 
-actor "External System" as extsys
-actor "MPI" as mpi
-actor "IAM" as iam
-actor "AIM" as aim
-actor "FHIR Vault" as fhirvault
+actor extsys as "External System"
+actor fhirserver as "FHIR Server"
 
 activate extsys
 
-loop for each patient
+extsys -> extsys : extract the partition name
 
-== Identifiers resolution ==
-
-extsys -> mpi : Resolve MPI-ID
-activate mpi
-extsys <-- mpi : MPI-ID
-deactivate mpi
-
-alt none or expired
-extsys -> iam : Get Access Token
-activate iam
-extsys <-- iam : Access Token
-deactivate iam
-end alt
-
-extsys -> aim : Resolve AccountURN
-activate aim
-extsys <-- aim : AccountURN
-deactivate aim
-
-extsys -> extsys : Extract Partition Name
-
-== Data Processing ==
-
-extsys -> fhirvault : Fetch SCP context
-activate fhirvault
-extsys <-- fhirvault : FHIR Resources
-deactivate fhirvault
-
-extsys -> extsys : analyse observations
-
-extsys -> extsys : select Organization
-
-extsys -> extsys : create Observations
-
-== Observations Import ==
-
-loop until success or failure
-extsys -> fhirvault : Push Observations
-activate fhirvault
-extsys <-- fhirvault : Batch Result
-deactivate fhirvault
-end loop
-
-end loop
+extsys -> fhirserver : Call FHIR Operation
+activate fhirserver
+extsys <-- fhirserver : FHIR Result
+deactivate fhirserver
 @enduml

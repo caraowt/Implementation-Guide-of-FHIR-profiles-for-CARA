@@ -58,12 +58,68 @@ The HTTP request to IAM looks like this:
 POST /realms/cara/protocol/openid-connect/token HTTP/1.1
 Host: iam.cara.ch
 Content-Type: application/x-www-form-urlencoded
-Content-Length: 54
+Content-Length: 146
 
-grant_type=client_credentials&client_id=bestclinic-tcu
+grant_type=client_credentials&client_id=tcu-bestclinic%2Fscp-importer&scope=ns%3Acara%3Aauthx.Reader%20ns%3Acara%3Ascp.Contributor
 ```
 
 The mTLS certificate is used to authenticate the External System.
+
+The HTTP response from IAM looks like this:
+
+```
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length 1430
+
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJuOGlxX3VmWGt1N25lZVN0U0tRZDR4RC1aSEprY0NtaG1aX2Z0eDhjMmUwIn0.eyJleHAiOjE3MDkzMDMyODAsImlhdCI6MTcwOTMwMjk4MCwianRpIjoiN2U5OWI1MTMtZThiMi00N2M5LWI4Y2EtYjczNzU0Zjg0NWY4IiwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6OTEwNC9yZWFsbXMvY2FyYSIsInN1YiI6ImNlOWEwNDZhLWM1NDYtNDg2Yy05Y2UwLTRkNzcxM2ExMjBjYSIsInR5cCI6IkJlYXJlciIsImF6cCI6InRjdS1iZXN0Y2xpbmljL3NjcC1pbXBvcnRlciIsInNjb3BlIjoiY2FyYS1wbGF0Zm9ybSBuczpjYXJhOmF1dGh4LlJlYWRlciBuczpjYXJhOnNjcC5Db250cmlidXRvciIsImNsaWVudEhvc3QiOiIxNzIuMjMuMC4xIiwiY2FyYTplaWRVcm4iOiJ1cm46Y2FyYTplX2lkOnNhLmNlOWEwNDZhLWM1NDYtNDg2Yy05Y2UwLTRkNzcxM2ExMjBjYSIsImNhcmE6b3JnSWRVcm4iOiJ1cm46Y2FyYTpvcmdfaWQ6Mi4xNi43NTYuNS4zMC4xLjE3OCIsImNhcmE6cm9sZXMiOlsiVEVDSE5JQ0FMX1VTRVIiXSwiY2FyYTphY2NvdW50VXJuIjoidXJuOmNhcmE6YWNjb3VudDpiZXN0Y2xpbmljL3NjcC1pbXBvcnRlciIsImNsaWVudEFkZHJlc3MiOiIxNzIuMjMuMC4xIiwiY2xpZW50X2lkIjoidGN1LWJlc3RjbGluaWMvc2NwLWltcG9ydGVyIn0.ruyz98rIW5gQMIE9ZoiBZGPvGk55Bkb8Okqlho0Uro7ZYwzvvRru2DGl8CYuoGClhs61nMe7PFHYmvPSjMjkAEEazxRSB-zg0zIrraOcbdUac26t7b8_dzhZCjyuzcqq_wEqNqsa5nxQ-BhOgySKYY5qLHMQL0XBqSp3Z3OXT4XKGQnEXZIHDw5Vx0OHm2pE8eV5lBI6ZQhpRxJucZpZ7tRacDfEwR5BGUmdRmvuubcEjMz_A95YLQ6ZBMetnatIFFCvxp6drH1hAwv0_2gijiMhTQshNkoE5S0PjFzktgI_8gLOE1K1qptIIxZ95DqT3LSmJJPj0dZZkaHNa9F9dw",
+    "expires_in": 300,
+    "refresh_expires_in": 0,
+    "token_type": "Bearer",
+    "not-before-policy": 0,
+    "scope": "cara-platform ns:cara:authx.Reader ns:cara:scp.Contributor"
+}
+```
+
+The Authorization Endpoint depends on the environment:
+
+| Environment | Endpoint                                                          |
+|-------------|-------------------------------------------------------------------|
+| Validation  | https://iam-val.cara.ch/realms/cara/protocol/openid-connect/token |
+| Integration | https://iam-int.cara.ch/realms/cara/protocol/openid-connect/token |
+| Production  | https://iam.cara.ch/realms/cara/protocol/openid-connect/token     |
+
+
+The grant type is always client_credentials; it is used to request an Access Token based on the client certificate.
+
+The client ID is provided by CARA and is used to identify the IAM (Identity and Access Management) Client.
+
+The scope is a list of permissions that the External System is requesting.
+For example, ns:cara:scp.Reader requests authorization to read data located in the Shared Care Plan namespace.
+The association of namespace and permission is defined for each IAM Client.
+
+The provided Access Token, once decoded, looks like this:
+
+```json
+{
+  "exp": 1709303280,
+  "iat": 1709302980,
+  "jti": "7e99b513-e8b2-47c9-b8ca-b73754f845f8",
+  "iss": "https://iam.cara.ch/realms/cara",
+  "sub": "ce9a046a-c546-486c-9ce0-4d7713a120ca",
+  "typ": "Bearer",
+  "azp": "tcu-bestclinic/scp-importer",
+  "scope": "cara-platform ns:cara:authx.Reader ns:cara:scp.Contributor",
+  "cara:eidUrn": "urn:cara:e_id:sa.ce9a046a-c546-486c-9ce0-4d7713a120ca",
+  "cara:orgIdUrn": "urn:cara:org_id:2.16.756.5.30.1.178",
+  "cara:roles": [ "TECHNICAL_USER" ],
+  "cara:accountUrn": "urn:cara:account:bestclinic/scp-importer"
+}
+```
+
+Then encoded Access Token must be included in the HTTP Request to access the Resource Server.
+The inclusion must follow the IHE transaction [ITI-72].
 
 ###### Resolving Account URN
 

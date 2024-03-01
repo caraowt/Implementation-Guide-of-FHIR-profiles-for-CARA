@@ -37,11 +37,12 @@ The _client id_ is used to identify the Authorization Client ([IUA]).
 The external system must request an Access Token from the CARA Platform’s Authorization Server ([IUA]).
 The Access Token is issued based on the _client certificate_ and a _client id_.
 
-<div>
+<figure>
     <img 
-      src="Client Authorization"
-      alt="sequence-Client_Authorization.png">
-</div>
+      src="sequence-Client_Authorization.png"
+      alt="Client Authorization">
+    <figurecaption>Client Authorization</figurecaption>
+</figure>
 
 The HTTP request **(1)** to IAM looks like this:
 
@@ -119,11 +120,12 @@ The Account URN concept is not an interoperability standard.
 However, a resolution API is provided to resolve the Account URN from the MPI-ID.
 The API is part of the Account and Identifier Management (AIM) system, also named _authx_.
 
-<div>
+<figure>
     <img 
-      src="Account URN Resolution"
-      alt="sequence-Account_URN_Resolution.png">
-</div>
+      src="sequence-Account_URN_Resolution.png"
+      alt="Account URN Resolution">
+    <figurecaption>Account URN Resolution</figurecaption>
+</figure>
 
 The HTTP request **(1)** to AIM looks like this:
 
@@ -168,11 +170,14 @@ The connection to the AIM is secured with mTLS.
 
 As explained earlier, the CARA Platform offers a RESTful FHIR API to access data.
 
-<div>
+
+
+<figure>
     <img 
-      src="Account URN Resolution"
-      alt="sequence-Account_URN_Resolution.png">
-</div>
+      src="sequence-FHIR_Operation.png"
+      alt="FHIR Operations">
+    <figurecaption>FHIR Operations</figurecaption>
+</figure>
 
 The data is partitioned and the Account URN is used to identify the partition name **(1)**.
 The partition name is the identifier of the Account URN.
@@ -281,50 +286,8 @@ The endpoint for the FHIR Server depends on the environment:
 The connection to the FHIR Server is secured with mTLS.
 
 
-##### Access and Data Retrieval Workflow in CARA Platform
 
-<div>
-    <img 
-      src="sequence-Access and Data Retrieval Workflow in CARA Platform.png"
-      alt="sequence-Access and Data Retrieval Workflow in CARA Platform.png">
-</div>
 
-###### Entities Involved
-
-- External System: Initiates the processes by requesting an Access Token and then proceeds to resolve AccountURN and call FHIR operations.
-- Identity And Access Management (IAM): Responds to the Access Token request and provides it to the External System.
-- Account and Identifier Management (AIM): Helps in resolving the AccountURN by utilizing the provided MPI-ID.
-- FHIR Server: Processes the FHIR operations called by the External System and returns the FHIR Result.
-
-###### Getting Access Token
-
-- The process begins with the External System requesting an Access Token from the Identity and Access Management (IAM) using the ITI-71 transaction.
-- IAM is activated, processes the request, and sends back the Access Token to the External System.
-- The External System receives the Access Token, and IAM is deactivated.
-
-###### Resolving Account URN
-
-- Next, the External System interacts with Account and Identifier Management (AIM) to resolve the Account Uniform Resource Name (URN) by providing the Master Patient Index ID (MPI-ID).
-- AIM is activated and returns the AccountURN to the External System.
-- AIM is then deactivated, marking the end of this interaction.
-
-###### Calling FHIR Operations
-
-- With the Access Token and AccountURN, the External System is now equipped to call a FHIR operation from the FHIR Server.
-- The FHIR Server is activated, and it processes the request from the External System.
-- The FHIR Result is sent back to the External System, and the FHIR Server is deactivated.
-
-The endpoint for the FHIR Server depends on the environment:
-
-| Environment | Endpoint                              | 
-|-------------|---------------------------------------|
-| Validation  | https://ws-fhir-mtls-val.cara.ch/fhir |
-| Integration | https://ws-fhir-mtls-int.cara.ch/fhir |
-| Production  | https://ws-fhir-mtls.cara.ch/fhir     |
-
-The connection to the FHIR Server is secured with mTLS.
-
-[IUA]: https://profiles.ihe.net/ITI/IUA/index.html
 [ITI-71]: https://profiles.ihe.net/ITI/IUA/index.html#371-get-access-token-iti-71
 [ITI-72]: https://profiles.ihe.net/ITI/IUA/index.html#372-incorporate-access-token-iti-72
 [ITI-102]: https://profiles.ihe.net/ITI/IUA/index.html#3102-introspect-token-iti-102

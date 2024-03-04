@@ -13,54 +13,54 @@
   "content": "complete",
   "concept": [ {
     "code": "dietary",
-    "display": "Dietary",
+    "display": "Dietary/Hydration",
     "designation": [ {
-      "language": "it-CH",
-      "value": "Dietetico"
+      "language": "rm-CH",
+      "value": "Dietetic/Idrataziun"
     }, {
       "language": "en-US",
-      "value": "Dietary"
+      "value": "Dietary/Hydration"
     }, {
       "language": "fr-CH",
-      "value": "Nutirition"
-    }, {
-      "language": "rm-CH",
-      "value": "Dietetic"
+      "value": "Nutrition/Hydratation"
     }, {
       "language": "de-CH",
-      "value": "Ernährung"
+      "value": "Ernährung/Flüssigkeitszufuhr"
+    }, {
+      "language": "it-CH",
+      "value": "Dietetico/Idratazione"
     } ]
   }, {
     "code": "safety",
     "display": "Safety",
     "designation": [ {
-      "language": "fr-CH",
-      "value": "Sécurité"
-    }, {
       "language": "rm-CH",
       "value": "Segirezza"
     }, {
       "language": "de-CH",
       "value": "Sicherheit"
     }, {
-      "language": "it-CH",
-      "value": "Sicurezza"
-    }, {
       "language": "en-US",
       "value": "Safety"
+    }, {
+      "language": "fr-CH",
+      "value": "Sécurité"
+    }, {
+      "language": "it-CH",
+      "value": "Sicurezza"
     } ]
   }, {
     "code": "behavioral",
     "display": "Behavioral",
     "designation": [ {
-      "language": "de-CH",
-      "value": "Verhaltensbezogen"
-    }, {
       "language": "rm-CH",
       "value": "Comportamentala"
     }, {
       "language": "fr-CH",
       "value": "Comportemental"
+    }, {
+      "language": "de-CH",
+      "value": "Verhaltensbezogen"
     }, {
       "language": "en-US",
       "value": "Behavioral"
@@ -72,17 +72,17 @@
     "code": "nursing",
     "display": "Nursing",
     "designation": [ {
-      "language": "fr-CH",
-      "value": "Soins infirmiers"
+      "language": "rm-CH",
+      "value": "Infermiera"
     }, {
       "language": "de-CH",
       "value": "Pflege"
     }, {
-      "language": "rm-CH",
-      "value": "Infermiera"
-    }, {
       "language": "it-CH",
       "value": "Infermieristico"
+    }, {
+      "language": "fr-CH",
+      "value": "Soins infirmiers"
     }, {
       "language": "en-US",
       "value": "Nursing"
@@ -97,14 +97,514 @@
       "language": "de-CH",
       "value": "Physiotherapie"
     }, {
-      "language": "it-CH",
-      "value": "Fisioterapia"
-    }, {
       "language": "en-US",
       "value": "Physiotherapy"
     }, {
+      "language": "it-CH",
+      "value": "Fisioterapia"
+    }, {
       "language": "fr-CH",
       "value": "Physiothérapie"
+    } ]
+  }, {
+    "code": "cardiovascular",
+    "display": "Cardiovascular",
+    "designation": [ {
+      "language": "it-CH",
+      "value": "Cardiovascolare"
+    }, {
+      "language": "de-CH",
+      "value": "Kardiovaskulär"
+    }, {
+      "language": "fr-CH",
+      "value": "Cardiovasculaire"
+    }, {
+      "language": "rm-CH",
+      "value": "Cardiovascular"
+    }, {
+      "language": "en-US",
+      "value": "Cardiovascular"
+    } ]
+  }, {
+    "code": "fall-prevention",
+    "display": "Fall prevention",
+    "designation": [ {
+      "language": "de-CH",
+      "value": "Sturzprävention"
+    }, {
+      "language": "rm-CH",
+      "value": "Fall prevention"
+    }, {
+      "language": "it-CH",
+      "value": "Prevenzione delle cadute"
+    }, {
+      "language": "fr-CH",
+      "value": "Prévention des chutes"
+    }, {
+      "language": "en-US",
+      "value": "Fall prevention"
+    } ]
+  }, {
+    "code": "communication",
+    "display": "Communication",
+    "designation": [ {
+      "language": "en-US",
+      "value": "Communication"
+    }, {
+      "language": "de-CH",
+      "value": "Kommunikation"
+    }, {
+      "language": "it-CH",
+      "value": "Comunicazione"
+    }, {
+      "language": "fr-CH",
+      "value": "Communication"
+    }, {
+      "language": "rm-CH",
+      "value": "Communication"
+    } ]
+  }, {
+    "code": "administration",
+    "display": "Administration management/Financial resources",
+    "designation": [ {
+      "language": "de-CH",
+      "value": "Administration/Finanzierung"
+    }, {
+      "language": "rm-CH",
+      "value": "Administration/Financing"
+    }, {
+      "language": "fr-CH",
+      "value": "Administration/Ressources financières"
+    }, {
+      "language": "en-US",
+      "value": "Administration/Financing"
+    }, {
+      "language": "it-CH",
+      "value": "Amministrazione/Finanziamento"
+    } ]
+  }, {
+    "code": "pain",
+    "display": "Pain",
+    "designation": [ {
+      "language": "it-CH",
+      "value": "Dolore"
+    }, {
+      "language": "rm-CH",
+      "value": "Dolor"
+    }, {
+      "language": "de-CH",
+      "value": "Schmerz"
+    }, {
+      "language": "en-US",
+      "value": "Pain"
+    }, {
+      "language": "fr-CH",
+      "value": "Douleur"
+    } ]
+  }, {
+    "code": "treatment-management",
+    "display": "Treatment management",
+    "designation": [ {
+      "language": "it-CH",
+      "value": "Gestione del trattamento"
+    }, {
+      "language": "de-CH",
+      "value": "Behandlungsmanagement"
+    }, {
+      "language": "en-US",
+      "value": "Treatment management"
+    }, {
+      "language": "rm-CH",
+      "value": "Gestiun dal tractament"
+    }, {
+      "language": "fr-CH",
+      "value": "Gestion du traitement"
+    } ]
+  }, {
+    "code": "infection",
+    "display": "Infection",
+    "designation": [ {
+      "language": "de-CH",
+      "value": "Infektion"
+    }, {
+      "language": "it-CH",
+      "value": "Infezione"
+    }, {
+      "language": "fr-CH",
+      "value": "Infection"
+    }, {
+      "language": "en-US",
+      "value": "Infection"
+    }, {
+      "language": "rm-CH",
+      "value": "Infection"
+    } ]
+  }, {
+    "code": "community-network-link",
+    "display": "Community network link",
+    "designation": [ {
+      "language": "rm-CH",
+      "value": "Connexiuns cun la reta communabla"
+    }, {
+      "language": "fr-CH",
+      "value": "Liens avec le réseau communautaire"
+    }, {
+      "language": "it-CH",
+      "value": "Collegamenti con la rete comunitaria"
+    }, {
+      "language": "de-CH",
+      "value": "Verbindung mit dem Gemeinschaftsnetzwerk"
+    }, {
+      "language": "en-US",
+      "value": "Community network link"
+    } ]
+  }, {
+    "code": "housing",
+    "display": "Housing",
+    "designation": [ {
+      "language": "fr-CH",
+      "value": "Logement"
+    }, {
+      "language": "it-CH",
+      "value": "Alloggio"
+    }, {
+      "language": "de-CH",
+      "value": "Wohnung"
+    }, {
+      "language": "en-US",
+      "value": "Housing"
+    }, {
+      "language": "rm-CH",
+      "value": "Logament"
+    } ]
+  }, {
+    "code": "mobility",
+    "display": "Mobility/Physical activity",
+    "designation": [ {
+      "language": "rm-CH",
+      "value": "Mobility/Physical activity"
+    }, {
+      "language": "en-US",
+      "value": "Mobility/Physical activity"
+    }, {
+      "language": "it-CH",
+      "value": "Mobilità/Attività fisica"
+    }, {
+      "language": "fr-CH",
+      "value": "Mobilité/Activité physique"
+    }, {
+      "language": "de-CH",
+      "value": "Mobilität/Körperliche Aktivität"
+    } ]
+  }, {
+    "code": "skin",
+    "display": "Skin",
+    "designation": [ {
+      "language": "it-CH",
+      "value": "Pelle"
+    }, {
+      "language": "rm-CH",
+      "value": "Pel"
+    }, {
+      "language": "fr-CH",
+      "value": "Peau"
+    }, {
+      "language": "de-CH",
+      "value": "Haut"
+    }, {
+      "language": "en-US",
+      "value": "Skin"
+    } ]
+  }, {
+    "code": "perception",
+    "display": "Perception/Cognition",
+    "designation": [ {
+      "language": "rm-CH",
+      "value": "Percepziun/Cogniziun"
+    }, {
+      "language": "en-US",
+      "value": "Perception/Cognition"
+    }, {
+      "language": "de-CH",
+      "value": "Wahrnehmung/Kognition"
+    }, {
+      "language": "fr-CH",
+      "value": "Perception/Cognition"
+    }, {
+      "language": "it-CH",
+      "value": "Percezione/Cognizione"
+    } ]
+  }, {
+    "code": "caregivers",
+    "display": "Caregivers",
+    "designation": [ {
+      "language": "en-US",
+      "value": "Caregivers"
+    }, {
+      "language": "de-CH",
+      "value": "Angehörige"
+    }, {
+      "language": "fr-CH",
+      "value": "Proche aidants"
+    }, {
+      "language": "rm-CH",
+      "value": "Caregivers"
+    }, {
+      "language": "it-CH",
+      "value": "Caregivers"
+    } ]
+  }, {
+    "code": "health-promotion",
+    "display": "Health promotion",
+    "designation": [ {
+      "language": "fr-CH",
+      "value": "Promotion de la santé"
+    }, {
+      "language": "it-CH",
+      "value": "Promozione della salute"
+    }, {
+      "language": "rm-CH",
+      "value": "Health promotion"
+    }, {
+      "language": "en-US",
+      "value": "Health promotion"
+    }, {
+      "language": "de-CH",
+      "value": "Gesundheitsförderung"
+    } ]
+  }, {
+    "code": "acute-allergic-reaction",
+    "display": "Acute allergic reaction",
+    "designation": [ {
+      "language": "de-CH",
+      "value": "Akute allergische Reaktion"
+    }, {
+      "language": "rm-CH",
+      "value": "Reacziun allergica acuta"
+    }, {
+      "language": "fr-CH",
+      "value": "Réaction allergique aiguë"
+    }, {
+      "language": "it-CH",
+      "value": "Reazione allergica acuta"
+    }, {
+      "language": "en-US",
+      "value": "Acute allergic reaction"
+    } ]
+  }, {
+    "code": "family-relationship",
+    "display": "Family relationship",
+    "designation": [ {
+      "language": "rm-CH",
+      "value": "Relaziuns famigliaras"
+    }, {
+      "language": "it-CH",
+      "value": "Rapporti familiari"
+    }, {
+      "language": "de-CH",
+      "value": "Familienbeziehungen"
+    }, {
+      "language": "fr-CH",
+      "value": "Relation familiales"
+    }, {
+      "language": "en-US",
+      "value": "Family relationships"
+    } ]
+  }, {
+    "code": "breathing",
+    "display": "Breathing",
+    "designation": [ {
+      "language": "rm-CH",
+      "value": "Respiraziun"
+    }, {
+      "language": "en-US",
+      "value": "Breathing"
+    }, {
+      "language": "de-CH",
+      "value": "Atmung"
+    }, {
+      "language": "fr-CH",
+      "value": "Respiration"
+    }, {
+      "language": "it-CH",
+      "value": "Respirazione"
+    } ]
+  }, {
+    "code": "mental-health",
+    "display": "Mental health",
+    "designation": [ {
+      "language": "rm-CH",
+      "value": "Mental health"
+    }, {
+      "language": "de-CH",
+      "value": "Psychische Gesundheit"
+    }, {
+      "language": "en-US",
+      "value": "Mental health"
+    }, {
+      "language": "fr-CH",
+      "value": "Santé psychique"
+    }, {
+      "language": "it-CH",
+      "value": "Salute mentale"
+    } ]
+  }, {
+    "code": "sexuality",
+    "display": "Sexuality",
+    "designation": [ {
+      "language": "fr-CH",
+      "value": "Sexualité"
+    }, {
+      "language": "it-CH",
+      "value": "Sessualità"
+    }, {
+      "language": "en-US",
+      "value": "Sexuality"
+    }, {
+      "language": "de-CH",
+      "value": "Sexualität"
+    }, {
+      "language": "rm-CH",
+      "value": "Sexuality"
+    } ]
+  }, {
+    "code": "work-situation",
+    "display": "Work situation",
+    "designation": [ {
+      "language": "rm-CH",
+      "value": "Work situation"
+    }, {
+      "language": "en-US",
+      "value": "Work situation"
+    }, {
+      "language": "it-CH",
+      "value": "Situazione professionale"
+    }, {
+      "language": "fr-CH",
+      "value": "Situation professionnelle"
+    }, {
+      "language": "de-CH",
+      "value": "Arbeitssituation"
+    } ]
+  }, {
+    "code": "sleep",
+    "display": "Sleep",
+    "designation": [ {
+      "language": "en-US",
+      "value": "Sleep"
+    }, {
+      "language": "de-CH",
+      "value": "Schlaf"
+    }, {
+      "language": "rm-CH",
+      "value": "Son"
+    }, {
+      "language": "fr-CH",
+      "value": "Sommeil"
+    }, {
+      "language": "it-CH",
+      "value": "Sonno"
+    } ]
+  }, {
+    "code": "stress",
+    "display": "Stress/Anxiety"
+  }, {
+    "code": "temperature-control",
+    "display": "Temperature control",
+    "designation": [ {
+      "language": "en-US",
+      "value": "Temperature control"
+    }, {
+      "language": "de-CH",
+      "value": "Temperaturregelung"
+    }, {
+      "language": "it-CH",
+      "value": "Controllo della temperatura"
+    }, {
+      "language": "rm-CH",
+      "value": "Control da la temperatura"
+    }, {
+      "language": "fr-CH",
+      "value": "Contrôle de la température"
+    } ]
+  }, {
+    "code": "transit",
+    "display": "Gastrointestinal transit",
+    "designation": [ {
+      "language": "rm-CH",
+      "value": "Transit gastro-intestinal"
+    }, {
+      "language": "de-CH",
+      "value": "Transit gastro-intestinal"
+    }, {
+      "language": "it-CH",
+      "value": "Transito gastro-intestinale"
+    }, {
+      "language": "fr-CH",
+      "value": "Transit gastro-instestinal"
+    }, {
+      "language": "en-US",
+      "value": "Gastrointestinal transit"
+    } ]
+  }, {
+    "code": "urines",
+    "display": "Urines",
+    "designation": [ {
+      "language": "en-US",
+      "value": "Urines"
+    }, {
+      "language": "rm-CH",
+      "value": "Urina"
+    }, {
+      "language": "it-CH",
+      "value": "Urine"
+    }, {
+      "language": "fr-CH",
+      "value": "Urines"
+    }, {
+      "language": "de-CH",
+      "value": "Urin"
+    } ]
+  }, {
+    "code": "violence",
+    "display": "Violence/Abuse",
+    "designation": [ {
+      "language": "rm-CH",
+      "value": "Violenza/Maltratament"
+    }, {
+      "language": "en-US",
+      "value": "Violence/Abuse"
+    }, {
+      "language": "de-CH",
+      "value": "Gewalt/Misshandlung"
+    }, {
+      "language": "fr-CH",
+      "value": "Violence/Maltraitance"
+    }, {
+      "language": "it-CH",
+      "value": "Violenza/Maltrattamento"
+    } ]
+  }, {
+    "code": "occupation",
+    "display": "Occupation/Professional and leisure activities"
+  }, {
+    "code": "hygiene",
+    "display": "AVO/Hygiene",
+    "designation": [ {
+      "language": "en-US",
+      "value": "AVO/Hygiene"
+    }, {
+      "language": "de-CH",
+      "value": "AVO/Hygiene"
+    }, {
+      "language": "rm-CH",
+      "value": "AVO/Hygiene"
+    }, {
+      "language": "fr-CH",
+      "value": "AVO/Hygiène"
+    }, {
+      "language": "it-CH",
+      "value": "AVO/Igiene"
     } ]
   } ]
 }

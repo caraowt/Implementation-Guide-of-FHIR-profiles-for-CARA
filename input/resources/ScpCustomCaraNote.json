@@ -1,0 +1,72 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ScpCustomCaraNote",
+  "url": "http://terminology.cara.ch/CodeSystem/scp-custom-note-type",
+  "version": "1.0.0",
+  "name": "ScpCustomCaraNote",
+  "title": "SCP - Note Type - Custom",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "CARA (CH)",
+  "description": "Selection of custom concepts for note types.",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [ {
+    "code": "follow-up-note",
+    "display": "Follow-up note",
+    "designation": [ {
+      "language": "it-CH",
+      "value": "Nota di follow-up"
+    }, {
+      "language": "rm-CH",
+      "value": "Nota da purschida"
+    }, {
+      "language": "fr-CH",
+      "value": "Suivi des notes"
+    }, {
+      "language": "en-US",
+      "value": "Follow-up Note"
+    }, {
+      "language": "de-CH",
+      "value": "Nachverfolgungshinweis"
+    } ]
+  }, {
+    "code": "logbook",
+    "display": "Logbook",
+    "designation": [ {
+      "language": "de-CH",
+      "value": "Logbuch"
+    }, {
+      "language": "en-US",
+      "value": "Logbook"
+    }, {
+      "language": "rm-CH",
+      "value": "Register da maridar"
+    }, {
+      "language": "fr-CH",
+      "value": "Journal de board"
+    }, {
+      "language": "it-CH",
+      "value": "Registro di bordo"
+    } ]
+  }, {
+    "code": "session-report",
+    "display": "Session report",
+    "designation": [ {
+      "language": "rm-CH",
+      "value": "Rapport da sessiun"
+    }, {
+      "language": "fr-CH",
+      "value": "PV de Séance"
+    }, {
+      "language": "de-CH",
+      "value": "Sitzungsbericht"
+    }, {
+      "language": "it-CH",
+      "value": "Rapporto di sessione"
+    }, {
+      "language": "en-US",
+      "value": "Session report"
+    } ]
+  } ]
+}

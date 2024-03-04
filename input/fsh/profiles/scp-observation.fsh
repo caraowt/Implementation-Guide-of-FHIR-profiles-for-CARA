@@ -55,7 +55,7 @@ Description: "The Observation of a Shared Care Plan."
 * interpretation[metricHighSlice].coding = ObservationInterpretation#HH
 
 * performer 1..1
-* performer only Reference(CaraPatientProfile or ScpTeamMemberPractitioner or ScpTeamMemberRelatedPerson)
+* performer only Reference(CaraPatientProfile or ScpTeamMemberPractitioner or ScpTeamMemberRelatedPerson or ScpTeamMemberOrganization)
 
 * component 0..3
 * component ^slicing.discriminator.type = #pattern

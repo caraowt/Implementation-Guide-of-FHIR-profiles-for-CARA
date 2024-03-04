@@ -22,3 +22,6 @@ Description: "The Observation of a Shared Care Plan coming from third parties."
 * identifier contains externalIdSlice 1..1
 * identifier[externalIdSlice].system = "urn:cara:external_id"
 * identifier[externalIdSlice].value 1..1
+
+* performer 1..1
+* performer only Reference(ScpTeamMemberOrganization)

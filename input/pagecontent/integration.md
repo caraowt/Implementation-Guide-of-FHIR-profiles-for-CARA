@@ -184,7 +184,8 @@ The partition name is the identifier of the Account URN.
 For instance, given the Account URN `urn:cara:account:19776259-4d3e-4a1d-85e3-f1c6e48ec7f1`, the partition name is `19776259-4d3e-4a1d-85e3-f1c6e48ec7f1`.
 The partition name must be included in the URL of the FHIR API.
 
-To get the CarePlan resources located in the SCP Namespace, the HTTP request **(2)** to the FHIR Server looks like this:
+The format of the URL path is `/fhir/<partition-name>`, e.g. `/fhir/19776259-4d3e-4a1d-85e3-f1c6e48ec7f1`.
+Therefore, to get active CarePlan resources located in the SCP Namespace, the HTTP request **(2)** to the FHIR Server looks like this:
 
 ```HTTP
 GET /fhir/19776259-4d3e-4a1d-85e3-f1c6e48ec7f1/CarePlan?status=active&_tag=https%3A%2F%2Fterminology.cara.ch%2FCodeSystem%2Ffhirvault-namespace%7Ccara%3Ascp HTTP/1.1
@@ -285,8 +286,167 @@ The endpoint for the FHIR Server depends on the environment:
 
 The connection to the FHIR Server is secured with mTLS.
 
+#### Shared Care Plan
 
+The Shared Care Plan (SCP) is a specific use case of the CARA Platform.
+The SCP is a FHIR resource that represents a care plan shared between multiple healthcare providers.
+The SCP is located in the SCP Namespace.
+The SCP is profile based and is defined by the [SCP - Care Plan](./StructureDefinition-scp-careplan.html).
 
+To get access to an SCP, the External System must be part of the Care Team as an active [SCP - Team Member - Organization](./StructureDefinition-scp-teammember-organization.html).
+Moreover, the OID of the TCU (Technical User) must match the OID of the organization in the SCP.
+
+Presently, Primary Systems are expected to fetch the SCP context to be able to manage efficiently their Observation resources.
+
+The journey to access the SCP is as follows:
+
+1. Authenticate the TCU with the CARA Platform.
+2. Resolve the Account URN from the MPI-ID.
+3. Fetch the SCP context.
+4. Contribute to the SCP.
+
+The first two steps are already explained in the previous sequences.
+
+The third step is to fetch the SCP resources, so that the External System can contribute efficiently to the SCP.
+The SCP context can be fetched in two FHIR operations.
+The first one fetch the CarePlan and the associated Goals.
+The second one fetch the CareTeam and the associated members.
+
+The forth step is to contribute to the SCP.
+Based on the SCP context, the External System can contribute to the SCP by creating Observations.
+
+##### Fetch the CarePlan and Goals
+
+The following HTTP request fetch an active Shared Care Plan and its associated Goals:
+
+```HTTP
+GET /fhir/19776259-4d3e-4a1d-85e3-f1c6e48ec7f1/CarePlan?_profile=https://terminology.cara.ch/StructureDefinition/ScpCarePlan&_tag=https%3A%2F%2Fterminology.cara.ch%2FCodeSystem%2Ffhirvault-namespace%7Ccara:scp&_include=CarePlan:goal&status=active HTTP/1.1
+Host: ws-fhir-mtls.cara.ch
+Authorization: Bearer <ACCESS_TOKEN>
+```
+
+The URL path is composed of the partition name (i.e. `19776259-4d3e-4a1d-85e3-f1c6e48ec7f1`) and the resource type (i.e. `CarePlan`).
+
+The parameters are as follows:
+
+| Parameter | Value                                                                | Description                                     |
+|-----------|----------------------------------------------------------------------|-------------------------------------------------|
+| _profile  | https://terminology.cara.ch/StructureDefinition/ScpCarePlan          | The FHIR profile of the CarePlan.               |
+| _tag      | https://terminology.cara.ch/CodeSystem/fhirvault-namespace\|cara:scp | The FHIR tag to specify the SCP Namespace.      |
+| _include  | CarePlan:goal                                                        | Include the Goals associated with the CarePlan. |
+| status    | active                                                               | The status of the CarePlan.                     |
+
+One of the key pieces of information in the response are the codes for the Goals and their associated Targets.
+This allows the Primary System to determine whether its existing observations can be connected to the SCP.
+
+##### Fetch the CareTeam and Members
+
+The following HTTP request fetch an active Shared Care Plan and its associated Goals:
+
+```HTTP
+GET /fhir/19776259-4d3e-4a1d-85e3-f1c6e48ec7f1/CareTeam?_profile=https://terminology.cara.ch/StructureDefinition/ScpCareTeam&_tag=https%3A%2F%2Fterminology.cara.ch%2FCodeSystem%2Ffhirvault-namespace%7Ccara:scp&_include=CareTeam:participant&status=active HTTP/1.1
+Authorization: Bearer <ACCESS_TOKEN>
+```
+
+The URL path is composed of the partition name (i.e. `19776259-4d3e-4a1d-85e3-f1c6e48ec7f1`) and the resource type (i.e. `CareTeam`).
+
+The parameters are as follows:
+
+| Parameter | Value                                                                | Description                                            |
+|-----------|----------------------------------------------------------------------|--------------------------------------------------------|
+| _profile  | https://terminology.cara.ch/StructureDefinition/ScpCareTeam          | The FHIR profile of the CareTeam.                      |
+| _tag      | https://terminology.cara.ch/CodeSystem/fhirvault-namespace\|cara:scp | The FHIR tag to specify the SCP Namespace.             |
+| _include  | CarePlan:goal                                                        | Include the participants associated with the CareTeam. |
+| status    | active                                                               | The status of the CareTeam.                            |
+
+The most crucial detail in the response is the reference to the FHIR Organization linked to the SCP.
+This reference is utilized to assign the performer for the Observation resources.
+
+##### Create Observations
+
+FHIR provides many ways to manage resources.
+However, the usage of FHIR Batch operation is encouraged to manage Observations.
+
+The following HTTP request defines a FHIR batch creating one Observation resource:
+
+```HTTP
+PUT /fhir/19776259-4d3e-4a1d-85e3-f1c6e48ec7f1 HTTP/1.1
+Host: ws-fhir-mtls.cara.ch
+Content-Type: application/json
+Authorization: Bearer <ACCESS_TOKEN>
+
+{
+    "resourceType": "Bundle",
+    "type": "batch",
+    "entry": [
+        {
+            "fullUrl": "Observation/e9bead6e-92a2-410b-975a-b000f01ae39e",
+            "request": {
+                "method": "PUT",
+                "url": "Observation/e9bead6e-92a2-410b-975a-b000f01ae39e"
+            }
+            "resource": {
+                "resourceType": "Observation",
+                "id": "e9bead6e-92a2-410b-975a-b000f01ae39e",
+                "meta": {
+                    "profile": [
+                        "https://terminology.cara.ch/StructureDefinition/ScpObservationExternal"
+                    ],
+                    "tag": [
+                        {
+                            "system": "https://terminology.cara.ch/CodeSystem/fhirvault-namespace",
+                            "version": "1.0.0",
+                            "code": "cara:scp",
+                            "display": "Shared Care Plan"
+                        }
+                    ]
+                },
+                "identifier": [
+                    {
+                        "system": "urn:cara:account",
+                        "value": "urn:cara:account:19776259-4d3e-4a1d-85e3-f1c6e48ec7f1"
+                    }
+                ],
+                "status": "final",
+                "effectiveInstant": "2024-03-14T15:41:06.332Z",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://terminology.cara.ch/CodeSystem/scp-custom-goal-type",
+                            "version": "1.0.0",
+                            "code": "breathing",
+                            "display": "Breathing"
+                        }
+                    ]
+                },
+                "performer": [
+                    {
+                        "reference": "Organization/11cd469d-2ebd-40cb-816c-85fa9d52b62c"
+                    }
+                ],
+                "valueString": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "interpretation": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                                "code": "AA",
+                                "display": "Critical abnormal"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
+```
+
+Three information are important in this request:
+
+- The Namespace is specified in the Observation resource, c.f. the tag `https://terminology.cara.ch/CodeSystem/fhirvault-namespace`
+- The declaration of the FHIR profile `https://terminology.cara.ch/StructureDefinition/ScpObservationExternal`
+- The reference to the Organization that is contributing to the SCP, c.f. the performer `Organization/11cd469d-2ebd-40cb-816c-85fa9d52b62c`
 
 [ITI-71]: https://profiles.ihe.net/ITI/IUA/index.html#371-get-access-token-iti-71
 [ITI-72]: https://profiles.ihe.net/ITI/IUA/index.html#372-incorporate-access-token-iti-72

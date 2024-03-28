@@ -1,0 +1,621 @@
+{
+	"info": {
+		"_postman_id": "df081016-942b-437d-8a46-205db71cdfe0",
+		"name": "CARA - Shared Care Plan - Reference Flow for Primary System",
+		"description": "This Postman Collection is the reference flow for Primary Systems willing to interact with the CARA Platform to contribute to Shared Care Plans.\n\nThe collection expects three valid variables:\n\n- `tcu_client_id` the Client-ID of the Technical User created by CARA for the Primary System\n- `tcu_organization_oid` the OID of the organization within the CARA HPD\n- `scp_patient_mpi_id` the MPI-ID of the patient with the format `root/extention`",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29382636"
+	},
+	"item": [
+		{
+			"name": "Step A - Issue an Access Token",
+			"item": [
+				{
+					"name": "Issue TCU JWT",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"const jwt = pm.response.json().access_token;",
+									"if (jwt) {",
+									"    console.log(\"jwt\", jwt)",
+									"    ",
+									"    pm.collectionVariables.set(\"tcu_token\", jwt);",
+									"",
+									"    const [jwtHeader, jwtPayload, jwtSignature] = jwt.split('.')",
+									"    const jwtPayloadJsonString = atob(jwtPayload)",
+									"    const jwtPayloadJson = JSON.parse(jwtPayloadJsonString)",
+									"    ",
+									"    console.log(\"tcu_token\", jwtPayloadJson)",
+									"",
+									"    pm.collectionVariables.set(\"tcu_identifier\", jwtPayloadJson[\"cara:accountUrn\"].substring(\"urn:cara:account:\".length));",
+									"    pm.collectionVariables.set(\"tcu_account_urn\", jwtPayloadJson[\"cara:accountUrn\"]);",
+									"}",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"strictSSL": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "grant_type",
+									"value": "client_credentials",
+									"type": "text"
+								},
+								{
+									"key": "client_id",
+									"value": "{{tcu_client_id}}",
+									"type": "text"
+								},
+								{
+									"key": "scope",
+									"value": "ns:cara:scp.Contributor",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{keycloak_https}}/realms/cara/protocol/openid-connect/token",
+							"host": [
+								"{{keycloak_https}}"
+							],
+							"path": [
+								"realms",
+								"cara",
+								"protocol",
+								"openid-connect",
+								"token"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Step B - Resolve the Account URN",
+			"item": [
+				{
+					"name": "AuthX - TCU - Resolve AccountURN",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.collectionVariables.set(\"scp_account_urn\", pm.response.json().accountUrn)",
+									"pm.collectionVariables.set(\"scp_account_identifier\", pm.response.json().accountUrn.replace(\"urn:cara:account:\", \"\"))",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"strictSSL": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{tcu_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"mpiIdUrn\": \"urn:cara:mpi_id:{{scp_patient_mpi_id}}\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{authx_backend_mtls}}/api/v1/query/get-account-urn-from-mpi-id-urn",
+							"host": [
+								"{{authx_backend_mtls}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"query",
+								"get-account-urn-from-mpi-id-urn"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Step C - Fetch the SCP context",
+			"item": [
+				{
+					"name": "TCU - Get CarePlan and Goals",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"const entries = pm.response.json().entry;",
+									"const carePlans = entries.filter(e => e.resource.resourceType === \"CarePlan\");",
+									"const goals = entries.filter(e => e.resource.resourceType === \"Goal\");",
+									"",
+									"pm.test(\"should have one CarePlan\", function () {",
+									"    pm.expect(carePlans.length).to.be.eq(1)",
+									"});",
+									"",
+									"pm.test(\"should have one Goal\", function () {",
+									"    pm.expect(goals.length).to.be.gte(1)",
+									"    const scp_goal_code = goals[0].resource.category[0].coding[0].code",
+									"    pm.collectionVariables.set(\"scp_goal_code\", scp_goal_code)",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{tcu_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{fhir_mtls}}/fhir/{{scp_account_identifier}}/CarePlan?_profile=https://terminology.cara.ch/StructureDefinition/ScpCarePlan&_tag=https%3A%2F%2Fterminology.cara.ch%2FCodeSystem%2Ffhirvault-namespace%7Ccara:scp&_include=CarePlan:goal&status=active",
+							"host": [
+								"{{fhir_mtls}}"
+							],
+							"path": [
+								"fhir",
+								"{{scp_account_identifier}}",
+								"CarePlan"
+							],
+							"query": [
+								{
+									"key": "_profile",
+									"value": "https://terminology.cara.ch/StructureDefinition/ScpCarePlan"
+								},
+								{
+									"key": "_tag",
+									"value": "https%3A%2F%2Fterminology.cara.ch%2FCodeSystem%2Ffhirvault-namespace%7Ccara:scp"
+								},
+								{
+									"key": "_include",
+									"value": "CarePlan:goal"
+								},
+								{
+									"key": "status",
+									"value": "active"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TCU - Get CareTeam and Participants",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"const entries = pm.response.json().entry;",
+									"const careTeams = entries.filter(e => e.resource.resourceType === \"CareTeam\");",
+									"const organizations = entries.filter(e => e.resource.resourceType === \"Organization\");",
+									"",
+									"pm.test(\"should have one CareTeam\", function () {",
+									"    pm.expect(careTeams.length).to.be.eq(1)",
+									"});",
+									"",
+									"pm.test(\"should have one Organization\", function () {",
+									"    pm.expect(organizations.length).to.be.gte(1)",
+									"    const tcu_organization_oid_urn = `urn:cara:org_id:${pm.collectionVariables.get(\"tcu_organization_oid\")}`",
+									"    const tcu_organization_reference = organizations",
+									"        .map(e => e.resource)",
+									"        .filter(r => r.identifier.filter(i => i.system === \"urn:cara:org_id\" && i.value === tcu_organization_oid_urn).length > 0)",
+									"        .map(r => r.id)[0]",
+									"    pm.collectionVariables.set(\"tcu_organization_reference\", tcu_organization_reference)",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{tcu_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{fhir_mtls}}/fhir/{{scp_account_identifier}}/CareTeam?_profile=https://terminology.cara.ch/StructureDefinition/ScpCareTeam&_tag=https%3A%2F%2Fterminology.cara.ch%2FCodeSystem%2Ffhirvault-namespace%7Ccara:scp&_include=CareTeam:participant&status=active",
+							"host": [
+								"{{fhir_mtls}}"
+							],
+							"path": [
+								"fhir",
+								"{{scp_account_identifier}}",
+								"CareTeam"
+							],
+							"query": [
+								{
+									"key": "_profile",
+									"value": "https://terminology.cara.ch/StructureDefinition/ScpCareTeam"
+								},
+								{
+									"key": "_tag",
+									"value": "https%3A%2F%2Fterminology.cara.ch%2FCodeSystem%2Ffhirvault-namespace%7Ccara:scp"
+								},
+								{
+									"key": "_include",
+									"value": "CareTeam:participant"
+								},
+								{
+									"key": "status",
+									"value": "active"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Step D - Manage Observations",
+			"item": [
+				{
+					"name": "TCU - Add External Observation",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"const external_observation_id = pm.variables.replaceIn(\"{{$randomUUID}}\");",
+									"pm.collectionVariables.set(\"external_observation_id\", external_observation_id);",
+									"",
+									"const scp_observation_effective_date = require(\"moment\")().format()",
+									"pm.collectionVariables.set(\"external_observation_effective_date\", scp_observation_effective_date)",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{tcu_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"resourceType\": \"Bundle\",\n    \"type\": \"batch\",\n    \"entry\": [\n        {\n            \"fullUrl\": \"Observation/{{external_observation_id}}\",\n            \"request\": {\n                \"method\": \"PUT\",\n                \"url\": \"Observation/{{external_observation_id}}\"\n            },\n            \"resource\": {\n                \"resourceType\": \"Observation\",\n                \"id\": \"{{external_observation_id}}\",\n                \"meta\": {\n                    \"profile\": [\n                        \"https://terminology.cara.ch/StructureDefinition/ScpObservationExternal\"\n                    ],\n                    \"tag\": [\n                        {\n                            \"system\": \"https://terminology.cara.ch/CodeSystem/fhirvault-namespace\",\n                            \"version\": \"1.0.0\",\n                            \"code\": \"cara:scp\",\n                            \"display\": \"Shared Care Plan\"\n                        }\n                    ]\n                },\n                \"identifier\": [\n                    {\n                        \"system\": \"urn:cara:account\",\n                        \"value\": \"{{scp_account_urn}}\"\n                    }\n                ],\n                \"status\": \"final\",\n                \"effectiveInstant\": \"{{external_observation_effective_date}}\",\n                \"code\": {\n                    \"coding\": [\n                        {\n                            \"system\": \"https://terminology.cara.ch/CodeSystem/scp-custom-goal-type\",\n                            \"version\": \"1.0.0\",\n                            \"code\": \"breathing\",\n                            \"display\": \"Breathing\"\n                        }\n                    ]\n                },\n                \"performer\": [\n                    {\n                        \"reference\": \"Organization/{{tcu_organization_reference}}\"\n                    }\n                ],\n                \"valueString\": \"My first observation regarding breathing capacity\"\n            }\n        }\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{fhir_mtls}}/fhir/{{scp_account_identifier}}",
+							"host": [
+								"{{fhir_mtls}}"
+							],
+							"path": [
+								"fhir",
+								"{{scp_account_identifier}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TCU - Update Organization Observation",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{tcu_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json-patch+json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "[\n   { \"op\": \"replace\", \"path\": \"/status\", \"value\": \"amended\" }\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{fhir_mtls}}/fhir/{{scp_account_identifier}}/Observation/{{external_observation_id}}",
+							"host": [
+								"{{fhir_mtls}}"
+							],
+							"path": [
+								"fhir",
+								"{{scp_account_identifier}}",
+								"Observation",
+								"{{external_observation_id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TCU - Read Observations",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"const external_observation_id = pm.collectionVariables.get(\"external_observation_id\");",
+									"",
+									"const entries = pm.response.json().entry;",
+									"const added_observation = entries.filter(e => e.resource.id === external_observation_id)[0];",
+									"",
+									"pm.test(\"Shoud find the added observations\", function () {",
+									"    pm.expect(added_observation).to.exist",
+									"});",
+									"",
+									"pm.test(\"Shoud have an updated status\", function () {",
+									"    pm.expect(added_observation.resource.status).eq(\"amended\")",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{tcu_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Cache-Control",
+								"value": "no-cache",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{fhir_mtls}}/fhir/{{scp_account_identifier}}/Observation?_count=2000",
+							"host": [
+								"{{fhir_mtls}}"
+							],
+							"path": [
+								"fhir",
+								"{{scp_account_identifier}}",
+								"Observation"
+							],
+							"query": [
+								{
+									"key": "_count",
+									"value": "2000"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "tcu_client_id",
+			"value": "owt-tcu-test",
+			"type": "string"
+		},
+		{
+			"key": "tcu_organization_oid",
+			"value": "2.16.756.5.30.1.191.698.9.1",
+			"type": "string"
+		},
+		{
+			"key": "scp_patient_mpi_id",
+			"value": "2.16.756.5.30.1.191.1.0.2.1/2f4acc4e-8ddb-41aa-850b-bc361f75f107",
+			"type": "string"
+		}
+	]
+}
